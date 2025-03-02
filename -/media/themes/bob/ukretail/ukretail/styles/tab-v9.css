@@ -1,0 +1,243 @@
+.link-list-with-image ul li img {
+    max-width: 100%;
+}
+
+.images-with-content .used-coupon-code-div .coupon-copy-div input {
+    width: 250px;
+    font-size: 15px;
+}
+
+.bob-offer-download-div li {
+    font: normal normal normal 1rem/1.4rem Arial;
+}
+
+.content h6 {
+    /* font: normal normal normal 0.9rem/1.4rem Arial; */
+}
+
+.images-with-content .used-coupon-code-div .bob-offer-views-ul {
+    bottom: -25px;
+}
+
+.bob-accordion-div .field-content {
+    font-size: 1rem;
+    font-family: arial;
+    line-height: 1.2rem;
+}
+
+.bob-related-offer-component .bob-related-offer-top-div {
+    margin-top: 0px;
+}
+
+.bob-press-div p {
+    line-height: 1.9rem;
+}
+
+.bob-press-div h3,
+.bob-press-div h2 {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 26px;
+    color: #162B75;
+    /* margin-top: 15px; */
+    margin: 15px 0px;
+    line-height: 30px;
+}
+
+.bob-press-div li {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.e-auc .bob-blue-top-div .bob-tags {
+    margin-top: 0px;
+    padding: 5px;
+    border-top: 2px solid rgba(255, 255, 255, .1);
+}
+
+.e-auc .bob-blue-top-div h2 {
+    margin: 0;
+    margin-top: 50px;
+    font-size: 3.125rem;
+    font-weight: normal;
+    font-family: 'Helvetica Neue LT Pro Lt';
+}
+
+.e-auc .bob-blue-top-div .container {
+    max-width: 100%;
+    padding: 0px;
+}
+
+.e-auc .bob-search-voice-div {
+    margin: 0 25%;
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+    .images-with-content {
+        padding: 15px 20px 15px 20px;
+    }
+    .images-with-content .text-content-div h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .images-with-content .text-content-div h6 {
+        margin: 10px 0;
+    }
+    .images-with-content hr {
+        margin: 0px;
+    }
+    .images-with-content .used-coupon-code-div {
+        margin-top: 0px;
+    }
+    .images-with-content .images-content-div img {
+        width: 75px;
+        height: 75px;
+    }
+    .images-with-content p {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .carousel .slide .slide-info {
+        padding: 25px 15px !important;
+    }
+    navbar .bob-nav-right-link {
+        padding: 0 0 0 40% !important;
+    }
+    .images-with-content .text-content-div h2,
+    .only-content h6,
+    .only-content h3 {
+        font-size: 35px !important;
+        line-height: 37px !important;
+    }
+    .bob-line-list li ul li a strong {
+        font: normal normal normal 15px/17px Arial;
+    }
+    .bob-need-assistance-div ul li {
+        width: calc(30% - 0px) !important;
+    }
+    .bob-need-assistance-div ul {
+        padding: 0 0% !important;
+    }
+    .bob-navbar .bob-nav-right-link {
+        /* padding-left: 50%; */
+    }
+    .bob-loan-calculator {
+        padding: 25px !important;
+    }
+    .bob-loan-calculator h6 {
+        margin-top: 20px;
+    }
+    .images-with-content,
+    .only-content {
+        padding: 25px 20px 15px 20px;
+    }
+    .only-content ul {
+        margin-top: 5px;
+    }
+    .images-with-content hr,
+    .only-content hr {
+        margin: 5px 0 0 0;
+    }
+    .images-with-content p,
+    .only-content p {
+        margin-top: 0px;
+    }
+    .bob-loan-emi-grp-div .container {
+        padding: 40px 20px;
+    }
+    .bob-calculator-types-li .bob-cal-bbutton-div {
+        margin-top: 10px;
+    }
+    .blog-main.e-auction-detail .bob-blue-top-div h2 {
+        font-size: 1.775rem;
+    }
+    .bob-search-voice-div .input-group-append::before {
+        display: none;
+    }
+    .i-rates .bob-blue-top-div h2 {
+        font-size: 2.9rem;
+    }
+    .blog-main .bob-offer-main-sec .bob-press-data-div {
+        z-index: 2;
+    }
+    .co-office .bob-blue-top-div .container {
+        max-width: 100%;
+        padding: 0px 15px;
+    }
+    .co-office .bob-blue-top-div .container h2 {
+        font-size: 2.1rem;
+        margin-top: 20px;
+    }
+    .co-office .bob-blue-top-div .bob-tags {
+        margin-bottom: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .images-with-content .used-coupon-code-div .coupon-copy-div input {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .link-list-with-image ul {
+        padding: 30px 0px !important;
+    }
+    .link-list-with-image ul li P {
+        font: normal normal normal 14px/16px Arial !important;
+    }
+    .bob-blue-top-div h2 {
+        font-size: 24px !important;
+        line-height: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .bob-home-loan .component.column-splitter .col-sm-5 {
+        padding: 0px 5px;
+        margin-top: -30px;
+    }
+    .images-with-content,
+    .only-content {
+        padding: 15px;
+    }
+    .images-with-content .used-coupon-code-div .coupon-copy-div input {
+        font-size: 16px;
+        line-height: 16px;
+        width: 120px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .e-auc .bob-blue-top-div h2 {
+        margin-top: 0px !important;
+    }
+    .e-auction-detail .bob-blue-top-div h2 span {
+        font-size: 2.9rem !important;
+    }
+    .e-auction-detail .bob-blue-top-div h2 svg {
+        margin-top: 12px !important;
+    }
+    .e-auction-detail .bob-blue-top-div p {
+        margin-bottom: 20px !important;
+        margin-left: 0px !important;
+        padding-left: 10px !important;
+        padding-bottom: 15px !important;
+    }
+    .e-auction-detail .bob-blue-top-div {
+        /* overflow: hidden !important; */
+    }
+    .e-auction-type-template .breadcrumb.component {
+        background: 0 0;
+        position: absolute;
+        top: 116px;
+    }
+    .e-auction-type-template .breadcrumb li a {
+        color: #fff !important;
+        font-weight: 600 !important;
+    }
+    .e-auction-type-template .breadcrumb li.last a {
+        color: #fff !important;
+        font-weight: 600 !important;
+    }
+}

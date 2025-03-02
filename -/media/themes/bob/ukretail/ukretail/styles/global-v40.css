@@ -1,0 +1,322 @@
+.promo,
+.promo>.component-content,
+.promo>.component-content:after,
+.promo>.component-content:before,
+.promo>.component-content>div,
+.promo>.component-content:hover,
+.promo>.component-content:active,
+.promo h1,
+.promo h2,
+.promo h3,
+.promo h4,
+.promo h5,
+.promo h6,
+.promo p,
+.promo a,
+.promo b,
+.promo img,
+.promo u,
+.promo i,
+.promo strong,
+.promo em,
+.promo q,
+.promo map,
+.promo param,
+.promo video,
+.promo pre,
+.promo area,
+.promo ul,
+.promo ol,
+.promo li,
+.promo dl,
+.promo dt,
+.promo dd,
+.promo table,
+.promo tr,
+.promo td,
+.promo th,
+.promo tbody,
+.promo thead,
+.promo tfoot,
+.promo col,
+.promo colgroup,
+.promo caption,
+.promo form,
+.promo input,
+.promo textarea,
+.promo select,
+.promo option,
+.promo optgroup,
+.promo button,
+.promo label,
+.promo fieldset,
+.promo legend {
+    all: unset;
+}
+
+.interest-bar img {
+    height: 40px;
+}
+
+.apply-online .bob-loan-emi-grp-div .container {
+    position: relative;
+    z-index: 1;
+}
+
+.baranches-atm .component.navigation.navigation-main-horizontal ul {
+    margin: 0 auto !important;
+}
+
+.bob-calculator-types-li .bob-cal-bbutton-div .bob-custom-dropdown span svg {
+    display: block;
+}
+
+.bob-marquee-links marquee ul li {
+    list-style-position: inside !important;
+    margin-left: 20px;
+}
+
+.bob-custom-drop-popup-div .link-ul-p li a {
+    display: inline-flex !important;
+}
+
+.bob-currency-exchange-div .display-content .form-group {
+    margin-left: 0 !important;
+}
+
+.bob-currency-exchange-div .display-content .form-group input {
+    border-radius: 18px;
+}
+
+.bob-currency-exchange-div .bob-comman-btn {
+    color: #fff;
+}
+
+.bob-currency-exchange-div .bob-calculator-types-li .slidecontainer>p {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+
+.bob-currency-exchange-div .bob-loan-calculator-details-div ul li.bob-calculator-types-li {
+    margin-bottom: 15px !important;
+}
+
+.bob-currency-exchange-div .bob-monthly-loan-emi {
+    padding: 25px 20px 30px 20px !important;
+}
+
+.bob-currency-exchange-div .bob-m-text-div {
+    width: calc(100% - 105px);
+}
+
+.bob-currency-exchange-div .bob-m-img-text-div {
+    padding-bottom: 0 !important;
+    border: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.apply-online .bob-loan-emi-grp-div .contact-us-form-section form>ul>li.width-100 .bob-form-control {
+    width: 100% !important;
+}
+
+.apply-online .bob-loan-emi-grp-div .contact-us-form-section i {
+    margin-top: 0 !important;
+}
+
+.blue-top-overlap .container {
+    padding-bottom: 50px;
+}
+
+.calculator-page .bob-loan-emi-grp-div .bob-loan-calculator ul>li .bob-custom-dropdown-list li {
+    margin: 0 !important;
+}
+
+.bob-contact-text-info {
+    padding-left: 40px;
+}
+
+.bob-contact-text-info h3 {
+    letter-spacing: 0px;
+    color: #162B75;
+    font-size: 24px;
+    line-height: 26px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    margin-bottom: 25px;
+}
+
+.bob-contact-text-info ul li {
+    font-family: 'Arial';
+    color: #707070;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 15px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.bob-contact-text-info ul li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+.contact-phone:before {
+    background: url(../../../../../project/bob/shared/common-icons/call.svg) no-repeat center center;
+}
+
+.contact-email:before {
+    background: url(../../../../../project/bob/shared/icons/email.svg) no-repeat center center;
+}
+
+.contact-address:before {
+    background: url(../../../../../project/bob/countrywebsites/india/icons/branchesatm-icon/fba.svg) no-repeat center center;
+}
+
+.contact-plain:before {
+    background: url(../../../../../project/bob/shared/icons/contact-directory.svg) no-repeat center center;
+}
+
+.bob-contact-text-info ul li a {
+    color: #f26522;
+}
+
+.custom-file-upload::-webkit-file-upload-button {
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    border: none;
+}
+
+.custom-file-upload::-ms-browse {
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    border: none;
+}
+
+.custom-file-upload::file-selector-button {
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    border: none;
+}
+
+.bob-top-bottom-navbar .bob-bottom-first-ul li span {
+    font-size: 16px;
+}
+
+.bob-search-popup-div .bob-popup-header a img {
+    width: 300px;
+    height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .bob-contact-text-info ul li a {
+        word-break: break-all;
+    }
+    .b-exchange-rate-div ul li {
+        border: 0;
+    }
+    .interest-bar {
+        padding: 0 15px;
+    }
+    .bob-custom-dropdown .bob-custom-dropdown-list>ul {
+        overflow-y: auto;
+    }
+    .bob-blue-top-div-text h1 {
+        font-size: 32px;
+    }
+    .apply-online .bob-loan-emi-grp-div .container {
+        border-radius: 0px 45px 0px 0px !important;
+    }
+    .bob-offer-main-sec {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .bob-loan-emi-grp-div {
+        padding: 20px !important;
+    }
+    .apply-online .bob-loan-emi-grp-div .container {
+        max-width: 100% !important;
+    }
+    .bob-offer-main-sec {
+        margin-left: 0 !important;
+    }
+    .b-exchange-rate-div .b-blue-text-div h3 a {
+        position: static !important;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+    .navcol {
+        position: static;
+        padding: 0;
+    }
+    .products_Wrap_left {
+        padding: 40px 20px !important;
+    }
+    .bob-report-list-div .col-sm-3 {
+        padding: 0;
+    }
+    .bob-home-loan .bob-search-filter {
+        padding: 0 !important;
+        background: transparent !important;
+    }
+    .bob-scroll-top .bob-mobile-sidebar {
+        height: calc(100vh - 78px) !important;
+        top: 78px;
+        border-top: 1px solid rgba(242, 101, 34, 0.15);
+    }
+    .bob-scroll-top.bob-nav-custom-dropdown.bob-open-dropdown .bob-custom-dropdown-list {
+        top: 71px;
+    }
+    .bob-navbar .bob-top-navbar {
+        min-height: auto !important;
+        display: block !important;
+    }
+    .lang_li {
+        right: 10px !important;
+    }
+    .mob-only-icons span {
+        display: none;
+    }
+    .mob-li-none {
+        display: none;
+    }
+    .bob-mobile-sidebar .bob-navbar .bob-nav-right-link {
+        padding: 5px 20px;
+        justify-content: space-between !important;
+    }
+    .bob-mobile-bar {
+        position: relative;
+        z-index: 9;
+    }
+    .bob-loan-emi-grp-div .bob-loan-calculator ul li p {
+        margin-bottom: 10px !important;
+    }
+    .calculator-page .bob-loan-emi-grp-div .bob-loan-calculator ul>li,
+    .calculator-page .bob-loan-calculator-details-div ul>li.bob-calculator-types-li {
+        margin-bottom: 35px !important;
+    }
+    .bob-right-cal-details .col-sm-5 {
+        margin-top: 0 !important;
+    }
+    .bob-right-cal-details .bob-m-img-text-div.b-0 {
+        border: 0 !important;
+    }
+    .calculator-page .bob-loan-emi-grp-div .bob-loan-calculator ul>li .bob-custom-dropdown-list li {
+        margin: 0 !important;
+    }
+    .bob-loan-emi-grp-div .row {
+        flex-direction: column-reverse;
+    }
+    .bob-contact-text-info {
+        padding-left: 0;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,784 @@
+.header-with-bg-image-and-breadcrumb .breadcrumb.component.breadcrumb {
+    position: absolute;
+}
+
+.header-with-bg-image-and-breadcrumb .breadcrumb li a,
+.about-us .breadcrumb li.last a {
+    color: #fff !important;
+}
+
+.header-with-bg-image-and-breadcrumb .top-banner-bg-img img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+}
+
+.bob-form-div form .form-group input::-webkit-input-placeholder {
+    color: #707070 !important;
+    opacity: 1 !important;
+}
+
+.bob-form-div form .form-group input::-moz-placeholder {
+    color: #707070 !important;
+    opacity: 1 !important;
+}
+
+.bob-form-div form .form-group select,
+.bob-form-div form .form-group input {
+    border-bottom: 1px solid #ededed;
+}
+
+.bob-newsletter-search-wrap {
+    position: relative;
+}
+
+.bob-newsletter-search-wrap .bob-newsletter-div {
+    z-index: 9;
+    position: relative;
+}
+
+.bob-newsletter-search-wrap .bob-global-search-result-section {
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    margin: 0 auto;
+    left: 0px;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0px 10px 20px #d8632b4d;
+    top: 28px;
+    border-bottom-left-radius: 80px;
+    overflow: hidden;
+    z-index: 8;
+    text-align: left;
+    padding: 0px 50px;
+    display: none;
+}
+
+
+/* .bob-newsletter-search-wrap.search-loaded .bob-global-search-result-section{
+  padding: 50px;
+} */
+
+.bob-newsletter-search-wrap .bob-global-search-result-wrap {
+    max-height: 450px;
+    overflow: hidden;
+}
+
+.bob-newsletter-search-wrap .search-box {
+    flex: 0 0 85%;
+    max-width: 100%;
+}
+
+.bob-newsletter-search-wrap .search-result-list li {
+    padding: 20px 0;
+    border-top: 1px solid #fde8df;
+}
+
+.bob-newsletter-search-wrap .search-result-list li:first-child {
+    border-top: 0;
+    margin-top: 35px;
+}
+
+
+/* .bob-newsletter-search-wrap .bob-global-search-result-wrap.mCustomScrollbar{
+ margin-bottom:30px;
+} */
+
+.bob-newsletter-search-wrap .search-result-list h4 {
+    font: normal normal bold 16px/18px Arial;
+    color: #162B75;
+}
+
+.bob-newsletter-search-wrap .bob-line-arrow-orange-link {
+    font-size: 14px !important;
+    line-height: 14px !important;
+    font-family: 'Helvetica Neue LT Pro Md';
+    color: #F26522 !important;
+    border: 0 !important;
+    display: inline-flex !important;
+    padding: 0 !important;
+    position: relative !important;
+    padding-right: 25px !important;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.bob-newsletter-search-wrap .bob-line-arrow-orange-link:before {
+    content: "";
+    background: url(../../../../../Themes/BOB/India/India/images/orange-line-arrow.svg) no-repeat center center !important;
+    width: 19px;
+    height: 9px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) scale(0.9) !important;
+    right: 0 !important;
+    left: auto;
+    z-index: 1;
+    transition: all 0.25s linear;
+}
+
+.bob-newsletter-search-wrap .bob-line-arrow-gray-link.bob-line-arrow-orange-link::before {
+    filter: invert(48%) sepia(0%) saturate(17%) hue-rotate(144deg) brightness(91%) contrast(96%);
+}
+
+.bob-newsletter-search-wrap .search-box-button {
+    display: none !important;
+}
+
+.bob-newsletter-search-wrap .bob-search-voice-div input {
+    border: none !important;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #162B75;
+}
+
+.bob-newsletter-search-wrap .no-results {
+    padding: 50px 0px;
+}
+
+.carousel .field-ipadimage,
+.carousel .field-mobileimage {
+    display: none;
+}
+
+.annual-report .bob-form-control .form-control {
+    padding: 8px 10px !important;
+}
+
+.about-us .content {
+    padding: 0px;
+}
+
+.about-us .breadcrumb li a,
+.about-us .breadcrumb li.last a {
+    color: #fff !important;
+}
+
+.ov-about-us .breadcrumb li a {
+    color: #F26522 !important
+}
+
+.ov-about-us .breadcrumb li.last a {
+    color: #707070 !important;
+}
+
+.about-us .top-banner-component-type3 .top-banner-bg-text {
+    transform: none !important;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.about-us .breadcrumb.component {
+    position: absolute;
+}
+
+.about-us .overviewPageContentWrap .overviewPageContenSec3 {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 25px #1A2C7112;
+    padding: 50px;
+}
+
+.about-us .top-banner-bg-img img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+}
+
+.about-us .top-banner-component-type3 {
+    max-height: 180px;
+}
+
+.about-us .bob-top-loan-div {
+    margin-top: 50px;
+}
+
+.ov-about-us .bob-top-loan-div {
+    box-shadow: 0px 15px 20px #D8632B1A;
+    max-width: 100%;
+    margin-bottom: 60px;
+    padding: 52px 0 25px 0;
+}
+
+.ov-about-us .bob-top-loan-div .component-content {
+    max-width: 1184px;
+    margin: auto;
+}
+
+.about-us .overviewPageContentWrap .overviewPageContenSec3 h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: 'Helvetica Neue LT Pro Roman';
+    letter-spacing: 0px;
+    color: #162B75;
+    padding: 20px 0px;
+}
+
+.board-of-director-view-profile-popup .popupCloseBtn {
+    background: transparent;
+    border: none;
+}
+
+.board-of-director-view-profile-popup .popupCloseBtn svg {
+    width: 25px;
+    height: 30px;
+}
+
+.about-us .accordion {
+    margin-bottom: 0px;
+}
+
+.ov-about-us h3 {
+    /* text-align: center !important; */
+}
+
+#drp_media_months,
+#drp_media_years {
+    border: none !important;
+    padding: 0px;
+}
+
+.joint-vanture-accordian-wrapp {
+    margin-top: 40px;
+    box-shadow: 0px 0px 25px #1A2C7112;
+    padding: 40px 60px;
+}
+
+.about-us .bulletText li {
+    text-align: left;
+}
+
+.about-us .accordion .field-content p {
+    line-height: 20px !important;
+}
+
+.board-of-director-view-profile-popup p {
+    line-height: 22px;
+}
+
+.pageNPF-wrapp {
+    border-radius: 0px 100px 0px 0px;
+    background-color: #fff;
+    padding: 40px 0px 40px 40px;
+    box-shadow: 0px 10px 50px #d8632b40;
+    -webkit-box-shadow: 0px 10px 50px #d8632b40;
+    -moz-box-shadow: 0px 10px 50px #D8632B40;
+    margin: 50px 0px 20px;
+    float: left;
+}
+
+.pageNPF-wrapp .left-textWrapp {
+    width: 60%;
+    float: left;
+}
+
+.pageNPF-wrapp .left-textWrapp h3 {
+    margin-bottom: 0px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    line-height: 3.375rem;
+    font-size: 3.125rem;
+    letter-spacing: 0px;
+    color: #162B75;
+    position: relative;
+}
+
+.pageNPF-wrapp .left-textWrapp h4 {
+    font-family: 'Helvetica Neue LT Pro Lt';
+    letter-spacing: 0px;
+    color: #162B75;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.pageNPF-wrapp .left-textWrapp ul li {
+    float: left;
+    align-items: center;
+    border-radius: 18px;
+    padding: 5px 30px;
+    color: #162b75;
+    font-size: 1rem;
+    font-family: 'Helvetica Neue LT Pro Md';
+    margin-right: 5px;
+    border: 1px solid #F2652233;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.pageNPF-wrapp .left-textWrapp ul li a {
+    color: #162b75 !important;
+}
+
+.pageNPF-wrapp .left-textWrapp ul li:hover {
+    background: #F2652233;
+    border-color: transparent;
+    transition: all 0.3s linear;
+}
+
+.pageNPF-wrapp .left-textWrapp ul {
+    margin: 0px;
+}
+
+.pageNPF-links {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.pageNPF-links:after {
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    content: "";
+    width: 95%;
+    height: 1px;
+    background: #F2652233;
+}
+
+.left-textWrapp .direct-link-pageNPF {
+    padding: 30px 20px 0px 0px;
+    float: left;
+}
+
+.direct-link-pageNPF ul li {
+    border: none !important;
+    padding: 0px 30px !important;
+    list-style: disc !important;
+    color: #747474 !important;
+    float: none !important;
+}
+
+.direct-link-pageNPF ul li:first-child {
+    margin-top: 0;
+}
+
+.direct-link-pageNPF ul {
+    column-count: 2;
+    column-fill: balance;
+}
+
+.direct-link-pageNPF ul li span {
+    color: #F26522;
+    margin-right: 5px;
+}
+
+.direct-link-pageNPF ul li:hover {
+    background: #fff !important;
+    border-color: transparent;
+    transition: all 0.3s linear;
+}
+
+.pageNPF-wrapp .direct-link-pageNPF ul li a {
+    color: #fd8539 !important;
+    font-size: 16px;
+}
+
+.pageNPF-wrapp .logo-wrapp {
+    width: 180px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.pageNPF-wrapp .logo-wrapp img {
+    max-width: 100%;
+}
+
+.direct-link-pageNPF ul li {
+    border: none !important;
+    padding: 0px 40px 0px 0px !important;
+}
+
+.right-imagewrapp {
+    margin-top: 90px;
+}
+
+.page-not-found .row {
+    position: relative;
+}
+
+.page-not-found .no-page:before {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    background: #FE8639;
+    content: "";
+    top: 0;
+    left: 0;
+}
+
+.branches-content {
+    display: none;
+}
+
+.container-shadow {
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 25px #1a2c7112;
+    padding: 50px;
+    margin: 40px auto;
+}
+
+.FormThankYouMsg {
+    display: none;
+}
+
+.FormThankYouMsg p {
+    font: normal normal normal 1.25rem/1.625rem Arial;
+    color: #707070;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+}
+
+.about-us .overviewPageContentWrap .overviewPageContenSec3 ul li {
+    font-size: 16px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-bottom: 15px;
+    line-height: 18px;
+    list-style-type: disc;
+}
+
+.content a:hover,
+.rich-text a:hover,
+.content a,
+.rich-text a {
+    color: #F26522;
+}
+
+.e-auction-p main {
+    /* margin-top: 0px; */
+}
+
+.e-auction-p .bob-blue-top-div {
+    /* margin-top: 65px; */
+}
+
+.e-auction-p .breadcrumb li a,
+.e-auction-p .breadcrumb li.last a {
+    color: #fff !important;
+}
+
+.e-auction-p .bob-blue-top-div h2 {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.e-auction-p .bob-blue-top-div .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.bob-pincode-input {
+    /* width: 95%;
+    margin-left: 3%; */
+}
+
+.bob-blue-top-div .bob-tags {
+    /* padding: 10px; */
+}
+
+.co-office .bob-blue-top-div .container {
+    max-width: 1350px !important;
+}
+
+.co-office .bob-blue-top-div .container h2 {
+    font-size: 2.7rem !important;
+    padding-top: 10px !important;
+}
+
+.co-office .bob-blue-top-div img {
+    height: 31vh!important;
+}
+
+.co-office .bob-blue-top-div {
+    height: 31vh !important;
+}
+
+.co-office .bob-blue-top-div .bob-tags {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:1440px) {
+    .about-us .component.navigation.navigation-main-horizontal {
+        overflow-x: auto;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .about-us .navigation-main-horizontal ul {
+        padding: 0px 0px 5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .carousel.carouselResponsive .field-slideimage {
+        display: none;
+    }
+    .carousel.carouselResponsive .field-ipadimage {
+        position: relative;
+        display: block;
+    }
+    .carousel.carouselResponsive .field-ipadimage img {
+        height: auto !important;
+        max-width: 100%;
+    }
+    .pageNPF-wrapp .left-textWrapp {
+        width: 100%;
+    }
+    .right-imagewrapp {
+        margin-top: 92px;
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .bob-offres-all-card-div {
+        padding-right: 10px;
+    }
+    .bob-auction-card {
+        padding: 5px;
+    }
+    .bob-offres-all-card-div .col-sm-4 {
+        padding: 0 5px;
+    }
+    .e-auction-p .col-sm-9 {
+        flex: 0 0 75%;
+        max-width: 100%;
+    }
+    .bob-offer-main-sec .col-sm-3.bob-left-fixed-filter {
+        padding: 20px 0px 20px 5px;
+    }
+    .bob-pincode-input {
+        width: 90%;
+        margin-left: 7%;
+    }
+    .bob-left-filter-div {
+        padding-left: 20px;
+    }
+    .e-auction-p .bob-blue-top-div .container {
+        top: 0%;
+    }
+    .e-auction-p .bob-blue-top-div .bob-tags {
+        justify-content: center;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .about-us .overviewPageContentWrap .overviewPageContenSec3 {
+        padding: 10px;
+    }
+    .baroda-alok-chandra-bravery-award .top-banner-component-type3 .top-banner-bg-text {
+        transform: translateY(5px);
+    }
+    .about-us .component.navigation.navigation-main-horizontal {
+        padding: 0;
+    }
+    .overviewPageImageBox img {
+        max-width: 100%;
+    }
+    .about-us .bob-top-loan-div {
+        padding: 0px 20px 45px !important;
+        margin-top: -25px;
+    }
+    .about-us .read-more-btn {
+        font-size: 0.84rem !important;
+    }
+    .joint-vanture-accordian-wrapp {
+        padding: 15px;
+        width: calc(100% - 40px);
+    }
+    .accordion .toggle-header .component .field-heading:before {
+        right: 0px !important;
+    }
+    .about-social .top-banner-bg-text {
+        transform: translateY(25px) !important;
+    }
+    .board-of-director-view-profile-popup .view-profile-popup-content-box {
+        float: left;
+        padding-bottom: 20px;
+    }
+    .pageNPF-wrapp .left-textWrapp {
+        width: 100%;
+    }
+    .pageNPF-wrapp {
+        padding: 15px;
+        margin-left: 2.5%;
+        width: 95%;
+    }
+    .page-not-found .component {
+        padding: 0px;
+    }
+    .right-imagewrapp {
+        float: left;
+        margin-top: 50px;
+    }
+    .right-imagewrapp img {
+        max-width: 100%;
+    }
+    .pageNPF-wrapp .left-textWrapp h3 {
+        font-size: 2.25rem;
+    }
+    .pageNPF-wrapp .left-textWrapp h4 {
+        line-height: 1.875rem;
+        font-size: 1.5rem;
+    }
+    .direct-link-pageNPF ul li {
+        padding: 0px 10px 0px 0px !important;
+    }
+    .about-us .top-banner-component-type3 .top-banner-bg-text {
+        width: 100%;
+    }
+    .e-auction-p .bob-offres-all-card-div {
+        padding: 0px 30px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .pageNPF-wrapp .left-textWrapp ul li {
+        padding: 5px 15px;
+    }
+    .left-textWrapp .direct-link-pageNPF {
+        padding: 30px 0px;
+    }
+    .direct-link-pageNPF ul li {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (min-width:800px) {
+    .why-bank-of-baroda .overviewPageContentWrap {
+        margin-top: 115px !important;
+    }
+    .why-bank-of-baroda .art-wrapp .bob-left-round-arrow-svg {
+        top: 285px !important;
+        right: 60px !important;
+    }
+    .why-bank-of-baroda .art-wrapp .bob-round-arrow-svg {
+        top: 285px !important;
+    }
+    .why-bank-of-baroda .overviewPageContentWrap .overviewPageContenSec2 .overviewPageContentBox p {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .why-bank-of-baroda .why-bob-btn {
+        margin-top: 15px !important;
+        margin-left: 15px !important;
+    }
+    .why-bank-of-baroda .slick-slide {
+        height: 35vh !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .why-bank-of-baroda .overviewPageContentWrap .overviewPageContenSec2 .overviewPageImageBox {
+        margin-top: 560px !important;
+    }
+    .co-office .bob-blue-top-div .container h2 {
+        font-size: 2.7rem !important;
+        padding-top: 0px !important;
+        line-height: 2.7rem !important;
+    }
+    .co-office .bob-blue-top-div h2 {
+        margin: 0 !important;
+        margin-top: -20px !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .annual-reports .bob-blue-top-div h2 {
+        /* margin-top: 20px !important; */
+    }
+}
+
+.checkboxHidden:before {
+    display: none !important;
+}
+
+.margin-0 {
+    margin: 0px !important;
+}
+
+.hidden-div {
+    display: none !important;
+}
+
+.tenure-static {
+    float: left !important;
+    display: contents !important;
+    font: normal normal normal 0.875rem/1rem Arial !important;
+}
+
+.tenure-static em {
+    margin-left: 15px !important;
+}
+
+.min-width-auto {
+    min-width: auto !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .display-content {
+        display: contents !important;
+    }
+    .start-up-branch .field-content {
+        overflow-x: auto;
+    }
+}
+
+.gold-loan-section .bob-loan-calculator ul li small {
+    background: transparent !important;
+    margin-top: 0px !important;
+}
+
+.margin-top--15-other-0 {
+    margin: 0px !important;
+    margin-top: -15px !important;
+}
+
+.gold-loan-section .bob-loan-calculator ul li {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px !important;
+}
+
+.input-text-info {
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.display-top tr td table th {
+    vertical-align: top;
+}
+
+.bob-check-radio-form-control label {
+    padding-left: 30px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    text-transform: capitalize !important;
+}
+
+.bob-marquee-links marquee ul li a:hover,
+.bob-marquee-links marquee p a:hover {
+    text-decoration: underline !important;
+}

@@ -1,0 +1,1576 @@
+.human-resource .col-12 {
+    clear: both;
+}
+
+.human-resource .bob-loan-calculator {
+    padding: 30px 20px !important;
+}
+
+.human-resource .ratesroundbox {
+    border-radius: 0px;
+    box-shadow: 0px 10px 40px #ccc;
+    padding: 30px 0px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.human-resource .ratesroundbox ul li {
+    list-style: none;
+    width: 33%;
+    text-align: center;
+}
+
+.human-resource .ratesroundbox ul li:last-child {
+    border: none;
+}
+
+.human-resource .bob-button {
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+.human-resource .ratesroundbox ul li p {
+    text-align: center;
+    color: #162b75;
+    margin: 20px 0px 30px;
+    font-weight: 400;
+}
+
+.hr-wrapper {
+    padding: 40px 55px;
+    background: #ffffff;
+    box-shadow: 0px 10px 50px #d8632b40;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px 10px 40px #ccc;
+    width: 90%;
+    margin: 40px auto 0 auto;
+}
+
+.hr-wrapper h3 {
+    font-size: 1.375rem;
+    color: #162b75;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hr-wrapper p {
+    font-size: 0.875rem;
+    color: #707070;
+    line-height: 1.25rem;
+}
+
+.hr-wrapper .bob-arrow-button {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.hr-content-div-small {
+    display: -webkit-box !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 2.5rem;
+    transition: all 0.25s linear;
+}
+
+.open-text-hr .hr-content-div-small {
+    overflow: visible;
+    display: block !important;
+    transition: all 0.25s linear;
+}
+
+.open-text-hr .bob-arrow-button {
+    display: none !important;
+}
+
+.hr-business {
+    text-align: center;
+    margin: 70px 0px;
+}
+
+.hr-business h3 {
+    font-family: "Helvetica Neue LT Pro Lt";
+    font-size: 2.188rem;
+    letter-spacing: 0px;
+    color: #707070;
+    margin-bottom: 20px;
+    position: relative;
+    /* font-weight: 800; */
+}
+
+.hr-business-model {
+    width: 100%;
+    float: left;
+    clear: both;
+    background: #e7e9f1;
+    margin: 20px 0px 50px;
+}
+
+.hr-business .ratesroundbox {
+    margin-top: 25px;
+    border-radius: 0 100px 0 0;
+    box-shadow: 0px 10px 40px #ccc;
+    padding: 30px 0px;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.hr-business .ratesroundbox:after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    content: "";
+    background: url("../../../../../Project/BOB/CountryWebsites/India/icons/arrow-down.png") no-repeat center;
+    bottom: -30px;
+    left: 49%;
+}
+
+.business-flex {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    width: 35%;
+}
+
+.business-flex p:last-child {
+    margin-right: 0px;
+}
+
+.hr-business .ratesroundbox ul li p {
+    margin: 20px 0px 5px;
+    position: relative;
+}
+
+.business-flex p:after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    content: "";
+    background: url("../../../../../Project/BOB/CountryWebsites/India/icons/arrow-down.png") no-repeat center;
+    top: 35px;
+    left: 45%;
+}
+
+.hr-business .ratesroundbox ul li:last-child p {
+    margin-top: 10px;
+}
+
+.business-flex p {
+    margin-right: 10px;
+    padding: 10px 30px;
+    background: #fff;
+    width: 50%;
+    position: relative;
+    font-size: 17px;
+}
+
+.firstp,
+.secondp {
+    position: relative;
+    padding: 10px 30px;
+    background: #fff;
+}
+
+.secondp {
+    width: 12%;
+    margin: 5px auto !important;
+}
+
+.secondp:after {
+    position: absolute;
+    width: 19px;
+    height: 11px;
+    content: "";
+    background: url(../../../../../Project/BOB/CountryWebsites/India/icons/arrow-down.png) no-repeat center;
+    bottom: -17px;
+    left: 44%;
+}
+
+.firstp {
+    width: 24%;
+    margin: 10px auto !important;
+}
+
+.firstp:after{
+    position: absolute;
+    width: 19px;
+    height: 11px;
+    content: "";
+    background: url(../../../../../Project/BOB/CountryWebsites/India/icons/arrow-down.png) no-repeat center;
+    bottom: -17px;
+    left: 49%;
+}
+.border-text2:after {
+    position: absolute;
+    width: 19px;
+    height: 11px;
+    content: "";
+    background: url(../../../../../Project/BOB/CountryWebsites/India/icons/arrow-down.png) no-repeat center;
+    bottom: -20px;
+    left: 45%;
+}
+
+.secondp:last-child:after {
+    display: none;
+}
+
+.hr-business p {
+    margin-top: 25px !important;
+    font-size: 1.1rem;
+    color: #162b75;
+    margin-bottom: 0 !important;
+}
+
+.secondp:last-child {
+    position: relative;
+    top: 15px;
+    z-index: 3;
+    box-shadow: 0px 2px 10px #ccc;
+    margin-top: 10px !important;
+}
+
+.firstp-addclass:after {
+    /* top: 37px !important; */
+}
+
+.firstp:first-child {
+    margin-top: -10px !important;
+    box-shadow: 0px 2px 10px #ccc;
+}
+
+.ratesroundbox ul li img {
+    height: 120px;
+    object-fit: contain;
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.our-core-values {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 20px 0px 0px;
+    margin-top: 100px;
+}
+
+.our-core-values:before {
+    background: #fee9de;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+}
+
+.our-core-values h3 {
+    font-family: "Helvetica Neue LT Pro Lt";
+    font-size: 2.188rem;
+    letter-spacing: 0px;
+    color: #707070;
+    margin-bottom: 20px;
+    position: relative;
+    /* font-weight: 800; */
+    margin-top: 15px;
+}
+
+.our-core-values p {
+    font-size: 24px;
+    color: #707070;
+    line-height: 30px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    position: relative;
+}
+
+.core-slider {
+    text-align: left;
+    margin: auto;
+    top: 50px;
+}
+
+.core-slider .core-slide h4 {
+    font-size: 1.375rem;
+    color: #162b75;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px 8px;
+}
+
+.core-slider .core-slide {
+    display: inline-block;
+    background: #fff;
+    padding: 40px;
+    margin: 0px 6px;
+    box-shadow: 1px 10px 10px #162b751a;
+    z-index: 999;
+    border-bottom: 1px solid #162b751a;
+    height: 250px;
+}
+
+.core-slider .bob-round-arrow-svg {
+    position: absolute;
+    bottom: -25px;
+    right: 0px;
+}
+
+.e-speak-wrapp .bob-round-arrow-svg {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.e-speak-wrapp .bob-left-round-arrow-svg {
+    right: 35px;
+    z-index: 3;
+}
+
+.core-slider .bob-left-round-arrow-svg {
+    right: 35px !important;
+}
+
+.core-slider .core-slide:last-child {
+    margin-right: 0px;
+}
+
+.core-slider .core-slide img {
+    height: 65px;
+}
+
+.core-slider .core-slide p {
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.employees-speak {
+    height: 310px;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    margin: 120px 0px;
+    padding: 0px;
+}
+
+.employees-speak img {
+    width: 100%;
+}
+
+.employees-speak .blueoverlay {
+    padding: 35px 0px;
+}
+
+.employees-speak h3 {
+    font-family: "Helvetica Neue LT Pro Lt";
+    font-size: 2.188rem;
+    letter-spacing: 0px;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+    /* font-weight: 800; */
+}
+
+.human-resource .bob-loan-listing-intro {
+    margin-top: 60px;
+}
+
+.bob-loan-listing-intro .column-splitter {
+    align-items: center;
+}
+
+.e-speak-wrapp {
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.e-speak-slider .slick-list {
+    box-shadow: 0px 10px 50px #D8632B40;
+    border-radius: 0px 100px 0px 0px;
+    background: #fff;
+    padding: 0 !important;
+}
+
+.speak-containt {
+    padding: 40px 55px;
+    background: #ffffff;
+    z-index: 2;
+    position: relative;
+    text-align: left;
+}
+
+.speak-containt p {
+    font-size: 1.375rem;
+    line-height: 26px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+}
+
+.speak-containt h4 {
+    font-size: 1.125rem;
+    color: #162b75;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0px 2px;
+    line-height: 20px;
+}
+
+.speak-containt .s-about {
+    font-size: 0.875rem;
+    margin: 0px 10px;
+}
+
+.d-thumbs {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 28%;
+    background-color: #fff;
+    float: left;
+    box-shadow: 0px 2px 10px #ccc;
+    margin-right: 4%;
+    padding: 20px 20px;
+}
+
+.d-img {
+    margin-right: 30px;
+}
+
+.d-content h4 {
+    font-size: 0.875rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #162b75;
+    margin: 0px 0px 19px;
+}
+
+.d-content .download-btn::before {
+    display: none;
+}
+
+.report-wrapp {
+    display: flex;
+}
+
+.report-wrapp h3 {
+    font-family: "Helvetica Neue LT Pro Lt";
+    font-size: 2.188rem;
+    letter-spacing: 0px;
+    color: #707070;
+    position: relative;
+    font-weight: 800;
+    width: 40%;
+}
+
+.d-thumbs:last-child {
+    margin-right: 0px;
+}
+
+.col-12.download-reports {
+    background: #eee;
+    padding: 20px 0px;
+}
+
+.report-wrapp {
+    display: flex;
+    align-items: center;
+}
+
+.r-register {
+    width: 100%;
+    background: #fee9de;
+    text-align: center;
+    position: relative;
+    padding: 40px 0px;
+    margin-top: 100px;
+}
+
+.r-register h3 {
+    font-family: "Helvetica Neue LT Pro Lt";
+    font-size: 2.188rem;
+    letter-spacing: 0px;
+    color: #707070;
+    position: relative;
+    /* font-weight: 800; */
+}
+
+.rates-and-charge {
+    width: 75%;
+    margin: auto;
+}
+
+.rates-and-charge .container {
+    box-shadow: 0px 2px 10px #f26522;
+    background: #fff;
+}
+
+.rates-and-charge .rates-wrapper {
+    width: 100%;
+    box-shadow: 0px 10px 80px #fee9de;
+    float: left;
+    background: transparent;
+    padding: 60px;
+}
+
+.rates-and-charge .container .repo-link {
+    width: 60%;
+    float: left;
+}
+
+.rates-and-charge .container h3 {
+    font-family: "Helvetica Neue LT Pro Lt";
+    font-size: 1.875rem;
+    letter-spacing: 0px;
+    color: #707070;
+    margin-bottom: 0px;
+    position: relative;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.rates-and-charge .container .repo-link p {
+    font-size: 1.5rem;
+    color: #707070;
+}
+
+.rates-and-charge .container .repo-link p span {
+    font-size: 0.875rem;
+    margin-left: 6px;
+}
+
+.rates-and-charge table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.rates-and-charge table tr td {
+    border: 1px solid;
+    font-size: 1rem;
+    font-family: arial;
+    color: #000;
+}
+
+.repo-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.repo-table table tr th,
+.roi .bob-custom-accordion-list th {
+    background: #fee9de;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: arial;
+    color: #000;
+}
+
+.repo-table table tr td {
+    border: 1px solid #fee9de !important;
+    color: #707070;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.repo-table table tr th:nth-child(2),
+.repo-table table tr td:nth-child(2) {
+    text-align: left;
+    padding: 10px 50px;
+}
+
+.roi {
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+}
+
+.roi h3 {
+    margin-bottom: 30px !important;
+}
+
+.roi .bob-custom-accordion {
+    position: relative;
+    padding: 20px 0px;
+    border-top: 1px solid #fee9de;
+    cursor: pointer;
+}
+
+.roi .bob-custom-accordion span small {
+    font-size: 1.375rem;
+    font-family: arial;
+    color: #162b75;
+    padding: 2% 60% 2% 0%;
+}
+
+.roi .bob-custom-accordion .bob-down-arrow-svg {
+    right: 0;
+    position: absolute;
+}
+
+.roi .bob-custom-accordion-list th,
+.roi .bob-custom-accordion-list td {
+    width: 25%;
+    padding: 10px !important;
+    border: 1px solid !important;
+    color: #707070 !important;
+    text-align: left;
+}
+
+.roi .bob-custom-accordion-list th {
+    background-color: #e7e9f1 !important;
+}
+
+.roi .bob-custom-accordion-list td:first-child {
+    color: #000;
+    font-weight: bold;
+}
+
+.roi .bob-custom-accordion-list td:last-child {
+    font-size: 1.5rem;
+    color: #162b75 !important;
+}
+
+.roi .bob-custom-accordion-list {
+    padding: 30px;
+}
+
+.rates-filter {
+    width: 75%;
+    margin: auto;
+}
+
+.rfilter-wrapp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transform: translateX(52%);
+}
+
+.rfilter-wrapp span {
+    font-size: 16px;
+    font-family: arial;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.rfilter-wrapp .form-group.bob-form-control {
+    width: 25%;
+    padding: 16px 0px;
+}
+
+.rfilter-wrapp .first-control {
+    width: 15% !important;
+    margin-right: 10px;
+}
+
+.rfilter-wrapp .bob-form-control .form-control {
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+
+.rates-search-filter {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.rates-search-filter .bob-search-voice-div {
+    width: 30%;
+    margin: auto;
+    box-shadow: none;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.rates-search-filter .irates-changer {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.irates-changer .bob-tags {
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.irates-changer .bob-tags li {
+    list-style: none;
+    margin: 0px 5px;
+}
+
+.irates-changer .bob-tags li a.active,
+.irates-changer .bob-tags li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s linear;
+}
+
+.irates-changer .bob-tags li a {
+    border: 1px solid #ffffff80;
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-right-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    border-left-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    font-family: "Helvetica Neue LT Pro Md";
+    font-size: 16px;
+    line-height: 16px;
+    transition: all 0.3s linear;
+}
+
+.irates-changer .bob-tags li a::before {
+    content: "";
+    background: #f26522 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: all 0.3s linear;
+}
+
+.irates-changer .bob-tags li a.active::before,
+.irates-changer .bob-tags li a:hover::before {
+    transition: all 0.3s linear;
+    width: 35px;
+}
+
+.roi .bob-open-accordion span small {
+    font-size: 1.5rem;
+    color: #000;
+    padding: 2% 80% 2% 0%;
+}
+
+.roi .bob-open-accordion .bob-down-arrow-svg {
+    rotate: 180deg;
+}
+
+.human-resource .carousel .component-content {
+    padding-bottom: 0px;
+}
+
+.human-resource .carousel .slides {
+    height: 300px;
+    height: auto !important;
+}
+
+.human-resource .bob-loan-listing-right-text {
+    height: 360px;
+}
+
+.human-resource .bob-calculator-div ul {
+    margin: 15px 0px !important;
+}
+
+.human-resource .bob-loan-listing-right-text .image-link-list {
+    padding: 15px 0px;
+    position: relative;
+}
+
+.human-resource .bob-loan-listing-right-text .image-link-list:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #FFC4A7;
+    left: 20px;
+}
+
+.human-resource .bob-loan-listing-right-text .bob-loan-calculator p {
+    margin-top: 30px;
+}
+
+.hr-wrapper h3 {
+    margin-bottom: 15px;
+}
+
+.annual-reports .filterby .bob-form-control {
+    margin: 0px 3px !important;
+}
+
+.personal-banking .repo-table {
+    margin-bottom: 10px;
+}
+
+.personal-banking .repo-table table tr th:nth-child(2),
+.personal-banking .repo-table table tr td:nth-child(2) {
+    padding: 0px;
+    text-align: center;
+}
+
+.military-personnel .bob-line-list li ul li {
+    width: calc(100% / 2);
+    height: 180px;
+    position: relative;
+    padding: 30px 10px;
+    margin-bottom: 18px !important;
+}
+
+.salary-classic .bob-line-list li ul li {
+    width: calc(100% / 5);
+}
+
+.military-personnel .bob-line-list li ul li:nth-child(2):before {
+    display: none;
+}
+
+.salary-classic .bob-line-list li ul li:nth-child(2):before {
+    display: block;
+}
+
+.human-resource .slick-slider .slick-list {
+    /* box-shadow: -8px 15px 15px -9px #162b751a; */
+    padding-bottom: 20px;
+}
+
+.human-resource .e-speak-wrapp .bob-round-arrow-svg {
+    bottom: -50px;
+}
+
+.bob-loan-listing-intro .col-sm-8 {
+    position: relative;
+}
+
+.human-resource .bob-loan-listing-intro .col-sm-8 .field-content {
+    margin-left: 85px;
+}
+
+.human-resource .bob-loan-listing-intro {
+    margin-top: 0px;
+    padding: 60px 0px 0px;
+    margin-bottom: 60px;
+}
+
+.bob-loan-listing-intro .col-sm-8:before {
+    content: "";
+    height: 130px;
+    width: 2px;
+    background-color: #fde8df;
+    position: absolute;
+    left: 40px;
+}
+
+.about-overview .bob-loan-listing-intro .col-sm-8:before {
+    content: "";
+    height: 65px;
+    width: 2px;
+    background-color: #fde8df;
+    position: absolute;
+    left: -80px;
+}
+
+.bob-loan-listing-intro .col-sm-8:before {
+    content: "";
+    height: 130px;
+    width: 2px;
+    background-color: #fde8df;
+    position: absolute;
+    left: 40px;
+}
+
+.human-resource .ratesroundbox ul li a {
+    color: #fff !important;
+    background: transparent linear-gradient(90deg, #f26522 0%, #fe8639 100%) 0% 0% no-repeat padding-box !important;
+    cursor: pointer;
+    text-align: center !important;
+    font: normal normal bold 12px/14px Arial !important;
+    border: 1px solid #f2652380 !important;
+    border-radius: 40px !important;
+    padding: 14px 44px 14px 22px !important;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden !important;
+    transition: all 0.3s linear;
+}
+
+.human-resource .ratesroundbox ul li a:hover {
+    color: #f26522 !important;
+    background: #fff !important;
+    transition: all 0.3s linear;
+}
+
+.human-resource .ratesroundbox ul li a:before {
+    background: url(../../../../../Themes/BOB/India/India/images/white-arrow.svg) no-repeat center center !important;
+    content: "";
+    width: 13px;
+    height: 8px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) rotateZ(-90deg) scale(0.7) !important;
+    right: 22px !important;
+    left: auto;
+    transition: all 0.3s linear;
+    z-index: 1;
+}
+
+.human-resource .ratesroundbox ul li a:hover:before {
+    background: url(../../../../../Themes/BOB/India/India/images/orange-arrow.svg) no-repeat center center !important;
+}
+
+.human-resource .rich-text {
+    padding: 0px;
+}
+
+.shadow-style {
+    box-shadow: 3px 13px 20px #f2652380;
+    width: 100%;
+    height: 4px;
+}
+
+.accordion h4 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+    font-family: 'Helvetica Neue LT Pro Roman';
+    letter-spacing: 0px;
+    color: #162B75;
+    margin-bottom: 20px;
+}
+
+
+/*.content *, .rich-text *{
+     max-width: none !important;
+}
+*/
+
+.content-list-nav.container>.component-content {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.border-text {
+   background: #e7e9f1;
+    z-index: 2;
+    position: relative;
+    width: 20%;
+    text-align: center;
+    left: 40%;
+}
+
+.hr-business .container{
+    position: relative;
+}
+.hr-business-model .container:after{
+  width: 83%;
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  border: 3px solid #fff;
+  border-top: none;
+  content: "";
+  z-index: 1;
+  bottom: -33px;
+  padding: 60px 0px;
+}
+.hr-business .border-text2 {
+    background: #e7e9f1;
+    z-index: 2;
+    position: relative;
+    width: 15%;
+    margin-top: 15px !important;
+    left: 43%;
+}
+.ratesroundbox::before {
+    width: 103.7%;
+    position: absolute;
+    left: -18px;
+    bottom: 0;
+    border: 3px solid #fff;
+    border-top: none;
+    content: "";
+    z-index: 1;
+    bottom: -70px;
+    padding: 10px 0px;
+}
+@media only screen and (max-width: 1440px) {
+    .business-flex {
+        width: 50%;
+    }
+    .firstp {
+        width: 35%;
+    }
+    .secondp {
+        width: 20%;
+    }
+    .human-resource .bob-loan-listing-right-text {
+        height: 400px;
+        padding: 0px 20px !important;
+    }
+    .hr-wrapper {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .human-resource .bob-calculator-div {
+        min-height: 390px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .human-resource .bob-loan-listing-right-text {
+        height: 360px;
+    }
+    .navigation-main-horizontal nav ul {
+        padding: 10px 60px 10px!important;
+    }
+    .about-overview .bob-loan-calculator {
+        padding: 40px 65px 0px;
+    }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 800px) {
+    .business-flex {
+        width: 70%;
+    }
+    .firstp {
+        width: 55%;
+    }
+    .secondp {
+        width: 25%;
+    }
+    .col-12.download-reports {
+        padding: 20px 10px;
+    }
+    .core-slider .core-slide {
+        padding: 20px;
+        margin-right: 1%;
+    }
+    .loan-search .img-fluid {
+        margin-left: 20px;
+    }
+    .rates-search-filter .bob-search-voice-div {
+        width: 60%;
+    }
+    .rates-search-filter .irates-changer {
+        overflow-x: scroll;
+    }
+    .irates-changer .bob-tags {
+        flex-wrap: initial;
+        margin-left: 85px;
+    }
+    .irates-changer .bob-tags li {
+        flex-shrink: 0;
+        width: auto;
+    }
+    .rfilter-wrapp .form-group.bob-form-control {
+        width: 54%;
+    }
+    .rfilter-wrapp {
+        transform: none;
+    }
+    .rfilter-wrapp .first-control {
+        width: 26% !important;
+    }
+    .human-resource .bob-loan-listing-right-text {
+        padding: 0px !important;
+    }
+    .hr-business p {
+        font-size: 0.99rem;
+    }
+    .hr-business-model .container::after{
+        left: 78px;
+    }
+    .border-text{
+        width: 23%;
+    }
+    .ratesroundbox::before{
+        left: -13px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .component .col-sm-5 {
+        max-width: 45%;
+    }
+    .bob-loan-calculator {
+        padding: 10px 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .e-speak-wrapp {
+        bottom: 45px;
+    }
+    .employees-speak .blueoverlay {
+        padding: 0;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .speak-containt p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .about-overview .bob-loan-calculator {
+        padding: 40px 35px 0px;
+    }
+    .why-bank-of-baroda .top-banner-component-type3 .top-banner-bg-text {
+        top: 70px;
+    }
+    .human-resource .bob-loan-listing-right-text .image-link-list:before {
+        display: none;
+    }
+    .human-resource .carousel .slides {
+        height: 210px;
+    }
+    .r-register {
+        float: left;
+        margin-top: 90px;
+    }
+    .personal-banking .bob-types-slider-div {
+        margin-top: -160px !important;
+    }
+    .human-resource .ratesroundbox ul li {
+        padding: 25px 0px 25px;
+        margin: 0px;
+        width: 50%;
+    }
+    .hr-wrapper {
+        width: 100%;
+    }
+    .business-flex {
+        width: 92%;
+    }
+    .firstp {
+        width: 90%;
+    }
+    .secondp {
+        width: 50%;
+    }
+    .hr-business p {
+        font-size: 0.988rem;
+    }
+    .human-resource .ratesroundbox ul li p {
+        padding: 0px 0px 15px;
+        margin: 0 0px 0;
+    }
+    .human-resource .col-12.content-list-nav {
+        padding: 0;
+        margin-top: 80px;
+        padding-top: 0px;
+        margin-bottom: 150px;
+    }
+    .business-flex p::after {
+        top: 40px;
+    }
+    .firstp,
+    .secondp {
+        padding: 5px 0px;
+    }
+    .business-flex p {
+        padding: 5px 23px;
+    }
+    .our-core-values .container {
+        padding: 0px 10px;
+    }
+    .core-slider,
+    .core-slider .core-slide {
+        width: 100%;
+    }
+    .speak-containt {
+        padding: 30px 15px;
+    }
+    .e-speak-slider .slick-list {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        border-radius: 0px 50px 0px 0px;
+    }
+    .employees-speak img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    .col-12.download-reports {
+        margin: 210px 0px 80px;
+        float: left;
+        padding: 20px 10px;
+    }
+    .report-wrapp {
+        display: block;
+    }
+    .report-wrapp h3 {
+        width: 100%;
+        text-align: center;
+    }
+    .d-thumbs {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .hr-business-model .container {
+        padding: 0px 10px;
+    }
+    .hr-business .ratesroundbox {
+        border-radius: 0px 60px 0px 0px;
+    }
+    .core-slider .bob-round-arrow-svg {
+        right: 10px;
+        bottom: 0;
+    }
+    .human-resource .slick-slider .slick-list {
+        padding-bottom: 40px;
+    }
+    .bob-left-round-arrow-svg {
+        right: 45px !important;
+    }
+    .rates-and-charge,
+    .rates-and-charge .container .repo-link {
+        width: 100%;
+    }
+    .rates-and-charge .rates-wrapper {
+        padding: 20px;
+    }
+    .repo-table {
+        overflow-x: auto;
+    }
+    .roi .bob-custom-accordion span small,
+    .roi .bob-open-accordion span small {
+        padding: 7% 45% 7% 0%;
+    }
+    .rates-search-filter .bob-search-voice-div {
+        transform: none;
+        width: 100%;
+    }
+    .rfilter-wrapp {
+        float: left;
+        margin: 30px 0px;
+        display: block;
+        transform: none;
+        text-align: center;
+    }
+    .rfilter-wrapp .form-group.bob-form-control {
+        width: 100%;
+        padding: 5px 0px;
+        margin: auto;
+    }
+    .rfilter-wrapp .first-control {
+        width: 50% !important;
+    }
+    .rates-filter {
+        width: 100%;
+    }
+    .roi table tr:first-child {
+        display: none;
+    }
+    .roi .bob-custom-accordion-list {
+        padding: 0px;
+    }
+    .roi .bob-custom-accordion-list tr {
+        border: 1px solid #d2d2d2 !important;
+        border-bottom: 3px solid #d2d2d2 !important;
+    }
+    .roi .bob-custom-accordion-list td {
+        width: 100%;
+        display: block;
+        border: none !important;
+        padding: 10px 15px !important;
+    }
+    .rates-and-charge table {
+        margin-top: 25px;
+    }
+    .roi .bob-custom-accordion .bob-down-arrow-svg {
+        top: 35px;
+    }
+    .irates-changer .bob-tags {
+        flex-wrap: inherit;
+        margin-left: 113%;
+    }
+    .irates-changer .bob-tags li {
+        width: auto;
+        flex-shrink: 0;
+    }
+    .rates-search-filter .irates-changer {
+        overflow-x: scroll;
+    }
+    .human-resource .bob-loan-listing-right-text {
+        height: auto;
+        padding: 15px 20px !important;
+        margin-top: 185px;
+        max-width: 100%;
+    }
+    .human-resource .bob-loan-listing-intro {
+        margin-top: 0px !important;
+    }
+    .bob-loan-listing-intro .col-sm-8:before {
+        display: none;
+    }
+    .bob-loan-listing-intro .col-sm-8 .field-content {
+        margin-left: 0px !important;
+    }
+    .human-resource .bob-loan-calculator {
+        padding: 0px 0px !important;
+    }
+    .bob-loan-calculator.promo>.component-content {
+        padding-right: 0px;
+    }
+    .human-resource .bob-loan-listing-right-text .bob-loan-calculator p {
+        margin-top: 10px;
+        border-top: 1px solid #f2652233;
+        padding: 10px 0px;
+    }
+    .human-resource .bob-loan-listing-right-text .image-link-list {
+        padding: 0px;
+    }
+    .human-resource .breadcrumb {
+        display: none;
+    }
+    .human-resource .bob-loan-listing-intro {
+        margin-top: 200px;
+        padding: 60px 0px 0px;
+    }
+    .human-resource .bob-loan-listing-intro .field-title {
+        margin-bottom: 25px !important;
+    }
+    .core-slider .bob-left-round-arrow-svg {
+        right: 45px !important;
+    }
+    .employees-speak {
+        margin: 160px 0px 300px;
+    }
+    .human-resource .bob-calculator-div {
+        border-radius: 0px 10px 0px 0px;
+    }
+    .hr-business .ratesroundbox::after {
+        left: 47%;
+    }
+    .hr-wrapper {
+        padding: 40px 30px;
+        margin: 20px auto 0 auto;
+    }
+    /*.loan-level-3.homeloan-detail-page .carousel .component-content{
+         padding-bottom: 10px !important; 
+    }*/
+    .mfi .bob-loan-listing-intro {
+        margin-top: 30px !important;
+    }
+    .mfi .bob-loan-calculator.promo>.component-content {
+        padding-right: 0px;
+    }
+    .mfi .bob-loan-calculator {
+        padding: 0px 10px;
+    }
+    .mfi .field-promotext,
+    .diginext .field-promotext {
+        font-size: 2rem !important;
+        display: block !important;
+    }
+    .mfi .bob-loan-listing-right-text,
+    .diginext .bob-loan-listing-right-text {
+        padding-bottom: 20px !important;
+    }
+    .mfi .bob-need-assistance-div {
+        margin-top: 0px;
+    }
+    .mfi .bob-assistance-form {
+        margin-top: -40px;
+    }
+    .government-deposit .bob-calculator-div {
+        min-height: 160px;
+    }
+    .s-cardiac .bob-loan-listing-intro {
+        margin-top: 0px !important;
+    }
+    .p-banking .col-sm-5.full-sm-width {
+        position: absolute;
+        top: 265px;
+        padding: 0px;
+        width: 100%;
+    }
+    .p-banking .bob-loan-listing-intro {
+        margin-top: 231px !important;
+    }
+    .p-banking .bob-loan-calculator {
+        height: 200px;
+        border-radius: 0px 60px 0px 0px;
+    }
+    .p-banking .bob-loan-calculator h6,
+    .diginext .field-promotext,
+    .diginext .bob-big-text {
+        display: block !important;
+    }
+    .bt-120 .bob-loan-listing-intro,
+    .diginext .bob-loan-listing-intro {
+        margin-top: 30px !important;
+    }
+    .diginext .bob-loan-calculator.promo>.component-content {
+        padding-right: 0px;
+    }
+    .diginext .bob-loan-listing-right-text .image-link-list {
+        margin: 10px 0px;
+    }
+    .diginext .bob-mconnect-righttext {
+        padding-left: 0px !important;
+    }
+    .diginext .bob-mconnect-righttext .bob-loan-calculator {
+        padding-top: 0px !important;
+    }
+    .diginext .bmconnectImage {
+        display: none;
+    }
+    .diginext .barodamconnectpara {
+        display: block;
+    }
+    .military-personnel .bob-loan-calculator h6.bob-big-text+hr {
+        margin: 0px 0 10px;
+    }
+    .military-personnel .bob-loan-calculator.promo>.component-content {
+        padding-right: 0px;
+    }
+    .military-personnel .col-sm-8 {
+        margin: 20px 0px;
+    }
+    .military-personnel .bob-line-list li ul li {
+        width: 100% !important;
+        padding: 0px !important;
+        height: auto !important;
+        margin-bottom: 20px !important;
+    }
+    .military-personnel .bob-line-list li ul li:nth-child(3):after,
+    .military-personnel .bob-line-list li ul li:nth-child(4):after,
+    .military-personnel .bob-line-list li ul li:before {
+        display: none !important;
+    }
+    .bob-need-assistance-div ul li a strong {
+        font-size: 18px;
+    }
+    .bob-loan-calculator h6.bob-big-text {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .salary-classic .bob-line-list li ul li:after,
+    .salary-classic .bob-line-list li ul li:nth-child(5):after,
+    .salary-classic .bob-line-list li ul li:nth-child(5):before,
+    .salary-classic .bob-line-list li ul li:last-child:before {
+        display: none !important;
+    }
+    .bob-mobile-sidebar .bob-inner-list-nav .bob-inner-menu-expand {
+        padding: 0px 50px;
+    }
+    .account-page.loan-level-2 .carousel .component-content {
+        padding-bottom: 30px !important;
+    }
+    .saving-acc .bob-loan-calculator.promo>.component-content {
+        padding: 0px;
+    }
+    .saving-acc .bob-loan-listing-intro {
+        margin-top: 150px !important;
+    }
+    .p-fund .bob-loan-listing-intro {
+        margin-top: 200px !important;
+    }
+    .human-resource .ratesroundbox {
+        padding: 15px 0px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .our-core-values p {
+        font-size: 18px;
+        line-height: 24px
+    }
+    .our-core-values h3 {
+        font-size: 34px;
+    }
+    .hr-business .border-text2{
+        width: 40%;
+        left: 30.5%;
+    }
+    .border-text{
+        width: 60%;
+        left: 20%;
+    }
+    .ratesroundbox::before{
+        width: 103.7%;
+        left: -8px;
+    }
+    .hr-business-model .container:after{
+        width: 98%;
+        left: 4px;
+        padding: 150px 0px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .hr-business p {
+        font-size: 0.858rem;
+    }
+    .business-flex p::after {
+        top: 40px;
+    }
+    .human-resource .bob-loan-listing-right-text {
+        padding: 5px 10px 20px !important;
+    }
+    .human-resource .bob-loan-listing-right-text .link-list .component-content ul {
+        padding: 0px;
+    }
+    .employees-speak {
+        margin: 160px 0px 370px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .business-flex p {
+        padding: 5px 10px;
+    }
+    .employees-speak {
+        margin: 120px 0px 260px;
+    }
+    .core-slider {
+        top: 45px;
+    }
+    .irates-changer .bob-tags {
+        margin-left: 145%;
+    }
+    .rfilter-wrapp .bob-form-control .form-control {
+        padding: 15px 10px;
+        font-size: 12px;
+    }
+    .repo-table table tr th:nth-child(2),
+    .repo-table table tr td:nth-child(2) {
+        padding: 10px;
+    }
+    .human-resource .bob-loan-listing-right-text h6.field-promotext {
+        font-size: 1.7875rem;
+        line-height: 1.775rem;
+    }
+    .human-resource .bob-loan-listing-right-text .link-list .component-content li a {
+        padding: 0px;
+    }
+    .speak-containt {
+        padding: 20px 10px;
+    }
+    .speak-containt p {
+        font-size: 1.175rem;
+    }
+    .employees-speak {
+        margin: 120px 0px 350px;
+    }
+    .human-resource .bob-calculator-div {
+        border-radius: 0px 25px 0px 0px;
+    }
+    .bob-loan-listing-intro {
+        padding: 20px 0px 0px;
+    }
+    .bob-home-loan .component.column-splitter .col-sm-5 {
+        margin-top: -70px;
+    }
+    .human-resource .bob-loan-listing-right-text {
+        padding: 5px 5px 20px !important;
+    }
+    .human-resource .bob-loan-listing-intro {
+        margin-bottom: 50px;
+    }
+}

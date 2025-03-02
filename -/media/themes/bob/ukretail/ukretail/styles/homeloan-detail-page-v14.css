@@ -1,0 +1,157 @@
+/* home loan detail page css start */
+
+.homeloan-detail-page .column-splitter .carousel .slides .component.col-12 {
+    padding: 0px;
+}
+
+.homeloan-detail-page .carousel .component-content .field-slidetext h2 {
+    font-size: 1.5rem;
+    line-height: 100%;
+}
+
+.homeloan-detail-page .carousel .component-content .field-slidetext p {
+    font-size: 1rem;
+}
+
+.homeloan-detail-page .carousel .slide .slide-info {
+    width: 602px;
+    /* padding:7px 20px 15px; */
+    bottom: 0px;
+}
+
+.homeloan-detail-page .carousel .component-content {
+    padding-bottom: 40px;
+}
+
+.homeloan-detail-page .bob-promo-tab-div .page-list.bob-blogs-thumb-style {
+    /* margin-bottom: 80px; */
+    margin-top: 0;
+}
+
+.homeloan-detail-page .tabs .tabs-container .component {
+    padding-bottom: 20px;
+}
+
+.homeloan-detail-page .breadcrumb {
+    padding-top: 0;
+}
+
+.bob-box-tab .tab p,
+.bob-box-tab .tab ul li,
+.bob-box-tab .tab ol li,
+.bob-box-tab .tab table td,
+.accordion .field-content p,
+.accordion .field-content ul li,
+.accordion .field-content ol li,
+.bob-box-tab .tab .bob-inner-tabs-div p {
+    font-size: 1rem;
+}
+
+.bob-box-tab .tab ol li,
+.bob-box-tab .tab ul li,
+.bob-box-tab .tab p {
+    margin-bottom: 25px;
+    font-family: 'Arial';
+    line-height: 1.25rem;
+    margin-top: 20px;
+    /* font-weight: 600; */
+}
+
+.bob-box-tab .tab ul li,
+.bob-box-tab .tab ol li {
+    list-style-position: inherit !important;
+    font-family: 'Arial' !important;
+    color: #707070;
+    /* margin-bottom: 15px; */
+    margin-bottom: 0px;
+    /* font-size: 1rem !important; */
+    font-size: 16px !important;
+}
+
+.bob-box-tab .tab ul li::marker,
+.bob-box-tab .tab ol li::marker {
+    color: #F26522;
+    background-color: #F26522;
+    background: #F26522;
+}
+
+.accordion .field-content ul,
+.accordion .field-content ol {
+    margin-left: 15px;
+}
+
+.accordion .field-content ul li,
+.accordion .field-content ol li {
+    list-style-position: inherit !important;
+    font-family: 'Arial';
+    margin-bottom: 10px;
+    margin-left: 0px;
+    color: #707070;
+}
+
+.accordion .field-content p {
+    margin-bottom: 15px;
+}
+
+.accordion .field-content ul li::marker,
+.accordion .field-content ol li::marker {
+    color: #F26522;
+    background-color: #F26522;
+    background: #F26522;
+}
+
+.bob-box-tab .tab h6 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: 'Helvetica Neue LT Pro Roman';
+    letter-spacing: 0px;
+    color: #162B75;
+    margin-bottom: 5px;
+}
+
+.bob-box-tab .tab ul[type="A"] li,
+.bob-box-tab .tab ol[type="A"] li,
+.accordion .field-content ul[type="A"] li,
+.accordion .field-content ol[type="A"] li,
+.bob-box-tab .tab ul[style="list-style-type: upper-alpha;"] li,
+.bob-box-tab .tab ol[style="list-style-type: upper-alpha;"] li,
+.accordion .field-content ul[style="list-style-type: upper-alpha;"] li,
+.accordion .field-content ol[style="list-style-type: upper-alpha;"] li {
+    list-style: upper-latin !important;
+}
+
+
+/* .bob-box-tab .tab ul[type="a"] li, .bob-box-tab .tab ol[type="a"] li{
+    list-style: lower-alpha !important;
+} */
+
+.bob-box-tab .tab ul[type="I"] li,
+.bob-box-tab .tab ol[type="I"] li,
+.accordion .field-content ul[type="I"] li,
+.accordion .field-content ol[type="I"] li,
+.bob-box-tab .tab ul[style="list-style-type: upper-roman;"] li,
+.bob-box-tab .tab ol[style="list-style-type: upper-roman;"] li,
+.accordion .field-content ul[style="list-style-type: upper-roman;"] li,
+.accordion .field-content ol[style="list-style-type: upper-roman;"] li {
+    list-style: upper-roman !important;
+}
+
+.bob-box-tab .tab ul[type="i"] li,
+.bob-box-tab .tab ol[type="i"] li,
+.accordion .field-content ul[type="i"] li,
+.accordion .field-content ol[type="i"] li,
+.bob-box-tab .tab ul[style="list-style-type: lower-roman;"] li,
+.bob-box-tab .tab ol[style="list-style-type: lower-roman;"] li,
+.accordion .field-content ul[style="list-style-type: lower-roman;"] li,
+.accordion .field-content ol[style="list-style-type: lower-roman;"] li {
+    list-style: lower-roman !important;
+}
+
+
+/* .homeloan-detail-page .bob-promo-tab-div{
+ margin-top:0px;
+} */
+
+
+/* home loan detail page css end */

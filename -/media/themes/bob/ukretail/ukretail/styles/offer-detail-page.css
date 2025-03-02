@@ -1,0 +1,270 @@
+/* offer promo section  css start */
+
+.offer-promo-div{
+  padding: 40px 0px 40px 30px;
+  background: #fbe8dc;
+  position:relative;
+}
+.offer-promo-div h6{
+  font-size:2.1875rem;
+  color:#162B75;
+  font-family: 'Helvetica Neue LT Pro Lt';
+  line-height:2.3125rem;
+}
+.offer-promo-div .col-2{
+ padding:0px;
+}
+.offer-promo-div .field-promo-content{
+  color: #707070;
+  font-family: 'Helvetica Neue LT Pro Lt';
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin:5px 0px;
+}
+.offer-promo-div .field-promo-coupon-title{
+  font-size: 0.875rem;
+  margin-top: 55px;
+  color: #938e8b;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+.offer-promo-div .field-promo-coupon{
+  background: #fbcfb9;
+  max-width: 287px;
+  padding: 12px 15px;
+  border-radius: 40px;
+  margin-top: 5px;
+  text-align:center;
+  display:flex;
+}
+
+.offer-promo-div .field-promo-coupon .input-field-coupon{
+  font-size: 1.375rem;
+  font-weight: bold;
+  color: #162b75;
+  font-family:Arial, Helvetica, sans-serif;
+  border:none;
+  background:none;
+  max-width:186px;
+  text-align:center;
+}
+
+.offer-promo-div .field-promo-coupon .copyIcon{
+  display: inline-block;
+  margin-right: 5px;
+}
+.offer-promo-div .field-promo-coupon .copyIcon img{
+ vertical-align:bottom;
+}
+.offer-promo-div .field-promo-coupon .copy{
+  width: 40px;
+  display: inline-block;
+  line-height: 100%;
+  text-align: left;
+  color:#707070;
+  font-size:0.6875rem;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.offer-promo-div .col-3{
+  padding-right:20px;
+}
+.offer-promo-div .col-3 img{
+  margin-top:10px;
+}
+.offer-promo-div .col-9{
+ padding:0px;
+ border-bottom:1px solid #efddd4;
+}
+.offer-promo-div > .row{
+ margin-left:0px;
+}
+.offer-promo-div .offer-promo-social-div{
+  position: absolute;
+  right: 20px;
+  top: auto;
+}
+.offer-promo-div .offer-promo-social-div ul{
+  display:flex;
+}
+.offer-promo-div .offer-promo-social-div ul li{
+ list-style:none;
+ cursor: pointer;
+}
+.offer-promo-div .offer-promo-social-div ul li .like-svg{
+ display:none;
+}
+
+
+/* offer promo section  css end */
+
+ .bob-top-carousel-section .slide .col-12, .offer-detail-page .bob-top-carousel-section > div{
+  padding:0px;
+ }
+ .offer-detail-page .bob-top-carousel-section .carousel .component-content{
+  padding-bottom:0px;
+ }
+
+ /* .offer-detail-page .bob-loan-listing-intro{
+  margin-top:30px;
+ } */
+ .bob-top-carousel-section .breadcrumb.component{
+  top:-30px;
+}
+
+ /* avail the offer css start */
+.link-list-with-image h3{
+  font-size: 1.875rem;
+  font-family: 'Helvetica Neue LT Pro Lt';
+  color: #808080;
+}
+
+.link-list-with-image ul {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 25px #1a2c7112;
+  margin: 25px 0!important;
+  margin-bottom: 0 !important;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 30px !important;
+  max-width:770px;
+}
+
+.link-list-with-image ul li {
+  width: calc(100% / 3);
+  height: 215px;
+  position: relative;
+  padding: 30px 10px;
+  text-align:center;
+}
+
+.link-list-with-image ul li:before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: -1px;
+  transform: translateY(-50%);
+  height: calc(80% - 30px);
+  width: 1px;
+  background-color: #fde8df;
+}
+
+.link-list-with-image ul li:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  width: calc(80% - 30px);
+  background-color: #fde8df;
+  margin: 0 auto;
+}
+.link-list-with-image ul li.item2:before, .link-list-with-image ul li.item5:before{
+ display:none;
+}
+.link-list-with-image ul li.item3:after, .link-list-with-image ul li.item4:after, .link-list-with-image ul li.item5:after{
+ display:none;
+}
+
+.link-list-with-image ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+  
+}
+.link-list-with-image ul li img {
+  height: 70px;
+  object-fit: contain;
+}
+.link-list-with-image ul li h4 {
+  margin-top: 10px;
+  text-align: center;
+  font: normal normal normal 20px/20px Arial;
+  color:#162b75;
+  font-weight:bold;
+  
+}
+.link-list-with-image ul li P {
+  margin-top: 10px;
+  text-align: center;
+  font: normal normal normal 16px/18px Arial;
+  color:#707070;
+}
+
+ /* avail the offer css end */
+
+/* offer detail css start */
+.bob-offer-download-div{
+  margin-top:30px;
+}
+.bob-offer-download-div h4{
+  font-size:1.875rem;
+  color:#707070;
+  font-family: 'Helvetica Neue LT Pro Lt';
+  margin-bottom:10px;
+}
+.bob-offer-download-div ul{
+  margin:0px;
+}
+.bob-offer-download-div li{
+  margin:0px 0px 10px 0px;
+  font-size:1rem;
+  color:#707070;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bob-offer-download-div li::marker {
+  color: #F26522;
+  background-color: #F26522;
+  background: #F26522;
+}
+
+.bob-readmore-download{
+  margin-top:10px;
+}
+
+
+.bob-offer-download-div .bob-readmore-download a{
+  position:relative;
+  color:#F26522;
+  margin-right:15px;
+  padding-right:15px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:0.75rem;
+}
+
+.bob-offer-download-div .bob-readmore-download .bob-readmore-anchor:after {
+  content: "";
+  background: url(../../../../../Themes/BOB/India/India/images/readmore-icon.svg) no-repeat center center !important;
+  width: 7px;
+  height: 11px;
+  display: block !important;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) scale(0.9) !important;
+  right: 0 !important;
+  left: auto;
+  z-index: 1;
+  transition: all 0.25s linear;
+}
+
+.bob-offer-download-div .bob-readmore-download .bob-download-file:after {
+  content: "";
+  background: url(../../../../../Themes/BOB/India/India/images/download-icon.svg) no-repeat center center !important;
+  width: 12px;
+  height:17px;
+  display: block !important;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) scale(0.9) !important;
+  right: 0 !important;
+  left: auto;
+  z-index: 1;
+  transition: all 0.25s linear;
+}
+ /* offer detail css end */

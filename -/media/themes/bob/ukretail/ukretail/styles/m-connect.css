@@ -1,0 +1,126 @@
+.m-connectinput button.btn {
+    cursor: pointer;
+    text-align: center !important;
+    font: normal normal bold 12px/14px Arial !important;
+    color: #fff !important;
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box !important;
+    border: 1px solid #F2652380 !important;
+    border-radius: 40px !important;
+    padding: 14px 22px 14px 22px !important;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden !important;
+    transition: all 0.3s linear;
+    position: absolute;
+    right: -2px;
+    top: -1px;
+}
+.m-connectinput {
+    border: 1px solid #F2652380;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 35px;
+}
+.m-connectinput input{
+    border: 0;
+    background: transparent !important;
+    min-height: 42px;
+    outline: none !important;
+    box-shadow: none !important;
+    padding: 0 20px;
+    font: normal normal normal 14px/16px Arial;
+    color: #162B75;
+    width: 100%;
+}
+.bob-mconnect-righttext .bob-loan-calculator{
+    flex: 0 0 520px;
+    max-width: 520px;
+    padding: 30px 40px 20px 40px;
+}
+.bob-mconnect-tabs .field-content .col-sm-12 p{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #707070;
+    font-size: 24px;
+    line-height: 50px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+}
+.bob-mconnect-tabs  .bob-promo-tab-div .link-list{
+    display: none;
+}
+.bob-mconnect-tabs  .bob-promo-tab-div .component .articles-tab{
+    display: none;
+}
+.bob-mconnect-tabs  .bob-promo-tab-div .component .videos-tab{
+    display: block;
+}
+.bob-mconnect-righttext{
+    position: relative;
+    padding-left: 65px !important;
+}
+.mconnectbannerright img{
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: 0;
+}
+.bmconnectImage img{
+    max-width: fit-content;
+}
+.bmconnectImage{
+    margin-right: 20px;
+}
+.barodamconnectpara{
+    display: flex;
+}
+.bmconnectImage{
+    text-align: center;
+}
+.bmconnectImage span{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #707070;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bob-mconnect-tabs{
+    padding: 0px;
+}
+.bob-mconnect-tabs .bob-box-tab .tabs-heading{
+    padding: 15px 30px;
+}
+.bob-mconnect-faqs{
+    margin-bottom: 0px;
+}
+.bob-mconnect-middle-img{
+    position: absolute;
+    bottom: 74px;
+    z-index: 99999;
+    flex: 0 0 204px;
+    max-width: 204px;
+    background: transparent;
+    margin-left: 51px;
+    left: 50%;
+}
+#content .column-splitter{
+    position: relative;
+}
+.bob-mconnect-middle-img .col-12{
+    padding: 0px;
+}
+.bob-mconnect-middle-img .component-content{
+    border: 0;
+    background-color: transparent;
+}
+.bob-mconnect-middle-img .promo{
+    background: transparent;
+}
+.bob-mconnect-loadmore.bob-load-more-btn.bob-loan-faq-load-more-div{
+    margin-bottom: 120px;
+}

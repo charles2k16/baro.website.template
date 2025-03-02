@@ -1,0 +1,76 @@
+/* bob related offer component css start */
+
+.bob-related-offer-component .bob-related-offer-top-div {
+  position: relative;
+  text-align: center;
+  background:#F4F5F9;
+  min-height:204px;
+  padding-top:43px;
+  margin-top:80px;
+}
+
+.bob-related-offer-component .bob-related-offer-top-div h2 {
+  font-size: 1.875rem;
+  line-height: 110%;
+  color: #707070;
+  font-family: 'Helvetica Neue LT Pro Lt';
+  margin-bottom: 15px;
+}
+.bob-related-offer-component .bob-offres-all-card-div{
+ margin-top:-95px;
+ padding-bottom:40px;
+}
+.bob-related-offer-component .bob-offres-all-card-div .col-sm-4{
+ padding:0px;
+}
+.bob-related-offer-component .bob-offres-all-card-div{
+ padding-right:0px;
+}
+.bob-related-offer-component .bob-offres-all-card-div .bob-offer-card-div .bob-offer-logo-time-div{
+  color:#707070;
+  font-size:1.125rem;
+  font-weight:bold;
+ 
+}
+.bob-related-offer-component .bob-offres-all-card-div .bob-offer-card-div{
+ border-left:1px solid #fde8df;
+ box-shadow: 0px 10px 30px -10px #d8632b29;
+}
+.bob-related-offer-component .bob-offres-all-card-div .col-sm-4:first-child .bob-offer-card-div{
+  border:none;
+}
+.bob-related-offer-component .bob-offres-all-card-div .bob-offer-card-div .bob-offer-card-btn-div{
+  margin-top:0px;
+}
+.bob-related-offer-component .items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.bob-related-offer-component .bob-offres-all-card-div{
+  position:relative;
+}
+
+.bob-related-offer-component .items .item{
+  width:33.33%;
+}
+.bob-related-offer-component ul.items .slick-arrow{
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  z-index: 2;
+}
+.bob-related-offer-component ul.items .bob-left-round-arrow-svg {
+  right:35px;
+}
+
+
+
+
+@media only screen and (max-width: 1025px){
+ 
+}
+
+/* bob related offer component css end */
+

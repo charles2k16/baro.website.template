@@ -1,0 +1,1399 @@
+.bob-loan-carousel-calculator-div {
+    position: relative;
+}
+
+.bob-loan-carousel-calculator-div .carousel .component-content .field-slidetext p {
+    margin: 0;
+}
+
+.bob-loan-carousel-calculator-div .carousel .component-content .field-slidetext h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.bob-loan-carousel-calculator-div .carousel .slide .slide-info {
+    padding: 10px 40px 20px 20px;
+    width: 550px;
+    box-shadow: 0px 20px 20px #D8632B29;
+    border-radius: 0px 60px 0px 0px;
+}
+
+.bob-calculator-div {
+    position: absolute;
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box;
+    background: #fbe8dc;
+    min-height: 330px;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bob-comman-btn,
+.bob-form-div form button,
+.bob-top-loan-div .link-list.bob-button-links>.component-content li.first .field-link a,
+.bob-top-loan-div .bob-button-links li.first .field-link a {
+    color: #fff !important;
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box;
+}
+
+.bob-comman-btn:hover,
+.bob-form-div form button:hover,
+.bob-top-loan-div .link-list.bob-button-links>.component-content li.first .field-link a:hover,
+.bob-top-loan-div .bob-button-links li.first .field-link a:hover {
+    color: #F26522 !important;
+    /* background: transparent linear-gradient(90deg, #FFE8DD 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box !important; */
+    background: #fff !important;
+}
+
+.bob-comman-white-btn {
+    color: #F26522 !important;
+}
+
+.bob-comman-white-btn:hover {
+    color: #fff !important;
+    background: #F26522 !important;
+}
+
+.bob-comman-btn:before,
+.bob-form-div form button:before,
+.bob-top-loan-div .link-list.bob-button-links>.component-content li.first .field-link a:before,
+.bob-top-loan-div .bob-button-links li.first .field-link a:before {
+    background: url(../../../../../Themes/BOB/India/India/images/white-arrow.svg) no-repeat center center;
+}
+
+.bob-comman-btn:hover:before,
+.bob-form-div form button:hover:before,
+.bob-top-loan-div .link-list.bob-button-links>.component-content li.first .field-link a:hover:before,
+.bob-top-loan-div .bob-button-links li.first .field-link a:hover:before {
+    background: url(../../../../../Themes/BOB/India/India/images/orange-arrow.svg) no-repeat center center;
+}
+
+.bob-top-loan-div .bob-slider-secondary-heading {
+    font-size: 50px !important;
+    line-height: 50px;
+}
+
+.bob-top-loan-div p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bob-top-loan-div .col-4 {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.bob-top-loan-div .col-4::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 15px;
+    height: 100%;
+    width: 1px;
+    background-color: #fde8df;
+}
+
+.bob-top-loan-div {
+    padding: 30px 0 60px 0;
+}
+
+.bob-loan-page-tab-div {
+    padding: 0;
+    position: relative;
+}
+
+.bob-loan-page-tab-div .tabs-heading {
+    padding: 10px 41.666667% 10px 53px;
+    position: relative;
+}
+
+.bob-loan-page-tab-div .tabs-heading:before {
+    /* content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 53px;
+    background: #fff;
+    width: 41.666667%;
+    z-index: 1; */
+}
+
+.bob-loan-page-tab-div .tabs-heading .slick-arrow {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 53px;
+    height: 53px;
+    background: #fff;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #000;
+}
+
+.bob-loan-page-tab-div .tabs-heading .slick-arrow.bob-right-round-arrow-svg {
+    box-shadow: 0 -20px 40px -20px rgba(0, 0, 0, 0.7);
+    transform: rotate( -90deg);
+    right: 41.666667%;
+}
+
+.bob-loan-page-tab-div .tabs-heading .slick-arrow.bob-left-round-arrow-svg {
+    box-shadow: 0 -20px 40px -20px rgba(0, 0, 0, 0.7);
+    transform: rotate( 90deg);
+    left: 0;
+}
+
+.bob-loan-page-tab-div .tabs-heading .slick-disabled {
+    display: none !important;
+}
+
+.bob-loan-page-tab-div .col-5 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.bob-loan-faqs-div {
+    margin-bottom: 0 !important;
+}
+
+.bob-loan-faqs-div .bob-heading-section {
+    display: none;
+}
+
+.bob-loan-faqs-div .field-promotext2 {
+    font-size: 35px !important;
+    line-height: 39px !important;
+    font-family: 'Helvetica Neue LT Pro Lt' !important;
+    padding: 0 15%;
+}
+
+.bob-loan-faqs-div .bob-paragraph-section img {
+    max-width: 100%;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bob-load-more-btn.bob-loan-faq-load-more-div {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 110px;
+}
+
+.bob-accordion-div .accordion ul.items>li {
+    display: none;
+}
+
+.bob-need-assistance-div {
+    background: transparent linear-gradient(90deg, #F4F5F9 0%, #F5F5F5 100%) 0% 0% no-repeat padding-box;
+    padding: 35px 0 130px 0;
+}
+
+.bob-need-assistance-div h3 {
+    font-size: 35px;
+    line-height: 40px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    letter-spacing: 0px;
+    color: #707070;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.bob-need-assistance-div ul {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.bob-need-assistance-div ul li {
+    width: calc(100% / 3);
+    position: relative;
+    padding: 20px;
+    display: flex !important;
+    justify-content: center;
+}
+
+.bob-need-assistance-div ul li:first-child {
+    padding-left: 0;
+}
+
+.bob-need-assistance-div ul li:last-child {
+    padding-right: 0;
+}
+
+.bob-need-assistance-div ul li:before {
+    content: "";
+    background: transparent linear-gradient( 180deg, #FFE0D100 0%, #FFC4A7 49%, #FFE0D100 100%) 0% 0% no-repeat padding-box;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    transform: translateY(-50%);
+}
+
+.bob-need-assistance-div ul li:first-child:before {
+    display: none;
+}
+
+.bob-need-assistance-div ul li a {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bob-need-assistance-div ul li a img {
+    width: 35px;
+    object-fit: contain;
+    transition: all 0.25 linear;
+}
+
+.bob-need-assistance-div ul li:hover a img {
+    transition: all 0.25s linear;
+    transform: translateY(-5px);
+}
+
+.bob-need-assistance-div ul li a span {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 50px);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue LT Pro Roman';
+    color: #707070;
+}
+
+.bob-need-assistance-div ul li a strong {
+    display: block;
+    width: 100%;
+    color: #162B75;
+    font-size: 20px;
+    font-weight: normal;
+    transition: all 0.25 linear;
+}
+
+.bob-need-assistance-div ul li:hover a strong {
+    color: #F26522;
+    transition: all 0.25 linear;
+}
+
+.bob-assistance-form {
+    margin-top: -50px;
+    margin-bottom: 70px;
+}
+
+.bob-assistance-form .bob-assistance-form {
+    margin-bottom: 0;
+}
+
+.bob-assistance-form .bob-form-data-div {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 50px #D8632B40;
+    border-radius: 0px 100px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bob-assistance-form .bob-form-data-div .bob-form-img-div {
+    width: 300px;
+    position: relative;
+}
+
+.bob-assistance-form .bob-form-data-div .bob-form-img-div img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div {
+    background: rgba(239, 129, 76, 0.85);
+    width: 100%;
+    height: calc(100%) !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div h6 {
+    font-family: 'Helvetica Neue LT Pro Lt';
+    font-size: 35px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div p {
+    font: normal normal normal 14px/20px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-top: 0px;
+}
+
+.bob-assistance-form .bob-form-data-div .bob-form-div {
+    position: relative;
+    width: calc(100% - 300px);
+    padding: 0 40px;
+}
+
+.bob-form-div form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.bob-form-div form .form-group {
+    width: calc((100% / 3) - 20px);
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.bob-form-div form .form-group span,
+.bob-form-div form .form-group select,
+.bob-form-div form .form-group input {
+    font: normal normal normal 14px/20px Arial;
+    color: #707070;
+    border: 0;
+    border-bottom: 1px solid #7070704D;
+    /* padding: 8px 0; */
+    width: 100%;
+    min-height: 45px;
+    border-radius: 25px;
+}
+
+.bob-form-div form .form-group span small {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    min-height: 20px;
+    width: 100%;
+}
+
+.bob-loan-calculator {
+    padding: 25px 40px;
+    background: #fbe8dc;
+    display: flex;
+    align-items: center;
+    /* min-height: 330px; */
+}
+
+.bob_commoncalculatoraccord.bob-parent-accordion-div .bob-parent-accordion-list-div .bob-loan-calculator {
+    min-height: 330px;
+}
+
+.about-us .bob-loan-listing-right-text {
+    display: block;
+}
+
+.about-us .bob-loan-calculator {
+    padding: 65px 65px 0px;
+}
+
+.about-us .bob-loan-calculator hr {
+    margin: 40px 0 0px;
+}
+
+.about-us .bob-loan-listing-right-text .image-link-list ul {
+    display: flex;
+    margin: 40px 30px 0px;
+}
+
+.about-us .tableOut {
+    margin-bottom: 45px;
+}
+
+.about-us .bulletText li {
+    font-size: 18px;
+    font-family: 'Arial';
+}
+
+.about-us .bob-loan-listing-right-text .image-link-list ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.about-us .bob-loan-listing-right-text .image-link-list ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us .bob-loan-listing-right-text .image-link-list ul li a img {
+    height: 49px;
+}
+
+.about-us .bob-loan-listing-right-text .image-link-list ul li a span {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #162B75;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    width: 100px;
+}
+
+.about-us .bob-top-loan-div {
+    padding: 52px 0 50px 0;
+}
+
+.about-us .bob-calculator-div {
+    /* height: 460px; */
+}
+
+.bob-loan-calculator h6 {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    color: #162B75;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.bob-loan-calculator h6.bob-big-text {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.bob-loan-calculator h6.bob-big-text+hr {
+    margin: 25px 0;
+}
+
+.bob-loan-calculator ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.about-us .overview-page .bob-calculator-div .bob-loan-calculator.promo>.component-content>div {
+    padding: 0;
+}
+
+.bob-loan-calculator.promo>.component-content {
+    border: 0;
+    /* padding-right: 90px; */
+}
+
+.bob-loan-calculator ul li {
+    width: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-left: 0;
+}
+
+.bob-loan-calculator ul li.total-loan {
+    justify-content: space-between;
+}
+
+.bob-loan-calculator ul li p {
+    font: normal normal bold 14px/16px Arial;
+    color: #707070;
+    min-width: 120px;
+}
+
+.bob-loan-calculator ul li .slidecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: calc( 100% - 230px);
+}
+
+.bob-loan-calculator .bob-calculator-placeholder-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -20px;
+}
+
+.bob-loan-calculator .bob-calculator-placeholder-div>div {
+    font: normal normal normal 10px/10px Arial;
+    color: #707070;
+}
+
+.bob-loan-calculator ul li .slidecontainer input {
+    background: #70707034 0% 0% no-repeat padding-box;
+    background-image: linear-gradient(#F26522, #F26522);
+    border-radius: 1px;
+    height: 2px;
+    width: 100%;
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-size: 0 0;
+}
+
+.bob-loan-calculator ul li .slidecontainer input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background: #162B75;
+    box-shadow: 0 0 2px 0 #555;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+.bob-loan-calculator ul li .slidecontainer input::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background: #162B75;
+    box-shadow: 0 0 2px 0 #555;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+.bob-loan-calculator ul li .slidecontainer input::-ms-thumb {
+    -webkit-appearance: none;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background: #162B75;
+    box-shadow: 0 0 2px 0 #555;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+.bob-loan-calculator ul li small {
+    border-radius: 13px;
+    background: #fff;
+    text-align: right;
+    color: #707070;
+    padding: 5px 10px;
+    width: 110px;
+    font: normal normal bold 12px/12px Arial;
+    border: 0;
+    margin-left: 20px;
+    display: block;
+}
+
+.bob-loan-calculator ul li small em {
+    font-style: normal !important;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.bob-loan-calculator ul li.total-loan p {
+    font-family: 'Helvetica Neue LT Pro Lt';
+    font-size: 16px;
+    line-height: 18px;
+    color: #707070;
+    font-weight: 300;
+}
+
+.bob-loan-calculator ul li.total-loan span {
+    font-family: 'Helvetica Neue LT Pro Roman';
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #162B75;
+}
+
+.bob-promo-variant {
+    position: relative;
+}
+
+.bob-promo-big-text {
+    margin-bottom: 0 !important;
+}
+
+.bob-promo-big-text .bob-heading-section {
+    display: none;
+}
+
+.bob-promo-big-text .blueoverlay p {
+    font-family: 'Helvetica Neue LT Pro Lt' !important;
+    font-size: 35px !important;
+    line-height: 42px !important;
+    color: #FFFFFF;
+}
+
+.bob-promo-big-text .bob-paragraph-section img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bob-promo-big-text .row.bob-paragraph-section .col-sm-12 {
+    height: 100%;
+    width: 100%;
+}
+
+.bob-promo-tab-div {
+    margin-top: -315px;
+    margin-bottom: 50px;
+}
+
+.bob-promo-tab-div ul {
+    display: flex;
+    justify-content: center;
+}
+
+.bob-types-slider-div .component-content ul li,
+.bob-promo-tab-div .component-content ul li {
+    margin: 0 5px;
+}
+
+.videos-tab.bob-tab-content .bob-blogs-thumb-style ul.items li,
+.articles-tab.bob-tab-content .bob-blogs-thumb-style ul.items li {
+    width: calc((100% / 3) - 20px);
+    margin: 0 10px;
+}
+
+.bob-tab-inner-page-link a,
+.bob-types-slider-div .component-content ul li a,
+.bob-promo-tab-div .component-content ul li a {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica Neue LT Pro Md';
+    font-size: 16px !important;
+    line-height: 16px !important;
+    color: #FFFFFF !important;
+    border-radius: 20px !important;
+    padding: 8px 25px !important;
+    position: relative !important;
+    border: 1px solid #FFFFFF80 !important;
+    transition: all 0.25s linear !important;
+}
+
+.bob-types-slider-div .component-content ul li a:hover,
+.bob-promo-tab-div .component-content ul li a.active {
+    background: #FFFFFF33 0% 0% no-repeat padding-box !important;
+    border-color: #FFFFFF33 !important;
+    transition: all 0.25s linear !important;
+}
+
+.bob-promo-tab-div .component-content ul li a:before {
+    content: "";
+    background: #F26522 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: auto;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block !important;
+    transition: all 0.25s linear !important;
+}
+
+.bob-promo-tab-div .component-content ul li a.active:before {
+    width: 35px;
+    transition: all 0.25s linear !important;
+}
+
+.bob-tab-content {
+    margin-top: 5px;
+    display: none;
+    margin-bottom: 50px;
+}
+
+.bob-tab-content.active {
+    display: block;
+}
+
+.bob-blogs-thumb-style ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.bob-blogs-thumb-style ul li {
+    padding: 0 !important;
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    border: 0 !important;
+    box-shadow: 0px 10px 10px #D8632B29;
+    background: #fff !important;
+    min-height: 323px;
+}
+
+.bob-blogs-thumb-style ul li .field-thumb-image img {
+    width: 100%;
+    height: 177px;
+    object-fit: cover;
+}
+
+.bob-blogs-thumb-style ul li .box {
+    background: #fff;
+}
+
+.bob-blogs-thumb-style ul li .field-date {
+    font: normal normal normal 12px/14px Arial;
+    color: #707070;
+    padding: 20px 30px 5px;
+}
+
+.bob-blogs-thumb-style ul li .field-title {
+    padding: 0px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    color: #162B75 !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 40px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.videos-tab .bob-blogs-thumb-style ul li .field-title {
+    margin-bottom: 25px !important;
+}
+
+.bob-blogs-thumb-style.bob-types-slider-div ul li .box-content {
+    margin-top: 22px;
+}
+
+.bob-blogs-thumb-style ul li .field-cta,
+.bob-blogs-thumb-style ul li .field-link {
+    padding: 15px 20px 25px;
+}
+
+.bob-blogs-thumb-style ul li .field-cta a:first-child {
+    margin-right: 10px;
+}
+
+.bob-line-arrow-orange-link,
+.bob-tab-inner-page-link a,
+.bob-blogs-thumb-style ul li .field-cta a,
+.bob-blogs-thumb-style ul li .field-link a {
+    font-size: 14px !important;
+    line-height: 14px !important;
+    font-family: 'Helvetica Neue LT Pro Md';
+    font-family: 'Arial';
+    color: #F26522 !important;
+    border: 0 !important;
+    display: inline-flex !important;
+    padding: 0 !important;
+    position: relative !important;
+    padding-right: 25px !important;
+    font-weight: 700;
+}
+
+.bob-line-arrow-orange-link:before,
+.bob-tab-inner-page-link a:before,
+.bob-blogs-thumb-style ul li .field-cta a:before,
+.bob-blogs-thumb-style ul li .field-link a:before {
+    content: "";
+    background: url(../../../../../Themes/BOB/India/India/images/orange-line-arrow.svg) no-repeat center center !important;
+    width: 19px;
+    height: 9px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) scale(0.9) !important;
+    right: 0 !important;
+    left: auto;
+    z-index: 1;
+    transition: all 0.25s linear;
+}
+
+.bob-line-arrow-orange-link:hover,
+.bob-tab-inner-page-link a:hover,
+.bob-blogs-thumb-style ul li .field-cta a:hover,
+.bob-blogs-thumb-style ul li .field-link a:hover {
+    color: #162b75 !important;
+    transition: all 0.25s linear;
+}
+
+.bob-line-arrow-orange-link:hover:before,
+.bob-tab-inner-page-link a:hover:before,
+.bob-blogs-thumb-style ul li .field-cta a:hover:before,
+.bob-blogs-thumb-style ul li .field-link a:hover:before {
+    transition: all 0.25s linear;
+    filter: invert(21%) sepia(25%) saturate(2295%) hue-rotate(196deg) brightness(50%) contrast(113%);
+}
+
+.bob-tab-inner-page-link {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.bob-tab-inner-page-link a:before {
+    background: url(../../../../../Themes/BOB/India/India/images/white-line-arrow.svg) no-repeat center center !important;
+}
+
+.bob-tab-inner-page-link a {
+    color: #fff !important;
+    transition: all 0.25s linear;
+}
+
+.bob-tab-inner-page-link a:hover {
+    color: #F26522 !important;
+    transition: all 0.25s linear;
+}
+
+.bob-tab-inner-page-link a:hover:before {
+    filter: invert(46%) sepia(30%) saturate(2312%) hue-rotate(345deg) brightness(97%) contrast(95%);
+}
+
+.bob-blogs-thumb-style ul li img {
+    height: 177px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.bob-blogs-thumb-style ul li .field-thumbnail {
+    position: relative;
+}
+
+.bob-blogs-thumb-style ul li .field-thumbnail:before {
+    background: url(../../../../../Themes/BOB/India/India/images/play-button-80.svg) no-repeat center center !important;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.bob-inside-heading-light-div .row.bob-paragraph-section .col-sm-12 {
+    background: transparent linear-gradient(90deg, #F4F5F9 0%, #F5F5F5 100%) 0% 0% no-repeat padding-box;
+}
+
+.bob-inside-heading-light-div .bob-heading-section {
+    display: none;
+}
+
+.bob-inside-heading-light-div {
+    padding: 40px 0 270px 0 !important;
+}
+
+.bob-inside-heading-light-div .field-promotext2 {
+    font-family: 'Helvetica Neue LT Pro Lt' !important;
+    font-size: 35px !important;
+    line-height: 40px !important;
+    color: #707070 !important;
+}
+
+.bob-inside-heading-light-div {
+    margin-bottom: 0 !important;
+}
+
+.bob-types-slider-div {
+    margin-top: -170px;
+    margin-bottom: 30px;
+}
+
+.bob-types-slider-div .component-content ul li {
+    margin: 20px 10px;
+    /* width: auto !important; */
+    min-height: auto;
+}
+
+.bob-types-slider-div ul li img {
+    height: 120px;
+}
+
+.bob-types-slider-div .component-content ul.items .slick-arrow {
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    z-index: 2;
+}
+
+.bob-types-slider-div .component-content ul.items .bob-left-round-arrow-svg {
+    right: 35px;
+}
+
+.bob-loan-faq-load-more-div li.item1 {
+    display: none;
+}
+
+.bob-loan-faq-load-more-div li.item1 a:before {
+    transform: translateY(-50%) scale(0.7) rotate( -90deg) !important;
+}
+
+.bob-loan-carousel-calculator-div .carousel .nav {
+    bottom: 33px;
+}
+
+.bob-loan-carousel-calculator-div .carousel .nav .nav-items .sxa-bullets {
+    background: #bfbfbf;
+}
+
+.bob-iframe-popup-open .bob-overlay {
+    visibility: visible;
+    opacity: 1;
+    z-index: 9999;
+}
+
+.bob-popup-common-div {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* border: 2px solid #F26522; */
+    z-index: 99999;
+    width: 70%;
+    overflow: unset;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.25s linear;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bob-iframe-popup-open .bob-popup-common-div {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.25s linear;
+}
+
+.bob-popup-common-div .bob-closed-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    /* background: #F26522; */
+    /* height: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+    cursor: pointer;
+}
+
+.bob-popup-common-div .bob-closed-btn svg {
+    width: 30px;
+    height: 30px;
+}
+
+.bob-popup-common-div .bob-closed-btn svg path {
+    stroke-width: 0.5px;
+}
+
+.bob-popup-common-div iframe {
+    width: 935px;
+    height: 528px;
+    display: block;
+}
+
+.row.awards-list .col-sm-3 {
+    padding: 0px;
+}
+
+.row.awards-list {
+    align-items: center;
+}
+
+.board-of-director-box-wrap .director-image-box img {
+    height: 100%;
+}
+
+
+/*-----css for AIGH Business guard starts here-------------------------*/
+
+#aig-business-group .bob-loan-calculator {
+    /* padding: 120px 60px 160px; */
+    /* background: #fbe8dc; */
+}
+
+.homeloan-detail-page .breadcrumb {
+    padding-top: 20px;
+}
+
+.field-title {
+    font-family: 'Helvetica Neue LT Pro Lt';
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #162B75 !important;
+    margin: 0px !important;
+}
+
+.bob-comman-with-outline-btn {
+    background: transparent !important;
+    color: #162B75 !important;
+    padding: 14px 22px 14px 22px !important
+}
+
+.bob-comman-with-outline-btn:before {
+    display: none !important;
+}
+
+.awards-page .awards-list {
+    display: none;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.human-resource .bob-search-filter {
+    /* display: none; */
+}
+
+@media only screen and (min-width:1400px) {
+    .bob-calculator-div {
+        min-height: 450px;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text h6.field-promotext,
+    .bob-loan-calculator h6 {
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .bob-loan-calculator p {
+        line-height: 24px;
+    }
+    .bob-loan-calculator ul li {
+        margin-bottom: 30px;
+    }
+    .bob-loan-calculator ul li .slidecontainer {
+        width: calc( 100% - 270px);
+    }
+    .bob-loan-calculator ul li p {
+        font: normal normal bold 18px/20px Arial;
+        min-width: 170px;
+    }
+    .bob-loan-calculator ul li small {
+        border-radius: 20px;
+        padding: 10px;
+        font: normal normal bold 14px/14px Arial;
+    }
+    .bob-loan-calculator ul li.total-loan p {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .bob-loan-calculator ul li.total-loan span {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text h6.field-promotext {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .about-us .navigation-main-horizontal ul {
+        display: flex;
+    }
+    .about-us .bob-loan-calculator {
+        padding: 20px;
+    }
+    .about-us .bob-loan-listing-right-text .image-link-list ul {
+        margin: 10px 0px 0px;
+    }
+    .about-us .bob-calculator-div {
+        /* height: 345px; */
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .bob-need-assistance-div h3 {
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .bob-assistance-form .plain-html {
+        padding: 0;
+    }
+    .about-us .navigation-main-horizontal ul {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .about-us .bob-loan-listing-right-text {
+        display: block;
+        padding: 10px 10px 30px 0px !important;
+        position: relative;
+        bottom: 50px;
+        border-radius: 0px 30px 0px 0px;
+        height: auto;
+        max-width: 100%;
+    }
+    .about-us .bob-loan-calculator {
+        padding: 30px 40px 0px;
+    }
+    .about-us .bob-loan-listing-right-text .image-link-list ul {
+        margin: 20px 0px 0px;
+    }
+    .about-us .bob-loan-calculator hr {
+        margin: 20px 0 0px;
+    }
+    .about-us .breadcrumb.component {
+        display: none;
+    }
+    .about-us .bob-top-loan-div {
+        padding: 0px 0px 45px;
+    }
+    .about-us .bob-loan-listing-intro h1.field-title {
+        padding-bottom: 20px;
+    }
+    .about-us .overviewPageContentWrap .overviewPageContenSec1,
+    .about-us .overviewPageContentWrap .overviewPageContenSec2 {
+        display: block;
+    }
+    .about-us .overviewPageContentWrap .overviewPageContenSec1 .overviewPageContentBox {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .about-us .overviewPageContenSec1 {
+        position: relative;
+    }
+    .about-us .overviewPageContenSec1 .overviewPageImageBox {
+        position: absolute;
+        top: 0;
+    }
+    .about-us .overviewPageContenSec1 .overviewPageContentBox {
+        position: relative;
+        top: 220px;
+    }
+    .about-us .overviewPageContenSec2 {
+        margin-top: 215px;
+        float: left;
+    }
+    .about-us .overviewPageContentWrap .overviewPageContenSec2 .overviewPageImageBox {
+        width: 100%;
+        height: 215px;
+    }
+    .about-us .overviewPageContentWrap .overviewPageContenSec2 .overviewPageImageBox::before {
+        width: 100%;
+        height: 70%;
+        border-radius: 0px 68px 0px 0px;
+    }
+    .about-us .overviewPageContentWrap .overviewPageContenSec2 .overviewPageImageBox img {
+        width: 100%;
+        border-radius: 0px 68px 0px 0px;
+        height: 69%;
+    }
+    .about-us .overviewPageContentWrap .overviewPageContenSec2 .overview-box-txt {
+        top: 33%;
+        left: 8%;
+    }
+    .about-us .overviewPageContentWrap .overviewPageContenSec2 .overviewPageContentBox {
+        position: relative;
+        top: -30px;
+        text-align: left;
+        width: 100%;
+        padding: 0 8%;
+    }
+    .about-us .tableOut {
+        overflow-x: auto;
+        width: 100%;
+    }
+    .subsidiaries-and-joint-ventures .container {
+        padding: 0 5%;
+    }
+    .board-of-director-box-wrap .director-detail-box {
+        text-align: center;
+    }
+    .board-of-director-intro-box-wrap .director-intro-box {
+        margin-bottom: 20px;
+    }
+    .baroda-alok-chandra-bravery-award .overviewPageContenSec1 .overviewPageImageBox,
+    .baroda-alok-chandra-bravery-award .overviewPageContenSec1 .overviewPageContentBox {
+        position: initial;
+    }
+    .navigation.navigation-main ul li.rel-level1 {
+        white-space: nowrap;
+    }
+    .bob-loan-calculator p {
+        line-height: 22px;
+    }
+    .row.awards-list .col-sm-3 {
+        text-align: center;
+    }
+    .row.awards-list .col-sm-9 .expandable-content .fileSize {
+        margin-left: 10px;
+    }
+    .board-of-director-box-wrap .director-content-sec {
+        height: 95px;
+        position: relative;
+    }
+    .board-of-director-box-wrap .director-detail-box {
+        text-align: left;
+    }
+    .board-of-director-box-wrap .row {
+        padding: 0px 20px;
+    }
+    .board-of-director-box-wrap .col-sm-3 {
+        width: 50%;
+        padding: 5px;
+    }
+    .board-of-director-intro-box-wrap .director-intro-box {
+        display: block;
+    }
+    .board-of-director-intro-box-wrap .director-intro-box-image-sec {
+        width: 100%;
+        text-align: center;
+        padding: 35px 0px 0px;
+    }
+    .board-of-director-intro-box-wrap .director-intro-box-content-sec {
+        padding: 20px 50px 30px;
+        position: relative;
+    }
+    .board-of-director-intro-box-wrap .directors-box-btn-div {
+        margin-top: 30px;
+    }
+    .board-of-director-page .directors-box-btn-div .bob-arrow-button {
+        position: absolute;
+        bottom: 20px;
+    }
+    .top-banner-component-type3 .top-banner-bg-text {
+        top: 40px;
+    }
+    .top-banner-component-type3 .top-banner-bg-text h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .bob-blue-top-div .container {
+        padding: 0px 20px;
+        top: 10%;
+    }
+    .bob-blue-top-div .bob-tags {
+        justify-content: unset;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+    .bob-blue-top-div .bob-tags li {
+        white-space: nowrap;
+    }
+    .bob-accordion-custom-div {
+        padding: 50px 10px !important;
+    }
+    .bob-background-patch-div .bob-patch-div {
+        padding: 30px 20px !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div {
+        height: calc(100% - 3px) !important;
+        height: 100% !important;
+    }
+    .bob-loan-calculator ul li {
+        position: relative;
+        padding-bottom: 30px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .bob-loan-calculator ul li .slidecontainer {
+        position: absolute;
+        width: 100%;
+        bottom: 15px;
+    }
+    .bob-loan-calculator ul li.total-loan {
+        padding-bottom: 0;
+    }
+    .bob-types-slider-div {
+        padding: 0 !important;
+    }
+    .videos-tab.bob-tab-content .bob-blogs-thumb-style ul.items li,
+    .articles-tab.bob-tab-content .bob-blogs-thumb-style ul.items li {
+        /* width: auto !important; */
+    }
+    .bob-need-assistance-div ul li a {
+        word-break: break-all;
+    }
+    .bob-calculator-div {
+        min-height: auto;
+    }
+    .bob-need-assistance-div ul {
+        justify-content: flex-start;
+    }
+    .bob-calculator-listing .bob-calculator-banner .row.bob-paragraph-section {
+        min-height: 250px;
+    }
+    .bob-calculator-listing .bob-calculator-banner .row.bob-paragraph-section img {
+        height: 250px;
+    }
+    .bob-calculator-listing .bob-calculator-banner .row.bob-paragraph-section .col-sm-12 .blueoverlay p {
+        padding: 0px 20px 28px !important;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .about-us .bob-loan-listing-right-text .image-link-list ul li {
+        padding-right: 0px;
+    }
+    .overviewPageContentWrap .overviewPageContenSec3>img {
+        max-width: 100%;
+    }
+}
+
+.insurancepopup-open .bob-overlay {
+    z-index: 9999;
+}
+
+.insurancepopup-open .bob-overlay,
+.insurancepopup-open .insurance-popup-div {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: all 0.25s linear;
+}
+
+.bob-popup-inner-content-div .stage2 {
+    display: none;
+}
+
+.showStage .stage1 {
+    display: none;
+}
+
+.showStage .stage2 {
+    display: block;
+}
+
+.p-saving-acc .custom-filt-div .form-control {
+    min-width: 220px !important;
+}
+
+.bob-popup-inner-content-div .stage1 {
+    text-align: center;
+}
+
+.stage2 .bob-comman-btn {
+    color: #fff !important;
+}
+
+.stage2 .bob-comman-btn:hover {
+    color: #F26522 !important;
+}

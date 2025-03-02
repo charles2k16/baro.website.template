@@ -1,0 +1,506 @@
+.baroda-m-connect-body .slide .component.content.col-12 {
+    padding: 0px;
+}
+
+.baroda-m-connect-body .bob-mconnect-middle-img {
+    top: 70px;
+    z-index: 2;
+}
+
+.baroda-m-connect-body .slide-info {
+    display: none !important;
+}
+
+.baroda-m-connect-body .bob-calculator-div {
+    /* height: 390px; */
+    /* padding: 65px !important; */
+}
+
+.baroda-m-connect-body .carousel .slide .field-slideimage img {
+    /* height: 330px; */
+}
+
+.baroda-m-connect-body .carousel .component-content {
+    /* padding-bottom: 0px; */
+}
+
+.baroda-m-connect-body .breadcrumb {
+    /* padding-top: 32px; */
+}
+
+.baroda-m-connect-body .bob-loan-listing-intro h1.field-title {
+    font-size: 2.813rem !important;
+    color: #162B75;
+}
+
+.baroda-m-connect-body .bob-loan-listing-intro {
+    /* padding: 60px 0px 50px; */
+}
+
+.baroda-m-connect-body .bob-loan-page-tab-div .tabs-heading {
+    /* padding: 10px 20px; */
+}
+
+.baroda-m-connect-body .tabs .tabs-heading li,
+.baroda-m-connect-body .bob-tab-div .bob-tab-ul li {
+    /* border: none; */
+}
+
+.baroda-m-connect-body .tabs .tabs-heading li::before,
+.baroda-m-connect-body .bob-tab-div .bob-tab-ul li::before {
+    /* height: 4px;
+    width: 35%; */
+}
+
+.baroda-m-connect-body .bob-similar-slider .slick-list {
+    background: transparent;
+    box-shadow: none;
+    padding: 0 0 20px 0;
+}
+
+.bob-mconnect-righttext .bob-loan-calculator {
+    padding: 10px 40px 20px 40px !important;
+}
+
+.baroda-m-connect-body .tabs-container {
+    border: none;
+    margin-top: 50px;
+}
+
+.baroda-m-connect-body .tabs-container .col-sm-12 p {
+    /* font-size: 1.5rem !important; */
+}
+
+.baroda-m-connect-body .bob-line-list {
+    margin: 10px 0px !important;
+    padding: 10px 30px !important;
+}
+
+.baroda-m-connect-body .bob-line-list li a strong {
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font: normal normal normal 18px/20px Arial;
+    letter-spacing: 0px;
+    color: #162B75;
+}
+
+.baroda-m-connect-body .bob-promo-tab-div {
+    /* margin-top: -255px; */
+}
+
+.baroda-m-connect-body .bob-blogs-thumb-style .field-link {
+    display: none;
+}
+
+.baroda-m-connect-body .bob-need-assistance-div {
+    padding: 35px 0 35px 0;
+    margin-bottom: 100px;
+}
+
+.baroda-m-connect-body .bmconnectImage {
+    width: 40%;
+}
+
+.baroda-m-connect-body .bob-line-list li {
+    width: calc(100% / 5);
+    height: 230px;
+    position: relative;
+    padding: 50px 10px;
+}
+
+.baroda-m-connect-body .bob-line-list li::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: -1px;
+    transform: translateY(-50%);
+    height: calc(100% - 30px);
+    width: 1px;
+    background-color: #fde8df;
+}
+
+.baroda-m-connect-body .bob-line-list li a {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.baroda-m-connect-body .bob-line-list li a img {
+    height: 70px;
+    object-fit: contain;
+}
+
+.baroda-m-connect-body .bob-line-list li::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: calc(100% - 30px);
+    background-color: #fde8df;
+    margin: 0 auto;
+}
+
+.baroda-m-connect-body .bob-line-list li:nth-child(5n + 5)::before,
+.baroda-m-connect-body .bob-line-list li:last-child::before {
+    width: 0px;
+}
+
+.baroda-m-connect-body .bob-line-list li:nth-last-child(1)::after,
+.baroda-m-connect-body .bob-line-list li:nth-last-child(2)::after,
+.baroda-m-connect-body .bob-line-list li:nth-last-child(3)::after,
+.baroda-m-connect-body .bob-line-list li:nth-last-child(4)::after,
+.baroda-m-connect-body .bob-line-list li:nth-last-child(5)::after {
+    height: 0;
+}
+
+.blog-video .play-icon {
+    position: relative;
+}
+
+.blog-video .play-icon:before {
+    background: url(../../../../../Themes/BOB/India/India/images/play-button-80.svg) no-repeat center center !important;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.baroda-m-connect-body .bob-loan-listing-right-text h6.field-promotext {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+}
+
+.baroda-m-connect-body .slick-slider .slick-list {
+    width: 100%;
+}
+
+.baroda-m-connect-body .bob-types-slider-div {
+    /* margin-top: 0px; */
+}
+
+.baroda-m-connect-body .row.bob-paragraph-section .col-sm-12 {
+    top: 0px;
+}
+
+.baroda-m-connect-body .bob-calculator-div {
+    display: block;
+}
+
+.baroda-m-connect-body .bob-calculator-div ul {
+    margin: 15px 30px;
+}
+
+.baroda-m-connect-body .bob-calculator-div ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.baroda-m-connect-body .bob-calculator-div ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baroda-m-connect-body .bob-calculator-div ul li a img {
+    width: 45px;
+    height: 45px;
+}
+
+.baroda-m-connect-body .bob-calculator-div ul li a span {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #162B75;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    width: 100px;
+}
+
+.baroda-m-connect-body .m-connectinput {
+    margin-top: 45px;
+}
+
+.baroda-m-connect-body .bob-loan-page-tab-div .bob-round-arrow-orange-svg {
+    display: none !important;
+}
+
+.bob-home-loan .bob-search-filter {
+    padding: 10px 0px !important;
+}
+
+.human-resource .bob-calculator-div {
+    height: 390px;
+    padding: 45px !important;
+}
+
+.human-resource .carousel .slides {
+    height: 330px;
+}
+
+.human-resource .carousel .slide .field-slideimage img {
+    height: 410px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .about-us .bob-calculator-div {
+        height: 450px;
+    }
+    .about-us .bob-loan-calculator hr {
+        margin: 35px 0px 15px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .about-us .bob-calculator-div {
+        height: 350px;
+    }
+    .about-us .bob-loan-calculator hr {
+        margin: 20px 0px 0px;
+    }
+    .about-us .bob-loan-listing-right-text .image-link-list ul {
+        margin: 20px 30px 0px;
+    }
+    .bob-loan-calculator p {
+        line-height: 24px;
+    }
+    .about-us .bob-loan-calculator {
+        padding: 35px 65px 0px;
+    }
+    .about-us .navigation-main-horizontal ul {
+        display: flex;
+        overflow-x: auto;
+        padding: 0px 0px 15px;
+    }
+    .about-us .navigation-main-horizontal ul li {
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .baroda-m-connect-body .bob-mconnect-middle-img {
+        width: 130px;
+        top: 165px;
+        left: 45%;
+    }
+    .baroda-m-connect-body .bob-mconnect-middle-img img {
+        max-width: 100%;
+    }
+    .baroda-m-connect-body .m-connectinput button.btn {
+        padding: 14px 5px 14px 5px !important;
+    }
+    .baroda-m-connect-body .bob-calculator-div {
+        height: auto;
+        padding: 0px 0px 35px !important;
+    }
+    .baroda-m-connect-body .bob-need-assistance-div ul li a strong {
+        font-size: 0.938rem;
+    }
+}
+
+@media only screen and (max-width: 834px) {
+    .baroda-m-connect-body .bob-mconnect-middle-img {
+        max-width: 120px;
+        top: 176px;
+        left: 43%;
+    }
+    .baroda-m-connect-body .bob-mconnect-middle-img img {
+        max-width: 100%;
+    }
+    .baroda-m-connect-body .bob-mconnect-righttext .bob-loan-calculator {
+        padding: 30px 3px 20px 30px;
+    }
+    .baroda-m-connect-body .m-connectinput button.btn {
+        padding: 14px 4px 14px 4px !important;
+    }
+    .baroda-m-connect-body .m-connectinput {
+        margin-top: 15px;
+    }
+    .baroda-m-connect-body .bob-calculator-div {
+        height: auto;
+        padding: 0px 0px 35px !important;
+    }
+    .baroda-m-connect-body .bob-loan-listing-right-text .link-list .component-content li a {
+        padding: 0px;
+    }
+    .baroda-m-connect-body .bob-line-list {
+        padding: 10px 0px !important;
+    }
+    .baroda-m-connect-body .bob-need-assistance-div ul li a strong {
+        font-size: 0.938rem;
+    }
+    .baroda-m-connect-body .m-connectinput input {
+        padding: 0 7px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bob-mconnect-righttext .bob-loan-calculator {
+        padding: 30px 40px 0px 40px !important;
+    }
+    .baroda-m-connect-body .bob-calculator-div ul li {
+        padding-right: 0px;
+    }
+    .baroda-m-connect-body .bob-mconnect-middle-img {
+        top: 220px;
+        left: 0;
+        margin-left: 0px;
+        max-width: 150px;
+    }
+    .baroda-m-connect-body .bob-mconnect-middle-img img {
+        max-width: 100%;
+    }
+    .baroda-m-connect-body .bob-mconnect-righttext .bob-loan-calculator {
+        max-width: 100%;
+        padding: 10px 0px 35px 160px;
+    }
+    .baroda-m-connect-body .bob-loan-listing-right-text h6.field-promotext {
+        font-size: 1.875rem;
+        line-height: 2.188rem;
+    }
+    .baroda-m-connect-body .bob-calculator-div {
+        padding: 10px 10px 30px 0px !important;
+        position: relative;
+        bottom: 50px;
+        border-radius: 0px 30px 0px 0px;
+        height: auto;
+        max-width: 100%;
+    }
+    .baroda-m-connect-body .m-connectinput,
+    .baroda-m-connect-body .bmconnectImage {
+        display: none;
+    }
+    .baroda-m-connect-body .barodamconnectpara {
+        margin-top: 15px;
+    }
+    .baroda-m-connect-body .bob-loan-page-tab-div .tabs-heading .slick-arrow {
+        display: none !important;
+    }
+    .baroda-m-connect-body .tabs .tabs-heading li,
+    .baroda-m-connect-body .bob-tab-div .bob-tab-ul li {
+        padding: 8px 3px;
+        margin-right: 0px;
+    }
+    .baroda-m-connect-body .tabs .tabs-container .component .container {
+        padding: 0px;
+    }
+    .baroda-m-connect-body .bob-line-list li {
+        width: calc(100% / 2);
+    }
+    .baroda-m-connect-body .bob-line-list li:nth-child(even)::before {
+        width: 0px;
+    }
+    .baroda-m-connect-body .bob-line-list li:nth-last-child(2)::after,
+    .baroda-m-connect-body .bob-line-list li:nth-last-child(3)::after,
+    .baroda-m-connect-body .bob-line-list li:nth-last-child(4)::after {
+        height: 1px;
+    }
+    .baroda-m-connect-body .bob-line-list li:nth-last-child(5)::before {
+        width: 1px;
+    }
+    .baroda-m-connect-body .field-link {
+        text-align: center;
+    }
+    .baroda-m-connect-body .tabs-container .component-content .col-sm-12 {
+        padding-right: 0px;
+    }
+    .baroda-m-connect-body .bob-need-assistance-div ul li:first-child {
+        padding-left: 20px;
+    }
+    .baroda-m-connect-body .bob-need-assistance-div ul {
+        display: block !important;
+    }
+    .baroda-m-connect-body .bob-accordion-div {
+        padding: 40px 15px;
+        max-width: 90%;
+    }
+    .baroda-m-connect-body .accordion .toggle-header .component .field-heading {
+        padding: 15px 0px;
+    }
+    .baroda-m-connect-body .bob-loan-faqs-div .field-promotext2 {
+        font-size: 1.875rem !important;
+        line-height: 2.188rem !important;
+    }
+    .baroda-m-connect-body .bob-load-more-btn.bob-loan-faq-load-more-div {
+        margin-bottom: 125px;
+    }
+    .baroda-m-connect-body .bob-need-assistance-div ul li a strong {
+        font-size: 1.238rem;
+    }
+    .bob-gallery-img-div {
+        text-align: center;
+    }
+    .bob-gallery-img-div img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .baroda-m-connect-body .bob-loan-listing-right-text .link-list .component-content ul {
+        padding: 0px !important;
+    }
+    .baroda-m-connect-body .bob-line-list {
+        padding: 10px 0px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .baroda-m-connect-body .bob-loan-listing-right-text .link-list .component-content li a {
+        padding: 0px;
+    }
+    .baroda-m-connect-body .bob-loan-listing-right-text h6.field-promotext {
+        font-size: 1.375rem;
+        line-height: 1.588rem;
+    }
+    .baroda-m-connect-body .tabs .tabs-container .component {
+        padding-right: 2px;
+        padding-left: 10px;
+    }
+    .baroda-m-connect-body .bob-need-assistance-div ul li a strong {
+        font-size: 0.938rem;
+    }
+    .baroda-m-connect-body .accordion .toggle-header .component .field-heading::before {
+        right: 0px !important;
+    }
+    .baroda-m-connect-body .accordion .toggle-header .component .field-heading {
+        font-size: 0.938rem;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    .whatsapp-banking-title-nowrap .bob-loan-listing-intro h1.field-title {
+        font-size: 2.713rem !important;
+        clear: both !important;
+        display: inline-block !important;
+        white-space: nowrap !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .baranches-atm  .top-banner-component-type3 .top-banner-bg-text {
+        width: 100% !important;
+    }
+    .baranches-atm .top-banner-component-type3 .top-banner-bg-text {
+        top: 0px !important;
+    }
+    .baranches-atm .top-banner-component-type3 .top-banner-bg-text h1 {
+        font-size: 2.25rem !important;
+    }
+}

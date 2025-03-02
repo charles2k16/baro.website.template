@@ -1,0 +1,836 @@
+/*-------contact-us page page css start here----------- */
+
+.contact-us-page .top-banner-component-type3 {
+    box-shadow: 0px 15px 15px #d4d7e3;
+}
+
+.contact-us-page .breadcrumb.component {
+    position: absolute;
+}
+
+.contact-us-page .component.content.col-12 {
+    padding: 0px;
+}
+
+.contact-us-page .breadcrumb li a {
+    color: #fff !important;
+}
+
+.contact-center .contact-details-wrap {
+    -webkit-border-top-right-radius: 100px;
+    -moz-border-radius-topright: 100px;
+    border-top-right-radius: 100px;
+}
+
+.contact-details-wrap {
+    background: #fff;
+    box-shadow: 0px 10px 40px #ccc;
+    padding: 45px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.contact-center .contact-details-wrap {
+    box-shadow: none;
+}
+
+.contact-center .contact-details-wrap:after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    box-shadow: 0px 10px 40px #ccc;
+    bottom: 0;
+}
+
+.contact-details-wrap h2 {
+    color: #707070;
+    font-size: 1.875rem;
+    margin-bottom: 30px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+}
+
+.contact-details-tablist {
+    position: absolute;
+    right: 90px;
+    top: 32px;
+}
+
+.contact-details-tablist li {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 20px;
+    background: #fff;
+    border: 1px solid #fce0d3;
+    border-radius: 18px;
+    background: #fff;
+    font-size: 1rem;
+    color: #162B75;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Helvetica Neue LT Pro Md';
+    margin-left: 0px;
+    line-height: 120%;
+}
+
+.contact-details-tablist li.active {
+    background: #fce0d3;
+    border: 1px solid transparent;
+}
+
+.contact-details-tablist li:before {
+    content: "";
+    width: 0;
+    height: 3px;
+    border-radius: 20px;
+    background: #f68d5b;
+    position: absolute;
+    left: 0;
+    right: -1px;
+    margin: 0 auto;
+    bottom: -2px;
+    transition: all 0.3s linear;
+}
+
+.contact-details-tablist li.active:before {
+    width: 30%;
+    transition: all 0.3s linear;
+}
+
+#contact-details-nri {
+    display: none;
+}
+
+.contact-us-page .contact-info-component.contact-center {
+    margin-top: -85px;
+}
+
+.contact-info-component .contact-detail-box {
+    display: flex;
+}
+
+.contact-detail-img {
+    margin-right: 10px;
+}
+
+.contact-detail-content {
+    padding-right: 5%;
+}
+
+.contact-application-div {
+    display: flex;
+    margin-top: 15px;
+}
+
+.contact-application-div a {
+    padding-right: 5px;
+}
+
+.contact-detail-content h4 {
+    font-size: 1.375rem;
+    color: #162B75;
+    font-family: 'Helvetica Neue LT Pro Lt';
+}
+
+.contact-detail-content h5 {
+    font-size: 0.875rem;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0px 5px;
+    line-height: 1.1rem;
+}
+
+.contact-detail-content p {
+    font-size: 1.25rem;
+    color: #f3783d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    line-height: 24px;
+}
+
+.get-in-touch-box p a:hover,
+.contact-detail-content p a:hover {
+    color: #162B75 !important;
+}
+
+.contact-detail-content p a:hover img,
+.get-in-touch-box p a:hover img {
+    filter: invert(10%) sepia(43%) saturate(7129%) hue-rotate(229deg) brightness(86%) contrast(50%)
+}
+
+.contact-details-tab {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #fdebe2;
+}
+
+.contact-details-tab .col-sm-4 {
+    border-right: 1px solid #fdebe2;
+}
+
+.contact-details-tab .col-sm-4:last-child {
+    border: none;
+}
+
+.contact-details-additional-info {
+    font-size: 1.25rem;
+    color: #162B75;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0px 0px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.cta-btn-style2 {
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background: #f7732c;
+    padding: 11px 10px 11px 20px;
+    text-align: left;
+    border-radius: 20px;
+    margin-left: 10px;
+    position: relative;
+    min-width: 112px;
+    padding-right: 35px;
+    border: 1px solid #f7732c;
+    transition: all 0.25s ease-in-out;
+}
+
+a.cta-btn-style2:hover {
+    color: #f7732c;
+    background: #fff;
+    border-color: #f7732c;
+    transition: all 0.25s ease-in-out;
+}
+
+a.cta-btn-style2:before {
+    content: "";
+    background: url(../../../../../Themes/BOB/India/India/images/white-arrow.svg) no-repeat center center;
+    width: 13px;
+    height: 8px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(0.7) rotate(-90deg);
+    right: 12px;
+    left: auto;
+    z-index: 1;
+    transition: all 0.25s linear;
+}
+
+a.cta-btn-style2:hover:before {
+    transition: all 0.25s linear;
+    background: url(../../../../../Themes/BOB/India/India/images/orange-arrow.svg) no-repeat center center;
+}
+
+.get-in-touch-box {
+    display: flex;
+    text-align: left;
+}
+
+.get-in-touch-box .get-in-touch-img {
+    margin-right: 10px;
+}
+
+.get-in-touch-box h4 {
+    font-size: 1.5rem;
+    color: #162B75;
+    font-family: 'Helvetica Neue LT Pro Lt';
+}
+
+.get-in-touch-box h5 {
+    font-size: 0.875rem;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0px;
+    line-height: 1.1rem;
+}
+
+.get-in-touch-box p {
+    font-size: 1.25rem;
+    color: #f3783d;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0px;
+}
+
+.contact-office-detail-component {
+    margin-bottom: 50px;
+}
+
+.contact-office-detail-component .blueoverlay {
+    top: 0;
+}
+
+.contact-office-detail-component .office-detail-intro-box {
+    position: relative;
+    box-shadow: 0px 15px 15px #c5c9db;
+    height: 170px;
+}
+
+.contact-office-detail-component .office-detail-intro-box-content h2 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0px;
+    font-family: 'Helvetica Neue LT Pro Roman';
+    font-size: 1.875rem;
+    margin-top: 37px;
+}
+
+.office-detail-contact-wrap {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.office-detail-contact-wrap:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 89%;
+    width: 100%;
+    background: #eff0f5;
+    z-index: -1;
+}
+
+.office-detail-contact-wrap .container {
+    max-width: 880px;
+}
+
+.office-detail-contact-wrap .office-detail-contact-tab {
+    margin-top: -55px;
+}
+
+.office-detail-contact-wrap .office-detail-contact-tab ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.office-detail-contact-wrap .office-detail-contact-tab ul li {
+    margin: 0 5px;
+    list-style: none;
+}
+
+.office-detail-contact-tab ul li>a {
+    font-family: 'Helvetica Neue LT Pro Md';
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 8px 25px;
+    position: relative;
+    border: 1px solid #FFFFFF80;
+    transition: all 0.25s linear;
+}
+
+.office-detail-contact-tab ul li>a:hover {
+    color: #fff;
+}
+
+.office-detail-contact-tab ul li a:hover,
+.office-detail-contact-tab ul li a.active {
+    background: #FFFFFF33 0% 0% no-repeat padding-box;
+    border-color: #FFFFFF33;
+    transition: all 0.25s linear;
+}
+
+.office-detail-contact-tab ul li a:before {
+    content: "";
+    background: #F26522 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: auto;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.25s linear;
+}
+
+.office-detail-contact-tab ul li a.active:before {
+    width: 35px;
+    transition: all 0.25s linear;
+}
+
+.office-detail-contact-tab-content-wrap {
+    margin-top: 50px;
+    display: none;
+}
+
+.office-detail-contact-tab-content-wrap#contact-head-office {
+    display: block;
+}
+
+.office-detail-contact-tab-content-wrap .office-detail-contact-tab-content-box {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 10px 40px #ccc;
+}
+
+.office-detail-contact-tab-content-wrap .office-detail-contact-tab-content-box h3 {
+    font-size: 1.5rem;
+    color: #162B75;
+    font-family: 'Helvetica Neue LT Pro Md';
+}
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-row {
+    display: flex;
+    margin-top: 25px;
+}
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-col {
+    width: 33%;
+}
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-text-box p {
+    font-size: 0.875rem;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125rem;
+}
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-text-box a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-text-box a.get-direction-btn {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    min-width: 135px;
+    padding: 8px 15px 8px 15px;
+    background: #fff;
+    border: 1px solid #f7732c;
+    border-radius: 20px;
+    color: #162B75;
+    position: relative;
+    background: url(../../../../../Project/BOB/CountryWebsites/India/contact-us/direction-icon.png) 91% 9px no-repeat;
+}
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-text-box {
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+/* .office-detail-contact-tab-content-wrap .office-contact-detail-text-box a.get-direction-btn:after{
+  content:"";
+  position:absolute;
+  background: var(--unnamed-color-f26522) 0% 0% no-repeat padding-box;
+  background: #F26522 0% 0% no-repeat padding-box;
+  width: 15px;
+  height: 15px;
+  right:0px;
+} */
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-text-box span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-text-box span img {
+    vertical-align: middle;
+}
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-text-box .contact-txt a {
+    color: #f3783d;
+    display: inline-block;
+}
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-text-box .contact-email-detail {
+    color: #f3783d;
+    display: flex;
+    justify-content: flex-start;
+    word-break: break-all;
+}
+
+.locate-us-box-wrap {
+    background: #feefe8;
+    padding: 15px 0px;
+    text-align: center;
+    color: #162B75;
+    font-size: 1.25rem;
+    font-family: 'Helvetica Neue LT Pro Md';
+}
+
+.locate-us-box-wrap .locate-us-box-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locate-us-box-wrap .locate-us-box-content img {
+    margin-right: 15px;
+}
+
+.locate-us-box-wrap .locate-us-box-content a.cta-btn-style2 {
+    min-width: 185px;
+}
+
+.contact-information-detail-component {
+    margin: 100px 0px 80px;
+}
+
+.contact-information-detail-component .container {
+    max-width: 880px;
+}
+
+.contact-information-detail-component .contact-information-box {
+    display: flex;
+    width: 100%;
+    background: #fff;
+    padding: 40px 30px;
+    box-shadow: 0px 10px 40px #ccc;
+    -webkit-border-top-right-radius: 70px;
+    -moz-border-radius-topright: 70px;
+    border-top-right-radius: 70px;
+    align-items: center;
+}
+
+.contact-information-detail-component .contact-information-img-box {
+    width: 19.5%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.contact-information-detail-component .contact-information-img-box h4 {
+    font-size: 1.875rem;
+    font-family: 'Helvetica Neue LT Pro Md';
+    color: #162B75;
+    margin-top: 10px;
+    line-height: 110%;
+}
+
+.contact-information-detail-component .contact-information-content-box {
+    width: 73%;
+}
+
+.contact-information-detail-component .contact-information-content-box p {
+    font-size: 1rem;
+    color: #707070;
+    border-bottom: 1px solid #fde8de;
+    margin: 12px 0px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-information-detail-component .contact-information-content-box a {
+    color: #f3783d;
+    text-decoration: underline !important;
+}
+
+.contact-us-page .contact-for-complain-info {
+    background: #e4e7ef;
+    margin: 100px 0px 80px;
+}
+
+.contact-us-page .contact-for-complain-info .contact-details-wrap {
+    position: relative;
+    top: -50px;
+}
+
+.contact-us-page .custom-filt-div {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.contact-us-page .bob-custom-dropdown .bob-custom-dropdown-list>ul {
+    border: none !important;
+}
+
+.branches-content {
+    clear: both;
+}
+
+.contact-us-page .contact-phone-detail {
+    margin-top: 10px;
+}
+
+.branches-content {
+    width: 33%;
+    margin: 0px 15px;
+    padding: 20px;
+}
+
+.branches-content .office-contact-detail-col {
+    width: 100%;
+}
+
+.contact-us-page .br-flex {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contact-us-page .br-flex .branches-content {
+    width: calc((100% / 2) - 20px);
+    margin: 0 10px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.contact-us-page .top-banner-bg-img {
+    height: 262px;
+}
+
+.contact-us-page .top-banner-bg-img img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-office-detail-component .office-detail-intro-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-detail-img {
+    margin-right: 10px;
+    width: 81px;
+}
+
+.contact-us-page .top-banner-component-type3 .top-banner-bg-text {
+    /* padding: 0 31%; */
+    top: 0;
+    height: calc(100% - 85px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details-tab-c {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #fdebe2;
+}
+
+.contact-details-tab-c .col-sm-4 {
+    border-right: 1px solid #fdebe2;
+}
+
+.contact-details-tab-c .col-sm-4:last-child {
+    border: none;
+}
+
+.office-detail-contact-tab-content-wrap .office-contact-detail-text-box a.get-direction-btn {
+    background: url(../../../../../Project/BOB/CountryWebsites/India/contact-us/nri-icon/directions.svg) 91% 9px no-repeat;
+}
+
+.overviewPageContenSec3 .tableData tr td a {
+    color: #f3783d;
+}
+
+.overviewPageContenSec3 .tableOut {
+    overflow: scroll;
+}
+
+.contact-information {
+    /* top: 90px !important; */
+}
+
+
+/*.office-detail-contact-tab ul li:last-child{
+        display: none;
+    }*/
+
+.contact-banner-bg {
+    height: 200px;
+}
+
+.contact-banner-bg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*------- contact-us page page css end here--------- */
+
+.carousel .field-mobileimage {
+    display: none;
+}
+
+.locate-child {
+    display: flex;
+    align-items: center;
+}
+
+.officesListToDisplay {
+    /* display:block !important; */
+}
+
+@media only screen and (max-width: 1366px) {
+    .contact-us-page .top-banner-component-type3 .top-banner-bg-text {
+        /* padding: 0 12%; */
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact-application-div {
+        display: block;
+    }
+    .contact-us-page .top-banner-component-type3 .top-banner-bg-text {
+        /* padding: 0 10%; */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel.carouselResponsive .field-slideimage {
+        display: none;
+    }
+    .carousel.carouselResponsive .field-mobileimage {
+        /* display: none; */
+    }
+    /* .carousel.carouselResponsive .field-mobileimage img {
+        height: 400px !important;
+    } */
+    .carousel.carouselResponsive .field-mobileimage {
+        position: relative;
+        line-height: 0;
+    }
+    .contact-us-page .top-banner-component-type3 .top-banner-bg-text {
+        padding: 0;
+    }
+    .about-us .overviewPageContentWrap .overviewPageContenSec3 {
+        overflow: auto;
+    }
+    .contact-us-page .top-banner-component-type3 .top-banner-bg-text h1 {
+        font-size: 30px;
+    }
+    .contact-details-wrap,
+    .contact-information-detail-component .contact-information-box {
+        width: 95%;
+        margin: 0px 10px;
+        padding: 30px 20px;
+    }
+    .contact-details-tablist {
+        left: 20px;
+        margin: 25px 0px;
+        top: 45px;
+    }
+    .contact-details-tab {
+        padding-top: 40px;
+    }
+    .contact-details-tab .col-sm-4,
+    .contact-details-tab-c .col-sm-4 {
+        border-right: none;
+        border-bottom: 1px solid #fdebe2;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    .contact-details-tab .col-sm-4:last-child,
+    .contact-details-tab-c .col-sm-4:last-child {
+        border: none;
+        padding-bottom: 0px;
+        margin-bottom: 5px;
+    }
+    .contact-details-additional-info {
+        display: block;
+        margin-top: 30px;
+    }
+    .contact-details-additional-info .cta-btn-style2 {
+        margin: 20px 0px;
+    }
+    .contact-application-div {
+        display: block;
+        float: left;
+    }
+    .get-in-touch-box .get-in-touch-img {
+        margin-right: 0px;
+    }
+    .get-in-touch-box p,
+    .contact-detail-content p {
+        font-size: 1.2rem;
+    }
+    .office-detail-contact-wrap .office-detail-contact-tab ul {
+        white-space: nowrap;
+    }
+    .office-detail-contact-tab ul li:last-child {
+        display: none;
+    }
+    .office-detail-contact-tab-content-wrap .office-contact-detail-col {
+        width: 100%;
+    }
+    .office-detail-contact-tab-content-wrap .office-contact-detail-row,
+    .locate-us-box-wrap .locate-us-box-content,
+    .contact-information-detail-component .contact-information-box {
+        display: block;
+    }
+    .locate-child {
+        display: flex;
+        padding: 0px 30px;
+    }
+    .contact-information-detail-component .contact-information-img-box {
+        width: 100%;
+        display: flex;
+        margin: 0px 0px 30px;
+        align-items: center;
+        text-align: left;
+    }
+    .contact-information-detail-component .contact-information-img-box h4 {
+        margin-left: 20px;
+    }
+    .contact-information-detail-component .contact-information-content-box {
+        width: 100%;
+    }
+    .office-detail-contact-tab-content-wrap {
+        padding: 0px 20px;
+    }
+    .contact-information-detail-component .contact-information-content-box p {
+        line-height: 22px;
+    }
+    .contact-information {
+        top: 90px !important;
+    }
+    .contact-information h1 {
+        font-size: 30px !important;
+        line-height: 34px !important;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .locate-child {
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .locate-child {
+        padding: 0px 40px;
+    }
+    .contact-information-detail-component .contact-information-img-box h4 {
+        margin-left: 5px;
+    }
+    .contact-details-additional-info col-6 {
+        padding: 0px;
+    }
+    .contact-details-wrap,
+    .contact-information-detail-component .contact-information-box {
+        width: 97%;
+        margin: 0 3px;
+        padding: 30px 5px;
+    }
+    .get-in-touch-content {
+        max-width: 200px;
+    }
+    .get-in-touch-box p,
+    .contact-detail-content p {
+        font-size: .9rem;
+        line-height: 20px;
+    }
+}

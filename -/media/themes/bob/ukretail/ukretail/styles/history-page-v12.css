@@ -1,0 +1,365 @@
+/*-----History page css start here--------*/
+
+.historyPage .history-top-box-component .container,
+.historyPage .history-founder-info-component .container,
+.historyPage .history-key-milestone-component .container {
+    max-width: 1050px;
+}
+
+.historyPage.about-us .top-banner-component-type3 .top-banner-bg-text {
+    align-items: initial;
+}
+
+.historyPage.about-us .top-banner-component-type3 .top-banner-bg-text h1 {
+    margin-top: 32px;
+}
+
+.history-top-box-wrap {
+    background: #fff;
+    display: flex;
+    padding: 30px 5%;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+    -webkit-border-top-right-radius: 70px;
+    -moz-border-radius-topright: 70px;
+    border-top-right-radius: 70px;
+    box-shadow: 1px 21px 78px -22px rgb(161 161 161);
+    -webkit-box-shadow: 1px 21px 78px -22px rgb(161 161 161);
+    -moz-box-shadow: 1px 21px 78px -22px rgb(161 161 161);
+}
+
+.history-top-box-wrap .left-col {
+    border-right: 1px solid #fef0ea;
+    padding-right: 5%;
+    width: 31%;
+}
+
+.history-top-box-wrap .left-col h3 {
+    font-size: 2.1875rem;
+    color: #162B75;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    line-height: 110%;
+    font-weight: 500;
+}
+
+.history-top-box-wrap .right-col {
+    padding: 0px 0px 0px 7%;
+    width: 69%;
+}
+
+.history-top-box-wrap .right-col p {
+    font-size: 1rem;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+.history-founder-info-component {
+    margin: 70px 0px 50px;
+    background: #fdece4;
+    padding: 40px 0px;
+}
+
+.history-founder-info-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.history-founder-info-wrap .history-founder-img-col {
+    padding-right: 5%;
+}
+
+.history-founder-description-col h3 {
+    color: #162B75;
+    font-size: 2.8125rem;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    line-height: 110%;
+}
+
+.history-founder-description-col h4 {
+    font-size: 1.5rem;
+    color: #707070;
+    font-family: 'Helvetica Neue LT Pro Md';
+    margin-top: 5px;
+}
+
+.history-founder-description-col p {
+    font-size: 1rem;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
+
+.history-key-milestone-component {
+    margin: 70px 0px 50px;
+    position: relative;
+    padding: 40px 0px 0px;
+}
+
+.history-key-milestone-component:after {
+    background-color: #dadde9;
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+}
+
+.history-key-milestone-wrap {
+    position: relative;
+    z-index: 2;
+}
+
+.history-key-milestone-wrap h2 {
+    color: #707070;
+    font-size: 2.1875rem;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    text-align: center;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.history-key-milestone-details-slider {
+    background: #fff;
+    padding: 15px 7% 15px;
+    position: relative;
+    -webkit-border-top-right-radius: 70px;
+    -moz-border-radius-topright: 70px;
+    border-top-right-radius: 70px;
+    box-shadow: 1px 18px 31px -9px rgba(230, 232, 239, 1);
+    -webkit-box-shadow: 1px 18px 31px -9px rgba(230, 232, 239, 1);
+    -moz-box-shadow: 1px 18px 31px -9px rgba(230, 232, 239, 1);
+    margin-top: 30px;
+}
+
+.history-key-milestone-details-box {
+    display: flex;
+    align-items: center;
+}
+
+.history-key-milestone-details-img-box {
+    padding-right: 5%;
+    width: 37%;
+    min-width: 280px;
+}
+
+.history-key-milestone-details-img-box img {
+    width: 243px;
+}
+
+.history-key-milestone-details-content-box h3 {
+    font-size: 2.8125rem;
+    color: #162B75;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.history-key-milestone-details-content-box p {
+    font-size: 1.2rem;
+    color: #707070;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    font-weight: 500;
+}
+
+.history-key-milestone-details-content-box ul li {
+    font-size: 1.2rem;
+    color: #707070;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    list-style: disc;
+    margin-left: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.history-key-milestone-year-slider {
+    margin: 0px 10%;
+    padding: 0px 5%;
+    margin-top: -10px;
+    position: relative;
+    z-index: 3;
+}
+
+.history-key-milestone-year-item {
+    font-size: 1rem;
+    color: #F26522;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    padding: 50px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.history-key-milestone-year-item.slick-active.slick-current {
+    color: #162B75;
+}
+
+.history-key-milestone-year-item.slick-current:after {
+    position: absolute;
+    content: "";
+    height: 42px;
+    width: 2px;
+    background-color: #f26522;
+    top: 0px;
+    left: 50%;
+}
+
+.history-key-milestone-component .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.history-key-milestone-component .bob-left-round-arrow-svg {
+    left: 3%;
+}
+
+.history-key-milestone-component .bob-right-round-arrow-svg {
+    right: 3%;
+}
+
+.history-key-milestone-component .history-key-milestone-year-slider .bob-left-round-arrow-svg {
+    left: 0px;
+}
+
+.history-key-milestone-component .history-key-milestone-year-slider .bob-right-round-arrow-svg {
+    right: 0px;
+}
+
+@media only screen and (max-width:1100px) {
+    .historyPage .history-top-box-component .container,
+    .historyPage .history-founder-info-component .container,
+    .historyPage .history-key-milestone-component .container {
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .history-top-box-wrap .left-col h3 {
+        font-size: 1.6875rem;
+    }
+    .history-top-box-wrap .right-col p {
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+    }
+    .history-founder-info-wrap {
+        padding: 0px 15px;
+    }
+    .history-founder-description-col h3 {
+        font-size: 1.75rem;
+    }
+    .history-founder-description-col h4 {
+        font-size: 1.25rem;
+    }
+    .history-founder-description-col p {
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+    }
+    .history-founder-description-col p br {
+        display: none;
+    }
+    .history-top-box-component {
+        padding: 0px 15px;
+    }
+    .history-top-box-wrap {
+        padding: 20px 25px;
+        border-top-right-radius: 50px;
+    }
+    .history-key-milestone-component {
+        padding: 40px 15px 0px;
+    }
+    .history-key-milestone-year-slider {
+        margin: -10px 3% 0px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .history-top-box-wrap {
+        display: block;
+    }
+    .history-top-box-wrap .left-col {
+        border-right: none;
+        padding-right: 2%;
+        width: 100%;
+        border-bottom: 1px solid #fef0ea;
+        padding-bottom: 15px;
+    }
+    .history-top-box-wrap .right-col {
+        padding: 0px 0px 0px 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .history-top-box-wrap .right-col p br {
+        display: none;
+    }
+    .history-founder-info-component,
+    .history-key-milestone-component {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .history-founder-info-wrap {
+        display: block;
+        align-items: center;
+    }
+    .history-founder-description-col {
+        margin-top: 15px;
+    }
+    .history-founder-description-col h3 {
+        font-size: 1.5625rem;
+    }
+    .history-key-milestone-details-box {
+        display: block;
+    }
+    .history-key-milestone-details-slider {
+        padding: 30px 8% 30px;
+    }
+    .history-key-milestone-details-content-box {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .history-key-milestone-details-img-box {
+        padding: 0px 7%;
+    }
+    .history-key-milestone-details-img-box img {
+        max-width: 100%;
+    }
+    .history-key-milestone-component .bob-left-round-arrow-svg {
+        left: 5px;
+    }
+    .history-key-milestone-component .bob-right-round-arrow-svg {
+        right: 5px;
+    }
+    .history-key-milestone-details-slider .history-key-milestone-component .slick-arrow {
+        top: 40%;
+    }
+    .history-key-milestone-details-content-box p {
+        font-size: 1.125rem;
+    }
+    .history-key-milestone-year-slider {
+        margin: -10px 0px 0px;
+        padding: 0px 10%;
+    }
+    .history-key-milestone-year-item {
+        font-size: 0.875rem;
+    }
+    .history-founder-info-wrap .history-founder-img-col {
+        padding-right: 0px;
+    }
+    .history-founder-info-wrap .history-founder-img-col img {
+        width: 100%;
+    }
+    .history-key-milestone-details-content-box ul li {
+        text-align: left;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*-----History page css end here--------*/

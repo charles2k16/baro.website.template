@@ -1,0 +1,2429 @@
+/* home loan css */
+
+.bob-home-loan .bob-search-filter {
+    box-shadow: 0px 15px 20px #D8632B40;
+    border-top: 1px solid #efeeed;
+    padding: 5px 0;
+}
+
+.bob-home-loan .loan-search {
+    display: flex;
+    align-items: center;
+}
+
+.bob-home-loan .loan-search input {
+    height: 35px;
+    border: 0px;
+    width: 100%;
+    color: #707070;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.bob-home-loan .loan-search input::-webkit-input-placeholder {
+    color: #707070;
+}
+
+.bob-home-loan .loan-search input:-ms-input-placeholder {
+    color: #707070;
+}
+
+.bob-home-loan .loan-search input::placeholder {
+    color: #707070;
+}
+
+.bob-home-loan .filterby {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+}
+
+.bob-home-loan .filterby p {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.bob-home-loan .filterby select {
+    min-width: 153px;
+}
+
+.bob-home-loan .bob-page-list-title h3 {
+    text-align: left;
+    font-size: 24px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.bob-home-loan .bob-page-list-title {
+    margin-top: 30px;
+}
+
+.bob-home-loan .bob-page-list-box .box-image img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.bob-home-loan .bob-page-list-box .item h2.field-title {
+    text-align: left;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 26px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    letter-spacing: 0px;
+    color: #162B75;
+    margin-bottom: 10px;
+    /* min-height: 80px; */
+    margin-top: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* min-height: 32px; */
+    min-height: 54px;
+}
+
+.bob-home-loan .bob-page-list-box .box-content p,
+.bob-home-loan .bob-page-list-box .box-content ul li {
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.bob-home-loan .bob-page-list-box .box-content p {
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* min-height: 32px; */
+    min-height: 54px;
+}
+
+.bob-home-loan .bob-page-list-box .box-content {
+    padding: 20px 30px;
+    /* min-height: 350px;
+    max-height: 350px; */
+    position: relative;
+}
+
+.bob-home-loan .bob-page-list-box .box-content .field-cta {
+    padding: 25px 0px 15px;
+    display: inline-flex;
+    position: absolute;
+    position: static;
+    bottom: 20px;
+    left: 30px;
+}
+
+.bob-home-loan .bob-page-list-box .box-content .field-cta a {
+    font-size: 14px !important;
+    line-height: 14px !important;
+    color: #707070 !important;
+    border: 0 !important;
+    display: inline-flex !important;
+    padding: 0 !important;
+    position: relative !important;
+    padding-right: 25px !important;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.25s linear;
+}
+
+.bob-home-loan .bob-page-list-box .box-content .field-cta a:before {
+    content: "";
+    background: url(../../../../../Themes/BOB/India/India/images/knowmoreblack.png) no-repeat center center !important;
+    width: 20px;
+    height: 10px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) scale(0.9) !important;
+    right: 0 !important;
+    left: auto;
+    z-index: 1;
+    transition: all 0.25s linear;
+}
+
+.bob-home-loan .bob-page-list-box .box-content .field-cta a:hover {
+    transition: all .25s linear;
+    color: #f26522 !important;
+}
+
+.bob-home-loan .bob-page-list-box .box-content .field-cta a:hover:before {
+    transition: all .25s linear;
+    filter: invert(46%) sepia(30%) saturate(2312%) hue-rotate(345deg) brightness(97%) contrast(95%);
+}
+
+.bob-home-loan .bob-page-list-box ul.items {
+    /* display: flex;
+    column-count: 3; */
+    margin: 0 -45px 0 -15px;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li.item {
+    width: 30%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0;
+    box-shadow: 0px 0px 20px #1a2c7126;
+    margin: 0px 15px 30px 15px;
+    float: left;
+    padding: 0px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.bob-home-loan .bob-page-list-box ul.items li.item:hover {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0px 10px 35px #1a2c7140;
+    transform: translateY(-3px);
+    /* margin-top: -5px; */
+}
+
+.bob-home-loan .bob-page-list-box ul.items li.item .box-content ul li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.loan-level-2.bob-home-loan .bob-page-list-box ul.items li.item .box-content ul li {
+    list-style-type: none;
+}
+
+.loan-level-2.bob-home-loan .bob-page-list-box ul.items li .box-content ul li::before {
+    display: none;
+}
+
+.loan-level-2.bob-home-loan .bob-page-list-box ul.items li .box-content ul {
+    margin-left: 0;
+    min-height: 80px;
+}
+
+.loan-level-2.bob-home-loan .bob-page-list-box ul.items li.item .box-content ul li {
+    margin-bottom: 10px;
+}
+
+.loan-level-2.bob-home-loan .bob-page-list-box .item h2.field-title {
+    min-height: 30px;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li.item .box-content ul li.features-li-content {
+    margin-left: -15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* min-height: 32px; */
+    min-height: 54px;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li.item .box-content ul li.features-li-content::before {
+    display: none;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content ul li span {
+    font-weight: 700;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content ul li.field-features span {
+    display: block;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content ul {
+    list-style: none;
+    margin-left: 15px;
+    min-height: 153px;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content ul li::before {
+    content: "";
+    background-color: #F26522;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 5px;
+    left: -13px;
+    border-radius: 50px;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content .field-cta-2 a {
+    cursor: pointer;
+    text-align: center !important;
+    font: normal normal bold 12px/14px Arial !important;
+    color: #fff !important;
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box !important;
+    border: 1px solid #F2652380 !important;
+    border-radius: 40px !important;
+    padding: 10px 34px 10px 22px !important;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden !important;
+    transition: all 0.3s linear;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content .field-cta-2 a:before {
+    background: url(../../../../../Themes/BOB/India/India/images/white-arrow.svg) no-repeat center center !important;
+    content: "";
+    width: 13px;
+    height: 8px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) rotateZ( -90deg) scale(0.7) !important;
+    right: 11px !important;
+    left: auto;
+    transition: all 0.3s linear;
+    z-index: 1;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content .field-cta-2 a:hover {
+    color: #F26522 !important;
+    background: transparent linear-gradient(90deg, #FFE8DD 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box !important;
+    background: #fff !important;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content .field-cta-2 a:hover:before {
+    background: url(../../../../../Themes/BOB/India/India/images/orange-arrow.svg) no-repeat center center !important;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content .row {
+    align-items: center;
+    justify-content: space-between;
+    display: inline-flex;
+    margin-left: 0px;
+    position: absolute;
+    bottom: 25px;
+    left: 130px;
+    position: static;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content .row .col-sm-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content .row .col-sm-6:last-child {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.bob-home-loan .filterby img,
+.bob-home-loan .filterby p,
+.bob-home-loan .filterby .bob-form-control {
+    margin: 0 5px;
+}
+
+.bob-home-loan .bob-page-list-box ul.items li .box-content .row .col-sm-6:last-child label {
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.bob-home-loan .carousel .col-12 {
+    padding: 0;
+}
+
+.bob-home-loan .carousel .slide .slide-info {
+    width: calc(100% - 200px);
+    padding: 15px 50px 15px 30px;
+    border-radius: 0px 60px 0px 0px;
+}
+
+.bob-home-loan .carousel .component-content .field-slidetext h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.bob-home-loan .carousel .component-content .field-slidetext p {
+    font-size: 1rem;
+    line-height: 1.125rem;
+    margin-top: 0;
+    margin-bottom: 5px
+}
+
+.bob-home-loan .carousel .nav {
+    bottom: 0px;
+}
+
+.bob-home-loan .breadcrumb.component {
+    /* margin-top: -50px; */
+}
+
+.bob-home-loan .component-content .component.rich-text.col-12 .component-content p {
+    color: #707070;
+    font-size: 1.5rem;
+    line-height: 3.125rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.bob-home-loan .bob-page-list-box .item h2.field-title {
+    /* min-height: 122px; */
+}
+
+.bob-home-loan .row.bob-paragraph-section .col-sm-12 {
+    height: 100%;
+    top: 0;
+    background: transparent;
+}
+
+.bob-home-loan .row.bob-paragraph-section .col-sm-12 .blueoverlay p {
+    margin-top: 30px;
+}
+
+.bob-home-loan .bob-tab-content {
+    margin-bottom: 0px;
+}
+
+.bob-home-loan .bob-page-list-box {
+    margin-bottom: 40px;
+}
+
+.bob-home-loan .link-list.bob-button-links>.component-content li.item2 .field-link a,
+.bob-home-loan .link-list.bob-button-links>.component-content li.item1 .field-link a {
+    color: #162B75 !important;
+    background: transparent !important;
+    padding: 14px 22px 14px 22px !important;
+    transition: all 0.3s linear;
+}
+
+.bob-home-loan .link-list.bob-button-links>.component-content li.item2 .field-link a:hover,
+.bob-home-loan .link-list.bob-button-links>.component-content li.item1 .field-link a:hover {
+    background: #F26522 !important;
+    color: #fff !important;
+    border-color: #F26522 !important;
+    transition: all 0.3s linear;
+}
+
+.bob-home-loan .bob-button-links>.component-content li.item2 .field-link a:before,
+.bob-home-loan .bob-button-links>.component-content li.item1 .field-link a:before {
+    width: 0;
+}
+
+.bob-home-loan .bob-loan-listing-intro .col-sm-4 .component-content h1.field-title {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #162B75;
+    font-size: 34px;
+    line-height: 36px;
+    /* font-family: 'Helvetica Neue LT Pro Roman'; */
+    font-family: 'Helvetica Neue LT Pro Lt';
+}
+
+.bob_commoncalculatoraccord.bob-parent-accordion-div>span {
+    display: none;
+}
+
+.bob_commoncalculatoraccord.bob-parent-accordion-div .bob-parent-accordion-list-div {
+    display: block;
+    padding: 0;
+}
+
+.loan-level-3.bob-home-loan .breadcrumb.component {
+    /* margin-top: -50px; */
+    margin-top: -80px;
+}
+
+.bob-loan-listing-intro .column-splitter {
+    align-items: flex-start;
+}
+
+.content h1,
+.content h2,
+.rich-text h1,
+.rich-text h2 {
+    /* margin: 0; */
+}
+
+
+/* home loan css */
+
+
+/* loan listing css */
+
+.bob-new-loans-page .bob-loan-listing-style .carousel .slide .slide-info {
+    display: none;
+}
+
+.bob-new-loans-page .bob-loan-listing-style .breadcrumb {
+    margin-top: -100px;
+}
+
+.bob-new-loans-page .bob-loan-listing-intro h1.field-title {
+    font-family: 'Helvetica Neue LT Pro Roman';
+    color: #162B75 !important;
+    margin: 0 !important;
+    font-size: 34px !important;
+    line-height: 36px;
+}
+
+.loan-level-2 .bob-top-loan-div .col-sm-8,
+.loan-level-3 .bob-top-loan-div .col-sm-8,
+.bob-new-loans-page .bob-top-loan-div .col-sm-8 {
+    position: relative;
+}
+
+
+/* .loan-level-2 .bob-top-loan-div .col-sm-8:before,
+.loan-level-3 .bob-top-loan-div .col-sm-8:before,
+.bob-new-loans-page .bob-top-loan-div .col-sm-8:before */
+
+.loan-level-2 .bob-top-loan-div .col-sm-4:before,
+.loan-level-3 .bob-top-loan-div .col-sm-4:before,
+.bob-new-loans-page .bob-top-loan-div .col-sm-4:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    /* left: -35px; */
+    right: 5px;
+    height: 100%;
+    width: 1px;
+    background-color: #fde8df;
+}
+
+.loan-level-2 .bob-top-loan-div .col-sm-8:before,
+.loan-level-3 .bob-top-loan-div .col-sm-8:before,
+.bob-new-loans-page .bob-top-loan-div .col-sm-8:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -6px;
+    height: 100%;
+    width: 1px;
+    background-color: #fde8df;
+}
+
+.loan-level-3 .bob-top-loan-div {
+    padding: 0px 0 30px 0;
+}
+
+.bob-new-loans-page .bob-loan-listing-intro p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.bob-new-loans-page .bob-loan-listing-intro {
+    /* box-shadow: 0px 15px 20px #D8632B1A; */
+    /* padding: 0 0 60px 0; */
+    /* padding-top: 45px; */
+}
+
+.loan-level-2.bob-home-loan .bob-loan-listing-intro,
+.loan-level-1.bob-new-loans-page .bob-loan-listing-intro {
+    box-shadow: 0px 15px 20px #D8632B1A;
+    /* padding: 0 0 60px 0; */
+    padding-top: 20px;
+    max-width: 100%;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+}
+
+.loan-level-2.bob-home-loan .bob-loan-listing-intro>.component-content,
+.loan-level-1.bob-new-loans-page .bob-loan-listing-intro>.component-content {
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+.bob-new-loans-page .bob-loan-listing-shadow {
+    box-shadow: 0px 15px 20px #D8632B1A;
+}
+
+.bob-new-loans-page .bob-loan-listing-right-text h6.field-promotext {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #162B75;
+    font-size: 35px;
+    line-height: 38px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+}
+
+.bob-new-loans-page .bob-loan-listing-right-text .bob-loan-calculator p {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #707070;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bob-new-loans-page .bob-loan-listing-right-text .bob-loan-calculator hr {
+    margin: 20px 0 0 0;
+}
+
+.bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content ul {
+    padding: 0 25px;
+    display: flex;
+}
+
+.bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px 0 0;
+}
+
+.bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content li a img {
+    margin: 0px auto 10px auto;
+    width: 45px;
+    height: 45px;
+}
+
+.bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content li a span {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #162B75;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+}
+
+.bob-new-loans-page .bob-calculator-div.bob-loan-listing-right-text {
+    padding-top: 0px;
+    display: block;
+    height: 330px;
+    padding-right: 60px;
+}
+
+.bob-card-list-first ul.items li.item,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item {
+    border: 0px;
+    /* box-shadow: 0px 10px 30px #1a2c7126; */
+    width: calc((100% / 3) - 30px);
+    display: inline-block;
+    margin: 0px 15px 20px 15px;
+    padding: 30px 25px;
+    box-shadow: 0px 0px 20px #1a2c7126;
+    /* min-height: 270px; */
+    background: #fff;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.bob-card-list-first ul.items li.item:hover,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item:hover {
+    box-shadow: 0px 10px 35px #1a2c7140;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: translateY(-3px);
+    /* margin-top: -5px; */
+}
+
+.bob-card-list-first ul.items,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items {
+    margin: 0 -15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.bob-card-list-first ul.items li.item .box .row,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .row {
+    display: flex;
+    align-items: center;
+}
+
+.bob-card-list-first ul.items li.item .box .row .field-title,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .row .field-title {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #162B75;
+    font-size: 26px;
+    line-height: 26px;
+    margin-top: 0;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    font-weight: 400;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* min-height: 32px; */
+    min-height: 81px;
+}
+
+.bob-card-list-first ul.items li.item .box .box-image .field-content p,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .field-content p {
+    text-align: left;
+    color: #707070;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* min-height: 32px; */
+    min-height: 40px;
+}
+
+.bob-card-list-first ul.items li.item .box .row .col-sm-6:nth-child(1),
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .row .col-sm-6:nth-child(1) {
+    max-width: 40%;
+    flex: 0 0 40%;
+}
+
+.bob-card-list-first ul.items li.item .box .row .col-sm-6:nth-child(1) img,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .row .col-sm-6:nth-child(1) img {
+    width: 100%;
+    height: 70px;
+    object-fit: contain;
+}
+
+.bob-card-list-first ul.items li.item .box .row .col-sm-6:nth-child(2),
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .row .col-sm-6:nth-child(2) {
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.bob-card-list-first ul.items li.item .box .box-image .bob-cta-1,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-1 {
+    padding: 25px 0px 15px;
+}
+
+.bob-card-list-first ul.items li.item .box .box-image .bob-cta-1 a,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-1 a {
+    font-size: 14px !important;
+    line-height: 14px !important;
+    color: #707070 !important;
+    border: 0 !important;
+    display: inline-flex !important;
+    padding: 0 !important;
+    position: relative !important;
+    padding-right: 25px !important;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.25s linear;
+}
+
+.bob-card-list-first ul.items li.item .box .box-image .bob-cta-1 a:hover,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-1 a:hover {
+    transition: all 0.25s linear;
+    color: #f26522 !important;
+}
+
+.bob-card-list-first ul.items li.item .box .box-image .bob-cta-1 a:before,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-1 a:before {
+    content: "";
+    background: url(../../../../../Themes/BOB/India/India/images/knowmoreblack.png) no-repeat center center !important;
+    width: 20px;
+    height: 10px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) scale(0.9) !important;
+    right: 0 !important;
+    left: auto;
+    z-index: 1;
+    transition: all 0.25s linear;
+}
+
+.bob-card-list-first ul.items li.item .box .box-image .bob-cta-1 a:hover:before,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-1 a:hover:before {
+    transition: all 0.25s linear;
+    filter: invert(46%) sepia(30%) saturate(2312%) hue-rotate(345deg) brightness(97%) contrast(95%);
+}
+
+.bob-card-list-first ul.items li.item .box .box-image .field-cta,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .field-cta {
+    display: inline-block;
+    margin-right: 20px;
+    padding-bottom: 0;
+}
+
+.bob-card-list-first ul.items li.item .box .box-image .bob-cta-2 a,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-2 a {
+    font-size: 14px !important;
+    line-height: 14px !important;
+    color: #F26522 !important;
+    border: 0 !important;
+    display: inline-flex !important;
+    padding: 0 !important;
+    position: relative !important;
+    padding-right: 25px !important;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bob-card-list-first ul.items li.item .box .box-image .bob-cta-2 a:before,
+.bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-2 a:before {
+    content: "";
+    background: url(../../../../../Themes/BOB/India/India/images/orange-line-arrow.png) no-repeat center center !important;
+    width: 20px;
+    height: 10px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) scale(0.9) !important;
+    right: 0 !important;
+    left: auto;
+    z-index: 1;
+    transition: all 0.25s linear;
+}
+
+.bob-card-list-first,
+.bob-new-loans-page .bob-small-page-list {
+    margin-bottom: 40px;
+}
+
+.bob-new-loans-page .row.bob-paragraph-section .col-sm-12 {
+    height: 100%;
+    top: 0px;
+    background: transparent;
+}
+
+.bob-new-loans-page .row.bob-paragraph-section .col-sm-12 .blueoverlay p {
+    margin-top: 35px;
+}
+
+.promo>.component-content>div {
+    padding: 0 !important;
+}
+
+.bob-new-loans-page .bob-tab-content {
+    margin-bottom: 0px;
+}
+
+.bob-new-loans-page .carousel .component.content.col-12 {
+    padding: 0px;
+}
+
+.bob-new-loans-page .carousel .component-content {
+    padding-bottom: 0px !important;
+}
+
+.account-page.loan-level-2 .carousel .component-content {
+    padding-bottom: 45px !important;
+}
+
+
+/* loan listing css */
+
+.bob-home-loan .bob-types-of-loan3-div .row.bob-paragraph-section>img {
+    opacity: 0;
+}
+
+.bob-home-loan .bob-types-of-loan3-div .row.bob-paragraph-section .col-sm-12 {
+    background: transparent linear-gradient(90deg, #F4F5F9 0%, #F5F5F5 100%) 0% 0% no-repeat padding-box;
+}
+
+.bob-home-loan .bob-types-of-loan3-div .blueoverlay {
+    background: transparent;
+}
+
+.bob-home-loan .bob-types-of-loan3-div .blueoverlay p {
+    color: #707070 !important;
+}
+
+.loan-level-2.bob-home-loan .carousel .nav {
+    bottom: 30px;
+    left: 15px;
+}
+
+.loan-level-2.bob-home-loan .breadcrumb.component {
+    margin-top: -90px;
+}
+
+.loan-level-3.account-page.bob-home-loan .breadcrumb.component {
+    margin-top: -80px;
+}
+
+.loan-level-2 .bob-top-loan-div {
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.loan-level-2.bob-home-loan .filterby {
+    justify-content: flex-end;
+}
+
+.loan-level-2.bob-home-loan .filterby>svg {
+    width: 20px;
+    margin-right: 10px;
+    height: 20px;
+}
+
+.bob-assistance-form .bob-custom-dropdown .form-control+.bob-custom-dropdown-list li {
+    white-space: break-spaces;
+}
+
+.mob-filter {
+    display: none;
+}
+
+.sticky-filter .bob-loan-page-tab-div .tab_scroll_div_n,
+.sticky-filter .bob-search-filter {
+    position: fixed;
+    top: 86px;
+    z-index: 99;
+    background: #fff;
+    width: 100%;
+    left: 0;
+}
+
+.sticky-filter .bob-loan-page-tab-div .col-5 {
+    position: fixed;
+    z-index: 99;
+    top: 86px;
+}
+
+.sticky-filter .bob-loan-page-tab-div .tabs-container {
+    margin-top: 55px;
+}
+
+.sticky-filter.bob-home-loan .component-content .component.rich-text.col-12 .component-content p {
+    margin-top: 55px;
+}
+
+.loan-level-2 .carousel .slide .slide-info {
+    bottom: 20px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    color: #F26522 !important;
+    background: #F26522 !important;
+}
+
+.bob-loan-page-tab-div .bob-line-list li ul {
+    /* justify-content: center; */
+}
+
+.bob-loan-page-tab-div .bob-line-list li ul li:after {
+    display: block !important;
+}
+
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(1),
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(2),
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(3),
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(4),
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(5) {
+    margin-top: 0;
+}
+
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-last-child(1):after,
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-last-child(2):after,
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-last-child(3):after,
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-last-child(4):after,
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-last-child(5):after,
+.bob-loan-page-tab-div .bob-line-list li ul li:last-child:before {
+    display: none !important;
+}
+
+.bob-loan-page-tab-div .bob-line-list li ul li:after,
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(1):after,
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(2):after,
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(3):after,
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(4):after,
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(5):after {
+    display: block !important;
+}
+
+.bob-loan-page-tab-div .bob-line-list li ul li:nth-child(5n+5):before {
+    display: none;
+}
+
+@media only screen and (min-width:1440px) {
+    .bob-new-loans-page .bob-calculator-div.bob-loan-listing-right-text,
+    .bob-parent-accordion-div.bob_commoncalculatoraccord .bob-parent-accordion-list-div .bob-loan-calculator {
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width:1025px) and (min-width:992px) {
+    .bob-loan-calculator ul li {
+        width: 100% !important;
+    }
+    .bob-loan-calculator {
+        padding: 25px 20px;
+    }
+    .bob-need-assistance-div ul li {
+        width: calc(50% - 20px);
+    }
+    .bob-need-assistance-div ul {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        padding: 0 20% !important;
+    }
+    .bob-need-assistance-div ul li.odd {
+        padding-left: 0;
+    }
+    .bob-assistance-form .container {
+        max-width: 95%;
+    }
+    .bob-home-loan .bob-page-list-box .box-content {
+        /* min-height: 380px; */
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .bob_commoncalculatoraccord.bob-parent-accordion-div>span {
+        display: flex;
+        padding: 5px 10px 5px 13px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0px;
+        font-size: 18px;
+        line-height: 40px;
+        color: #162B75;
+        border-radius: 43px;
+    }
+    .bob_commoncalculatoraccord.bob-parent-accordion-div {
+        padding: 20px 0px 10px 0px;
+        background: transparent;
+    }
+    .bob_commoncalculatoraccord.bob-parent-accordion-div.bob-parent-open-accordion>span {
+        background: #fbe8dc;
+    }
+    .bob_commoncalculatoraccord.bob-parent-accordion-div .bob-loan-calculator {
+        border-radius: 20px;
+        padding: 20px 25px;
+    }
+    .bob_commoncalculatoraccord.bob-parent-accordion-div .bob-parent-accordion-list-div {
+        display: none;
+        padding: 10px 0px 0px 0px;
+    }
+    .loan-level-3 .bob_commoncalculatoraccord.bob-parent-accordion-div .bob-parent-accordion-list-div,
+    .loan-level-2 .bob_commoncalculatoraccord.bob-parent-accordion-div .bob-parent-accordion-list-div {
+        padding: 0;
+    }
+    .loan-level-3 .bob_commoncalculatoraccord.bob-parent-accordion-div .bob-loan-calculator,
+    .loan-level-2 .bob_commoncalculatoraccord.bob-parent-accordion-div .bob-loan-calculator {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .loan-level-3 .bob-parent-accordion-div>span,
+    .loan-level-2 .bob-parent-accordion-div>span {
+        background: transparent;
+    }
+    .loan-level-3 .bob_commoncalculatoraccord.bob-parent-accordion-div,
+    .loan-level-2 .bob_commoncalculatoraccord.bob-parent-accordion-div {
+        background: #fbe8dc;
+        padding: 0;
+        border-radius: 25px;
+        margin: 10px 0;
+    }
+    .loan-level-3.bob-home-loan .component.container.col-12.bob-top-loan-div {
+        margin-top: -60px;
+    }
+    .loan-level-3.bob-home-loan .bob-loan-listing-intro .col-sm-4 .component-content h1.field-title {
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+    #content>.row.component.column-splitter>.col-sm-7 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 1000%;
+    }
+    .loan-level-3.bob-home-loan .component.container.col-12.bob-top-loan-div {
+        margin-top: -20px;
+    }
+    .full-sm-width,
+    .loan-level-3.bob-home-loan .component.container.col-12.bob-top-loan-div .col-sm-4 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .loan-level-3.bob-loan-calculator h6 {
+        display: none;
+    }
+    .full-sm-width {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .bob-home-loan .link-list.bob-button-links>.component-content ul li {
+        display: inline-flex;
+    }
+    .tabs .tabs-container .component .container {
+        padding: 0;
+    }
+    .bob-line-list li ul li {
+        height: 150px;
+    }
+    .bob-line-list li ul li a img {
+        height: 50px;
+    }
+    .bob-line-list li ul li a strong {
+        font: normal normal normal 14px/14px Arial;
+    }
+    .bob-line-list li ul li:nth-child(2n+2):before {
+        display: block !important;
+    }
+    .bob-line-list {
+        padding: 15px !important;
+    }
+    .bob-home-loan .bob-need-assistance-div ul li {
+        width: calc(50% - 20px);
+    }
+    .bob-home-loan .bob-assistance-form {
+        margin-bottom: 20px;
+    }
+    .bob-accordion-div {
+        border-radius: 0px 60px 0px 0px;
+    }
+    .bob-load-more-btn.bob-loan-faq-load-more-div {
+        margin-top: -27px !important;
+    }
+    .bob-types-slider-div .component-content ul.items .slick-arrow {
+        bottom: 0 !important;
+    }
+    .bob-types-slider-div .component-content ul li,
+    .bob-promo-tab-div .component-content ul li {
+        margin: 0 8px !important;
+    }
+    .bob-promo-tab-div .bob-blogs-thumb-style ul.items .slick-track {
+        display: flex;
+    }
+    .bob-search-filter .container {
+        max-width: 100%;
+        margin-bottom: 0 !important;
+    }
+    .bob-search-filter .row.component.column-splitter>.col-sm-6:first-child {
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+    .bob-search-filter .row.component.column-splitter>.col-sm-6:last-child {
+        -ms-flex: 0 0 55%;
+        flex: 0 0 55%;
+        max-width: 55%;
+    }
+    .bob-custom-dropdown.all-select .form-control {
+        min-width: 115px;
+    }
+    .bob-home-loan .bob-page-list-box ul.items li.item {
+        width: calc(50% - 20px) !important;
+        margin: 0px 10px 20px 10px !important;
+    }
+    .bob-home-loan .component.column-splitter .col-sm-5 {
+        -ms-flex: 0 0 90%;
+        flex: 0 0 90%;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: -40px;
+    }
+    .bob-loan-calculator.promo>.component-content {
+        display: block;
+        width: 100%;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content ul {
+        justify-content: flex-start !important;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content ul li {
+        margin-right: 30px;
+    }
+    .bob-card-list-first ul.items li.item,
+    .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item {
+        width: calc(50% - 20px);
+        padding: 20px;
+        margin: 0 10px 20px 10px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .bob-new-loans-page .breadcrumb {
+        display: none;
+    }
+    .bob-new-loans-page .carousel .component-content {
+        padding-bottom: 0px;
+    }
+    .bob-new-loans-page .bob-calculator-div {
+        position: relative;
+        height: auto;
+    }
+    .bob-new-loans-page .bob-loan-calculator {
+        padding: 0px 20px;
+        height: auto;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content ul {
+        padding: 20px 0px 30px 0px;
+        justify-content: space-between;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content li a {
+        padding: 0;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text .image-link-list {
+        padding: 0;
+    }
+    .bob-loan-listing-intro {
+        padding: 40px 0;
+    }
+    .bob-new-loans-page .bob-loan-listing-intro h1.field-title {
+        padding-bottom: 30px;
+    }
+    .bob-card-list-first ul.items li.item,
+    .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item {
+        width: 100%;
+        padding: 20px;
+    }
+    .bob-card-list-first ul.items li.item img,
+    .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item img {
+        width: 80px;
+        height: 80px;
+    }
+    .bob-card-list-first ul.items li.item .box .row .field-title,
+    .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .row .field-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .bob-card-list-first ul.items li.item .box .box-image .field-cta,
+    .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .field-cta {
+        margin-right: 10px;
+    }
+    .bob-card-list-first ul.items li.item .box .row,
+    .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .row {
+        flex-wrap: nowrap;
+    }
+    .bob-card-list-first .col-sm-4,
+    .bob-new-loans-page .bob-small-page-list .col-sm-4 {
+        width: 50%;
+    }
+    .bob-new-loans-page .bob-need-assistance-div ul li:first-child {
+        padding-left: 20px;
+    }
+    .bob-new-loans-page .bob-assistance-form .bob-form-data-div {
+        flex-wrap: wrap;
+    }
+    .bob-new-loans-page .bob-assistance-form .bob-form-data-div .bob-form-div {
+        width: 100%;
+        padding: 40px;
+    }
+    .bob-new-loans-page .bob-assistance-form .bob-form-data-div .bob-form-img-div img {
+        border-top-right-radius: 100px;
+    }
+    .bob-new-loans-page .bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div {
+        border-top-right-radius: 100px;
+        padding: 30px;
+    }
+    .bob-new-loans-page .bob-assistance-form .bob-form-data-div .bob-form-img-div {
+        width: 100%;
+    }
+    .bob-new-loans-page .bob-assistance-form .bob-form-data-div .bob-form-img-div img {
+        height: 150px;
+        object-position: 0% 0%;
+    }
+    .bob-new-loans-page .bob-inner-form-text-div {
+        display: flex;
+    }
+    .bob-new-loans-page .bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div h6 {
+        font-size: 30px;
+        margin-right: 20px;
+        line-height: 36px;
+    }
+    .bob-new-loans-page .bob-form-div form .form-group {
+        width: 100%;
+    }
+    .bob-new-loans-page .promo>.component-content>div {
+        padding: 0;
+    }
+    .bob-new-loans-page .row.bob-paragraph-section .col-sm-12 {
+        top: 0;
+        height: 100%;
+    }
+    .bob-new-loans-page .row.bob-paragraph-section .col-sm-12 .blueoverlay p {
+        padding: 20px 28px;
+        line-height: 33px;
+    }
+    .bob-new-loans-page .bob-blogs-thumb-style ul li {
+        width: 100%;
+        margin: 0 15px !important;
+    }
+    .bob-new-loans-page .bob-blogs-thumb-style ul {
+        flex-wrap: wrap;
+    }
+    .bob-new-loans-page .row.bob-paragraph-section .col-sm-12 .blueoverlay p {
+        margin-top: 0px;
+    }
+    .bob-new-loans-page .component .col-sm-5.bob-calculator-div {
+        max-width: 100%;
+    }
+    .bob-home-loan .carousel .slide .slide-info {
+        width: calc(100% - 40px);
+    }
+    .bob-home-loan .carousel .nav {
+        display: none;
+    }
+    .bob-home-loan .component-content .component.rich-text.col-12 .component-content p {
+        font-size: 1.125rem;
+        line-height: 1.25rem;
+    }
+    .bob-new-loans-page .bob-page-list-box ul.items li.item {
+        width: calc(100% - 60px);
+    }
+    .bob-home-loan .bob-page-list-box .item h2.field-title {
+        min-height: auto;
+    }
+    .bob-home-loan .bob-page-list-box ul.items li .box-content ul {
+        min-height: auto;
+    }
+    .bob-home-loan .bob-page-list-box ul.items li .box-content .row {
+        flex-wrap: nowrap;
+    }
+    .bob-home-loan .row.bob-paragraph-section .col-sm-12 .blueoverlay p {
+        line-height: 29px;
+    }
+    .bob-home-loan .link-list.bob-button-links>.component-content ul {
+        flex-wrap: wrap;
+    }
+    .bob-home-loan .link-list.bob-button-links>.component-content ul li.item1 {
+        margin: 10px 0;
+    }
+    .bob-home-loan .bob-loan-calculator ul li .slidecontainer input {
+        width: 100%;
+    }
+    .bob-home-loan .component.column-splitter .col-sm-5 {
+        max-width: 100%;
+        padding: 0 15px;
+        padding-top: 25px;
+        border-radius: 0px 35px 0px 0px;
+        margin-top: -35px;
+        height: auto;
+    }
+    .bob-home-loan .bob-loan-calculator ul li.total-loan p {
+        padding-right: 15px;
+    }
+    .bob-home-loan .breadcrumb.component {
+        margin-top: 0;
+        display: none;
+    }
+    .bob-new-loans-page .bob-loan-listing-intro {
+        padding: 40px 0 40px 0;
+    }
+    .bob-new-loans-page .bob-top-loan-div .col-sm-8:before {
+        width: 0px;
+    }
+    .bob-new-loans-page .bob-need-assistance-div ul {
+        flex-wrap: wrap;
+    }
+    .bob-new-loans-page .bob-accordion-div {
+        padding: 20px 20px;
+        width: calc(100% - 40px);
+    }
+    .bob-new-loans-page .bob-loan-faqs-div p.field-promotext2 {
+        font-size: 24px !important;
+    }
+    .bob-new-loans-page .accordion .toggle-header .component .field-heading:before {
+        right: 4px !important;
+    }
+    .bob-new-loans-page .bob-promo-tab-div .bob-tab-inner-page-link .field-link {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .bob-new-loans-page .bob-promo-tab-div .bob-blogs-thumb-style .slick-list {
+        padding-bottom: 40px;
+    }
+    .bob-new-loans-page .bob-round-arrow-svg {
+        position: absolute;
+        bottom: -3px;
+        right: 41px !important;
+    }
+    .bob-new-loans-page .bob-right-round-arrow-svg {
+        right: 6px !important;
+    }
+    /* home loan listing */
+    .bob-home-loan .component.container.col-12 {
+        padding: 0 15px;
+        /* margin-bottom: 20px; */
+    }
+    .bob-home-loan .bob-loan-listing-intro .col-sm-4 .component-content h1.field-title {
+        font-size: 2.125rem !important;
+        line-height: 2.125rem;
+    }
+    .loan-level-2.bob-home-loan .bob-loan-listing-intro .col-sm-4 .component-content h1.field-title {
+        margin-bottom: 15px;
+    }
+    .bob-new-loans-page .bob-loan-listing-intro {
+        padding: 35px 25px 20px;
+    }
+    .bob-home-loan .bob-loan-listing-intro {
+        padding: 0px 0 40px 0;
+    }
+    .bob-home-loan .link-list.bob-button-links>.component-content ul {
+        display: block;
+    }
+    .bob-home-loan .bob-page-list-box ul.items {
+        margin: 0px;
+    }
+    .bob-home-loan .bob-page-list-box ul.items li.item {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        border: 0;
+    }
+    /* common*/
+    .bob-home-loan .bob-need-assistance-div ul {
+        flex-wrap: wrap;
+    }
+    .bob-home-loan .bob-accordion-div {
+        padding: 20px !important;
+        width: calc(100% - 40px);
+    }
+    .accordion .toggle-header .component {
+        padding-left: 0;
+    }
+    .bob-home-loan .bob-loan-faqs-div p.field-promotext2 {
+        font-size: 24px !important;
+    }
+    .bob-home-loan .accordion .toggle-header .component .field-heading:before {
+        right: 4px !important;
+    }
+    .bob-home-loan .bob-promo-tab-div .bob-tab-inner-page-link .field-link {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .bob-home-loan .bob-blogs-thumb-style .slick-list {
+        padding-bottom: 40px;
+        margin: 0 -15px;
+    }
+    .bob-home-loan .bob-round-arrow-svg {
+        position: absolute;
+        bottom: -20px;
+        right: 41px !important;
+    }
+    .bob-home-loan .bob-right-round-arrow-svg {
+        right: 6px !important;
+    }
+    .bob-home-loan .bob-need-assistance-div ul li:first-child {
+        padding-left: 10px;
+    }
+    .bob-need-assistance-div ul li:before {
+        display: none;
+    }
+    .bob-home-loan .bob-need-assistance-div ul li {
+        padding: 10px;
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+    .bob-home-loan .bob-assistance-form .bob-form-data-div {
+        flex-wrap: wrap;
+    }
+    .bob-home-loan .bob-assistance-form .bob-form-data-div .bob-form-img-div {
+        width: 100%;
+    }
+    .bob-home-loan .bob-assistance-form .bob-form-data-div .bob-form-div {
+        width: 100%;
+        padding: 20px 20px 30px 20px;
+    }
+    .bob-home-loan .bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div .bob-inner-form-text-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div p {
+        font: normal normal normal 14px/16px Arial;
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    .bob-home-loan .bob-search-filter {
+        box-shadow: none;
+        border: 0;
+        padding: 0;
+    }
+    .bob-home-loan .bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div h6 {
+        padding-right: 0;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div p {
+        margin-top: 0;
+    }
+    .bob-home-loan .bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div {
+        height: 100%;
+        padding: 20px;
+        border-top-right-radius: 70px;
+    }
+    .bob-home-loan .bob-assistance-form .bob-form-data-div .bob-form-img-div img {
+        height: 115px;
+        border-top-right-radius: 70px;
+    }
+    .bob-home-loan .bob-form-div form .form-group {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .bob-home-loan .bob-form-div form button {
+        margin-top: 15px;
+    }
+    .bob-home-loan .bob-assistance-form {
+        margin-bottom: 60px;
+        margin-top: -50px;
+    }
+    .bob-types-slider-div .component-content ul li,
+    .bob-promo-tab-div .component-content ul li {
+        margin: 0 15px !important;
+    }
+    .bob-home-loan .bob-blogs-thumb-style ul li .field-title {
+        /* min-height: auto; */
+    }
+    .bob-home-loan .bob-load-more-btn.link-list>.component-content li a {
+        padding: 14px 62px 14px 22px !important;
+        position: relative;
+    }
+    /* common*/
+    .bob-new-loans-page .bob-loan-listing-right-text h6.field-promotext {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .bob-home-loan footer .component.container.col-12 {
+        padding: 0;
+    }
+    .loan-level-1.bob-new-loans-page .bob-loan-listing-intro {
+        padding: 20px 20px 10px !important;
+    }
+    .field-title,
+    .loan-level-3.bob-home-loan .bob-loan-listing-intro .col-sm-4 .component-content h1.field-title {
+        font-size: 2rem !important;
+        line-height: 2rem !important;
+        font-size: 28px !important;
+        line-height: 32px !important;
+        margin-bottom: 15px !important;
+    }
+    /* .loan-level-2 .bob-top-loan-div .col-sm-8:before,
+    .loan-level-3 .bob-top-loan-div .col-sm-8:before,
+    .bob-new-loans-page .bob-top-loan-div .col-sm-8:before {
+        display: none;
+    } */
+    .loan-level-2 .bob-top-loan-div .col-sm-8:before,
+    .loan-level-3 .bob-top-loan-div .col-sm-8:before,
+    .bob-new-loans-page .bob-top-loan-div .col-sm-8:before,
+    .loan-level-2 .bob-top-loan-div .col-sm-4:before,
+    .loan-level-3 .bob-top-loan-div .col-sm-4:before,
+    .bob-new-loans-page .bob-top-loan-div .col-sm-4:before {
+        display: none;
+    }
+    .loan-level-3.bob-home-loan .link-list.bob-button-links>.component-content ul li.item0 {
+        display: none;
+    }
+    .bob-loan-page-tab-div .col-5 {
+        position: fixed !important;
+        bottom: 0;
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        z-index: 9999 !important;
+        height: auto;
+        top: auto !important;
+    }
+    .bob-svg-text-link-div {
+        border-radius: 0;
+        padding: 0;
+    }
+    .bob-svg-text-link-div ul {
+        justify-content: center;
+        width: 100%;
+    }
+    .bob-svg-text-link-div ul li {
+        padding: 20px 0;
+        height: 60px;
+    }
+    .bob-loan-page-tab-div .col-5 {
+        width: 100% !important;
+    }
+    .loan-level-3 footer {
+        margin-bottom: 60px;
+    }
+    .bob-loan-page-tab-div .tabs-heading {
+        padding: 10px 20px !important;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        margin-top: 0px;
+    }
+    .bob-loan-page-tab-div .tabs-heading li {
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .bob-home-loan .component-content .component.rich-text.col-12 .component-content p,
+    .bob-new-loans-page .bob-loan-listing-right-text .bob-loan-calculator p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .bob-top-loan-div p,
+    .accordion .field-content ul li,
+    .accordion .field-content ol li,
+    .accordion .field-content p,
+    .bob-new-loans-page ul.items li.item .box .box-image .field-content p,
+    .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .field-content p,
+    .bob-new-loans-page .bob-loan-listing-intro p {
+        font-size: 14px !important;
+        line-height: 16px !important;
+    }
+    .bob-blogs-thumb-style ul .slick-track {
+        display: flex;
+    }
+    .bob-types-slider-div .component-content ul li,
+    .bob-promo-tab-div .component-content ul li {
+        margin: 0 5px !important;
+    }
+    .bob-promo-tab-div {
+        margin-top: -180px !important;
+    }
+    .bob-promo-big-text .bob-paragraph-section img {
+        height: 250px !important;
+    }
+    .bob-tab-inner-page-link {
+        margin-bottom: 5px;
+    }
+    .loan-level-2 .carousel .component-content {
+        padding-bottom: 90px;
+    }
+    .videos-tab.bob-tab-content .bob-blogs-thumb-style ul.items li,
+    .articles-tab.bob-tab-content .bob-blogs-thumb-style ul.items li {
+        margin: 0 20px !important;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text h6.field-promotext {
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .bob-home-loan .bob-loan-faqs-div p.field-promotext2 {
+        font-size: 24px !important;
+        line-height: 26px !important;
+    }
+    .bob-loan-faqs-div .bob-paragraph-section img {
+        height: 150px !important;
+    }
+    .bob-home-loan .carousel .component-content .field-slidetext h2 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .loan-level-2.bob-home-loan .bob-loan-listing-intro .col-sm-4 .component-content h1.field-title {
+        margin-bottom: 5px !important;
+    }
+    .loan-level-3 .bob-loan-calculator h6,
+    .loan-level-2 .bob-loan-calculator h6 {
+        /* display: none; */
+    }
+    .loan-level-3.homeloan-detail-page .carousel .component-content {
+        padding-bottom: 90px !important;
+        text-align: center;
+    }
+    .loan-level-2.bob-home-loan .component.container.col-12.bob-top-loan-div {
+        margin-top: -40px;
+    }
+    .bob-home-loan .bob-search-filter {
+        padding: 0px !important;
+    }
+    .loan-level-2.bob-home-loan .component-content .component.rich-text.col-12 .component-content p {
+        /* margin-top: 0; */
+    }
+    .bob-accordion-div {
+        margin-top: -60px;
+    }
+    .accordion .toggle-content {
+        padding: 0 0px 20px 0px;
+    }
+    .bob-home-loan .component.column-splitter .col-sm-5 {
+        padding-top: 15px;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content ul {
+        padding: 10px 0px 20px 0px;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content li a img {
+        height: 40px;
+    }
+    .bob-new-loans-page .bob-loan-listing-right-text .link-list .component-content li a span {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .bob-new-loans-page .bob-loan-listing-intro h1.field-title {
+        padding-bottom: 30px;
+    }
+    .loan-level-1.bob-new-loans-page .bob-loan-listing-intro {
+        padding: 25px 20px 10px !important;
+    }
+    .bob-home-loan .bob-assistance-form .bob-form-data-div .bob-form-img-div img,
+    .bob-assistance-form .bob-form-data-div,
+    .bob-home-loan .bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div,
+    .bob-assistance-form .bob-form-data-div,
+    .bob-accordion-div,
+    .bob-home-loan .carousel .slide .slide-info {
+        border-radius: 0px 45px 0px 0px !important;
+    }
+    .bob-home-loan .bob-page-list-box .box-image img {
+        height: 117px;
+    }
+    .sticky-filter.bob-home-loan .component-content .component.rich-text.col-12 .component-content p {
+        /* margin-top: 0; */
+    }
+    .bob-home-loan .carousel .slide .field-slideimage img {
+        height: auto !important;
+        max-width: 100%;
+    }
+    .bob-home-loan .bob-page-list-box .box-content {
+        min-height: auto;
+    }
+    .bob-line-list li ul li a strong {
+        font: normal normal normal 16px/18px Arial;
+    }
+    .bob-loan-page-tab-div .bob-line-list li ul li:nth-child(5n+5):before,
+    .bob-line-list li ul li:last-child:before {
+        display: block !important;
+    }
+    .bob-line-list li ul li:last-child:after,
+    .bob-line-list li ul li:nth-child(2n+2):before {
+        display: none !important;
+    }
+    .bob-home-loan .bob-page-list-box ul.items li .box-content .row,
+    .bob-home-loan .bob-page-list-box .box-content .field-cta {
+        position: static;
+    }
+    .mob-filter {
+        position: fixed;
+        bottom: 20px;
+        z-index: 9999;
+        display: inline-flex;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 10px 30px #D8632B80;
+        border-radius: 55px;
+        padding: 10px 20px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 180px;
+        justify-content: center;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .sticky-filter header {
+        z-index: 99 !important;
+    }
+    .sticky-filter .mob-filter {
+        opacity: 1;
+        visibility: visible;
+    }
+    .mob-filter ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap: wrap; */
+    }
+    .mob-filter ul li {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .mob-filter ul li span {
+        font: normal normal normal 12px/12px Arial;
+        letter-spacing: 0px;
+        color: #707070;
+        display: block;
+        width: 100%;
+    }
+    .mob-filter ul li svg {
+        width: 25px;
+        height: 25px;
+        margin-bottom: 5px;
+    }
+    .bob-filter-open-div {
+        position: fixed;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        display: none;
+        z-index: 99;
+    }
+    .bob-filter-open-div .bob-search-voice-div input {
+        height: 60px;
+        font-size: 16px;
+    }
+    .bob-filter-open-div .bob-search-voice-div .input-group-append svg {
+        width: 30px;
+        height: 30px;
+    }
+    .filter-fixed .bob-filter-open-div {
+        box-shadow: 0px 10px 30px #d8632b40;
+        background: #fff;
+        border-radius: 10px;
+        position: fixed;
+        bottom: 85px;
+        width: 200px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .filter-fixed .bob-filter-open-div:before {
+        content: "";
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 10px solid #fff;
+        position: absolute;
+        bottom: -10px;
+        right: 60px;
+        z-index: 9;
+        filter: drop-shadow(0px -10px 20px #D8632B40);
+    }
+    .filter-fixed .bob-filter-open-div span {
+        text-align: left;
+        padding: 15px;
+    }
+    .filter-fixed .bob-filter-open-div .bob-custom-dropdown .form-control {
+        background: rgba(242, 101, 34, 0.15) 0% 0% no-repeat padding-box !important;
+        color: #707070;
+        font: normal normal bold 16px/16px Arial;
+        opacity: 1;
+        border: 0 !important;
+        border-radius: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .filter-fixed .bob-filter-open-div .bob-custom-dropdown span .bob-down-arrow-svg {
+        width: 12px;
+        height: 12px;
+        margin-bottom: 0;
+    }
+    .filter-fixed .bob-filter-open-div .bob-custom-dropdown .bob-custom-dropdown-list {
+        position: static;
+        box-shadow: none;
+        margin-top: 0;
+        text-align: left;
+        max-height: 130px;
+        overflow-y: auto;
+        border-radius: 0;
+    }
+    .filter-fixed .bob-filter-open-div .bob-custom-dropdown .bob-custom-dropdown-list:before {
+        display: none;
+    }
+    .filter-fixed .bob-filter-open-div .bob-custom-dropdown .bob-custom-dropdown-list li {
+        justify-content: flex-start;
+        border-radius: 0 !important;
+        overflow: visible;
+        white-space: break-spaces;
+        white-space: inherit;
+        border-color: rgba(242, 101, 34, 0.15);
+        text-align: left;
+        width: 100%;
+    }
+    .filter-fixed .bob-filter-open-div .bob-check-radio-form-control {
+        text-align: left;
+        padding: 10px 15px 20px;
+    }
+    .bob-custom-dropdown .bob-custom-dropdown-list>ul {
+        /* max-height: unset; */
+    }
+    .apply-online .bob-custom-dropdown .bob-custom-dropdown-list>ul {
+        /* max-height: 200px; */
+    }
+    .sticky-filter.bob-home-loan .bob-page-list-box {
+        margin-top: 0;
+    }
+    .bob-home-loan .bob-page-list-box .item h2.field-title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .loan-level-3 .bob-accordion-div {
+        margin-top: -30px;
+    }
+    .bob-types-slider-div {
+        margin-top: -70px !important;
+    }
+    .bob-types-slider-div .component-content ul li {
+        margin: 0 15px !important;
+    }
+    .bob-types-slider-div .component-content ul.items .slick-arrow {
+        bottom: -25px !important;
+    }
+    .videos-tab.bob-tab-content .bob-blogs-thumb-style ul.items li,
+    .articles-tab.bob-tab-content .bob-blogs-thumb-style ul.items li {
+        /* width: auto !important; */
+    }
+    .bob-home-loan .bob-blogs-thumb-style .slick-list {
+        padding-bottom: 20px;
+    }
+    .bob-promo-tab-div {
+        margin-top: -165px !important;
+    }
+    .loan-level-3 .bob-load-more-btn.bob-loan-faq-load-more-div {
+        margin-bottom: 70px;
+    }
+    .bob-loan-page-tab-div .bob-line-list li ul li:nth-child(3):after,
+    .bob-loan-page-tab-div .bob-line-list li ul li:nth-child(4):after,
+    .bob-loan-page-tab-div .bob-line-list li ul li:nth-child(5):after {
+        display: block !important;
+    }
+    .bob-home-loan .bob-page-list-box ul.items .item,
+    .loan-level-1 .bob-small-page-list.page-list ul.items .item {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .bob-home-loan .bob-page-list-box ul.items .item,
+    .loan-level-1 .bob-small-page-list.page-list ul.items .item,
+    .grid .item {
+        position: static !important;
+    }
+    .no-calc .bob-calculator-div {
+        position: static;
+        padding: 10px 0 !important;
+        /* background: transparent; */
+        z-index: 1;
+    }
+    .no-calc .bob-calculator-div .bob-loan-calculator {
+        border-radius: 0px 35px 0px 0px;
+    }
+    .no-calc.loan-level-3.homeloan-detail-page .carousel .component-content,
+    .no-calc.account-page.loan-level-2 .carousel .component-content {
+        padding-bottom: 0 !important;
+    }
+    .no-calc.bob-home-loan .bob-loan-listing-intro,
+    .no-calc.p-banking .bob-loan-listing-intro,
+    .no-calc.saving-acc .bob-loan-listing-intro {
+        margin-top: 0px !important;
+        padding: 20px 0 !important;
+    }
+    .bob-open-iner-menu .bob-overlay {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .no-calc .component .col-sm-5 {
+        max-width: 100%;
+    }
+    .bob-loan-calculator.promo>.component-content {
+        width: 100%;
+    }
+    /* .loan-level-3.bob-home-loan .component.container.col-12 {
+        margin-bottom: 70px;
+    } */
+    /* .bob-home-loan .bob-search-filter {
+        display: none;
+    } */
+    .articles-tab .bob-blogs-thumb-style {
+        padding: 0;
+    }
+    .bob-home-loan .carousel .slide .slide-info {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: auto;
+        margin: 0 auto;
+        margin-top: -20px;
+        /* z-index: 9999; */
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .loan-level-2 .carousel .component-content {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .loan-level-3.bob-home-loan .component.container.col-12.bob-top-loan-div,
+    .loan-level-2.bob-home-loan .component.container.col-12.bob-top-loan-div {
+        margin-top: 0 !important;
+        padding: 0 5px !important;
+    }
+    .bob_commoncalculatoraccord.bob-parent-accordion-div .bob-loan-calculator {
+        padding: 0px 12px;
+    }
+    .bob-loan-calculator,
+    .bob_commoncalculatoraccord.bob-parent-accordion-div .bob-loan-calculator,
+    .only-content {
+        height: auto !important;
+        min-height: auto !important;
+    }
+    .bob-loan-calculator h6 {
+        display: none;
+    }
+    .col-sm-5.full-sm-width {
+        padding: 0 20px;
+    }
+}
+
+.covid-19-products-breadcrumb .breadcrumb.component {
+    margin-top: 0px !important;
+    /* margin-top: -80px; */
+}
+
+
+/* new class added for level 2pages  */
+
+.item-list-product .bob-page-list-box .box-image img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.item-list-product .bob-page-list-box .item h2.field-title {
+    text-align: left;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 26px;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    letter-spacing: 0px;
+    color: #162B75;
+    margin-bottom: 10px;
+    /* min-height: 80px; */
+    margin-top: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    /* min-height: 32px; */
+    min-height: 54px;
+}
+
+.item-list-product .bob-page-list-box .box-content p,
+.item-list-product .bob-page-list-box .box-content ul li {
+    text-align: left;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.item-list-product .bob-page-list-box .box-content p {
+    margin-bottom: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* min-height: 32px; */
+    min-height: 54px;
+}
+
+.item-list-product .bob-page-list-box .box-content {
+    padding: 20px 30px;
+    /* min-height: 350px;
+    max-height: 350px; */
+    position: relative;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta {
+    padding: 25px 0px 15px;
+    display: inline-flex;
+    position: absolute;
+    position: static;
+    bottom: 20px;
+    left: 30px;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a {
+    font-size: 14px !important;
+    line-height: 14px !important;
+    color: #707070 !important;
+    border: 0 !important;
+    display: inline-flex !important;
+    padding: 0 !important;
+    position: relative !important;
+    padding-right: 25px !important;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.25s linear;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a:before {
+    content: "";
+    background: url(../../../../../Themes/BOB/India/India/images/knowmoreblack.png) no-repeat center center !important;
+    width: 20px;
+    height: 10px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) scale(0.9) !important;
+    right: 0 !important;
+    left: auto;
+    z-index: 1;
+    transition: all 0.25s linear;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a:hover {
+    transition: all .25s linear;
+    color: #f26522 !important;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a:hover:before {
+    transition: all .25s linear;
+    filter: invert(46%) sepia(30%) saturate(2312%) hue-rotate(345deg) brightness(97%) contrast(95%);
+}
+
+.item-list-product .bob-page-list-box ul.items {
+    /* display: flex;
+    column-count: 3; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -45px 0 -15px;
+}
+
+.item-list-product .bob-page-list-box ul.items>li.item {
+    flex: 1 1 30%;
+}
+
+.item-list-product .bob-page-list-box ul.items li.item {
+    width: 30%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0;
+    box-shadow: 0px 0px 20px #1a2c7126;
+    margin: 0px 15px 30px 15px;
+    /* float: left; */
+    padding: 0px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.item-list-product .bob-page-list-box ul.items li.item:hover {
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0px 10px 35px #1a2c7140;
+    transform: translateY(-3px);
+    /* margin-top: -5px; */
+}
+
+.item-list-product .bob-page-list-box ul.items li.item .box-content ul li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.item-list-product .bob-page-list-box ul.items li.item .box-content ul li.features-li-content {
+    margin-left: -15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    /* min-height: 32px; */
+    min-height: 54px;
+}
+
+.item-list-product .bob-page-list-box ul.items li.item .box-content ul li.features-li-content::before {
+    display: none;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content ul li span {
+    font-weight: 700;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content ul li.field-features span {
+    display: block;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content ul {
+    list-style: none;
+    margin-left: 15px;
+    min-height: 153px;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content ul li::before {
+    content: "";
+    background-color: #F26522;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 5px;
+    left: -13px;
+    border-radius: 50px;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content .field-cta-2 a {
+    cursor: pointer;
+    text-align: center !important;
+    font: normal normal bold 12px/14px Arial !important;
+    color: #fff !important;
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box !important;
+    border: 1px solid #F2652380 !important;
+    border-radius: 40px !important;
+    padding: 10px 34px 10px 22px !important;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden !important;
+    transition: all 0.3s linear;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content .field-cta-2 a:before {
+    background: url(../../../../../Themes/BOB/India/India/images/white-arrow.svg) no-repeat center center !important;
+    content: "";
+    width: 13px;
+    height: 8px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) rotateZ( -90deg) scale(0.7) !important;
+    right: 11px !important;
+    left: auto;
+    transition: all 0.3s linear;
+    z-index: 1;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content .field-cta-2 a:hover {
+    color: #F26522 !important;
+    background: transparent linear-gradient(90deg, #FFE8DD 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box !important;
+    background: #fff !important;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content .field-cta-2 a:hover:before {
+    background: url(../../../../../Themes/BOB/India/India/images/orange-arrow.svg) no-repeat center center !important;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content .row {
+    align-items: center;
+    justify-content: space-between;
+    display: inline-flex;
+    margin-left: 0px;
+    position: absolute;
+    bottom: 25px;
+    left: 130px;
+    position: static;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content .row .col-sm-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content .row .col-sm-6:last-child {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.item-list-product .bob-page-list-box ul.items li .box-content .row .col-sm-6:last-child label {
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.item-list-product .bob-page-list-box .item h2.field-title {
+    /* min-height: 122px; */
+}
+
+.item-list-product .bob-page-list-box {
+    margin-bottom: 40px;
+}
+
+.item-list-product .bob-page-list-box .box-content {
+    /* min-height: 380px; */
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a.dynamic-apply-online-cta {
+    all: unset;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a.dynamic-apply-online-cta {
+    cursor: pointer;
+    text-align: center !important;
+    font: normal normal bold 12px/14px Arial !important;
+    color: #fff !important;
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box !important;
+    border: 1px solid #F2652380 !important;
+    border-radius: 40px !important;
+    padding: 10px 34px 10px 22px !important;
+    margin: -7px 0px -15px;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden !important;
+    transition: all 0.3s linear;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a.dynamic-apply-online-cta:before {
+    background: url(../../../../../Themes/BOB/India/India/images/white-arrow.svg) no-repeat center center !important;
+    content: "";
+    width: 13px;
+    height: 8px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) rotateZ( -90deg) scale(0.7) !important;
+    right: 11px !important;
+    left: auto;
+    transition: all 0.3s linear;
+    z-index: 1;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a.dynamic-apply-online-cta:hover {
+    color: #F26522 !important;
+    background: transparent linear-gradient(90deg, #FFE8DD 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box !important;
+    background: #fff !important;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a.dynamic-apply-online-cta:hover:before {
+    background: url(../../../../../Themes/BOB/India/India/images/orange-arrow.svg) no-repeat center center !important;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a.dynamic-apply-online-cta {
+    all: unset;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a.dynamic-apply-online-cta {
+    cursor: pointer;
+    text-align: center !important;
+    font: normal normal bold 12px/14px Arial !important;
+    color: #fff !important;
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box !important;
+    border: 1px solid #F2652380 !important;
+    border-radius: 40px !important;
+    padding: 10px 34px 10px 22px !important;
+    margin: -7px 0px -15px;
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden !important;
+    transition: all 0.3s linear;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a.dynamic-apply-online-cta:before {
+    background: url(../../../../../Themes/BOB/India/India/images/white-arrow.svg) no-repeat center center !important;
+    content: "";
+    width: 13px;
+    height: 8px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) rotateZ( -90deg) scale(0.7) !important;
+    right: 11px !important;
+    left: auto;
+    transition: all 0.3s linear;
+    z-index: 1;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a.dynamic-apply-online-cta:hover {
+    color: #F26522 !important;
+    background: transparent linear-gradient(90deg, #FFE8DD 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box !important;
+    background: #fff !important;
+}
+
+.item-list-product .bob-page-list-box .box-content .field-cta a.dynamic-apply-online-cta:hover:before {
+    background: url(../../../../../Themes/BOB/India/India/images/orange-arrow.svg) no-repeat center center !important;
+}
+
+@media only screen and (max-width:991px) {
+    .item-list-product .bob-page-list-box .item h2.field-title {
+        min-height: auto;
+    }
+    .item-list-product .bob-page-list-box ul.items li .box-content ul {
+        min-height: auto;
+    }
+    .item-list-product .bob-page-list-box ul.items li .box-content .row {
+        flex-wrap: nowrap;
+    }
+    .item-list-product .bob-page-list-box ul.items {
+        margin: 0px;
+    }
+    .item-list-product .bob-page-list-box ul.items li.item {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        border: 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .item-list-product .bob-page-list-box .box-image img {
+        height: 117px;
+    }
+    .item-list-product .bob-page-list-box .box-content {
+        min-height: auto;
+    }
+    .item-list-product .bob-page-list-box ul.items li .box-content .row,
+    .item-list-product .bob-page-list-box .box-content .field-cta {
+        position: static;
+    }
+    .sticky-filter.item-list-product .bob-page-list-box {
+        margin-top: 0;
+    }
+    .item-list-product .bob-page-list-box .item h2.field-title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .item-list-product .bob-page-list-box ul.items .item,
+    .loan-level-1 .bob-small-page-list.page-list ul.items .item {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .item-list-product .bob-page-list-box ul.items .item,
+    .loan-level-1 .bob-small-page-list.page-list ul.items .item,
+    .grid .item {
+        position: static !important;
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+    .item-list-product .bob-page-list-box ul.items li.item {
+        width: calc(50% - 20px) !important;
+        margin: 0px 10px 20px 10px !important;
+    }
+}
+
+@media only screen and (max-width:1025px) and (min-width:992px) {
+    .item-list-product .bob-page-list-box .box-content {
+        /* min-height: 380px; */
+    }
+}
+
+.item-list-product .bob-page-list-box ul.items .item {
+    display: block;
+    position: absolute;
+    z-index: 9;
+    color: #fff;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.item-list-product .bob-page-list-box ul.items {}
+
+.item-list-product .bob-page-list-box ul.items .item {
+    flex: 0 0 calc((100% / 3) - 30px);
+    max-width: calc((100% / 3) - 30px);
+    position: static;
+}
+
+.item-list-product .bob-page-list-box .item h2.field-title {
+    margin-bottom: 10px !important;
+}
+
+
+/* level2 pages class ended */

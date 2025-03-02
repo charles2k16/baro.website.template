@@ -1,0 +1,104 @@
+.about-filter-component {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.width20 {
+    width: 23%;
+    float: left;
+    margin: 10px;
+}
+
+.amal-btn {
+    padding: 10px 50px 10px 30px !important;
+    height: 40px !important;
+    top: 8px;
+}
+
+.about-amal .bob-blue-top-div .container {
+    top: 0;
+}
+
+.about-amal .bob-blue-top-div .container h2 {
+    color: #fff;
+    font-size: 3.125rem;
+    font-weight: normal;
+    font-family: 'Helvetica Neue LT Pro Lt';
+    line-height: 110%;
+}
+
+.breadcrumb {
+    padding: 20px 30px;
+}
+
+.about-amal .bob-blue-top-div img {
+    height: 200px;
+}
+
+.about-amal .bob-box-tab {
+    box-shadow: 0px 15px 20px #d8632b29;
+    padding: 0 60px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .navigation-main-horizontal nav ul {
+        /* padding: 25px 60px  10px!important; */
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .width20 {
+        width: 25%;
+    }
+    .navigation-main-horizontal nav ul {
+        padding: 10px 60px!important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about-amal .container-shadow {
+        padding: 15px;
+        width: calc(100% - 40px);
+    }
+    .width20 {
+        width: 40%;
+    }
+    .amal-btn {
+        margin-left: 10px;
+    }
+    .about-amal .bob-box-tab .tabs-heading {
+        justify-content: unset;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        padding: 10px 20px;
+        white-space: nowrap;
+    }
+    .navigation-main-horizontal nav ul {
+        padding: 10px 15px!important;
+    }
+    .about-amal .bob-blue-top-div .container h2 {
+        font-size: 36px;
+    }
+    .about-amal .bob-blue-top-div .container {
+        top: 0;
+        height: calc(100% - 45px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-amal .bob-box-tab {
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .about-us .tableOut {
+        margin-bottom: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .custom-filt-div .form-control {
+        min-width: 135px;
+    }
+}

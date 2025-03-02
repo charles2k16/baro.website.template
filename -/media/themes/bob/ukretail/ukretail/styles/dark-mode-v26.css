@@ -1,0 +1,1079 @@
+/* dark mode start here */
+
+.dark-mode .bob-navbar,
+.dark-mode .bob-home-loan .loan-search input,
+.dark-mode .tabs .tabs-heading li::before,
+.dark-mode .tabs .tabs-heading li:hover::before,
+.dark-mode .navigation.navigation-main ul li.rel-level1::before,
+.dark-mode .bob-blue-top-div .bob-tags li a::before,
+.dark-mode .baranches-atm .component.navigation.navigation-main-horizontal li a.before,
+.dark-mode .b-exchange-rate-div ul,
+.dark-mode .bob-card-list-first ul.items li.item {
+    background: #000;
+}
+.dark-mode .bob-custom-dropdown .bob-custom-dropdown-list{
+    z-index: 99 !important;
+}
+.dark-mode .bob-tags li a {
+    color: #80ff00 !important;
+}
+.dark-mode .b-exchange-rate-div .b-blue-text-div:before{
+    background: #000 !important;
+    opacity: 0.8 !important;
+}
+.dark-mode .cookie-popup .popup-content,
+.dark-mode .accord-content,
+.dark-mode .b-home-img-content-div .container{
+    background: #333 !important;
+}
+.dark-mode .ck-btn-div a.cookie-btn{
+    color: #162b75 !important;
+    background: #ffff00 !important;
+}
+.dark-mode .toggle-btn.active{
+    background: #ffff00 !important;
+}
+.dark-mode .set > a i,
+.dark-mode .bob-card-list-first ul.items li.item .box .box-image .bob-cta-1 a{
+    color: #ffff00 !important;
+}
+.dark-mode .bob-search-voice-div,
+.dark-mode .ways-to-link ul,
+.dark-mode .bob-navbar .bob-top-navbar,
+.dark-mode .carousel .slide .slide-info,
+.dark-mode .bob-imp-links-div,
+.dark-mode .home_section_2,
+.dark-mode footer .bob-copyright-div,
+.dark-mode footer .bob-footer-nav-links,
+.dark-mode .active-drop.bob-custom-drop-popup-div,
+.dark-mode .bob-main-bottom-links ul,
+.dark-mode .barodaconnect,
+.dark-mode .blogWrap,
+.dark-mode .blogtextbox,
+.dark-mode .offerWrap_right .slick-slide>div:first-child li:nth-child(1),
+.dark-mode .offerWrap_right li,
+.dark-mode .ratesroundbox,
+.dark-mode .bob-nav-custom-dropdown .bob-nav-inner-list,
+.dark-mode .bob-line-list,
+.dark-mode .bob-blogs-thumb-style ul li .box,
+.dark-mode .bob-accordion-div,
+.dark-mode .bob-offres-all-card-div .bob-offer-card-div,
+.dark-mode .bob-left-custom-filter-div,
+.dark-mode .contact-details-wrap,
+.dark-mode header,
+.dark-mode .office-detail-contact-tab-content-wrap .office-detail-contact-tab-content-box,
+.dark-mode .locate-us-box-wrap,
+.dark-mode .contact-information-detail-component .contact-information-box,
+.dark-mode .common-faqs-customer-suopport-search .back-support-div,
+.dark-mode .bob-home-loan .bob-page-list-box .box-content,
+.dark-mode .bob-search-filter,
+.dark-mode .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item,
+.dark-mode .bob-inner-tabs-div,
+.dark-mode .bob-report-list-div .bob-report-d-div,
+.dark-mode .bob-search-popup-div,
+.dark-mode .bob-tab-div .bob-tab-ul li::before,
+.dark-mode .bob-search-popup-div .bob-popup-header .bob-closed-btn:hover,
+.dark-mode .bob-newsletter-search-wrap .bob-global-search-result-section,
+.dark-mode .bob-popular-article-slider,
+.dark-mode .blog-related-article-div .bob-popular-article-slider .item .bob-related-text-div,
+.dark-mode .bob-share-li.bob-open-share-li .bob-share-link-ul,
+.dark-mode .bob-custom-dropdown .bob-custom-dropdown-list,
+.dark-mode .bob-blog-bookmarked-div,
+.dark-mode .bob-leave-comment-div .bob-blog-form-div,
+.dark-mode .blog-next-prev-div:before,
+.dark-mode .bob-leave-comment-div:before,
+.dark-mode .bob-promo-tab-div .component-content ul li a::before,
+.dark-mode .bob-atm-details-list ul,
+.dark-mode .bob-parent-accordion-div .bob-parent-accordion-list-div,
+.dark-mode .bob-parent-accordion-div>span,
+.dark-mode .bob-background-patch-div .bob-patch-div,
+.dark-mode .bob-accordion-custom-div,
+.dark-mode .bob-background-patch-div:before,
+.dark-mode .bob-loan-emi-grp-div .container,
+.dark-mode .customer-search-result-section,
+.dark-mode .pageNPF-wrapp,
+.dark-mode .bob-similar-properties-div:before,
+.dark-mode .bob-notification-data,
+.dark-mode .bob-important-link-div-v1 .bob-similar-slider .slick-list,
+.dark-mode .bob-apply-card,
+.dark-mode .fixed-filter-drop,
+.dark-mode .bob-grid-view-div .bob-details-data-popup,
+.dark-mode .bob-details-data-popup
+.dark-mode .videos-tab.bob-tab-content .bob-blogs-thumb-style ul.items li,
+.dark-mode .articles-tab.bob-tab-content .bob-blogs-thumb-style ul.items li {
+    background: #000 !important;
+}
+
+.dark-mode .blog-popular-article-div:before,
+.dark-mode .blog-interested-product:before,
+.dark-mode .bob-related-offer-component .bob-related-offer-top-div,
+.dark-mode .history-top-box-wrap,
+.dark-mode .history-founder-info-component {
+    background: #222;
+}
+.dark-mode .bob-popup-common-div .bob-popup-inner-content-div{
+    background: #333 !important;
+}
+.dark-mode .offerWrap_right li:nth-child(1),
+.dark-mode .offerWrap_right li:nth-child(2),
+.dark-mode .contact-details-tab,
+.dark-mode .contact-details-tab {
+    border-bottom: 1px solid #222;
+    border-top: 1px solid #222;
+}
+
+.dark-mode .offerWrap_right li,
+.dark-mode .contact-details-tab .col-sm-4 {
+    border-right: 1px solid #222;
+}
+
+.dark-mode .bob-navbar,
+.dark-mode .ways-to-link ul li::before,
+.dark-mode .ways-to-link ul li::after,
+.dark-mode .bob-search-popup-div .bob-popup-header,
+.dark-mode .bob-scroll-top .bob-navbar .bob-top-middle-navbar,
+.dark-mode footer .bob-news-social-group-div,
+.dark-mode .saving_acc_wrap,
+.dark-mode body,
+.dark-mode .bob-marquee-links marquee::after,
+.dark-mode .bob-marquee-links marquee::before,
+.dark-mode .bob-nav-custom-dropdown.bob-open-dropdown,
+.dark-mode .bob-nav-custom-dropdown .bob-custom-dropdown-list,
+.dark-mode .bob-assistance-form .bob-form-data-div,
+.dark-mode .bob-offer-top-filter-div,
+.dark-mode .bob-navbar .bob-middle-navbar,
+.dark-mode .bob-search-inner-div::before,
+.dark-mode .bob-card-div,
+.dark-mode .home_section_4,
+.dark-mode .bob-search-popup-div .bob-global-search-result-section,
+.dark-mode .bob-monthly-loan-emi,
+.dark-mode .bob-inner-list-nav:before {
+    background: #333 !important;
+}
+
+.dark-mode .bob-offer-main-sec .col-sm-3.bob-left-fixed-filter,
+.dark-mode .bob-top-bottom-navbar,
+.dark-mode .contact-us-page .contact-for-complain-info,
+.dark-mode .office-detail-contact-wrap::after,
+.dark-mode .offerWrap_right {
+    background: transparent;
+}
+
+.dark-mode .blueoverlay,
+.dark-mode .bob-loan-calculator,
+.dark-mode .bob-calculator-div,
+.dark-mode .bob-need-assistance-div,
+.dark-mode .only-content,
+.dark-mode .bob-svg-text-link-div,
+.dark-mode .bob-box-tab .tabs-heading,
+.dark-mode .bob-blue-top-div::before,
+.dark-mode .bob-main-bottom-links {
+    background: #000 !important;
+    opacity: 0.8;
+}
+
+.dark-mode .offersoverlay {
+    background: #222 !important;
+    opacity: 0.8;
+}
+
+.dark-mode .bob-assistance-form .bob-form-data-div,
+.dark-mode .contact-details-wrap,
+.dark-mode .customer-support-page .contact-center .contact-details-wrap,
+.dark-mode .bob-accordion-div,
+.dark-mode .bob-accordion-div,
+.dark-mode .bob-main-bottom-links ul,
+.dark-mode .bob-fixed-social-icon-div ul li a,
+.dark-mode .bob-line-list,
+.dark-mode .bob-blogs-thumb-style ul li,
+.dark-mode .ways-to-link ul,
+.dark-mode .bob-custom-drop-popup-div,
+.dark-mode .blogWrap,
+.dark-mode .carousel .slide .slide-info,
+.dark-mode .bob-offer-top-filter-div,
+.dark-mode .contact-us-page .top-banner-component-type3,
+.dark-mode .barodaconnect,
+.dark-mode .contact-office-detail-component .office-detail-intro-box,
+.dark-mode .office-detail-contact-tab-content-wrap .office-detail-contact-tab-content-box,
+.dark-mode .contact-information-detail-component .contact-information-box,
+.dark-mode .customer-support-page .top-banner-component-type3,
+.dark-mode .bob-home-loan .bob-search-filter,
+.dark-mode .loan-level-1.bob-new-loans-page .bob-loan-listing-intro,
+.dark-mode .into-content-sh .bob-loan-listing-intro {
+    box-shadow: 0px 1px 10px #222;
+}
+
+.dark-mode .bob-search-popup-div .bob-global-search-result-section {
+    box-shadow: 0px 10px 20px #222;
+}
+
+.dark-mode .bob-login-dropdown span,
+.dark-mode .bob-tags li a,
+.dark-mode .slide .slide-info a,
+.dark-mode .bob-button,
+.dark-mode .bob-load-more-btn.link-list>.component-content li a,
+.dark-mode .bob-load-more-btn a,
+.dark-mode .bob-form-div form button,
+.dark-mode a.cta-btn-style2,
+.dark-mode .bob-comman-btn,
+.dark-mode .bob-comman-white-btn,
+.dark-mode .bob-form-div form button,
+.dark-mode .bob-top-loan-div .link-list.bob-button-links>.component-content .field-link a,
+.dark-mode .only-content ul.btn-link-list li a:hover,
+.dark-mode .bob-show-100-more-btn,
+.dark-mode .bob-blue-top-div .bob-tags li a,
+.dark-mode .bob-tags li a,
+.dark-mode .bob-popup-common-div .bob-popup-inner-content-div .bob-e-auction-filter-btn-div .bob-comman-white-btn {
+    color: #000 !important;
+    background: #ff0 !important;
+}
+
+.dark-mode .slide .slide-info a:hover,
+.dark-mode .bob-button:hover,
+.dark-mode .bob-load-more-btn.link-list>.component-content li a:hover,
+.dark-mode .bob-load-more-btn a:hover,
+.dark-mode .bob-form-div form button:hover,
+.dark-mode a.cta-btn-style2:hover,
+.dark-mode .bob-top-loan-div .bob-button-links li.first .field-link a,
+.dark-mode .bob-home-loan .link-list.bob-button-links>.component-content li.item1 .field-link a,
+.dark-mode .bob-home-loan .link-list.bob-button-links>.component-content li.item2 .field-link a,
+.dark-mode .only-content ul.btn-link-list li a,
+.dark-mode .bob-top-loan-div .link-list.bob-button-links>.component-content li.first .field-link a:hover,
+.dark-mode .bob-top-loan-div .bob-button-links li.first .field-link a:hover,
+.dark-mode .bob-promo-tab-div .component-content ul li a.active,
+.dark-mode .contact-details-tablist li.active,
+.dark-mode .office-detail-contact-tab-content-wrap .office-contact-detail-text-box a.get-direction-btn,
+.dark-mode .office-detail-contact-tab ul li>a,
+.dark-mode .bob-home-loan .bob-page-list-box ul.items li .box-content .field-cta-2 a,
+.dark-mode .navigation.navigation-main ul li.rel-level1.active,
+.dark-mode .navigation.navigation-main ul li.rel-level1:hover,
+.dark-mode .navigation.navigation-main ul li.rel-level1,
+.dark-mode .loadmore-btn,
+.dark-mode .tabs .tabs-heading li,
+.dark-mode .bob-button,
+.dark-mode .bob-notification-data ul li a,
+.dark-mode .get-direction {
+    background: #ffff00 !important;
+    color: #000 !important;
+    border-color: #000 !important;
+}
+
+.dark-mode .bob-types-slider-div .component-content ul li a:hover {
+    background: none;
+}
+
+.dark-mode .tabs .tabs-heading li.active,
+.dark-mode .tabs .tabs-heading li:hover,
+.dark-mode .bob-tab-div .bob-tab-ul li:hover,
+.dark-mode .bob-tab-div .bob-tab-ul li.active {
+    background: #ff0;
+    border: none;
+    color: #000 !important;
+}
+
+.dark-mode .bob-tab-div .bob-tab-ul li {
+    background: transparent;
+    border: 1px solid #ff0;
+    color: #ff0;
+}
+
+.dark-mode .bob-tab-content-div .bob-tab-div .bob-tab-ul li:hover,
+.dark-mode .bob-tab-content-div .bob-tab-div .bob-tab-ul li,
+.dark-mode .bob-tab-content-div .bob-tab-div .bob-tab-ul li.active {
+    background: transparent;
+    color: #ff0 !important;
+}
+
+.dark-mode .bob-tab-content-div .bob-tab-div .bob-tab-ul li::before,
+.dark-mode .bob-report-load-more:before {
+    background: #ff0 !important;
+}
+.dark-mode .bob-custom-disabled-dropdown:before{
+    background: none !important;
+}
+.dark-mode .bob-inner-list-nav ul li:before {
+    background: #fff !important;
+}
+.dark-mode a{
+    color: #ff0 !important;
+}
+.dark-mode .bob-simple-btn {
+    color: #ff0 !important;
+    border-color: #ff0 !important;
+}
+
+.dark-mode .bob-simple-btn:hover {
+    background: #ff0;
+    color: #000 !important;
+}
+.dark-mode .bob-blue-top-div-text:before{
+    background: #000 !important;
+    opacity: .8;
+}
+.dark-mode footer .bob-footer-nav-links h6,
+.dark-mode .bob-imp-links-div ul li a strong:hover,
+.dark-mode .link-list>.component-content li a:hover,
+.dark-mode .bob-imp-links-div ul li a:hover strong,
+.dark-mode .h2heading,
+.dark-mode .prod_text_right h3,
+.dark-mode .prod_text_right p,
+.dark-mode .bob-need-assistance-div h3,
+.dark-mode .link-list>.component-content li a,
+.dark-mode .bob-inner-form-text-div p,
+.dark-mode .bob-loan-calculator ul li.total-loan span,
+.dark-mode .bob-loan-calculator ul li.total-loan p,
+.dark-mode .bob-loan-calculator .bob-calculator-placeholder-div>div,
+.dark-mode .bob-loan-calculator ul li p,
+.dark-mode .bob-loan-calculator h6,
+.dark-mode .bob-search-voice-div input,
+.dark-mode .bob-search-popup-div .bob-popup-header .bob-search-voice-div input,
+.dark-mode footer .bob-news-social-group-div h6,
+.dark-mode .bob-newsletter-div input,
+.dark-mode .saving_acc_wrap .h3title,
+.dark-mode .saving_acc_wrap p:nth-child(2),
+.dark-mode .saving_acc_wrap p,
+.dark-mode .bob-blogs-thumb-style ul li .field-title,
+.dark-mode .accordion .toggle-header .component .field-heading,
+.dark-mode .accordion .field-content p,
+.dark-mode .accordion .field-content ul li,
+.accordion .field-content ol li,
+.dark-mode .bob-inner-list-nav h6,
+.dark-mode .bob-left-filter-div strong span,
+.dark-mode .bob-sort-by-div label,
+.dark-mode .bob-hanpicked-sort-by-div .bob-handpicked-div .form-group label,
+.dark-mode .get-in-touch-box h4,
+.dark-mode .get-in-touch-box h5,
+.dark-mode .locate-us-box-wrap,
+.dark-mode .bob-home-loan .filterby p,
+.dark-mode .bob-home-loan .loan-search input,
+.dark-mode .bob-home-loan .component-content .component.rich-text.col-12 .component-content p,
+.dark-mode .bob-home-loan .bob-page-list-box .box-content p,
+.dark-mode .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .field-content p,
+.dark-mode .bob-box-tab .tab ul li,
+.dark-mode .bob-box-tab .tab ol li,
+.dark-mode .bob-home-loan .bob-page-list-box .box-content p,
+.dark-mode .bob-home-loan .bob-page-list-box .box-content ul li,
+.dark-mode .bob-card-div h6,
+.dark-mode .bob-card-div p,
+.dark-mode .bob-search-popup-div .search-result-list h4,
+.dark-mode .bob-search-popup-div .search-result-list p,
+.dark-mode .bob-marquee-links marquee ul li a,
+.dark-mode li::marker,
+.dark-mode .bob-marquee-links marquee ul li,
+.dark-mode .only-content ul.icon-ul-list li span,
+.dark-mode .bob-newsletter-search-wrap .search-result-list h4,
+.dark-mode .bob-popular-article-slider .item .popular-time-div span:last-child,
+.dark-mode .bob-popular-article-slider .item .popular-time-div span,
+.dark-mode .bob-tag-cloud-div h3,
+.dark-mode .blog-popular-article-div h3,
+.dark-mode .bob-popular-article-slider .item h6,
+.dark-mode .bob-custom-dropdown .bob-custom-dropdown-list li:hover,
+.dark-mode .bob-custom-dropdown .bob-custom-dropdown-list li,
+.dark-mode .blog-main .bob-popular-article-slider .item p,
+.dark-mode .bob-blog-bookmarked-div,
+.dark-mode .bob-atm-details-list ul li h6,
+.dark-mode .bob-atm-details-list ul li p,
+.dark-mode .bob-atm-details-list ul li a,
+.dark-mode .bob-parent-accordion-div>span,
+.dark-mode .bob-accordion-custom-div .bob-custom-accordion span small,
+.dark-mode .bob-accordion-custom-div .bob-custom-accordion .bob-custom-accordion-list h3,
+.dark-mode .bob-accordion-custom-div .bob-custom-accordion .bob-custom-accordion-list h6,
+.dark-mode .bob-background-patch-div ul li,
+.dark-mode .bob-accordion-custom-div .bob-custom-accordion .bob-custom-accordion-list ul li,
+.dark-mode .bob-accordion-custom-div .apexcharts-legend-text,
+.dark-mode .bob-m-amt-div strong,
+.dark-mode .bob-m-amt-div span,
+.dark-mode .customer-search-result-section .customer-search-result-list li h4,
+.dark-mode .faqs-page .customer-search-result-section ul li p,
+.dark-mode .left-blog-logo-div h3,
+.dark-mode .left-blog-logo-div span,
+.dark-mode .right-blog-logo-div h6,
+.dark-mode .blog-interested-product h3,
+.dark-mode p,
+.dark-mode h4,
+.dark-mode h6,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode strong,
+.dark-mode ul li,
+.dark-mode .related-products .blueoverlay .field-promotext2,
+.dark-mode .b-exchange-rate-div ul li p span,
+.dark-mode .b-exchange-rate-div ul li h6 span,
+.dark-mode .set > a  {
+    color: #fff !important;
+}
+
+.dark-mode .bob-parent-accordion-div>span .plus_svg .a {
+    fill: #000;
+}
+
+.dark-mode .bob-parent-accordion-div>span .plus_svg .b,
+.dark-mode .bob-view-ul li.active svg,
+.dark-mode .bob-view-ul li:hover svg,
+.dark-mode .bob-view-ul li svg,
+.dark-mode .bob-notification-data svg path {
+    fill: #ff0;
+}
+
+.dark-mode .bob-view-ul li.active,
+.dark-mode .bob-view-ul li:hover {
+    background: #000;
+    transition: all 0.3s linear;
+    color: #fff;
+}
+
+.dark-mode .contact-details-tablist li {
+    color: #000 !important;
+    background: #fff !important;
+}
+
+.dark-mode .bob-search-voice-div,
+.dark-mode .exclusiveofferWrap {
+    box-shadow: 0px 1px 20px #000;
+    border: 1px solid #000;
+}
+
+.dark-mode .sxa-bullets.active {
+    border: 3px solid #ffff00 !important;
+}
+
+.dark-mode .bob-imp-links-div ul li a strong,
+.dark-mode .bob-need-assistance-div ul li a span,
+.dark-mode .bob-need-assistance-div ul li a strong,
+.dark-mode .bob-loan-listing-right-text .link-list .component-content li a span,
+.dark-mode .bob-middle-navbar .bob-middle-first-link li span,
+.dark-mode .bob-middle-navbar .bob-middle-first-link li a:hover,
+.dark-mode .bob-middle-navbar .bob-middle-first-link li a.active,
+.dark-mode .bob-middle-navbar .bob-middle-first-link li a,
+.dark-mode .ways-to-link ul li p,
+.dark-mode .ways-to-link ul li p:hover,
+.dark-mode .bob-middle-navbar .bob-middle-first-link li a,
+.dark-mode .bob-navbar .bob-nav-right-link li a,
+.dark-mode .bob-navbar .bob-nav-pb-link li a,
+.dark-mode .bob-middle-navbar .bob-middle-first-link li a:hover,
+.dark-mode .bob-middle-navbar .bob-middle-first-link li a.active,
+.dark-mode .bob-navbar .bob-nav-right-link li a:hover,
+.dark-mode .bob-navbar .bob-nav-right-link li a.active,
+.dark-mode .bob-navbar .bob-nav-pb-link li a:hover,
+.dark-mode .bob-navbar .bob-nav-pb-link li a.active,
+.dark-mode .bob-custom-dropdown span small a,
+.dark-mode footer .bob-form-control span.form-control,
+.dark-mode footer .bob-footer-nav-links .field-link a,
+.dark-mode footer .bob-footer-nav-links .field-link a:hover,
+.dark-mode .bob-custom-drop-popup-div .link-ul-p li a,
+.dark-mode .bob-main-bottom-links ul li a strong,
+.dark-mode .bob-inner-list-nav ul li a,
+.dark-mode .bob-tab-inner-page-link a,
+.dark-mode .breadcrumb li a,
+.dark-mode .content a,
+.dark-mode .errorMessage {
+    color: #ffff00 !important;
+}
+
+.dark-mode .bob-loan-page-tab-div .tabs-heading .slick-arrow,
+.dark-mode .bob-filter-c-div .bob-custom-accordion.bob-open-accordion span,
+.dark-mode .bob-fixed-social-icon-div ul li a,
+.dark-mode .bob-show-100-more-btn span,
+.dark-mode .contact-details-tablist li::before,
+.dark-mode .office-detail-contact-tab ul li a::before,
+.dark-mode .bob-main-bottom-links ul li::before,
+.dark-mode .bob-home-loan .bob-page-list-box ul.items li .box-content ul li::before,
+.dark-mode .mCSB_dragger_bar {
+    background: #ffff00 !important;
+}
+
+.dark-mode .bob-top-bottom-navbar .bob-bottom-first-ul li span,
+.dark-mode .bob-arrow-button,
+.dark-mode .contact-detail-content p,
+.dark-mode .get-in-touch-box p,
+.dark-mode .get-in-touch-box p,
+.dark-mode .bob-inner-form-text-div p,
+.dark-mode .bob-marquee-links marquee p a,
+.dark-mode .bob-top-loan-div .link-list.bob-button-links>.component-content .field-link a:hover,
+.dark-mode .bob-top-loan-div .bob-button-links li.first .field-link a:hover,
+.dark-mode .bob-home-loan .link-list.bob-button-links>.component-content li.item1 .field-link a:hover,
+.dark-mode .bob-blogs-thumb-style ul li .field-cta a,
+.dark-mode .bob-blogs-thumb-style ul li .field-link a,
+.dark-mode .bob-line-list li ul li a strong,
+.dark-mode .bob-blogs-thumb-style ul li .field-link a,
+.dark-mode .bob-check-radio-form-control label,
+.dark-mode .bob-filter-c-div .bob-custom-dropdown small,
+.dark-mode .font-big-small small,
+.dark-mode .bob-line-arrow-orange-link,
+.dark-mode .bob-svg-text-link-div ul li a,
+.dark-mode .office-detail-contact-tab-content-wrap .office-contact-detail-text-box .contact-email-detail,
+.dark-mode .contact-information-detail-component .contact-information-content-box a,
+.dark-mode .bob-home-loan .bob-page-list-box .box-content .field-cta a,
+.dark-mode .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-1 a,
+.dark-mode .bob-new-loans-page .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-1 a:hover,
+.dark-mode .bookmark-btn,
+.dark-mode .read-more-btn,
+.dark-mode .download-btn,
+.dark-mode .external-btn,
+.dark-mode .presentation-analyst .bob-press-div .bob-report-d-div ul li a,
+.dark-mode .direct-link-pageNPF ul li span,
+.dark-mode .bob-filter-c-div .bob-custom-accordion small,
+.dark-mode .color-mode small,
+.dark-mode .appendid,
+.dark-mode .bob-loan-page-tab-div .image-link-list ul li a,
+.dark-mode .overviewPageContenSec3 .tableData tr td a {
+    color: #ff0 !important;
+}
+
+.dark-mode .bob-top-loan-div .link-list.bob-button-links>.component-content .field-link a:hover,
+.dark-mode .bob-top-loan-div .bob-button-links li.first .field-link a:hover,
+.dark-mode .bob-home-loan .link-list.bob-button-links>.component-content li.item1 .field-link a:hover {
+    border-color: #000 !important;
+}
+
+.dark-mode .bob-imp-links-div ul li::before {
+    background: #555;
+}
+
+.dark-mode .bob-line-tab.bob-tab-div .bob-tab-ul {
+    border-color: #555;
+}
+
+.dark-mode .bob-top-bottom-navbar .bob-bottom-second-ul li svg,
+.dark-mode .bob-bottom-first-ul .bob-custom-dropdown svg,
+.dark-mode .bob-arrow-button svg,
+.dark-mode .bob-white-btn:hover svg,
+.dark-mode .bob-offer-views-ul li.liked-li .like-svg,
+.dark-mode .bob-custom-dropdown svg,
+.dark-mode .bob-scroll-top .bob-navbar .bob-nav-pb-link li .bob-down-arrow-svg,
+.dark-mode .bob-custom-drop-popup-div .closed-pp path,
+.dark-mode .bob-search-voice-div .input-group-append svg path,
+.dark-mode .notification_svg_h circle,
+.dark-mode .bob-home-loan .bob-page-list-box .box-content .field-cta a::before,
+.dark-mode .bob-offer-views-ul li svg,
+.dark-mode .bob-sort-by-div svg,
+.dark-mode .bob-left-filter-div svg,
+.dark-mode .bob-blog-form-div .bob-verification-div span svg,
+.dark-mode .bob-atm-details-list ul li a svg {
+    fill: #ff0;
+    /* stroke: #ff0; */
+}
+
+.dark-mode .bob-custom-dropdown .bob-down-arrow-svg {
+    fill: #ff0 !important;
+}
+
+.dark-mode .bob-login-dropdown .bob-down-arrow-svg,
+.dark-mode .bob-fixed-social-icon-div ul li a svg,
+.dark-mode .bob-white-btn svg,
+.dark-mode .bob-box-tab .tabs-heading svg,
+.dark-mode .bob-round-arrow-svg:hover path,
+.dark-mode .bob-fb-svg .b,
+.dark-mode .bob-search-popup-div .bob-popup-header .bob-closed-btn:hover svg path {
+    fill: #000 !important;
+}
+
+.dark-mode .bob-round-arrow-svg.slick-disabled path,
+.dark-mode .bob-round-arrow-svg.slick-disabled,
+.dark-mode .bob-round-arrow-orange-svg .b {
+    fill: #ffff00 !important;
+}
+
+.dark-mode .bob-round-arrow-orange-svg .a,
+.dark-mode .bob-round-arrow-orange-svg .b,
+.dark-mode .bob-search-popup-div .bob-popup-header .bob-closed-btn:hover svg path {
+    stroke: #ff0;
+}
+
+.dark-mode .bob-round-arrow-svg.slick-disabled .a {
+    stroke: #ccc;
+}
+
+.dark-mode .savingaccslider .bob-round-arrow-svg.slick-disabled .a {
+    stroke: #555;
+}
+
+.dark-mode .savingaccslider .bob-round-arrow-svg.slick-disabled path,
+.dark-mode .savingaccslider .bob-round-arrow-svg.slick-disabled,
+.dark-mode .savingaccslider .bob-round-arrow-svg:hover path {
+    fill: #555;
+}
+
+.dark-mode .savingaccslider .bob-round-arrow-orange-svg .a,
+.dark-mode .savingaccslider .bob-round-arrow-orange-svg .b {
+    stroke: #ffff00;
+}
+
+.dark-mode .slide .slide-info a:after,
+.dark-mode .bob-load-more-btn a:before,
+.dark-mode .bob-comman-btn::before,
+.dark-mode .bob-form-div form button::before,
+.dark-mode .bob-top-loan-div .link-list.bob-button-links>.component-content li.first .field-link a::before,
+.dark-mode .bob-top-loan-div .bob-button-links li.first .field-link a::before,
+.dark-mode .only-content ul.btn-link-list li a:hover::before,
+.dark-mode a.cta-btn-style2::before,
+.dark-mode .bob-home-loan .bob-page-list-box ul.items li .box-content .field-cta-2 a::before,
+.dark-mode .loadmore-btn:before {
+    filter: invert(0%) sepia(2%) saturate(7500%) hue-rotate(263deg) brightness(0%) contrast(100%);
+}
+
+.dark-mode .slide .slide-info a:after:hover,
+.dark-mode .bob-load-more-btn a:before:hover,
+.dark-mode .bob-form-div form button:hover::before,
+.dark-mode .bob-comman-btn:hover::before,
+.dark-mode .bob-top-loan-div .link-list.bob-button-links>.component-content li.first .field-link a:hover::before,
+.dark-mode .bob-top-loan-div .bob-button-links li.first .field-link a:hover::before {
+    filter: invert(0%) sepia(142%) saturate(27%) hue-rotate(21deg) brightness(0%) contrast(103%);
+}
+
+.dark-mode .bob-blogs-thumb-style ul li .field-link a:before,
+.dark-mode .bob-blogs-thumb-style ul li .field-link a:before,
+.dark-mode .bob-line-arrow-orange-link::before,
+.dark-mode .accordion .toggle-header .component .field-heading::before,
+.dark-mode .only-content ul.btn-link-list li a::before,
+.dark-mode .bob-line-arrow-orange-link::before,
+.dark-mode .bob-tab-inner-page-link a::before,
+.dark-mode .bob-blogs-thumb-style ul li .field-cta a::before,
+.dark-mode .bob-blogs-thumb-style ul li .field-link a::before,
+.dark-mode .bob-show-100-more-btn svg,
+.dark-mode .bob-check-radio-form-control label::before,
+.dark-mode .download-btn::after {
+    filter: invert(44%) sepia(50%) saturate(1435%) hue-rotate(20deg) brightness(100%) contrast(50%);
+}
+
+.dark-mode .bob-custom-drop-popup-div .link-ul-p li a::after {
+    filter: invert(80%) sepia(100%) saturate(2%) hue-rotate(253deg) brightness(107%) contrast(101%);
+}
+
+.dark-mode .ratesroundbox,
+.dark-mode .bob-custom-dropdown .bob-custom-dropdown-list,
+.dark-mode .bob-popular-article-slider,
+.dark-mode .bob-leave-comment-div .bob-blog-form-div,
+.dark-mode .bob-background-patch-div .bob-patch-div,
+.dark-mode .bob-accordion-custom-div,
+.dark-mode .customer-search-result-section,
+.dark-mode .bob-newsletter-search-wrap .bob-global-search-result-section,
+.dark-mode .fixed-filter-drop,
+.dark-mode .bob-box-tab .tabs-heading {
+    box-shadow: none;
+}
+
+.dark-mode .bob-custom-dropdown .bob-custom-dropdown-list:before,
+.dark-mode .bob-notification-data:before,
+.dark-mode .bob-custom-drop-popup-div:before {
+    border-bottom: 10px solid #000;
+}
+
+.dark-mode .font-big-small span svg,
+.dark-mode .bob-country-div-n span svg,
+.dark-mode .get-direction svg path.a {
+    fill: #000 !important;
+}
+.dark-mode .bob-loan-emi-grp-div .bob-loan-calculator ul li small{
+    background: #Ff0 !important;
+    color: #000 !important;
+}
+.dark-mode .bob-calculator-types-li .bob-cal-bbutton-div .bob-form-control .form-control small{
+    background-color: transparent !important     ;
+    color: #fff !important;
+}
+.dark-mode .bob-login-dropdown span small,
+.dark-mode .bob-button span,
+.dark-mode .bob-show-100-more-btn span,
+.dark-mode .bob-filter-c-div .bob-open-accordion span small,
+.dark-mode .contact-information-detail-component .contact-information-img-box h4,
+.dark-mode .bob-box-tab .tabs-heading .active>div .field-heading,
+.dark-mode .bob-box-tab .tabs-heading .li:hover .field-heading,
+.dark-mode .navigation.navigation-main ul li.rel-level1 .navigation-title a,
+.dark-mode .navigation.navigation-main ul li.rel-level1.active .navigation-title a:link,
+.dark-mode .navigation.navigation-main ul li.rel-level1.active .navigation-title a:visited,
+.dark-mode .tabs .tabs-heading li:hover {
+    color: #000 !important;
+}
+
+.dark-mode hr {
+    border-color: #ccc;
+}
+
+.dark-mode .content p,
+.dark-mode .content h1,
+.dark-mode .content h2,
+.dark-mode .content h3,
+.dark-mode .content h4,
+.dark-mode .content h5,
+.dark-mode .content h6,
+.dark-mode .rich-text h1,
+.dark-mode .rich-text h2,
+.dark-mode .rich-text h3,
+.dark-mode .rich-text h4,
+.dark-mode .rich-text h5,
+.dark-mode .rich-text h6,
+.dark-mode .barodaconnect h3,
+.dark-mode .barodaconnect p,
+.dark-mode .carousel .component-content .field-slidetext h2,
+.dark-mode .carousel .component-content .field-slidetext p .dark-mode .bob-loan-listing-right-text h6.field-promotext,
+.dark-mode .bob-loan-listing-right-text .bob-loan-calculator p,
+.dark-mode .bob-home-loan .row.bob-paragraph-section .col-sm-12 .blueoverlay p,
+.dark-mode .bob-home-loan .only-content h6,
+.dark-mode .only-content h3,
+.dark-mode .bob-home-loan .only-content p,
+.dark-mode .bob-assistance-form .bob-form-data-div .bob-form-img-div .bob-text-form-div p,
+.dark-mode .bob-home-loan .bob-types-of-loan3-div .blueoverlay p,
+.dark-mode .bob-custom-drop-popup-div h3,
+.dark-mode .offerWrap_right span,
+.dark-mode .offerWrap_right p,
+.dark-mode .bob-scroll-top-div small,
+.dark-mode .bob-line-list li ul li a strong,
+.dark-mode .bob-blogs-thumb-style ul li .field-title,
+.dark-mode .bob-top-loan-div p,
+.dark-mode .breadcrumb li.last a,
+.dark-mode .bob-filter-c-div h6,
+.dark-mode .bob-offres-all-card-div .bob-offer-card-div .bob-offer-cat,
+.dark-mode .bob-offer-views-ul li,
+.dark-mode .bob-custom-dropdown .form-control small,
+.dark-mode .carousel .component-content .field-slidetext p,
+.dark-mode .contact-detail-content h5,
+.dark-mode .office-detail-contact-tab-content-wrap .office-detail-contact-tab-content-box h3,
+.dark-mode .office-detail-contact-tab-content-wrap .office-contact-detail-text-box p,
+.dark-mode .office-detail-contact-tab-content-wrap .office-contact-detail-text-box a,
+.dark-mode .contact-information-detail-component .contact-information-content-box p,
+.dark-mode .bob-inner-tabs-div p,
+.dark-mode .bob-report-list-div .bob-report-d-div h6,
+.dark-mode .presentation-analyst .bob-press-div .bob-report-d-div ul li,
+.dark-mode .about-us .bulletText li,
+.dark-mode .bob-view-ul li,
+.dark-mode .contact-detail-content h4,
+.dark-mode .bob-notification-data ul li h4,
+.dark-mode .bob-box-tab .tab h6,
+.dark-mode .bob-notification-data ul li p,
+.dark-mode .bob-apply-card h6,
+.dark-mode .bob-important-link-div-v1 a,
+.dark-mode .fixed-filter-drop h5,
+.dark-mode .bob-details-data-popup h6,
+.dark-mode .bob-details-data-popup p,
+.dark-mode .contact-details-wrap h2,
+.dark-mode .bob-details-data-popup ul li {
+    color: #fff !important;
+}
+
+.dark-mode .bob-form-data-div .bob-form-img-div .bob-text-form-div,
+.dark-mode .top-banner-component-type3::before,
+.dark-mode .customer-support-page .contact-for-complain-info {
+    background: #000 !important;
+    opacity: 0.9;
+}
+
+.dark-mode .bob-scroll-top-div span,
+.dark-mode .item-list-product .bob-page-list-box ul.items li.item,
+.dark-mode .related-products:before {
+    background: #000;
+}
+
+.dark-mode .bob-scroll-top-div span svg,
+.dark-mode .color-mode span svg,
+.dark-mode .bob-filter-c-div .bob-custom-accordion span .bob-down-arrow-svg,
+.dark-mode .bob-search-popup-div .bob-popup-header .bob-closed-btn svg path {
+    fill: #ffff00;
+}
+
+.dark-mode .bob-open-accordion span .bob-down-arrow-svg,
+.dark-mode .bob-down-arrow-svg,
+.dark-mode #rd-grph svg g text {
+    fill: #fff;
+}
+
+.dark-mode .bob-form-control .form-control,
+.dark-mode .bob-filter-c-div .bob-custom-accordion span,
+.dark-mode .bob-filter-c-div .bob-custom-dropdown span,
+.dark-mode .bob-newsletter-div {
+    border: 1px solid #ff0 !important;
+    border-radius: 40px;
+}
+
+.dark-mode .bob-search-section .bob-newsletter-div,
+.dark-mode .common-faqs-customer-suopport-search .back-support-div {
+    border: none !important;
+}
+
+.dark-mode .bob-form-div form .form-group span,
+.dark-mode .bob-form-div form .form-group select,
+.dark-mode .bob-form-div form .form-group input,
+.dark-mode .get-in-touch-box p a,
+.dark-mode .bob-loan-listing-intro h1.field-title,
+.dark-mode .field-title,
+.dark-mode .ways-to-link h3,
+.dark-mode .blogtextbox h4,
+.dark-mode .blogdate span,
+.dark-mode .faq-question-yes-no-div span,
+.dark-mode .bob-offres-all-card-div .bob-offer-card-div h2,
+.dark-mode .ratesroundbox h3,
+.dark-mode .ratesroundbox ul li p,
+.dark-mode .ratesroundbox h3 span,
+.dark-mode .apr,
+.dark-mode .bob-blogs-thumb-style ul li .field-date,
+.dark-mode .contact-details-additional-info,
+.dark-mode .bob-offres-all-card-div .bob-offer-card-div .bob-offer-logo-time-div span {
+    color: #fff !important;
+}
+
+.dark-mode .bob-middle-second-link li a svg,
+.dark-mode .bob-search-voice-div .input-group-append svg,
+.dark-mode .bob-social-icons li svg {
+    fill: #ff0;
+}
+
+.dark-mode .bob-middle-navbar .bob-middle-first-link li a::before,
+.dark-mode .bob-navbar .bob-nav-pb-link li a::before,
+.dark-mode .bob-middle-navbar .bob-middle-first-link li a::before {
+    background: #ffff00;
+}
+
+.dark-mode .bob-home-loan .link-list.bob-button-links>.component-content li.item1 .field-link a:hover,
+.dark-mode .bob-home-loan .link-list.bob-button-links>.component-content li.item2 .field-link a:hover,
+.dark-mode .baranches-atm .component.navigation.navigation-main-horizontal li a {
+    background: #ff0 !important;
+    border-color: #000 !important;
+    color: #000 !important;
+}
+.dark-mode .component.navigation.navigation-main-horizontal{
+    background: linear-gradient( #4d3b32, #3c3633);
+}
+.dark-mode .bob-home-loan .bob-page-list-box ul.items li .box-content .field-cta-2 a{
+    background: #ff0 !important;
+    color: #000 !important;
+    border-color: #000 !important;
+}
+.dark-mode .bob-loan-calculator ul li .slidecontainer input {
+    background: #fff;
+    background-image: linear-gradient(#Ff0, #ff0);
+}
+.dark-mode .bob-pincode-input{
+    background-color: #000 !important;
+    border: 1px solid #ff0 !important;
+}
+.dark-mode::placeholder,
+.dark-mode .item-list-product .bob-page-list-box .box-content .field-cta a{
+    color: #ff0 !important;
+}
+.dark-mode .bob-simple-btn,
+.dark-mode .bob-view-ul {
+    border: 1px solid #000;
+}
+
+.dark-mode .accordion .field-content ul li::marker,
+.dark-mode .accordion .field-content ol li::marker,
+.dark-mode .bob-box-tab .tab ul li::marker,
+.dark-mode .bob-box-tab .tab ol li::marker {
+    color: #ff0;
+    background: #ff0;
+}
+
+.dark-mode .accordion ul.items>li,
+.dark-mode .faq-question-yes-no-div,
+.dark-mode .contact-information-detail-component .contact-information-content-box p {
+    border-bottom: 1px solid #fff;
+}
+
+.dark-mode .bob-box-tab .tab ul li::marker,
+.dark-mode .bob-box-tab .tab ol li::marker {
+    color: #000;
+    background: #000;
+}
+
+.dark-mode .bob-filter-c-div .bob-custom-accordion.bob-open-accordion span,
+.dark-mode .bob-filter-c-div .bob-custom-dropdown.bob-open-accordion span {
+    border-color: #000;
+}
+
+.dark-mode .dark-mode .responsiveTable tr td,
+.dark-mode .tableData td,
+.dark-mode .rich-text table td,
+.dark-mode .bob-inner-tabs-div table td {
+    background: #333;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+.dark-mode .tableData th,
+.dark-mode .bob-inner-tabs-div table th {
+   
+    background: transparent !important;
+    border: 1px solid !important;
+}
+
+.dark-mode .bob-offer-views-ul li svg,
+.dark-mode .bob-sort-by-div svg,
+.dark-mode .bob-left-filter-div svg {
+    fill: #ff0;
+}
+
+.dark-mode .form-control::-webkit-input-placeholder,
+.dark-mode .search-box-input::-webkit-input-placeholder,
+.dark-mode .baroda-m-connect-body .bob-line-list li a strong,
+.dark-mode .field-content,
+.dark-mode .bob-similar-properties-div h2,
+.dark-mode .bob-related-offer-component .bob-related-offer-top-div h2 {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.dark-mode .form-control::-moz-placeholder,
+.dark-mode .search-box-input::-moz-placeholder {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.dark-mode .form-control:-ms-input-placeholder,
+.dark-mode .search-box-input:-ms-input-placeholder {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.dark-mode .form-control::placeholder,
+.dark-mode .search-box-input::placeholder,
+.dark-mode .bob-search-popup-div .twitter-typeahead input::placeholder,
+.dark-mode .RequestACallback .bob-form-control input::placeholder {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.dark-mode .bob-search-popup-div .twitter-typeahead input::-webkit-input-placeholder,
+.dark-mode .RequestACallback .bob-form-control input::-webkit-input-placeholder {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+.dark-mode .bob-search-popup-div .twitter-typeahead input::-moz-placeholder,
+.dark-mode .RequestACallback .bob-form-control input::-moz-placeholder {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+
+.dark-mode .bob-search-voice-div .input-group-append::before {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.dark-mode .bob-search-popup-div .bob-popup-header .bob-closed-btn {
+    border: 2px solid #ff0;
+}
+
+.dark-mode .bob-right-cal-details .bob-m-btn-div .bob-comman-btn,
+.dark-mode .bob-filter-c-div .bob-open-accordion small {
+    color: #000 !important;
+}
+
+.dark-mode .bob-search-section .bob-newsletter-div,
+.dark-mode .common-faqs-customer-suopport-search .back-support-div,
+.dark-mode .pageNPF-wrapp .left-textWrapp ul li {
+    border: 1px solid #ff0;
+}
+
+.dark-mode .blog-main .blog-related-article-div.blog-popular-article-div .bob-popular-article-slider .item {
+    border: 2px solid #fff;
+}
+
+.dark-mode .c-drop-p-accordion-div .bob-custom-accordion span {
+    background: none !important;
+    color: #fff !important;
+}
+
+.dark-mode .bob-line-arrow-orange-link:before,
+.dark-mode .bob-tab-inner-page-link a:before,
+.dark-mode .bob-blogs-thumb-style ul li .field-cta a:before,
+.dark-mode .bob-blogs-thumb-style ul li .field-link a:before {
+    background: url(../../../../../Themes/BOB/India/India/images/yellow-line-arrow.svg) no-repeat center center !important;
+    display: block;
+    filter: none;
+}
+
+.dark-mode footer .bob-form-control span.form-control {
+    background: url(../../../../../Themes/BOB/India/India/images/yellow-down-arrow.svg) no-repeat calc(100% - 15px) center !important;
+    display: block;
+    filter: none;
+}
+
+.dark-mode .accordion .toggle-header .component .field-heading:before,
+.dark-mode .c-drop-p-accordion-div .bob-custom-accordion span:after {
+    background: url(../../../../../Themes/BOB/India/India/images/yellow-down-arrow.svg) no-repeat calc(100% - 0px) center !important;
+    display: block;
+    filter: none;
+}
+
+
+/* dark mode end here */
+
+.dark-mode .i-rates .container-shadow,
+.dark-mode .bob-top-bottom-navbar,
+.dark-mode .bob-apply-card {
+    box-shadow: none !important;
+}
+
+.i-rates .bob-inner-tabs-div p {
+    line-height: 22px;
+    margin: 10px 0px;
+}
+
+.i-rates .bob-inner-tabs-div ol li,
+.i-rates .bob-inner-tabs-div ul li {
+    font-size: 16px;
+}
+
+.dark-mode .bob-blogs-thumb-style ul li .field-link {
+    padding: 15px 30px 35px;
+}
+
+.dark-mode .home_section_5 {
+    margin-top: 0px;
+}
+
+.dark-mode .home_section_4 {
+    padding: 0px 0 100px 0;
+}
+
+.dark-mode .auto-secure-private-car-package-policy .bob-loan-page-tab-div table tbody tr td,
+.dark-mode .auto-secure-private-car-package-policy .bob-loan-page-tab-div table tbody tr th {
+    background: #000;
+    border: 1px solid #fff !important;
+    padding: 10px;
+}
+
+.health-companion .bob-loan-listing-intro .col-sm-8:before {
+    left: 0;
+}
+
+.dark-mode.bob-important-link-div-v1 .slick-list {
+    padding: 0 0 0px 0 !important;
+}
+
+.dark-mode .bob-important-link-div-v1 .slick-arrow,
+.dark-mode .blog-main .blog-interested-product .blog-related-article-div.blog-popular-article-div .slick-arrow {
+    bottom: -45px !important;
+}
+
+.dark-mode .baroda-connect-internet-banking .bob-loan-listing-intro .col-sm-4 .component-content h1.field-title {
+    line-height: 2.9rem;
+}
+
+.dark-mode .offerWrap_right img {
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .dark-mode .bob-top-bottom-navbar .bob-bottom-second-ul,
+    .dark-mode .bob-mobile-sidebar {
+        background: #000;
+    }
+    .dark-mode .bob-mobile-bar:after,
+    .dark-mode .bob-mobile-bar:before {
+        background: #Ff0;
+    }
+    
+    .dark-mode .bob-custom-dropdown-list .revers_h {
+        color: #ff0;
+    }
+    .dark-mode .home_section_4:before {
+        background: transparent;
+    }
+    .dark-mode footer .bob-footer-nav-links h6:after {
+        background: url(../../../../../Themes/BOB/India/India/images/yellow-down-arrow.svg) no-repeat center center !important;
+    }
+    .dark-mode footer .bob-footer-nav-links h6 {
+        border-top: 0
+    }
+}

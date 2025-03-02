@@ -1,0 +1,73 @@
+/* bob offer card info component css start */
+.bob-offer-card-info-component{
+  margin-top:50px;
+}
+.bob-offer-card-info-component p{
+ color:#fff;
+ line-height: 20px;
+}
+.bob-offer-card-info-component .bob-offer-card-info-btns-div{
+  margin-top:30px;
+}
+.bob-line-arrow-orange-link,
+.bob-offer-card-info-component .bob-offer-card-info-btns-div .bob-arrow-button{
+  font-size: 14px !important;
+  line-height: 14px !important;
+  font-family: 'Helvetica Neue LT Pro Md';
+  font-family: 'Arial';
+  color: #fff !important;
+  border: 0 !important;
+  display: inline-flex !important;
+  padding: 0 !important;
+  position: relative !important;
+  padding-right: 25px !important;
+  font-weight: 700;
+  transition: all 0.25s linear;
+}
+.bob-line-arrow-orange-link:before,
+.bob-offer-card-info-component .bob-offer-card-info-btns-div .bob-arrow-button:before{
+  content: "";
+  background: url(../../../../../Themes/BOB/India/India/images/white-line-arrow.svg) no-repeat center center !important;
+  width: 19px;
+  height: 9px;
+  display: block !important;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) scale(0.9) !important;
+  right: 0 !important;
+  left: auto;
+  z-index: 1;
+  transition: all 0.25s linear;
+}
+.bob-line-arrow-orange-link:hover,
+.bob-offer-card-info-component .bob-offer-card-info-btns-div .bob-arrow-button:hover{
+  color: #F26522 !important;
+  transition: all 0.25s linear;
+}
+.bob-line-arrow-orange-link:hover:before,
+.bob-offer-card-info-component .bob-offer-card-info-btns-div .bob-arrow-button:hover:before{
+  filter: invert(53%) sepia(35%) saturate(5459%) hue-rotate(347deg) brightness(97%) contrast(95%);
+  transition: all 0.25s linear;
+}
+.bob-offer-card-info-component .bob-offer-card-info-btns-div .bob-arrow-button{
+
+  margin-right:15px;
+}
+
+.bob-offer-card-info-component .bob-comman-btn{
+  padding: 10px 40px 10px 18px !important;
+}
+.bob-offer-card-info-component .bob-arrow-button svg{
+ fill:#fff;
+}
+.bob-offer-card-info-component .bob-blue-top-div img{
+  height: 245px;
+}
+@media only screen and (max-width: 1025px){
+  .bob-blue-top-div .container{
+    padding:0px 20px;
+  }
+}
+
+/* bob offer card info component css end */
+

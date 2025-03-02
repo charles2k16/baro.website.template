@@ -1,0 +1,352 @@
+/* calculator */
+.bob-calculator-listing .bob-small-page-list.page-list ul.items li.item .box .row .col-sm-4 img{
+    width: 100%;
+    height: 70px;
+    object-fit: contain;
+}
+.bob-calculator-listing .bob-calculator-page-list.bob-small-page-list.page-list ul.items li.item .box .row .field-title{
+    min-height: 100px;
+}
+.bob-calculator-listing .bob-calculator-banner .row.bob-paragraph-section{
+    overflow: hidden;
+    margin: 0px;
+}
+.bob-calculator-listing .bob-calculator-banner .row.bob-paragraph-section img{
+    object-fit: cover;
+    width: 100%;
+}
+.bob-calculator-listing .bob-calculator-banner .col-12{
+    padding: 0;
+}
+.bob-calculator-listing .bob-calculator-banner .row.bob-paragraph-section .col-sm-12{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: -5px;
+    padding: 50px 0px 0px 0;
+}
+.bob-calculator-listing .bob-calculator-banner{
+    position: relative;
+}
+.bob-calculator-listing .bob-calculator-banner .breadcrumb.component{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.bob-calculator-listing .bob-calculator-banner .breadcrumb li a, .bob-calculator-banner .breadcrumb li.last a{
+    color: #fff !important;
+}
+.bob-calculator-listing .bob-calculator-banner .breadcrumb li:after{
+    background: url(../../../../../Themes/BOB/India/India/images/white-arrow.svg) no-repeat center center !important;
+}
+.bob-calculator-listing .bob-calculator-banner .blueoverlay h1.field-title{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 3.125rem;
+    line-height: 3.125rem;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.bob-calculator-listing .bob-calculator-banner .row.bob-paragraph-section .col-sm-12 .blueoverlay p{
+    text-align: center;
+    opacity: 0.6;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bob-calculator-listing .bob-calculator-banner .link-list ul{
+    position: absolute;
+    bottom: 0;
+    z-index: 99999;
+    width: 100%;
+    padding: 30px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    list-style-type: none;
+    list-style: none;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bob-calculator-listing .bob-calculator-banner .link-list li {
+    margin: 0 5px;
+    font-size: 13px;
+}
+.bob-calculator-listing .bob-calculator-banner .link-list li a {
+    border: 1px solid #FFFFFF80 !important;
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    font-family: 'Helvetica Neue LT Pro Md';
+    font-size: 1rem;
+    line-height: 1rem;
+    transition: all 0.3s linear;
+    padding: 8px 15px;
+}
+.bob-calculator-listing .bob-calculator-banner .link-list li a.active, .bob-calculator-banner .link-list li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0) !important;
+    transition: all 0.3s linear;
+    color: #fff;
+}
+.bob-calculator-listing .bob-calculator-banner .link-list li a:before {
+    display: block !important;
+    content: "";
+    background: #F26522 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: all 0.3s linear;
+    top: auto;
+    transform: translateY(0px);
+}
+.bob-calculator-listing .bob-calculator-banner .link-list li a.active:before {
+    transition: all 0.3s linear;
+    width: 35px;
+}
+.bob-calculator-listing .bob-calculator-page-list{
+    margin: 40px 0 40px 0;
+}
+.bob-calculator-listing .bob-calculator-loader{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.bob-calculator-listing .bob-calculator-page-list.bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-1{
+    display: none;
+}
+.bob-calculator-listing .bob-calculator-page-list.bob-small-page-list.page-list ul.items li.item .box .box-image .field-cta{
+    padding: 20px 0px 5px;
+}
+.bob-calculator-listing .bob-small-page-list.page-list ul.items li.item{
+    border: 0px;
+    box-shadow: 0px 10px 30px #1a2c7133;
+    width: calc((100% / 3) - 30px);
+    display: inline-block;
+    margin: 0px 15px 20px 13px;
+    padding: 20px;
+}
+.bob-calculator-listing .bob-small-page-list.page-list ul.items li.item .box .row {
+    display: flex;
+    align-items: center;
+}
+.bob-calculator-listing .bob-small-page-list.page-list ul.items li.item .box .row .field-title{
+    /* text-align: left;
+    letter-spacing: 0px;
+    color: #162B75;
+    font-size: 31px;
+    line-height: 33px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400; */
+}
+.bob-calculator-listing .bob-small-page-list.page-list ul.items li.item .box .box-image .field-content p{
+    text-align: left;
+    color: #707070;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    min-height: 60px;
+}
+.bob-calculator-listing .bob-small-page-list.page-list ul.items li.item .box .box-image .field-cta{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 25px 0px 15px;
+}
+.bob-calculator-listing .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-1 a{
+    font-size: 14px !important;
+    line-height: 14px !important;
+    color: #707070 !important;
+    border: 0 !important;
+    display: inline-flex !important;
+    padding: 0 !important;
+    position: relative !important;
+    padding-right: 25px !important;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bob-calculator-listing .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-1 a:before{
+    content: "";
+    background: url(../../../../../Themes/BOB/India/India/images/knowmoreblack.png) no-repeat center center !important;
+    width: 20px;
+    height: 10px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) scale(0.9) !important;
+    right: 0 !important;
+    left: auto;
+    z-index: 1;
+    transition: all 0.25s linear;
+}
+.bob-calculator-listing .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-2 a{
+    font-size: 14px !important;
+    line-height: 14px !important;
+    color: #F26522 !important;
+    border: 0 !important;
+    display: inline-flex !important;
+    padding: 0 !important;
+    position: relative !important;
+    padding-right: 25px !important;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bob-calculator-listing .bob-small-page-list.page-list ul.items li.item .box .box-image .bob-cta-2 a:before{
+    content: "";
+    background: url(../../../../../Themes/BOB/India/India/images/orange-line-arrow.png) no-repeat center center !important;
+    width: 20px;
+    height: 10px;
+    display: block !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) scale(0.9) !important;
+    right: 0 !important;
+    left: auto;
+    z-index: 1;
+    transition: all 0.25s linear;
+}
+.bob-calculator-listing .bob-small-page-list.page-list ul.items{
+    margin: 0 -15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.calculator-page.home-loan-calc .bob-m-shedule h6{
+    margin-top:20px;
+}
+.home-loan-calc .bob-blue-top-div .col-sm-12{
+ flex: none !important;
+}
+
+
+/* calculator */
+
+@media only screen and (max-width:991px) {
+    .bob-calculator-listing .bob-small-page-list.page-list ul.items li.item{
+        width: 46%;
+    }
+    .bob-calculator-listing .bob-small-page-list.page-list ul.items li.item .box .row {
+        flex-wrap: nowrap;
+    }
+    .bob-calculator-listing .bob-small-page-list .col-sm-4{
+        width: 50%;
+    }
+    .bob-calculator-listing .bob-calculator-banner .breadcrumb.component{
+        display: none;
+    }
+    .bob-calculator-listing .bob-calculator-banner .row.bob-paragraph-section img{
+        height: 325px;
+    }
+    .bob-calculator-listing .bob-calculator-banner .blueoverlay h1.field-title{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .bob-calculator-listing .bob-calculator-banner .blueoverlay h1.field-title{
+        margin-top: 60px;
+    }
+    .bob-calculator-listing .bob-calculator-banner .link-list ul{
+        padding: 0 0 0 15px;
+    }
+    .bob-calculator-listing .bob-calculator-banner .link-list ul .slick-track{
+        padding: 25px 0 30px 0px;
+    }
+    .bob-small-page-list.page-list ul.items li.item .box .row .field-title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .bob-calculator-listing .bob-calculator-page-list.bob-small-page-list.page-list ul.items li.item .box .row .field-title{
+        min-height: 0px;
+    }
+    .bob-calculator-listing  .bob-small-page-list.page-list ul.items li.item{
+        margin: 0px 15px 20px 15px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .bob-calculator-listing .bob-small-page-list.page-list ul.items li.item{
+        width: 100%;
+    }
+    .bob-calculator-listing  .bob-small-page-list.page-list ul.items li.item{
+        margin: 0px 30px 20px 30px;
+    }
+    .bob-calculator-listing .bob-calculator-banner .row.bob-paragraph-section img{
+        height:200px;
+    }
+    .calculator-page .bob-loan-emi-grp-div .bob-loan-calculator ul li .slidecontainer{
+        position: relative;
+        max-width:100%;
+    }
+    .calculator-page .bob-calculator-types-li .bob-cal-bbutton-div .bob-form-control{
+        
+     margin:10px 8px 0px 0px;
+    
+    }
+    .calculator-page .bob-calculator-types-li:first-child .slidecontainer >  .bob-cal-bbutton-div > .bob-form-control{
+        display:inline-block;
+    }
+    .calculator-page .bob-loan-calculator-details-div ul li.bob-calculator-types-li .slidecontainer .input-form-field{
+        width: 100%;
+    }
+    .calculator-page .bob-calculator-types-li .bob-cal-bbutton-div .bob-form-control .bob-check-radio-form-control label{
+        display:inline-block;
+        margin-top:2px;
+        font-size:0.75rem;
+    }
+    .calculator-page .bob-loan-emi-grp-div .bob-loan-calculator ul li,  .calculator-page  .bob-loan-calculator-details-div ul li.bob-calculator-types-li{
+      margin-bottom:15px !important;
+    }
+    .calculator-page .bob-calculator-types-li .bob-cal-bbutton-div{
+        width: 100%;
+        display: block;
+    }
+    .calculator-page .bob-loan-calculator ul li{
+     padding-bottom:15px;
+    }
+    .calculator-page .bob-custom-dropdown .form-control+.bob-custom-dropdown-list{
+     width:100%;
+    }
+    .calculator-page .bob-select-data-div .bob-provision-div h6{
+        font-size:0.8rem;
+    }
+    .calculator-page .bob-calculator-types-li .bob-cal-bbutton-div br{
+        display:none;
+    }
+    .calculator-page .bob-select-data-div .bob-selected-div{
+     overflow-x:scroll;
+     width:100%;
+    }
+    .calculator-page .bob-select-data-div .bob-provision-div p span{
+        white-space:nowrap;
+    }
+    .calculator-page  .bob-loan-calculator-form{
+    max-width:100%;
+    }
+    .calculator-page .bob-loan-emi-grp-div .bob-loan-calculator ul li p{
+        padding-right: 0px;
+    } 
+    .calculator-page .bob-form-control .errorMsg.tooltip.goldLoanTooltip{
+      margin-top:5px;
+    }
+    .calculator-page .bob-loan-emi-grp-div .bob-loan-calculator .cal-heading{
+        margin-bottom:25px;
+        font-size:1rem;
+    }  
+    .calculator-page .bob-m-amt-div li:nth-child(2){
+     margin-left:0px;
+    } 
+}

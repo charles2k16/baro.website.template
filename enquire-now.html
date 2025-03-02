@@ -1,0 +1,2388 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<link href="-/media/feature/experience-accelerator/bootstrap-4/bootstrap-4/styles/optimized-min.css%3Ft=20250124T101101Z.css" rel="stylesheet" /><link href="-/media/base-themes/core-libraries/styles/optimized-min.css%3Ft=20240726T063520Z.css" rel="stylesheet" /><link href="-/media/base-themes/main-theme/styles/optimized-min.css%3Ft=20220901T161425Z.css" rel="stylesheet" /><link href="-/media/themes/basic2/styles/optimized-min.css%3Ft=20220901T161716Z.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/reset-bob-v-114.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/aos.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/awards-page-v2.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/contact-us-page-v29.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/custom-component-v102.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/customer-support-page-v23.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/custom-popup-style.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/global-search-v2.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/grievance-redressal-v4.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/rtl-v152.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/bob-offer-card-info-component-v6.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/bob-related-offer-component.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/fonts-v-1.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/homeloan-detail-page-v14.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/home-women-v37.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/offer-detail-page.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/static-pages-v86.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/homeloan-v272.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/m-connect.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/calculator-listing-v17.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/header-v-182.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/footer-v-35.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/offer-v71.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/baroda-connect-internet-banking-v4.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/slick.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/html-global-v-1.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/html-pages-v798.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/baroda-m-connect-v18.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/common-v55.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/resource-v34.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/history-page-v12.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/career-inner-page-v7.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/about-amalgamation-v12.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/customer-support-search-v13.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/home-v55.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/loan-v105.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/dark-mode-v26.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/tab-v9.css" rel="stylesheet" /><link href="-/media/themes/bob/ukretail/ukretail/styles/global-v40.css" rel="stylesheet" />
+
+<style>
+    .radio-btn-grp {
+        display: flex;
+    }
+
+    .radio-btn-grp .bob-form-control {
+        width: auto !important;
+        margin-right: 15px;
+    }
+
+    .existing_customer {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .visible-this {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+</style>
+    
+    
+
+
+<style>
+/* home page manage cookie css start here */
+.privacy-warning .close{
+display: block !important;
+}
+.privacy-warning{
+width: 95%;
+padding: 15px 30px;
+}
+.ck-btn-div a.cookie-btn {
+    color: #fff !important;
+    padding: 8px 12px;
+    background: transparent linear-gradient(90deg, #F26522 0%, #FE8639 100%) 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    font-family: Arial;
+    transition: 0.4s;
+    display: none;
+}
+
+.ck-btn-div a.cookie-btn:hover {
+    color: #162B75 !important;
+}
+
+.ck-btn-div {
+    position: fixed;
+    left: 5px;
+    bottom: 50px;
+    z-index: 9999;
+}
+
+
+/* home page manage cookie css end here */
+/* custom toggle css start here */
+.toggle-btn{
+    /* right: -390px; */
+    float: right;
+    top: -41px;
+    width: 60px;
+    height: 30px;
+    /* margin: 10px; */
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    background : #ccc;
+    cursor: pointer;
+    -webkit-transition: background-color .40s ease-in-out;
+    -moz-transition: background-color .40s ease-in-out;
+    -o-transition: background-color .40s ease-in-out;
+    transition: background-color .40s ease-in-out;
+  }
+.toggle-btn .round-btn{
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    top: 60%;
+    margin-top: -15px;
+    -webkit-transition: all .30s ease-in-out;
+  -moz-transition: all .30s ease-in-out;
+  -o-transition: all .30s ease-in-out;
+  transition: all .30s ease-in-out;
+  }
+  .toggle-btn .cb-value{
+    position: absolute;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 9;
+    cursor:pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  }
+  
+  .toggle-btn.active .round-btn{
+    left: 35px;
+    top:18px;
+ }
+ .toggle-btn.active{
+  background : #F26522;
+ }
+ /* custom toggle css end here */
+ 
+.accordion-container{
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+}
+.accordion-container > h2{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.set{
+  position: relative;
+  width: 100%;
+  height: auto;
+ /* background-color: #f5f5f5; */
+}
+.set > a{
+    padding: 15px 12px 15px 10px;
+    font: normal normal normal 18px/20px Arial;
+  display: block;
+  /* padding: 10px 15px; */
+  text-decoration: none;
+  /*color: #555;*/
+color: #162b75;
+  /* font-weight: 600; */
+  border-bottom: 1px solid #f2652233;
+  -webkit-transition:all 0.2s linear;
+  -moz-transition:all 0.2s linear;
+  transition:all 0.2s linear;
+}
+.set > a i{
+  float: left;
+  margin-top: 2px;
+margin-right:10px;
+color: #F26522;
+}
+.set > a.active{
+  /*background-color:#808080; */
+  color: #162b75;
+}
+.accord-content{
+  background-color: #fff;
+  border-bottom: 1px solid #f2652233;
+  
+}
+.accord-content p{
+  padding: 20px 25px;
+  margin: 0;
+  color: #333;
+font-size: 1rem;
+    color: #707070;
+}
+/*accordion code end here*/
+
+.cookie-popup {
+  background: rgba(0 0 0 /45%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s linear;
+  /* opacity: 0;
+  visibility: hidden; */
+  display: none;
+  z-index: -99999;
+}
+
+.cookie-popup.active-cookie {
+/* opacity: 1;
+    visibility: visible; */
+    display: block;
+    z-index: 99999;
+    transition: all 0.5s linear;
+}
+
+.cookie-popup .popup-content {
+  background: #fff;
+  padding: 50px;
+  width: 40%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+transform: translate(-50%, -50%);
+}
+
+    .cookie-popup .popup-content .closed-popup {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+
+    .cookie-popup .popup-content .popup-header h6 {
+font-weight:600;
+        font-size: 20px;
+        line-height: 22px;
+        font-family: 'Helvetica Neue LT Pro Lt';
+        color: #162B75;
+    }
+.popup-content .popup-inner-content p{
+    font-size: 1rem;
+}
+    .cookie-popup .popup-content .popup-inner-content {
+        height: 460px;
+        overflow: hidden;
+        margin: 20px 0;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content .mCSB_inside>.mCSB_container {
+        padding-left: 5px;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content ul {
+        position: relative;
+        list-style: none;
+        padding: 0;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li {
+        list-style: none;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li:first-child {
+        margin-top: 0;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li:before {
+        content: "";
+        position: absolute;
+        left: 1px;
+        top: 1px;
+        height: calc(100% - 2px);
+        background: #fff;
+        width: 185px;
+        z-index: 1;
+        border-radius: 20px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li .count-span {
+        position: absolute;
+        z-index: 1;
+        background: #fff;
+        display: inline-table;
+        left: 0px;
+        /* right: 0; */
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+        font-family: Arial;
+        padding: 0px 0px 0 20px;
+        border-radius: 6px;
+        /* border: 1px solid #fde8df; */
+        top: 50%;
+        min-height: 30px;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: flex-end;
+        line-height: normal;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li.active .count-span strong {
+        color: #f26522;
+        font-weight: 700;
+        opacity: 1;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li .count-span strong,
+    .cookie-popup .popup-content .popup-inner-content li.active .count-span strong.active~strong {
+        font-weight: normal;
+        color: #707070;
+        font-size: 28px;
+        display: inline-block;
+        margin: 0 2px;
+        opacity: 0.3;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li .count-span strong:nth-child(1) {
+        font-size: 48px !important;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li .count-span strong:nth-child(2) {
+        font-size: 44px !important;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li .count-span strong:nth-child(3) {
+        font-size: 38px !important;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li .count-span strong:nth-child(4) {
+        font-size: 34px !important;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li .count-span strong:nth-child(5) {
+        font-size: 30px !important;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li .count-span strong:nth-child(6) {
+        font-size: 26px !important;
+    }
+
+
+    .cookie-popup .popup-content .popup-inner-content li input {
+        display: none;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li label p {
+        font-size: inherit;
+        margin: 0;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li label {
+        position: relative;
+        border: 1px solid #F26522;
+        border-radius: 20px;
+        padding: 20px;
+        font-size: 16px;
+        line-height: 18px;
+        font-family: 'Arial';
+        color: #707070;
+        margin-bottom: 20px;
+        display: block;
+        padding-left: 200px;
+        transition: all 0.5s linear;
+        cursor: pointer;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li label:before {
+        content: "";
+        position: absolute;
+        left: -15px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        border: 1px solid #F26522;
+        border-radius: 50%;
+        background: #fff;
+        z-index: 2;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li label:after {
+        content: "";
+        position: absolute;
+        left: -7px;
+        top: calc(50% - 2px);
+        transform: translateY(-50%) rotate(-45deg);
+        width: 15px;
+        height: 8px;
+        border-left: 2px solid #F26522;
+        border-bottom: 2px solid #F26522;
+        transition: all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 3;
+    }
+    .cookie-popup .popup-content .popup-footer{
+        display: flex;
+        justify-content: right;
+    }
+    .cookie-popup .popup-content .popup-inner-content li.active label:after {
+        transition: all 0.5s linear;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .cookie-popup .popup-content .popup-inner-content li.active label {
+        background: rgb(112 112 112 / 10%);
+        transition: all 0.5s linear;
+    }
+
+    .cookie-popup .popup-content .popup-footer .bob-comman-btn {
+        color: #fff;
+        margin-right: 10px;
+    }
+
+    .cookie-popup .popup-content .popup-footer .bob-comman-btn:hover {
+        color: #F26522;
+    }
+
+    @media screen and (max-width : 1025px) {
+        .cookie-popup .popup-content {
+            width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+         .ck-btn-div {
+        bottom: 80px;
+    }
+    .ck-btn-div a.cookie-btn {
+        width: 32px;
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 8px 10px;
+    }
+    .ck-btn-div a.cookie-btn .fa {
+        padding-right: 5px;
+    }
+        .cookie-popup .popup-content .popup-footer .bob-comman-btn {
+            padding: 14px 36px 14px 20px !important;
+        }
+        .set > a{
+        padding: 15px 10px 15px 10px;
+font: normal normal normal 14px / 20px Arial;
+        }
+        .cookie-popup .popup-content {
+            padding: 15px;
+            width: 90%;
+        }
+
+        .cookie-popup .popup-content .popup-inner-content li:before {
+            width: 0;
+            height: 0;
+        }
+
+        .cookie-popup .popup-content .popup-inner-content li label {
+            font-size: 14px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .cookie-popup .popup-content .popup-inner-content li .count-span {
+            position: static;
+            transform: none;
+            margin-top: -19px;
+            width: calc(100% + 38px);
+            margin-left: -19px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            padding: 5px;
+            justify-content: center;
+            padding-top: 15px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .cookie-popup .popup-content .popup-inner-content li label:before {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 0;
+        }
+
+        .cookie-popup .popup-content .popup-inner-content li label:after {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: -2px;
+        }
+
+        .cookie-popup .popup-content .popup-inner-content li:first-child {
+            margin-top: 15px;
+        }
+    }
+</style>
+    
+
+<meta charset="UTF-8"/>
+
+
+
+<link rel="canonical" href="enquire-now.html" />
+
+
+
+    <link href="-/media/project/bob/shared/favicon/favicon.png" rel="shortcut icon" />
+
+
+
+<meta property="og:title"  content="Enquire Now" /><meta property="og:url"  content="https://www.bankofbarodauk.com/enquire-now" />
+
+
+
+
+
+<meta property="twitter:title"  content="Enquire Now" /><meta property="twitter:card"  content="summary_large_image" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+<script>
+    if (fnConsentGiven()) {
+        // Google Tag Manager
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N84CDCN');
+    // Google Tag Manager End
+
+    }
+
+
+
+    function fnConsentGiven() {
+        if (getCookie("CookieConsent") != '') {
+            var c = JSON.parse(getCookie("CookieConsent"));
+            if (c.performance ||  c.targeting || c.marketing || c.analytics) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        else {
+            return false;
+        }
+    }
+
+    function getCookie(cname) {
+        let name = cname + "=";
+        let ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+</script>
+</head>
+<body class="default-device bodyclass">
+    
+
+
+
+    
+<!-- #wrapper -->
+<div id="wrapper">
+    <!-- #header -->
+    <header>
+        <div id="header" class="">
+            
+
+
+
+
+            <script>
+    var glblCurrentPageUrl = "/enquire-now";
+    var glblCurrentLanguage = "en";
+    var glblCurrentPageTemplateName = "Apply Online Page";
+    var glblCurrentPageID = "97d2967b-f338-48d5-9667-dadd85e1f1d5";
+
+            </script>
+            <nav class="bob-navbar" role="navigation">
+                        <a href="index.html" class="bob-nav-log" tabindex="0" aria-label="" role="link">
+                            <img src="-/media/project/bob/countrywebsites/ukretail/logos/ukr-bob-logo.svg" tabindex="0" aria-label="" role="img" class="img-fluid" alt="" />
+                        </a>
+
+
+                <div class="bob-top-middle-navbar">
+                    <div class="bob-top-navbar">
+                        <ul class="bob-nav-pb-link"></ul>
+                        <ul class="bob-nav-right-link">
+    <li class="mob-li-none">
+        <a class="skip-main-content" tabindex="0" aria-label="Skip to Main Content" role="link">
+        Skip to Main Content
+        </a>
+    </li>
+    <li>
+         <div class="bob-custom-dropdown color-mode">
+            <span>
+                <small>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15.635" height="15.635" viewbox="0 0 15.635 15.635" fill="#707070">
+                    <path d="M7.817,0a7.817,7.817,0,1,0,7.817,7.817A7.827,7.827,0,0,0,7.817,0Zm0,.977a6.84,6.84,0,1,1,0,13.681"></path>
+                </svg>
+                </small>
+                <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewbox="0 0 13.088 7.731" fill="#F26522">
+                <path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path>
+                </svg>
+            </span>
+            <ul class="bob-custom-dropdown-list">
+                <li data-class="light-mode">Light Mode</li>
+                <li data-class="dark-mode">Dark Mode</li>
+            </ul>
+        </div>
+    </li>
+    <li>
+        <div class="bob-custom-dropdown font-big-small">
+            <span>
+                <small>
+                A
+                </small>
+                <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522">
+                <path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path>
+                </svg>
+            </span>
+            <ul class="bob-custom-dropdown-list" style="display: none;">
+                <li data-class="fontnormal">A</li>
+                <li data-class="fontpluse">A+</li>
+                <li data-class="fontminus">A-</li>
+            </ul>
+        </div>
+    </li>
+              <li class="mob-only-icons">
+        <a href="enquire-now/index.html" tabindex="0" aria-label="Enquire Now" role="link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="19.347" height="17.978" viewBox="0 0 19.347 17.978" fill="#fff">
+                <path d="M35.173,26.48H50.509a2.008,2.008,0,0,1,2.006,2.005V43.656a.8.8,0,0,1-1.4.534l-3.082-3.458H35.173a2.008,2.008,0,0,1-2.005-2.006V28.485A2.007,2.007,0,0,1,35.173,26.48Zm-.4,12.246a.4.4,0,0,0,.4.4H48.391a.8.8,0,0,1,.6.268l1.921,2.155V28.485a.4.4,0,0,0-.4-.4H35.173a.4.4,0,0,0-.4.4Z" transform="translate(-33.168 -26.48)"></path>
+                <path d="M38.163,30.615H47.52a.8.8,0,1,1,0,1.6H38.163a.8.8,0,0,1,0-1.6Z" transform="translate(-33.168 -26.48)"></path>
+                <path d="M38.163,34.993H47.52a.8.8,0,1,1,0,1.6H38.163a.8.8,0,0,1,0-1.6Z" transform="translate(-33.168 -26.48)"></path>
+            </svg>
+            <span>Enquire Now</span>
+        </a>
+    </li>
+    <li class="mob-only-icons" tabindex="0" aria-label="Contact Us" role="link">
+        <a href="contact-us.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16.511" height="16.5" viewBox="0 0 16.511 16.5" fill="#fff">
+                <g transform="translate(-7.442 -5.351)">
+                <path d="M23.288,18.014l-3.051-2.153a1.555,1.555,0,0,0-1.217-.318,1.329,1.329,0,0,0-.786.487l-.824.824a.659.659,0,0,1-.356.187,23.634,23.634,0,0,1-4.792-4.773.659.659,0,0,1,.187-.356l.824-.824a1.329,1.329,0,0,0,.487-.786,1.555,1.555,0,0,0-.318-1.217L11.29,6.015a1.306,1.306,0,0,0-.936-.655,1.45,1.45,0,0,0-1.292.58A5.466,5.466,0,0,0,7.64,8.486c-.693,2.677.562,5.335,1.741,7.094a18.631,18.631,0,0,0,1.984,2.377A17.615,17.615,0,0,0,13.5,19.773a10.2,10.2,0,0,0,5.747,2.078,5.991,5.991,0,0,0,1.516-.187,5.358,5.358,0,0,0,2.6-1.441,1.45,1.45,0,0,0,.58-1.292A1.264,1.264,0,0,0,23.288,18.014Zm-1.011,1.179c-.112.131-2.733,2.939-7.918-.674a14.232,14.232,0,0,1-1.928-1.628,15.634,15.634,0,0,1-1.8-2.171c-3.388-5.054-.655-7.6-.524-7.712l.056-.037,2.059,2.957c.019.019.019.019.019.037l-.861.861a2.174,2.174,0,0,0-.636,1.46c0,.243-.019.9,2.658,3.575,2.7,2.714,3.332,2.7,3.594,2.677a2.137,2.137,0,0,0,1.46-.636l.861-.861c.019,0,.019.019.037.037l2.958,2.078Z" transform="translate(0 0)"></path>
+                </g>
+            </svg>
+            <span>Contact Us</span>
+        </a>
+    </li>
+   <!-- <li class="time-zone">
+      <svg version="1.1" id="Layer_1" class="time-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       viewBox="0 0 2048 2048" style="enable-background:new 0 0 2048 2048;" xml:space="preserve">
+  <style type="text/css">
+      .time-svg .st0{stroke:#162b75;stroke-width:60;stroke-miterlimit:10;}
+  </style>
+  <path class="st0" d="M1024,2048c-82.7,0-162-10.7-238-32s-147.3-51.3-214-90s-127-85.3-181-140s-100.7-115-140-181
+      s-69.7-137.3-91-214s-32-156.3-32-239s10.7-162,32-238s51.3-147.3,90-214s85.3-127,140-181s115-100.7,181-140s137.3-69.7,214-91
+      s156.3-32,239-32s162,10.7,238,32s147.3,51.3,214,90s127,85.3,181,140s100.7,115,140,181s69.7,137.3,91,214s32,156.3,32,239
+      s-10.7,162-32,238s-51.3,147.3-90,214s-85.3,127-140,181s-115,100.7-181,140s-137.3,69.7-214,91S1106.7,2048,1024,2048z M1024,384
+      c-106,0-205.3,20-298,60s-174,95-244,165S357,760.3,317,853s-60.3,192.3-61,299c0,106,20,205.3,60,298s95,174,165,244
+      s151.3,125,244,165s192.3,60.3,299,61c106,0,205.3-20,298-60s174-95,244-165s125-151.3,165-244s60.3-192.3,61-299
+      c0-106-20-205.3-60-298s-95-174-165-244s-151.3-125-244-165S1130.7,384.7,1024,384z M1024,1152V640H896v640h512v-128H1024z"/>
+  </svg>
+      <span class="uk-time" id="ukTime">00:00 am</span>
+    </li>-->
+  
+    <li>
+        <div class="bob-custom-dropdown bob-country-div-n bob-logincc-div">
+            <span class="bob-cust-drop-click">
+                <small>
+                <img src="-/media/project/bob/shared/country-flags/united-kingdom-flag.svg" alt="UK Retail" class="img-fluid">
+                </small>
+                <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522">
+                <path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path>
+                </svg>
+            </span>
+            <div class="bob-custom-drop-popup-div" id="country-website-id">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17.121" height="17.121" viewBox="0 0 17.121 17.121" class="closed-pp">
+                <path fill="#F26522" stroke="#F26522" stroke-width="0.1px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)"></path>
+                </svg>
+                <h3>Country Websites</h3>
+                <ul class="split-ul-p link-ul-p">
+                <li>
+                    <a href="https://www.bankofbaroda.com.au/" target="_blank" tabindex="-1" aria-label="Australia" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/22.png" alt="Australia">Australia </a>
+                </li>
+                
+                <li>
+                    <a href="http://www.bankofbaroda.co.bw/" target="_blank" tabindex="-1" aria-label="Botswana" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/4.png" alt="Botswana">Botswana </a>
+                </li>
+                <li><a href="https://ifsc.bankofbaroda.in/" target="_blank" rel="nofollow noopener noreferrer" aria-role="link" tabindex="-1" aria-label="BOB IFSC Banking Unit">
+                    <img width="13" height="13" alt="BOB IFSC Banking Unit" src="-/media/Project/BOB/shared/icons/country-img/00.png">BOB IFSC Banking Unit
+                </a>
+</li>
+<li>
+                <a href="https://www.bobworld.com" target="_blank" rel="nofollow" aria-role="link" tabindex="-1" aria-label = "BOB World">
+                    <img width="13" height="13" alt="BOB WORLD" src="-/media/Project/BOB/shared/icons/country-img/00.png" >bob World
+                </a>
+            </li>
+                <li>
+                    <a href="https://www.bankofbaroda-fiji.com/" target="_blank" tabindex="-1" aria-label="Fiji Islands" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/2.png" alt="Fiji Islands">Fiji Islands </a>
+                </li>
+                <li>
+                    <a href="https://www.bankofbaroda.gy/" target="_blank" tabindex="-1" aria-label="Guyana" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/5.png" alt="Guyana">Guyana </a>
+                </li>
+                <!-- <li>
+                    <a href="http://www.bankofbaroda.hk/" target="_blank" tabindex="-1" aria-label="Hong Kong" role="link"> <img src="/-/media/Project/BOB/shared/icons/country-img/1.png" alt="Hong Kong">Hong Kong </a>
+                </li> -->
+                <li>
+                    <a href="https://www.bankofbaroda.in/" target="_blank" tabindex="-1" aria-label="India" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/00" alt="India">India </a>
+                </li>
+                <li>
+                    <a href="https://www.bankofbarodakenya.co.ke/" target="_blank" tabindex="-1" aria-label="Kenya" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/12.png" alt="Kenya">Kenya </a>
+                </li>
+                <li>
+                    <a href="https://www.indiainternationalbank.com.my/" target="_blank" tabindex="-1" aria-label="Malaysia" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/14.png" alt="Malaysia">Malaysia </a>
+                </li>
+                <li>
+                    <a href="https://www.bankofbaroda-mu.com/" target="_blank" tabindex="-1" aria-label="Mauritius" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/10.png" alt="Mauritius">Mauritius </a>
+                </li>
+                <li>
+                    <a href="http://www.barodanzltd.co.nz/" target="_blank" tabindex="-1" aria-label="New Zealand" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/13.png" alt="New Zealand">New Zealand </a>
+                </li>
+                <li>
+                    <a href="https://www.bankofbaroda.sc/" target="_blank" tabindex="-1" aria-label="Seychelles" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/23.png" alt="Seychelles">Seychelles</a>
+                </li>
+                <li>
+                    <a href="http://www.bankofbaroda.com.sg/" target="_blank" tabindex="-1" aria-label="Singapore" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/11.png" alt="Singapore">Singapore </a>
+                </li>
+                <li>
+                    <a href="https://www.bankofbarodaoman.com/" target="_blank" tabindex="-1" aria-label="Sultanate of Oman" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/8.png" alt="Sultanate of Oman">Sultanate of Oman </a>
+                </li>
+                <li>
+                    <a href="https://www.bankofbaroda.co.tz/" target="_blank" tabindex="-1" aria-label="Tanzania" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/21.png" alt="Tanzania">Tanzania </a>
+                </li>
+                <li>
+                    <a href="https://www.bankofbaroda.ug/" target="_blank" tabindex="-1" aria-label="Uganda" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/20.png" alt="Uganda">Uganda </a>
+                </li>
+                <li>
+                    <a href="https://www.bankofbarodauae.ae/" target="_blank" tabindex="-1" aria-label="United Arab Emirates" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/3.png" alt="United Arab Emirates">United Arab Emirates </a>
+                </li>
+                <!-- <li>
+                    <a href="https://www.bankofbarodauk.com/" target="_blank" tabindex="-1" aria-label="UK Subsidiary" role="link"> <img src="/-/media/Project/BOB/shared/icons/country-img/17.png" alt="UK Subsidiary">UK Subsidiary </a>
+                </li> -->
+                <li>
+                    <a href="https://london.bankofbaroda.in/" target="_blank" tabindex="-1" aria-label="UK Wholesale" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/17.png" alt="UK Wholesale">UK Wholesale </a>
+                </li>
+                <li>
+                    <a href="http://www.bankofbaroda-usa.com/" target="_blank" tabindex="-1" aria-label="USA" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/9.png" alt="USA">USA </a>
+                </li>
+                <!--<li>
+                    <a href="#" target="_blank">
+                        <img src="/-/media/Project/BOB/shared/icons/country-img/15.png" alt="">Republic of South Africa
+                    </a>
+                    </li>-->
+                <li>
+                    <a href="https://www.izb.co.zm/english/home.aspx" target="_blank" tabindex="-1" aria-label="Zambia" role="link"> <img src="-/media/Project/BOB/shared/icons/country-img/16.png" alt="Zambia">Zambia </a>
+                </li>
+
+                </ul>
+            </div>
+        </div>
+    </li>
+  <li>
+        <!-- <div class="bob-custom-dropdown bob-login-dropdown bob-logincc-div" data-cust-p="#login-id">
+            <a href="javascipt:void(0);" target="_blank" tabindex="-1" aria-label="Login" role="link" rel="nofollow" class="baroda-connect-btn"><span class="bob-cust-drop-click">
+                <small>Baroda Connect Login</small>
+                <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#fff">
+                   <path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)" />
+                </svg>  
+             </span></a>-->
+           <!-- <a href="https://cbs.intl.bobibanking.com/corpukgb/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=012" target="_blank" tabindex="-1" aria-label="Login" role="link" rel="nofollow"><span class="bob-cust-drop-click">
+              <small>Baroda Connect Login</small>
+              <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#fff">
+                 <path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)" />
+              </svg> 
+           </span></a> 
+        </div>-->
+     </li>
+    </ul>
+                    </div>
+                    <div class="bob-top-bottom-navbar">
+                        <span class="bob-mobile-bar"></span>
+
+                        <ul class="bob-bottom-first-ul">
+                                        <li>
+                                            <div class="bob-custom-dropdown bob-nav-custom-dropdown">
+                                                <span>
+                                                    <small>
+                                                                <a href="javascript:void(0);" tabindex="0" role="link"   title="" target="" class="">Retail Banking</a>
+
+                                                    </small>
+                                                            <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)" /></svg>
+
+
+                                                </span>
+
+                                                        <div class="bob-custom-dropdown-list">
+                                                            <h4 class="revers_h">
+                                                                <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)" /></svg>
+
+
+                                                                        <a href="javascript:void(0);" tabindex="-1" aria-role="link"   title="" target="" class="">Retail Banking</a>
+
+
+                                                            </h4>
+                                                            <div class="bob-nav-inner-list nav-no-button main-nav-ddl-list">
+                                                                <div class="container-fluid">
+                                                                    <div class="row">
+                                                                                <div class="navcol col-sm-3">
+                                                                                    <div class="bob-inner-list-nav  no-border">
+                                                                                                <h6 class="heading-class">Deposits <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path></svg></h6>
+                                                                                                <div class="bob-inner-menu-expand">
+
+
+                                                                                                    <ul class="">
+                                                                                                                    <li class="">
+                                                                                                                                <a href="personal-banking/deposit-products/savings-bank-account.html" tabindex="-1" role="link"   title="" target="" class="">Savings Bank Account</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="enquire-now.html" tabindex="-1" role="link"   title="Baroda Monthly and Annual" target="" class="">Baroda Monthly and Annual</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="enquire-now.html" tabindex="-1" role="link"   title="" target="" class="">Fixed Deposits</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="personal-banking/deposit-products/current-account.html" tabindex="-1" role="link"   title="" target="" class="">Current Account</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="personal-banking/deposit-products/financial-services-compensation-scheme.html" tabindex="-1" role="link"   title="" target="" class="">Financial Services Compensation Scheme</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="nav-view-all-btn">
+                                                                                                                                <a href="personal-banking/deposit-products.html" tabindex="-1" role="link"   title="" target="" class="bob-line-arrow-orange-link">View All</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="-/media/project/bob/countrywebsites/ukretail/pdf/summary-box-of-deposit-products-new.pdf" tabindex="-1" role="link"   title="" target="_blank" class="">Summary of Products</a>
+
+
+                                                                                                                    </li>
+
+                                                                                                    </ul>
+                                                                                                </div>
+
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="navcol col-sm-3">
+                                                                                    <div class="bob-inner-list-nav">
+                                                                                                <h6 class="heading-class">Retail Loans <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path></svg></h6>
+                                                                                                <div class="bob-inner-menu-expand">
+
+
+                                                                                                    <ul class="">
+                                                                                                                    <li class="">
+                                                                                                                                <a href="personal-banking/retail-loan/buy-to-let.html" tabindex="-1" role="link"   title="" target="" class="">Buy to Let</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="personal-banking/retail-loan/finance-against-property.html" tabindex="-1" role="link"   title="" target="" class="">Finance Against Property</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="personal-banking/retail-loan/finance-against-local-deposit.html" tabindex="-1" role="link"   title="" target="" class="">Finance Against Local Deposit</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="personal-banking/retail-loan/finance-against-nre-rupee-term-deposit-in-india.html" tabindex="-1" role="link"   title="" target="" class="">Finance Against NRE Rupee Term Deposit in India</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="personal-banking/retail-loan/finance-against-fcnr-deposits.html" tabindex="-1" role="link"   title="" target="" class="">Finance Against FCNR Deposits</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="personal-banking/retail-loan/loan-to-small-sme-business.html" tabindex="-1" role="link"   title="" target="" class="">Loan to Small/SME Business</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="nav-view-all-btn">
+                                                                                                                                <a href="personal-banking/retail-loan.html" tabindex="-1" role="link"   title="" target="" class="bob-line-arrow-orange-link">View All</a>
+
+
+                                                                                                                    </li>
+
+                                                                                                    </ul>
+                                                                                                </div>
+
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="navcol col-sm-3">
+                                                                                    <div class="bob-inner-list-nav">
+                                                                                                <h6 class="heading-class"> <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path></svg></h6>
+                                                                                                <div class="bob-inner-menu-expand">
+
+
+                                                                                                    <ul class="">
+                                                                                                                    <li class="">
+                                                                                                                                <a href="personal-banking/dormant-and-lost-accounts.html" tabindex="-1" role="link"   title="" target="" class="">Dormant and Lost Accounts</a>
+
+
+                                                                                                                    </li>
+
+                                                                                                    </ul>
+                                                                                                </div>
+
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="navcol col-sm-3">
+                                                                                    <div class="bob-inner-list-nav">
+                                                                                                <h6 class="heading-class"> <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path></svg></h6>
+                                                                                                <div class="">
+
+
+                                                                                                    <ul class="bob-no-list-type-ul">
+                                                                                                                    <li class="">
+                                                                                                                                <a href="contact-us.html" tabindex="-1" role="link"   title="" target="|Custom" class="">Contact Us</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="nav-view-all-btn">
+                                                                                                                                <a href="personal-banking.html" tabindex="-1" role="link"   title="" target="" class="bob-line-arrow-orange-link">View All</a>
+
+
+                                                                                                                    </li>
+
+                                                                                                    </ul>
+                                                                                                </div>
+
+
+                                                                                    </div>
+                                                                                </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="bob-custom-dropdown bob-nav-custom-dropdown">
+                                                <span>
+                                                    <small>
+                                                                <a href="javascript:void(0);" tabindex="0" role="link"   title="" target="" class="">Corporate Banking</a>
+
+                                                    </small>
+                                                            <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)" /></svg>
+
+
+                                                </span>
+
+                                                        <div class="bob-custom-dropdown-list">
+                                                            <h4 class="revers_h">
+                                                                <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)" /></svg>
+
+
+                                                                        <a href="javascript:void(0);" tabindex="-1" aria-role="link"   title="" target="" class="">Corporate Banking</a>
+
+
+                                                            </h4>
+                                                            <div class="bob-nav-inner-list nav-no-button main-nav-ddl-list">
+                                                                <div class="container-fluid">
+                                                                    <div class="row">
+                                                                                <div class="navcol col-sm-4">
+                                                                                    <div class="bob-inner-list-nav no-border">
+                                                                                                <h6 class="heading-class">Corporate Banking <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path></svg></h6>
+                                                                                                <div class="bob-inner-menu-expand">
+
+
+                                                                                                    <ul class="">
+                                                                                                                    <li class="">
+                                                                                                                                <a href="corporate-banking/loan-products.html" tabindex="-1" role="link"   title="Loan Products" target="" class="">Loan Products</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="nav-view-all-btn">
+                                                                                                                                <a href="corporate-banking.html" tabindex="-1" role="link"   title="View All" target="" class="bob-line-arrow-orange-link">View All</a>
+
+
+                                                                                                                    </li>
+
+                                                                                                    </ul>
+                                                                                                </div>
+
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="navcol col-sm-4">
+                                                                                    <div class="bob-inner-list-nav">
+
+
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="navcol col-sm-4">
+                                                                                    <div class="bob-inner-list-nav">
+                                                                                                <h6 class="heading-class"> <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path></svg></h6>
+                                                                                                <div class="">
+
+
+                                                                                                    <ul class="bob-no-list-type-ul">
+                                                                                                                    <li class="">
+                                                                                                                                <a href="download-forms.html" tabindex="-1" role="link"   title="Download Forms" target="" class="">Download Forms</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="">
+                                                                                                                                <a href="contact-us.html" tabindex="-1" role="link"   title="" target="|Custom" class="">Contact Us</a>
+
+
+                                                                                                                    </li>
+                                                                                                                    <li class="nav-view-all-btn">
+                                                                                                                                <a href="corporate-banking.html" tabindex="-1" role="link"   title="View All" target="" class="bob-line-arrow-orange-link">View All</a>
+
+
+                                                                                                                    </li>
+
+                                                                                                    </ul>
+                                                                                                </div>
+
+
+                                                                                    </div>
+                                                                                </div>
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="bob-custom-dropdown bob-nav-custom-dropdown">
+                                                <span>
+                                                    <small>
+                                                                <a href="wholesale-banking.html" tabindex="0" role="link"   title="" target="" class="">Wholesale Banking</a>
+
+                                                    </small>
+
+
+                                                </span>
+
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="bob-custom-dropdown bob-nav-custom-dropdown">
+                                                <span>
+                                                    <small>
+                                                                <a href="javascript:javascriptavoid:;" tabindex="0" role="link"  rel="nofollow noopener noreferrer" title="Coming soon.." target="" class="">NRI Banking</a>
+
+                                                    </small>
+
+
+                                                </span>
+
+
+                                            </div>
+                                        </li>
+
+                        </ul>
+                        <ul class="bob-bottom-second-ul">
+                            <li>
+                                <a href="javascript:void(0);" tabindex="0" aria-label="Search" role="button" class="search-popup">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 28 28" fill="#707070"><g transform="translate(-1157 -8)"><g transform="translate(1157 8)"><path d="M12.283,0A12.283,12.283,0,1,0,24.566,12.283,12.3,12.3,0,0,0,12.283,0Zm0,22.3A10.016,10.016,0,1,1,22.3,12.283,10.027,10.027,0,0,1,12.283,22.3Z" /><g transform="translate(18.948 18.948)"><path d="M359.755,358.1l-6.711-6.711a1.17,1.17,0,1,0-1.655,1.655l6.711,6.711a1.17,1.17,0,0,0,1.655-1.655Z" transform="translate(-351.046 -351.046)" /></g></g></g></svg>
+                                </a>
+                            </li>
+                            <li>
+  <a href="locate-us.html" tabindex="0" aria-label="branches" role="link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 19.211 25" fill="#707070"><g transform="translate(-81.014)"><path d="M82.661,9.606a7.959,7.959,0,0,1,15.918,0c0,2.124-1.455,5.14-4.208,8.723a53.844,53.844,0,0,1-3.751,4.347,53.241,53.241,0,0,1-3.738-4.319C84.12,14.773,82.661,11.747,82.661,9.606ZM94.055,21.332c.513-.6,1.059-1.27,1.608-1.983,3.027-3.936,4.562-7.214,4.562-9.743a9.606,9.606,0,0,0-19.211,0c0,2.544,1.535,5.826,4.562,9.756.546.709,1.09,1.373,1.6,1.971l1.307,1.477c.895.977,1.513,1.582,1.561,1.629l.576.561.575-.562c.048-.047.664-.652,1.555-1.628Z" /><path d="M172.263,85.253a5.477,5.477,0,1,0-5.446,4.9A5.2,5.2,0,0,0,172.263,85.253Zm-9.166,0a3.741,3.741,0,1,1,3.72,3.345A3.552,3.552,0,0,1,163.1,85.253Z" transform="translate(-76.197 -75.765)" /></g></svg>
+  </a>
+</li>
+<li>
+  <a href="rates-and-charges/service-charges.html" tabindex="0" aria-label="service charges" role="link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="#707070"><g transform="translate(6.112 6.059)"><path d="M126.277,112.831a.718.718,0,0,0-1.016,0L113.823,124.27a.719.719,0,1,0,1.016,1.016l11.438-11.439A.718.718,0,0,0,126.277,112.831Z" transform="translate(-113.612 -112.62)" /></g><g transform="translate(5.689 5.649)"><path d="M116.366,112.72a2.846,2.846,0,1,0,2.846,2.846A2.849,2.849,0,0,0,116.366,112.72Zm0,4.255a1.409,1.409,0,1,1,1.409-1.409A1.41,1.41,0,0,1,116.366,116.975Z" transform="translate(-113.52 -112.72)" /></g><path d="M12.5,0A12.5,12.5,0,1,0,25,12.5,12.515,12.515,0,0,0,12.5,0Zm0,23.437A10.937,10.937,0,1,1,23.437,12.5,10.95,10.95,0,0,1,12.5,23.437Z" /><g transform="translate(13.706 13.665)"><path d="M276.349,272.688a2.846,2.846,0,1,0,2.846,2.845A2.848,2.848,0,0,0,276.349,272.688Zm0,4.254a1.408,1.408,0,1,1,1.408-1.409A1.409,1.409,0,0,1,276.349,276.942Z" transform="translate(-273.504 -272.688)" /></g></svg>
+  </a>
+</li>
+<li>
+  <a href="indicative-forex-exchange.html" tabindex="0" aria-label="indicative forex exchange" role="link">
+    <svg version="1.1" id="Layer_1" width="28" height="28" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+
+ <g>
+   <path class="st0" d="M12.5,25C5.7,25,0.1,19.4,0.1,12.5c0-6.9,5.6-12.4,12.4-12.4C19.4,0.1,25,5.7,25,12.5C25,19.4,19.4,25,12.5,25
+     z M12.5,1.4c-6.2,0-11.2,5-11.2,11.2c0,6.2,5,11.2,11.2,11.2c6.2,0,11.2-5,11.2-11.2C23.7,6.4,18.7,1.4,12.5,1.4z"/>
+   <path class="st0" d="M8.8,19.5c-0.2,0-0.4-0.1-0.5-0.2C8,19,8,18.6,8.2,18.4c1.8-2.7,2.3-4.4,1.6-5.7c0,0,0-0.1-0.1-0.1l-0.5-1.9
+     c-0.5-1.7,0.2-3.6,1.6-4.5c0.6-0.4,1.4-0.6,2.2-0.6C14,5.5,15,6,15.8,6.7C16.6,7.5,17,8.5,17,9.6c0,0.4-0.3,0.7-0.7,0.7
+     c-0.4,0-0.7-0.3-0.7-0.7c0-0.7-0.3-1.3-0.8-1.8c-0.8-0.8-2.2-1-3.2-0.3c-0.9,0.6-1.3,1.7-1,2.8l0.5,1.8c0.9,1.7,0.3,3.6-0.6,5.4
+     c1.3-0.2,2.5-0.1,3.8,0.4c0.9,0.1,1.2-0.2,1.3-0.3c0.2-0.3,0.7-0.4,1-0.1c0.3,0.2,0.4,0.7,0.1,1c-0.6,0.7-1.5,1-2.7,0.8
+     c-0.1,0-0.1,0-0.2,0c-1.6-0.7-3.1-0.6-4.7,0.2C9,19.5,8.9,19.5,8.8,19.5L8.8,19.5z"/>
+   <path class="st0" d="M16.1,13.3H8.9c-0.4,0-0.7-0.3-0.7-0.7c0-0.4,0.3-0.7,0.7-0.7h7.2c0.4,0,0.7,0.3,0.7,0.7
+     C16.8,12.9,16.5,13.3,16.1,13.3z"/>
+ </g>
+ </svg>
+  </a>
+</li>
+                            <li>
+                                <span tabindex="0" aria-label="Notification" role="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 23.649 25.152" fill="#707070" class="notification_svg_h"><g transform="translate(-1148.321 -6.544)"><g transform="translate(1148.321 7.163)"><path d="M180.713,421.257a4.386,4.386,0,0,1-4.381-4.381.876.876,0,1,1,1.752,0,2.629,2.629,0,0,0,5.257,0,.876.876,0,1,1,1.752,0A4.386,4.386,0,0,1,180.713,421.257Z" transform="translate(-169.031 -396.724)"></path><path d="M64.32,85.028H45.044a2.045,2.045,0,0,1-1.329-3.6,7.829,7.829,0,0,0,2.79-6V72.178a8.178,8.178,0,0,1,16.355,0v3.257a7.827,7.827,0,0,0,2.778,5.987,2.044,2.044,0,0,1-1.318,3.606ZM54.682,65.752a6.432,6.432,0,0,0-6.425,6.425v3.257a9.574,9.574,0,0,1-3.4,7.325.291.291,0,0,0-.105.224.3.3,0,0,0,.292.292H64.32a.3.3,0,0,0,.292-.292.289.289,0,0,0-.1-.222,9.577,9.577,0,0,1-3.4-7.327V72.178A6.432,6.432,0,0,0,54.682,65.752Z" transform="translate(-43 -64)"></path></g><circle cx="5" cy="5" r="5" transform="translate(1161.97 6.544)" fill="#ed1c24"></circle></g></svg>
+
+                                </span>
+                                   
+                                <div class="bob-notification-data">
+
+                                        <span tabindex="-1" aria-label="Close Notification" role="button">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="17.121" height="17.121" viewBox="0 0 17.121 17.121" class="closed-pp">
+                                                <path fill="#F26522" stroke="#F26522" stroke-width="0.1px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)"></path>
+                                            </svg>
+                                        </span>
+
+                                        <ul>
+
+                                                        <li>
+                                                            <h4>
+                                                                Temporary Disruption to Debit Card Services
+                                                            </h4>
+                                                            <p>We have recently encountered a technical problem that has temporarily disrupted our debit card services. This has affected some of our issued debit cards which have been wrongly deactivated and we are working with our technical teams to quickly resolve this issue.
+We sincerely apologize for any inconvenience this may have caused and appreciate your patience as we work to resolve this matter promptly.
+Please contact your base branch should you have any questions or require an update.
+ </p>
+
+                                                        </li>
+
+
+
+                                        </ul>
+                                    </div>
+</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </nav>
+            <div class="bob-mobile-sidebar">
+                <div class="bob-navbar"></div>
+                <div class="bob-top-bottom-navbar"></div>
+                <div class="bob-middle-navbar"></div>
+            </div>
+            <div class="bob-search-popup-div">
+                <div class="bob-popup-header">
+                            <a href="index.html" tabindex="0" aria-label="" role="link">
+                                <img src="-/media/project/bob/countrywebsites/ukretail/logos/ukr-bob-logo-reverse.svg" tabindex="-1" aria-label="" role="img" class="img-fluid" alt="" />
+                            </a>
+
+                    <div class="bob-newsletter-div input-group bob-search-voice-div">
+                        
+<div class="component search-box col-12" data-properties='{"endpoint":"//sxa/search/results/","suggestionEndpoint":"//sxa/search/suggestions/","suggestionsMode":"ShowSearchResults","resultPage":"","targetSignature":"","v":"{7C432610-13F2-4891-89E7-4413EE307EA9}","s":"","p":0,"l":"en","languageSource":"CurrentLanguage","searchResultsSignature":"global-search-result","itemid":"{97D2967B-F338-48D5-9667-DADD85E1F1D5}","minSuggestionsTriggerCharacterCount":2}'>
+    <div class="component-content">
+        
+                <input type="text" class="search-box-input" autocomplete="off" name="textBoxSearch" maxlength="100" placeholder="Looking for something specific?" />
+                    <button class="search-box-button" type="submit">
+                        Search
+                    </button>
+    </div>
+</div>
+
+                        <div class="input-group-append">
+                            <span tabindex="-1" aria-label="Search" role="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="#F26522" class="search2_svg"><g transform="translate(-1157 -8)"><g transform="translate(1157 8)"><path d="M12.283,0A12.283,12.283,0,1,0,24.566,12.283,12.3,12.3,0,0,0,12.283,0Zm0,22.3A10.016,10.016,0,1,1,22.3,12.283,10.027,10.027,0,0,1,12.283,22.3Z" /><g transform="translate(18.948 18.948)"><path d="M359.755,358.1l-6.711-6.711a1.17,1.17,0,1,0-1.655,1.655l6.711,6.711a1.17,1.17,0,0,0,1.655-1.655Z" transform="translate(-351.046 -351.046)" /></g></g></g></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 17.121 17.121" fill="#F26522" class="closed2_svg">
+                                    <path fill="#F26522" stroke="#F26522" stroke-width="0.5px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)" />
+                                </svg>
+                            </span>
+
+                            <span class="mic-icon" tabindex="-1" aria-label="Voice Search" role="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21.1" height="32.543" viewBox="0 0 21.1 32.543" fill="#F26522"><g transform="translate(-90.822 0.998)"><path d="M111.922,259.281a.971.971,0,0,0-1.941,0,8.609,8.609,0,1,1-17.218,0,.971.971,0,0,0-1.941,0,10.564,10.564,0,0,0,9.579,10.5V272.4H96.8a.971.971,0,0,0,0,1.941h9.145a.971.971,0,0,0,0-1.941h-3.6v-2.613A10.564,10.564,0,0,0,111.922,259.281Z" transform="translate(0 -242.795)" /><path d="M165.118,22.7a6.221,6.221,0,0,0,6.214-6.214V5.216a6.214,6.214,0,0,0-12.428,0v11.27A6.221,6.221,0,0,0,165.118,22.7ZM160.845,5.216a4.273,4.273,0,0,1,8.547,0v11.27a4.273,4.273,0,1,1-8.547,0Z" transform="translate(-63.746 0)" /></g></svg>
+                            </span>
+
+                        </div>
+                    </div>
+                    <div class="bob-closed-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.121" height="17.121" viewBox="0 0 17.121 17.121">
+                            <path fill="#fff" stroke="#fff" stroke-width="0.5px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)" />
+                        </svg>
+                    </div>
+
+
+                </div>
+
+                <div class="bob-global-search-result-section">
+                    <div class="bob-global-search-result-wrap">
+                        
+
+
+<div class="component search-results col-12" data-class-variant="" data-properties='{&quot;endpoint&quot;:&quot;//sxa/search/results/&quot;,&quot;v&quot;:&quot;{B2FB909C-B653-42BB-8F6C-02F0C7C0E08C}&quot;,&quot;s&quot;:&quot;&quot;,&quot;l&quot;:&quot;en&quot;,&quot;p&quot;:0,&quot;defaultSortOrder&quot;:&quot;&quot;,&quot;sig&quot;:&quot;global-search-result&quot;,&quot;itemid&quot;:&quot;{97D2967B-F338-48D5-9667-DADD85E1F1D5}&quot;,&quot;autoFireSearch&quot;:true}'>
+        <div class="component-content">
+            
+            <div class="no-results" style="display: none">
+                No result found
+                
+            </div>
+            <div class="progress"></div>
+        </div>
+</div>
+                    </div>
+                </div>
+
+                <div class="bob-popup-content-div">
+                    <div class="bob-tab-div">
+                                <ul class="bob-tab-ul">
+
+                                                    <li data-tab="#740bf6b4-991d-44ad-a31f-e70608e9db7a" class="active">Deposit Products</li>
+                                                    <li data-tab="#2cfb480d-24f1-41b1-af7b-15d9c6c65199" class="">Business</li>
+
+
+                                </ul>
+                                <div class="bob-tab-content-div">
+                                                <div class="bob-tab-content-data active" id="740bf6b4-991d-44ad-a31f-e70608e9db7a">
+
+                                                    <ul class="bob-tags">
+
+
+                                                    </ul>
+
+                                                    <div class="bob-search-card-div">
+
+                                                                    <div class="bob-card-div">
+                                                                        <h6>Current Account</h6>
+                                                                        <p> Current Deposits is ideal for firm, companies, institutions, individuals etc., who need frequent banking facility. This is one of the most basic and flexible deposit options.</p>
+
+                                                                        <div class="bob-popup-link-div">
+
+
+
+                                                                            <a href="personal-banking/deposit-products/current-account.html" tabindex="-1" aria-label="Know More" role="link" class="bob-arrow-button bob-arrow-grey-button">
+                                                                                Know More
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="19.349" height="9.372" viewBox="0 0 19.349 9.372"><path d="M19.127,136.151h0l-3.949-3.93a.756.756,0,0,0-1.066,1.071l2.652,2.639H.756a.756.756,0,1,0,0,1.512H16.762l-2.651,2.639a.756.756,0,0,0,1.066,1.071l3.949-3.93h0A.756.756,0,0,0,19.127,136.151Z" transform="translate(0 -132)" /></svg>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="bob-card-div">
+                                                                        <h6>Financial Services Compensation Scheme</h6>
+                                                                        <p> Bank of Baroda is a FCA/PRA regulated Bank and a member of the Financial Services Compensation Scheme established under the Financial Services and Market Act 2000.</p>
+
+                                                                        <div class="bob-popup-link-div">
+
+
+
+                                                                            <a href="personal-banking/deposit-products/financial-services-compensation-scheme.html" tabindex="-1" aria-label="Know More" role="link" class="bob-arrow-button bob-arrow-grey-button">
+                                                                                Know More
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="19.349" height="9.372" viewBox="0 0 19.349 9.372"><path d="M19.127,136.151h0l-3.949-3.93a.756.756,0,0,0-1.066,1.071l2.652,2.639H.756a.756.756,0,1,0,0,1.512H16.762l-2.651,2.639a.756.756,0,0,0,1.066,1.071l3.949-3.93h0A.756.756,0,0,0,19.127,136.151Z" transform="translate(0 -132)" /></svg>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="bob-card-div">
+                                                                        <h6>Savings Bank Account</h6>
+                                                                        <p> Saving Bank Account is an ideal account to meet your every day banking needs. It is suitable for Residents and Non Residents, Charities, Clubs, Association and Trusts. This account is an option to cultivate the habit of banking and saving.</p>
+
+                                                                        <div class="bob-popup-link-div">
+
+
+
+                                                                            <a href="personal-banking/deposit-products/savings-bank-account.html" tabindex="-1" aria-label="Know More" role="link" class="bob-arrow-button bob-arrow-grey-button">
+                                                                                Know More
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="19.349" height="9.372" viewBox="0 0 19.349 9.372"><path d="M19.127,136.151h0l-3.949-3.93a.756.756,0,0,0-1.066,1.071l2.652,2.639H.756a.756.756,0,1,0,0,1.512H16.762l-2.651,2.639a.756.756,0,0,0,1.066,1.071l3.949-3.93h0A.756.756,0,0,0,19.127,136.151Z" transform="translate(0 -132)" /></svg>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="bob-tab-content-data " id="2cfb480d-24f1-41b1-af7b-15d9c6c65199">
+
+                                                    <ul class="bob-tags">
+
+
+                                                    </ul>
+
+                                                    <div class="bob-search-card-div">
+
+                                                                    <div class="bob-card-div">
+                                                                        <h6>Business Loan (fund-base)</h6>
+                                                                        <p> Coming Soon..</p>
+
+                                                                        <div class="bob-popup-link-div">
+
+
+
+                                                                            <a href="business-banking/business-loan-fund-base.html" tabindex="-1" aria-label="Know More" role="link" class="bob-arrow-button bob-arrow-grey-button">
+                                                                                Know More
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="19.349" height="9.372" viewBox="0 0 19.349 9.372"><path d="M19.127,136.151h0l-3.949-3.93a.756.756,0,0,0-1.066,1.071l2.652,2.639H.756a.756.756,0,1,0,0,1.512H16.762l-2.651,2.639a.756.756,0,0,0,1.066,1.071l3.949-3.93h0A.756.756,0,0,0,19.127,136.151Z" transform="translate(0 -132)" /></svg>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="bob-card-div">
+                                                                        <h6>Business Loan SME Corporate Loan</h6>
+                                                                        <p> Coming Soon..</p>
+
+                                                                        <div class="bob-popup-link-div">
+
+
+
+                                                                            <a href="business-banking/business-loan-sme-corporate-loan.html" tabindex="-1" aria-label="Know More" role="link" class="bob-arrow-button bob-arrow-grey-button">
+                                                                                Know More
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="19.349" height="9.372" viewBox="0 0 19.349 9.372"><path d="M19.127,136.151h0l-3.949-3.93a.756.756,0,0,0-1.066,1.071l2.652,2.639H.756a.756.756,0,1,0,0,1.512H16.762l-2.651,2.639a.756.756,0,0,0,1.066,1.071l3.949-3.93h0A.756.756,0,0,0,19.127,136.151Z" transform="translate(0 -132)" /></svg>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+
+                                                    </div>
+                                                </div>
+
+
+                                </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="bob-scroll-top-div" tabindex="0" aria-label="Scroll to top" role="button">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7.088" viewBox="0 0 12 7.088" fill="#F26522"><g transform="translate(0 -100.698)"><g transform="translate(0 100.698)"><path class="a" d="M11.808,101.29l-.393-.4a.658.658,0,0,0-.928,0L6,105.379,1.514,100.89a.658.658,0,0,0-.928,0l-.393.393a.657.657,0,0,0,0,.928l5.345,5.364a.671.671,0,0,0,.465.211H6a.671.671,0,0,0,.464-.211l5.34-5.35a.663.663,0,0,0,.192-.469A.656.656,0,0,0,11.808,101.29Z" transform="translate(0 -100.698)" /></g></g></svg>
+                </span>
+                <small>
+                    Scroll<br> to top
+                </small>
+            </div>
+
+        </div>
+    </header>
+    <!-- /#header -->
+    <!-- #content -->
+    <main>
+        <div id="content" class="">
+            
+
+
+
+
+<section class="bob-offer-main-sec">
+    <div class="bob-blue-top-div-text" id="bobBlueTopDivText">
+<img src="-/media/project/bob/shared/default/generic-spotlight.jpg%3Fh=250&amp;iar=0&amp;w=1366&amp;hash=5748802E2A16BAD540F04EF576C264F4" alt="" width="1366" height="250" />        <div class="bob-blue-banner-text_div">
+            
+<div class="component breadcrumb navigation-title col-12">
+    <div class="component-content">
+        <nav>
+            <ol>
+                    <li class="breadcrumb-item home">
+<div class="navigation-title field-navigationtitle"><a title="Home" href="index.html">Home</a></div>                            <span class="separator">&gt;</span>
+                    </li>
+                    <li class="breadcrumb-item last">
+<div class="navigation-title field-navigationtitle"><a title="Enquire Now" href="enquire-now.html">Enquire Now</a></div>                            <span class="separator">&gt;</span>
+                    </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+            <div class="container">
+                        <h1>Enquire Now</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="apply-online">
+        <div class="bob-loan-emi-grp-div">
+            <div class="container">
+                <div class="row" id="divApplyNow">
+                    <div class="col-sm-12">
+
+                        <i>Fields marked with * are required.</i>
+                        <form id="formfeedbacks" class="padding-r-0">
+                            <ul class="">
+                                <li>
+                                    <div class="form-group bob-form-control">
+                                        <input type="text" class="form-control no-special-chars" placeholder="Name *" aria-label="Name" role="textbox" tabindex="0" id="name" name="name" />
+                                        <small id="err_name" class="errorMessage"></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group bob-form-control">
+                                        <input type="text" class="form-control emailclass" placeholder="Email ID *" aria-label="Your Email ID" role="textbox" tabindex="0" id="email" name="email" />
+                                        <small id="err_email" class="errorMessage"></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group bob-form-control">
+                                        <input type="number" class="form-control" placeholder="Telephone / Mobile no *" aria-label="mobile" role="textbox" tabindex="0" id="mobile" name="mobile" />
+                                        <small id="err_mobile" class="errorMessage"></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group bob-form-control">
+                                        <input type="text" class="form-control onlynumber" placeholder="Post Code" aria-label="postcode" role="textbox" tabindex="0" id="postcode" name="postcode" />
+                                        <small id="err_postcode" class="errorMessage"></small>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-group bob-form-control">
+                                        <input type="date" class="form-control" placeholder="Date of Birth" aria-label="date of birth" role="textbox" tabindex="0" id="dateofbirth" name="dateofbirth" />
+                                        <small id="err_dateofbirth" class="errorMessage"></small>
+                                    </div>
+                                </li>
+                                <li>
+
+                                    <div class="form-group bob-form-control">
+                                        <div class="bob-custom-dropdown mt-0" tabindex="0" role="listbox" aria-labelledby="txtprofession">
+                                            <span class="form-control">
+                                                <small id="txtprofession">
+                                                    Please Select Profession *
+                                                </small>
+                                                <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path></svg>
+                                            </span>
+                                            <div class="bob-custom-dropdown-list" style="display: none;">
+                                                <ul name="profession" id="profession" class="medium gfield_select" aria-required="true" aria-invalid="false">
+                                                    <li  tabindex="-1" role="option"  selected="selected" value="-1">Please Select Profession</li>
+                                                    <li value="Employed">Employed</li>
+                                                    <li value="Self Employed">Self Employed</li>
+                                                    <li value="Business">Business</li>
+                                                    <li value="Professional">Professional</li>
+                                                    <li value="Pensioner">Pensioner</li>
+                                                    <li value="Part Time Employed">Part Time Employed</li>
+                                                    <li value="Others">Others</li>
+                                                </ul>
+                                            </div>
+                                            <small id="err_profession" class="errorMessage"></small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="radio-btn-grp">
+                                    <div class="form-group bob-form-control bob-check-radio-form-control bob-radio-form-control">
+                                        <input class="form-check-input" type="radio" id="radio1" name="radiobtn">
+                                        <label class="form-check-label" for="radio1">New Customer </label>
+                                    </div>
+                                    <div class="form-group bob-form-control bob-check-radio-form-control bob-radio-form-control">
+                                        <input class="form-check-input" type="radio" id="radio2" name="radiobtn">
+                                        <label class="form-check-label" for="radio2">Existing Customer</label>
+                                    </div>
+                                </li>
+                                <li class="existing_customer">
+                                    <div class="form-group bob-form-control">
+                                        <div class="bob-custom-dropdown mt-0" tabindex="0" role="listbox" aria-labelledby="txtbranch">
+                                            <span class="form-control">
+                                                <small id="txtbranch">
+                                                    Branch
+                                                </small>
+                                                <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path></svg>
+                                            </span>
+                                            <div class="bob-custom-dropdown-list" style="display: none;">
+                                                <ul name="branch" id="branch" class="medium gfield_select" aria-required="true" aria-invalid="false">
+                                                    <li selected="selected" value="-1">Please Select Branch </li>
+                                                    <li value="kilbur@bankofbaroda.com">Aldgate</li>
+                                                    <li value="handsw@bankofbaroda.com">Birmingham</li>
+                                                    <li value="ilfoln@bankofbaroda.com">Ilford</li>
+                                                    <li value="kenton@bankofbaroda.com">Kenton</li>
+                                                    <li value="leices@bankofbaroda.com">Leicester</li>
+                                                    <li value="agmlmo@bankofbaroda.com">London Main Office</li>
+                                                    <li value="manche@bankofbaroda.com">Manchester</li>
+                                                    <li value="southa@bankofbaroda.com">Southall</li>
+                                                    <li value="streat@bankofbaroda.com">Tooting</li>
+                                                    <li value="brent@bankofbaroda.com">Wembley</li>
+                                                </ul>
+                                            </div>
+                                            <small id="err_branch" class="errorMessage"></small>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+
+                                    <div class="form-group bob-form-control">
+                                        <div class="bob-custom-dropdown mt-0" tabindex="0" role="listbox" aria-labelledby="txtproductName">
+                                            <span class="form-control">
+                                                <small id="txtproductName">
+                                                    My Quesion is About *
+                                                </small>
+                                                <svg class="bob-down-arrow-svg" xmlns="http://www.w3.org/2000/svg" width="12" height="7" viewBox="0 0 13.088 7.731" fill="#F26522"><path d="M12.879,101.344l-.429-.432a.718.718,0,0,0-1.013,0L6.547,105.8l-4.9-4.9a.718.718,0,0,0-1.013,0l-.429.429a.717.717,0,0,0,0,1.012l5.83,5.851a.732.732,0,0,0,.508.23h0a.732.732,0,0,0,.506-.23l5.824-5.835a.727.727,0,0,0,0-1.02Z" transform="translate(0 -100.698)"></path></svg>
+                                            </span>
+                                            <div class="bob-custom-dropdown-list" style="display: none;">
+                                                <ul name="productName" id="productName" class="medium gfield_select" aria-required="true" aria-invalid="false">
+                                                    <li value=""> My Quesion is About </li>
+                                                    <li value="clickfunds2india@bankofbaroda.com">Online remittances to India – CF2I</li>
+                                                    <li value="mktg.uksub@bankofbaroda.com">Remittances to India through branches</li>
+                                                    <li value="barodaconnect.uk@bankofbaroda.com">Internet Banking</li>
+                                                    <li value="onlinesaver@bankofbaroda.com">Online Bond – Baroda Max</li>
+                                                    <li value="credit.uk@bankofbaroda.com">Business Finance</li>
+                                                    <li value="retail.uk@bankofbaroda.com">Savings Account – Individual</li>
+                                                    <li value="retail.uk@bankofbaroda.com">Current Account – Individual</li>
+                                                    <li value="mktg.uksub@bankofbaroda.com">Current Account – Business</li>
+                                                    <li value="retail.uk@bankofbaroda.com">Term Deposits</li>
+                                                    <li value="retail.uk@bankofbaroda.com">NRI Services</li>
+                                                    <li value="mktg.uksub@bankofbaroda.com">Others</li>
+
+                                                </ul>
+                                            </div>
+                                            <small id="err_productName" class="errorMessage"></small>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="width-100">
+                                    <div class="form-group bob-form-control">
+                                        <textarea id="query" name="query" class="form-control " rows="10" aria-label="query" role="textbox" tabindex="0" placeholder="Your Message (Max 500 Character) *"></textarea>
+                                        <small id="err_query" class="errorMessage"></small>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                    <div class="form-group bob-form-control">
+                                        <input type="text" class="form-control onlynumber" placeholder="Verification Code *" aria-label="Verify Code" tabindex="0" role="textbox" id="captchaCode" name="captchaCode" />
+                                    </div>
+                                    <small id="err_txtVerificationCode" class="errorMessage"></small>
+                                </li>
+                                <li>
+                                    <span><img id="img_captcha" alt="captcha code details" role="button" tabindex="0" aria-label="refresh captcha code" src="handlers/bob/countrywebsites/ukretail/captchagenerator.ashx%3Fid=638765387634991660" /></span>
+
+                                    <a onclick="fnRefreshCaptcha();">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20.356" height="20.341" viewbox="0 0 20.356 20.341" fill="#707070"><g transform="translate(96.456 -55.784)"><g transform="translate(-96.456 55.784)"><path class="a" d="M-77.219,58.707a10.156,10.156,0,0,0-11.247-2.046,7.636,7.636,0,0,0-1.218.62l-.006,0A9.011,9.011,0,0,0-91.625,58.8l-.072.073-.006-.943a.8.8,0,0,0-.8-.792H-92.5a.8.8,0,0,0-.791.8l.02,3.23a.8.8,0,0,0,.242.567.8.8,0,0,0,.555.225h.054l3.179-.02a.8.8,0,0,0,.792-.8.8.8,0,0,0-.8-.792h-.005l-1.638.01c.127-.147.26-.293.4-.438a7.337,7.337,0,0,1,1.613-1.261l.01-.007.012-.006a6.094,6.094,0,0,1,.984-.5l.043-.018A8.554,8.554,0,0,1-78.34,59.84a8.522,8.522,0,0,1,2.23,8.368.8.8,0,0,0,.551.983.781.781,0,0,0,.216.03.8.8,0,0,0,.767-.581A10.112,10.112,0,0,0-77.219,58.707Z" transform="translate(94.555 -55.784)"></path><path class="a" d="M-77.62,80.768a.848.848,0,0,0-.57-.227l-3.221.021a.8.8,0,0,0-.792.8.8.8,0,0,0,.8.792h.005l1.638-.01c-.127.147-.26.294-.4.438A7.376,7.376,0,0,1-81.8,83.857a6.137,6.137,0,0,1-.985.5l-.043.018a8.553,8.553,0,0,1-9.489-1.719,8.537,8.537,0,0,1-2.258-8.265.8.8,0,0,0-.563-.976.8.8,0,0,0-.976.563,10.133,10.133,0,0,0,2.678,9.811,10.184,10.184,0,0,0,7.148,2.923,9.961,9.961,0,0,0,4.1-.877A7.561,7.561,0,0,0-81,85.233,8.887,8.887,0,0,0-79.032,83.7c.025-.025.047-.052.072-.077l.006.946a.8.8,0,0,0,.8.792h.005a.8.8,0,0,0,.792-.8l-.02-3.229A.8.8,0,0,0-77.62,80.768Z" transform="translate(96.456 -66.376)"></path></g></g></svg>
+                                    </a>
+                                </li>
+<li class="width-100">
+                                    <div class="form-group bob-form-control bob-check-radio-form-control">
+                                        <input class="form-check-input" value="yes" type="checkbox" id="consentCheck" name="consentCheck">
+                                        <label class="form-check-label" for="consentCheck"><small>I am happy to receive further communication from Bank of Baroda - UK Operations. regarding Product info, News, Offers etc.
+</small>
+</label>
+                                        <small id="err_consentCheck" class="errorMessage"></small>
+                                    </div>
+
+                                    <br>
+                                    <div class="bob-e-auction-filter-btn-div">
+                                         <a class="bob-comman-btn" id="btnFeedbacks" tabindex="0" role="button" onclick="SubmitFeedbackForm();" data-submit="Submit" data-submitting="Submitting">Submit</a>
+                                        <a class="bob-comman-btn bob-comman-white-btn" tabindex="0" role="button" onclick="FeedbacksFormReset();">Reset</a>
+                                    </div>
+                                </li>
+                              
+
+                            </ul>
+                            <input type="hidden" id="hdnProductName" name="hdnProductName" value="Enquire Now" />
+
+                            <input type="hidden" id="hdn_utm_source" name="hdn_utm_source" />
+                            <input type="hidden" id="hdn_utm_medium" name="hdn_utm_medium" />
+                            <input type="hidden" id="hdn_utm_campaign" name="hdn_utm_campaign" />
+                            <input type="hidden" id="hdn_utm_term" name="hdn_utm_term" />
+                            <input type="hidden" id="hdn_utm_content" name="hdn_utm_content" />
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+
+                <div class="applyonlinesuccessMsg" id="successMsg" style=" display:none">
+                    <h3><strong>Thank you !</strong> We have successfully received your application. Our executive will contact you soon.</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+
+        </div>
+    </main>
+    <!-- /#content -->
+    <!-- #footer -->
+    <footer>
+        <div id="footer" class="">
+            
+
+
+
+<div class="component row-splitter">
+        <div class=" bob-main-bottom-links container-fluid">
+            <div class="row">
+                
+
+
+<div class="component container col-12">
+    <div class="component-content" >
+
+<div class="component link-list image-link-list col-sm-12">
+    <div class="component-content">
+        
+        <ul>
+                        <li class="item0 odd first">
+                                        <a href="locate-us.html" target="_blank" tabindex="0" aria-label="Home Link" role="link" alt="Home" title="Home Link" class="">
+                                            <img src="-/media/project/bob/shared/icons/fba.svg%3Fiar=0&amp;hash=0D2FC7DB17DB308FDD48BABEFC77F1D8" alt="Branches & ATM’s" />
+                                            <strong>Branch Locator </strong>
+                                        </a>
+
+                        </li>
+                        <li class="item1 even">
+                                        <a href="download-forms.html" target="" tabindex="0" aria-label="Home Link" role="link" alt="Download Forms" title="Home Link" class="">
+                                            <img src="-/media/project/bob/shared/icons/fdf.svg%3Fiar=0&amp;hash=1C8F5504FD03A93EABF75D73A5A28E27" alt="Download Forms" />
+                                            <strong>Download Forms</strong>
+                                        </a>
+
+                        </li>
+                        <li class="item2 odd last">
+                                        <a href="contact-us.html" target="" tabindex="0" aria-label="" role="link" alt="" title="" class="">
+                                            <img src="-/media/project/bob/shared/icons/fgit.svg%3Fiar=0&amp;hash=D550C54FBEAA69CB4FDFAC1E6B465288" alt="Get in Touch" />
+                                            <strong>Get in Touch</strong>
+                                        </a>
+
+                        </li>
+
+        </ul>
+    </div>
+</div>
+    </div>
+</div>
+            </div>
+        </div>
+        <div class=" bob-footer-nav-links container-fluid">
+            <div class="row">
+                
+
+<div class="row component column-splitter">
+        <div class="col-sm-2">
+            
+<div class="component link-list">
+    <div class="component-content">
+        <h6>About us</h6>
+                <ul>
+                <li class="item0 odd first">
+<div class="field-link"><a href="about-us/overview.html" tabindex="0" data-variantitemid="{5A6E1EFE-A386-4EAF-8EFA-ABF1695CB874}" role="link" data-variantfieldname="Link">Overview</a></div>                </li>
+                <li class="item1 even">
+<div class="field-link"><a href="about-us/management-team.html" tabindex="0" data-variantitemid="{A5074291-8075-47AC-9B38-430FDE4145D0}" role="link" data-variantfieldname="Link">Management Team</a></div>                </li>
+                <li class="item2 odd last">
+<div class="field-link"><a href="careers.html" tabindex="0" data-variantitemid="{B44B6A8F-7A95-40FF-904D-492B5398D166}" role="link" data-variantfieldname="Link">Careers</a></div>                </li>
+        </ul>
+    </div>
+</div>
+
+<div class="component link-list">
+    <div class="component-content">
+        <h6>Calculators</h6>
+                <ul>
+                <li class="item0 odd first last">
+<div class="field-link"><a href="calculators/emi-calculator.html" tabindex="0" data-variantitemid="{ADC37B74-BFF0-430D-B1EE-AC7FFDD1484A}" role="link" data-variantfieldname="Link">EMI Calculator</a></div>                </li>
+        </ul>
+    </div>
+</div>
+
+<div class="component link-list">
+    <div class="component-content">
+        <h6>Media Center</h6>
+                <ul>
+                <li class="item0 odd first">
+<div class="field-link"><a href="media/news.html" tabindex="0" data-variantitemid="{A951938F-4F0C-485F-916B-ED3265C6E087}" role="link" data-variantfieldname="Link">News</a></div>                </li>
+                <li class="item1 even">
+                </li>
+                <li class="item2 odd">
+<div class="field-link"><a href="media/press-coverage.html" tabindex="0" data-variantitemid="{A92E9629-FE96-42FE-A8E0-A05A3485966D}" role="link" data-variantfieldname="Link">Press Coverage</a></div>                </li>
+                <li class="item3 even last">
+<div class="field-link"><a href="media/photo-gallery.html" tabindex="0" data-variantitemid="{411252D8-2925-43AC-A4D6-8BF1F5B3B871}" role="link" data-variantfieldname="Link">Photo Gallery</a></div>                </li>
+        </ul>
+    </div>
+</div>
+
+        </div>
+        <div class="col-sm-2">
+            
+<div class="component link-list">
+    <div class="component-content">
+        <h6>Resources</h6>
+                <ul>
+                <li class="item0 odd first">
+<div class="field-link"><a href="download-forms.html" tabindex="0" data-variantitemid="{F3E3F40B-ADA1-4F20-859C-446FE850BEB1}" role="link" data-variantfieldname="Link">Download Forms</a></div>                </li>
+                <li class="item1 even">
+<div class="field-link"><a href="tenders.html" tabindex="0" data-variantitemid="{3E6F0077-5700-4A55-8059-2BEBF566B9AD}" role="link" data-variantfieldname="Link">Tenders</a></div>                </li>
+                <li class="item2 odd">
+<div class="field-link"><a href="-/media/project/bob/countrywebsites/ukretail/pdf/bobukltd_service_availability_and_cut-off_timinngs.pdf" tabindex="0" data-variantitemid="{584C84F5-45AB-46A1-9988-0C4F1800AED5}" role="link" data-variantfieldname="Link">Cut-off Timings &amp; Channels</a></div>                </li>
+                <li class="item3 even">
+<div class="field-link"><a href="fscs.html" tabindex="0" data-variantitemid="{BDEDC9D4-A326-422B-84BB-BE6028FE4EAB}" role="link" data-variantfieldname="Link">FSCS</a></div>                </li>
+                <li class="item4 odd">
+<div class="field-link"><a href="https://www.takefive-stopfraud.org.uk/" target="_blank" tabindex="0" rel="noopener noreferrer" data-variantitemid="{5F6F5EBA-3253-41FA-BE44-4A58723249B9}" role="link" data-variantfieldname="Link">Take Five - To Stop Fraud</a></div>                </li>
+                <li class="item5 even">
+<div class="field-link"><a href="-/media/project/bob/countrywebsites/ukretail/pdf/general-terms-conditions-uk.pdf" tabindex="0" data-variantitemid="{0A1D4FD6-246A-4A32-90AE-EF6E5D3C10C8}" role="link" data-variantfieldname="Link"> Terms &amp; Conditions</a></div>                </li>
+                <li class="item6 odd">
+<div class="field-link"><a href="treating-customer-fairly.html" tabindex="0" data-variantitemid="{3415F11D-F3EE-4B68-8783-4AAED3EFC5CD}" role="link" data-variantfieldname="Link">Treating Customer Fairly</a></div>                </li>
+                <li class="item7 even">
+<div class="field-link"><a href="complaint-handling-process.html" tabindex="0" data-variantitemid="{DF96C618-A667-41C5-B6B3-BBE3886A1865}" role="link" data-variantfieldname="Link">Complaint Handling Process</a></div>                </li>
+                <li class="item8 odd">
+<div class="field-link"><a href="compliance-and-risk-management.html" tabindex="0" data-variantitemid="{887410E1-15E2-4646-B730-E1A3C94B92A5}" role="link" data-variantfieldname="Link">Compliance and Risk Management</a></div>                </li>
+                <li class="item9 even">
+<div class="field-link"><a href="-/media/project/bob/countrywebsites/ukretail/pdf/bank-of-baroda-implementation-statement-december-2022-22-03.pdf" tabindex="0" data-variantitemid="{25C4A082-E4C8-47D0-AE2C-9A38CD669E7D}" role="link" data-variantfieldname="Link">Implementation Statement - December 2022</a></div>                </li>
+                <li class="item10 odd last">
+<div class="field-link"><a href="-/media/project/bob/countrywebsites/ukretail/pdf/the-statement-of-investment-principles-11-03.pdf" tabindex="0" data-variantitemid="{1B1A13A8-BB65-410E-8793-189753CEF593}" role="link" data-variantfieldname="Link">Statement of Investment Principles</a></div>                </li>
+        </ul>
+    </div>
+</div>
+
+        </div>
+        <div class="col-sm-2">
+            
+<div class="component link-list">
+    <div class="component-content">
+        <h6>Other Links</h6>
+                <ul>
+                <li class="item0 odd first">
+<div class="field-link"><a href="-/media/project/bob/countrywebsites/ukretail/pdf/bob-uk-ltd-annual-accounts-31-03-23-final-signed.pdf" tabindex="0" data-variantitemid="{36B4BCFC-82AC-47D4-BB52-5C8104BBC852}" role="link" data-variantfieldname="Link">Disclosure -BOB UK ANNUAL FINANCIAL REPORT 2023</a></div>                </li>
+                <li class="item1 even">
+<div class="field-link"><a href="-/media/project/bob/countrywebsites/ukretail/pdf/pillar-3-disclosure-2023-28-02.pdf" tabindex="0" data-variantitemid="{397C08BA-EE43-4E65-A7A0-3F711051A683}" role="link" data-variantfieldname="Link">Pillar 3 Disclosure</a></div>                </li>
+                <li class="item2 odd">
+<div class="field-link"><a href="enquire-now.html#" tabindex="0" data-variantitemid="{7B4F7135-AE58-4B63-A206-8DF40EE8EA49}" role="link" class="nri-popup" data-variantfieldname="Link">NRI Banking</a></div>                </li>
+                <li class="item3 even">
+<div class="field-link"><a href="important-links.html" tabindex="0" data-variantitemid="{0475F736-B3E4-4384-9ED8-A0EC62B965D1}" role="link" data-variantfieldname="Link">Useful links</a></div>                </li>
+                <li class="item4 odd last">
+<div class="field-link"><a href="feedback-and-suggestions.html" tabindex="0" data-variantitemid="{CAE04013-6F9E-4A6C-95F9-2699597E4052}" role="link" data-variantfieldname="Link">Feedback and Suggestions</a></div>                </li>
+        </ul>
+    </div>
+</div>
+
+        </div>
+</div>
+            </div>
+        </div>
+        <div class=" bob-news-social-group-div container-fluid">
+            <div class="row">
+                <div class="component plain-html col-sm-4">
+    <div class="component-content">
+ <h6>Connect with Us</h6>
+                    <ul class="bob-social-icons">
+                        <li>
+                            <a href="https://www.facebook.com/bankofbaroda/?ref=hl" target="_blank" tabindex="0" aria-label="Facebook" arial-role="link" rel="nofollow">
+                                <svg class="bob-fb-svg" xmlns="http://www.w3.org/2000/svg" width="35.202" height="35.202" viewBox="0 0 35.202 35.202" fill="#F26522"><linearGradient x1="50%" x2="50%" y1="97.0782153%" y2="0%" id="bob-fb-hover"><stop offset="0%" stop-color="#0062E0"></stop><stop offset="100%" stop-color="#19AFFF"></stop></linearGradient><path d="M-105.4-122a17.6,17.6,0,0,1,17.6,17.6,17.6,17.6,0,0,1-17.6,17.6A17.6,17.6,0,0,1-123-104.4,17.6,17.6,0,0,1-105.4-122Z" transform="translate(123 122)"/><path class="b" d="M-7.137-46.19h2.327v-3.263H-7.545v.012c-3.315.111-3.995,1.88-4.054,3.738h-.007v1.63h-2.257v3.2h2.257v8.567h3.4v-8.567h2.787l.538-3.2H-8.2v-.985A1.075,1.075,0,0,1-7.137-46.19Z" transform="translate(26.937 58.448)" fill="#fff"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/officialbankofbaroda/" target="_blank" tabindex="0" aria-label="Instagram" arial-role="link" rel="nofollow">
+                                <svg class="bob-insta-svg" xmlns="http://www.w3.org/2000/svg" width="35.202" height="35.202" viewBox="0 0 35.202 35.202" fill="#F26522"><radialGradient id="bob-insta-hover" r="150%" cx="30%" cy="107%"><stop stop-color="#fdf497" offset="0"></stop><stop stop-color="#fdf497" offset="0.05"></stop><stop stop-color="#fd5949" offset="0.45"></stop><stop stop-color="#d6249f" offset="0.6"></stop><stop stop-color="#285AEB" offset="0.9"></stop></radialGradient><path d="M213.738,210.369A3.369,3.369,0,1,1,210.369,207,3.369,3.369,0,0,1,213.738,210.369Z" transform="translate(-192.768 -192.768)"/><path d="M151.649,137.813a3.347,3.347,0,0,0-1.918-1.918,5.592,5.592,0,0,0-1.877-.348c-1.066-.049-1.386-.059-4.084-.059s-3.018.01-4.084.059a5.6,5.6,0,0,0-1.876.348,3.348,3.348,0,0,0-1.918,1.918,5.6,5.6,0,0,0-.348,1.877c-.049,1.066-.059,1.385-.059,4.084s.011,3.018.059,4.084a5.593,5.593,0,0,0,.348,1.876,3.347,3.347,0,0,0,1.918,1.918,5.587,5.587,0,0,0,1.877.348c1.066.049,1.385.059,4.084.059s3.019-.01,4.084-.059a5.587,5.587,0,0,0,1.877-.348,3.347,3.347,0,0,0,1.918-1.918,5.6,5.6,0,0,0,.348-1.876c.049-1.066.059-1.386.059-4.084s-.01-3.018-.059-4.084A5.585,5.585,0,0,0,151.649,137.813Zm-7.879,11.15a5.19,5.19,0,1,1,5.19-5.19A5.19,5.19,0,0,1,143.77,148.963Zm5.4-9.372a1.213,1.213,0,1,1,1.213-1.213A1.213,1.213,0,0,1,149.165,139.591Z" transform="translate(-126.169 -126.173)"/><path d="M17.6,0A17.6,17.6,0,1,0,35.2,17.6,17.6,17.6,0,0,0,17.6,0ZM27.647,21.768a7.415,7.415,0,0,1-.47,2.453,5.168,5.168,0,0,1-2.956,2.956,7.42,7.42,0,0,1-2.453.47c-1.078.049-1.422.061-4.167.061s-3.089-.012-4.167-.061a7.42,7.42,0,0,1-2.453-.47,5.168,5.168,0,0,1-2.956-2.956,7.413,7.413,0,0,1-.47-2.453c-.05-1.078-.061-1.422-.061-4.167s.012-3.089.061-4.167a7.416,7.416,0,0,1,.469-2.453,5.171,5.171,0,0,1,2.956-2.956,7.422,7.422,0,0,1,2.453-.47c1.078-.049,1.422-.061,4.167-.061s3.089.012,4.167.061a7.424,7.424,0,0,1,2.453.469,5.169,5.169,0,0,1,2.956,2.956,7.414,7.414,0,0,1,.47,2.453c.049,1.078.061,1.422.061,4.167S27.7,20.69,27.647,21.768Z"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/bankofbaroda/" target="_blank" tabindex="0" aria-label="LinkedIn" arial-role="link" rel="nofollow">
+                                <svg class="bob-ind-svg" xmlns="http://www.w3.org/2000/svg" width="35.202" height="34.798" viewBox="0 0 35.202 34.798" fill="#F26522"><path d="M17.6,0A17.5,17.5,0,0,0,0,17.4,17.5,17.5,0,0,0,17.6,34.8,17.5,17.5,0,0,0,35.2,17.4,17.5,17.5,0,0,0,17.6,0ZM12.486,26.3H8.2V13.554h4.287ZM10.343,11.813h-.028a2.211,2.211,0,1,1,.056-4.405,2.212,2.212,0,1,1-.029,4.405ZM27.943,26.3H23.657v-6.82c0-1.714-.621-2.883-2.172-2.883a2.344,2.344,0,0,0-2.2,1.55,2.87,2.87,0,0,0-.141,1.034V26.3H14.859s.056-11.553,0-12.749h4.286v1.805a4.263,4.263,0,0,1,3.863-2.1c2.82,0,4.935,1.822,4.935,5.738Z"/></svg>
+                            </a>
+                        </li>
+                       <li>
+        <a href="https://twitter.com/bankofbaroda" target="_blank" tabindex="0" aria-label="Twitter" arial-role="link" rel="nofollow">
+            <!-- <svg class="bob-tw-svg" xmlns="http://www.w3.org/2000/svg" width="35.202" height="34.798" viewBox="0 0 35.202 34.798" fill="#F26522"><path d="M17.6,0A17.5,17.5,0,0,0,0,17.4,17.5,17.5,0,0,0,17.6,34.8,17.5,17.5,0,0,0,35.2,17.4,17.5,17.5,0,0,0,17.6,0Zm8.036,13.566q.012.257.012.516A11.347,11.347,0,0,1,14.154,25.445h0a11.531,11.531,0,0,1-6.192-1.794,8.309,8.309,0,0,0,.964.055A8.166,8.166,0,0,0,13.943,22a4.039,4.039,0,0,1-3.774-2.774,4.07,4.07,0,0,0,1.825-.069A4.007,4.007,0,0,1,8.753,15.24c0-.018,0-.034,0-.051a4.048,4.048,0,0,0,1.83.5,3.967,3.967,0,0,1-1.251-5.332,11.514,11.514,0,0,0,8.327,4.173,3.945,3.945,0,0,1-.105-.911,4.051,4.051,0,0,1,6.989-2.731,8.162,8.162,0,0,0,2.565-.969,4.018,4.018,0,0,1-1.777,2.209,8.129,8.129,0,0,0,2.32-.629A8.159,8.159,0,0,1,25.637,13.566Z"/></svg> -->
+            <svg class="bob-tw-svg" width="35.202" height="34.798" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 35.2 35.2" style="enable-background:new 0 0 35.2 35.2;" xml:space="preserve">
+       <path class="st0" fill="#F26522" d="M17.6,0c9.7,0,17.6,7.9,17.6,17.6l0,0c0,9.7-7.9,17.6-17.6,17.6l0,0C7.9,35.2,0,27.3,0,17.6c0,0,0,0,0,0
+           C0,7.9,7.9,0,17.6,0C17.6,0,17.6,0,17.6,0z"/>
+       <path class="st1" fill="#FFFFFF" d="M19.4,16.2l6.9-8h-1.6l-6,6.9l-4.8-6.9H8.4l7.2,10.5L8.4,27H10l6.3-7.3l5,7.3h5.5L19.4,16.2L19.4,16.2z
+            M17.1,18.7l-0.7-1l-5.8-8.3h2.5l4.7,6.7l0.7,1l6.1,8.7h-2.5L17.1,18.7L17.1,18.7z"/>
+       </svg>
+            
+        </a>
+    </li>
+                        <li>
+                            <a href="https://www.youtube.com/bankofbaroda" target="_blank" tabindex="0" aria-label="Youtube" arial-role="link" rel="nofollow">
+                                <svg class="bob-yt-svg" xmlns="http://www.w3.org/2000/svg" width="35.202" height="34.798" viewBox="0 0 35.202 34.798" fill="#F26522"><path d="M224.113,214.634l5.725-3.3-5.725-3.3Z" transform="translate(-208.704 -193.937)"/><path d="M17.6,0A17.5,17.5,0,0,0,0,17.4,17.5,17.5,0,0,0,17.6,34.8,17.5,17.5,0,0,0,35.2,17.4,17.5,17.5,0,0,0,17.6,0Zm11,17.417a28.4,28.4,0,0,1-.453,5.23,2.74,2.74,0,0,1-1.939,1.916c-1.721.448-8.606.448-8.606.448s-6.867,0-8.606-.466a2.741,2.741,0,0,1-1.939-1.917A28.27,28.27,0,0,1,6.6,17.4a28.376,28.376,0,0,1,.453-5.23,2.8,2.8,0,0,1,1.939-1.934c1.721-.448,8.606-.448,8.606-.448s6.885,0,8.606.466a2.741,2.741,0,0,1,1.939,1.917A26.944,26.944,0,0,1,28.6,17.417Z"/></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.quora.com/profile/Bank-of-Baroda-29" target="_blank" tabindex="0" aria-label="Quora" arial-role="link" rel="nofollow">
+                                <svg class="bob-qa-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="35.202" height="34.798" viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .bob-qa-svg .st0{fill:#F26623;}
+                                        .bob-qa-svg .st1{fill:#FEFCFC;}
+                                        .dark-mode .bob-social-icons .bob-qa-svg .st0
+                                        {fill:#ff0}
+                                        .dark-mode .bob-social-icons .bob-qa-svg .st1
+                                        {fill:#000}
+                                    </style>
+                                    <circle class="st0" cx="540" cy="540" r="539.63"/>
+                                    <path class="st1" d="M233,501.41C231.02,360.8,334.09,247.4,464.55,224.22c150.64-26.76,296.3,73.32,322.67,224.48  c18.28,104.79-13.73,194.06-94.74,264.38c-5.72,4.97-6.65,7.77-1.92,13.99c14.63,19.25,30.23,36.92,54.73,43.65  c32.11,8.82,59.04-6.08,67.62-37.98c1.23-4.58,2.88-5.6,7-5.47c6.85,0.23,13.74,0.4,20.57-0.05c5.27-0.34,6.91,1.87,6.68,6.65  c-1.57,32.88-9.51,63.63-31.4,89.22c-21.04,24.6-48.9,34.9-80.51,36.71c-62.99,3.6-106.51-26.96-138.08-78.56  c-7.86-12.85-7.87-12.85-22.84-9.38c-152.12,35.18-306.24-64.67-336.73-218.32C234.04,535.71,232.22,517.61,233,501.41z   M644.56,645.76c3.81-6.57,5.77-13.09,7.81-19.56c15.12-47.84,17.17-97.13,15.95-146.72c-1.04-42.44-5.56-84.38-21.52-124.23  c-16.58-41.37-44.67-70.57-88.91-81.89c-26.64-6.82-53.68-7.39-80.61-2.24c-34.63,6.62-62.3,24.18-81.76,54.09  c-11.48,17.65-19.1,36.87-24.5,57.1c-12.21,45.69-13.46,92.37-12.4,139.22c0.84,37.02,5.11,73.59,16.25,109.12  c31.07,99.08,116.38,110.82,186.71,93.27c3.7-0.92,5.87-1.68,3.53-6.49c-10.58-21.71-21.72-43.06-37.45-61.6  c-22.35-26.33-50.27-38.18-84.94-32.07c-5.15,0.91-10.82,6.35-14.66,3.64c-4-2.84-4.71-9.97-7.68-14.71  c-4.51-7.18-2.39-11.34,4.27-15.79c48.07-32.16,136.84-41.07,192.88,16.4C627.27,623.3,635.81,634.22,644.56,645.76z"/>
+                                    </svg></a>
+                        </li>
+                    </ul>    </div>
+</div><div class="component plain-html col-sm-4">
+    <div class="component-content">
+<p style="font-size: 14px;    line-height: 20px;    color: #162b75;text-align: justify;">Bank of Baroda (UK) Limited is established in the UK with company number 10826803 at 32 City Road, London, EC1Y 2BD. 
+We are authorized and regulated by the Financial Conduct Authority (FCA) & Prudential Regulation Authority (PRA). Our FCA firm reference number is 768016 and you can check our details online on the FCA register by going to <a href="https://www.fca.gov.uk" style="color:#F26522;" rel="nofollow">www.fca.gov.uk</a></p>    </div>
+</div><div class="component plain-html col-sm-4">
+    <div class="component-content">
+<h6>Bank of Baroda Group</h6>
+<div class="bob-footer-group-drop-div">
+    <div class="form-group bob-form-control bob-logincc-div" data-cust-p="#grp-website-id">
+        <span type="text" class="form-control bob-cust-drop-click" placeholder="Group Websites" tabindex="0" aria-label="Group Websites">
+            Group Websites
+        </span>
+        <div class="bob-custom-drop-popup-div" id="grp-website-id">
+            <span aria-label="close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17.121" height="17.121" viewBox="0 0 17.121 17.121" class="closed-pp">
+                    <path fill="#F26522" stroke="#F26522" stroke-width="0.1px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)"></path>
+                </svg>
+            </span>
+            <h3>Group Websites</h3>
+            <ul role="list" class=" link-ul-p">
+                <li role="listitem">
+                    <a href="https://www.bobfinancial.com/" target="_blank" tabindex="-1" aria-label="BOB Financial Solutions Limited" role="link">
+                        BOB Financial Solutions Limited
+                    </a>
+                </li>
+                <li role="listitem">
+                    <a href="https://www.bobcaps.in/" target="_blank" tabindex="-1" aria-label="BOB Capital Markets Ltd." role="link">
+                        BOB Capital Markets Ltd.
+                    </a>
+                </li>
+                <li role="listitem">
+                    <a href="https://www.nainitalbank.co.in/english/home.aspx" target="_blank" tabindex="-1" aria-label="Nainital Bank Ltd." role="link">
+                        Nainital Bank Ltd.
+                    </a>
+                </li>
+                <li role="listitem">
+                    <a href="https://www.indiafirstlife.com/" target="_blank" tabindex="-1" aria-label="IndiaFirst Life Insurance Company Limited" role="link">
+                        IndiaFirst Life Insurance Company Limited
+                    </a>
+                </li>
+                <li role="listitem">
+                    <a href="https://www.infradebt.in/" target="_blank" tabindex="-1" aria-label="India Infradebt Ltd." role="link">
+                        India Infradebt Ltd.
+                    </a>
+                </li>
+                <li role="listitem">
+                    <a href="https://www.barodamf.com/default.aspx" target="_blank" tabindex="-1" aria-label="Baroda Asset Management India Limited." role="link">
+                        Baroda Asset Management India Limited.
+                    </a>
+                </li>
+                <li role="listitem">
+                    <a href="https://www.bgss.in/" target="_blank" tabindex="-1" aria-label="Baroda Uttar Pradesh Gramin Bank" role="link">
+                        Baroda Global Shared Services Ltd.
+                    </a>
+                </li>
+                <li role="listitem">
+                    <a href="https://www.barodagraminbank.com/" target="_blank" tabindex="-1" aria-label="Baroda Uttar Pradesh Gramin Bank" role="link">
+                        Baroda Uttar Pradesh Gramin Bank
+                    </a>
+                </li>
+                <li role="listitem">
+                    <a href="https://brkgb.com/" target="_blank" tabindex="-1" aria-label="Baroda Rajasthan Gramin Bank" role="link">
+                        Baroda Rajasthan Gramin Bank
+                    </a>
+                </li>
+                <li role="listitem">
+                    <a href="https://www.bggb.in/" target="_blank" tabindex="-1" aria-label="Baroda Gujarat Gramin Bank" role="link">
+                        Baroda Gujarat Gramin Bank
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="form-group bob-form-control bob-logincc-div" data-cust-p="#country-website-id">
+        <span type="text" class="form-control bob-cust-drop-click" placeholder="Country Websites" aria-label="Country Websites">
+            Country Websites
+        </span>
+
+        <div class="bob-custom-drop-popup-div" id="country-website-id">
+            <span aria-label="close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17.121" height="17.121" viewBox="0 0 17.121 17.121" class="closed-pp">
+                    <path fill="#F26522" stroke="#F26522" stroke-width="0.1px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)"></path>
+                </svg>
+            </span>
+            <h3>Country Websites</h3>
+            <ul role="list" class="split-ul-p  link-ul-p">
+                <li role="listitem">
+                        <a href="https://www.bankofbaroda.com.au/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/22.png" role="img" tabindex="-1" alt="Australia Website">Australia
+                        </a>
+                    </li>
+                  
+                    <li role="listitem">
+                        <a href="http://www.bankofbaroda.co.bw/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/4.png" role="img" tabindex="-1" alt="Botswana Website">Botswana
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.bankofbaroda-fiji.com/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/2.png" role="img" tabindex="-1" alt="Fiji Islands Website">Fiji Islands
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://bankofbaroda.gy/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/5.png" role="img" tabindex="-1" alt="Guyana Website">Guyana
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.bankofbaroda.in/" target="_blank">
+                            <img src="-/media/Project/BOB/shared/icons/country-img/00" tabindex="-1" role="link"
+                                 alt="India Website">India
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.bankofbarodakenya.co.ke/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/12.png" role="img" tabindex="-1" alt="Kenya Website">Kenya
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.indiainternationalbank.com.my/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/14.png" role="img" tabindex="-1" alt="Malaysia Website">Malaysia
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.bankofbaroda-mu.com/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1" >
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/10.png" role="img" tabindex="-1" alt="Mauritius Website">Mauritius
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="http://www.barodanzltd.co.nz/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/13.png" role="img" tabindex="-1" alt="New Zealand Website">New Zealand
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.bankofbaroda.sc/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/23.png" role="img" tabindex="-1" alt="Seychelles Website">Seychelles
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="http://www.bankofbaroda.com.sg/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/11.png" role="img" tabindex="-1" alt="Singapore Website">Singapore
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.bankofbarodaoman.com/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/8.png" role="img" tabindex="-1" alt="Sultanate of Oman Website">Sultanate of Oman
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.bankofbaroda.co.tz/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/21.png" role="img" tabindex="-1" alt="Tanzania Website">Tanzania
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.bankofbaroda.ug/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/20.png" role="img" tabindex="-1" alt="Uganda Website">Uganda
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.bankofbarodauae.ae/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/3.png" role="img" tabindex="-1" alt="United Arab Emirates Website">United Arab Emirates
+                        </a>
+                    </li>
+                    <!-- <li role="listitem">
+                        <a href="https://www.bankofbarodauk.com/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1" >
+                            <img src="/-/media/Project/BOB/CountryWebsites/India/icons/country-img/17.png" role="img" tabindex="-1" alt="UK Subsidiary Website">UK Subsidiary
+                        </a>
+                    </li> -->
+                    <li role="listitem">
+                        <a href="https://london.bankofbaroda.in/" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/17.png" role="img" tabindex="-1" alt="UK Wholesale Website">UK Wholesale
+                        </a>
+                    </li>
+                    <li role="listitem">
+                        <a href="https://www.izb.co.zm/english/home.aspx" target="_blank" rel="noopener noreferrer nofollow" role="link" tabindex="-1">
+                            <img src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/16.png" role="img" tabindex="-1" alt="Zambia Website">Zambia
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.bankofbaroda-usa.com/" target="_blank" rel="nofollow noopener noreferrer" aria-role="link" tabindex="-1" aria-label="USA">
+                            <img width="13" height="13" alt="USA" src="-/media/Project/BOB/CountryWebsites/India/icons/country-img/9.png">USA
+                        </a>
+                    </li>
+<li><a href="https://ifsc.bankofbaroda.in/" target="_blank" rel="nofollow noopener noreferrer" aria-role="link" tabindex="-1" aria-label="BOB IFSC Banking Unit">
+                       <img width="13" height="13" alt="BOB IFSC Banking Unit" src="-/media/Project/BOB/shared/icons/country-img/00.png">BOB IFSC Banking Unit
+                   </a>
+</li>
+<li>
+                   <a href="https://www.bobworld.com" target="_blank" rel="nofollow" aria-role="link" tabindex="-1" aria-label = "BOB World">
+                       <img width="13" height="13" alt="BOB WORLD" src="-/media/Project/BOB/shared/icons/country-img/00.png" >bob World
+                   </a>
+               </li>
+            </ul>
+        </div>
+    </div>
+</div>    </div>
+</div>
+            </div>
+        </div>
+        <div class=" bob-copyright-div container-fluid">
+            <div class="row">
+                
+<div class="component link-list col-sm-8">
+    <div class="component-content">
+        
+                <ul>
+                <li class="item0 odd first">
+<div class="field-link"><a href="cookie-policy.html" data-variantitemid="{EAF47480-F6A3-4DD3-87CA-765C013316DC}" data-variantfieldname="Link">Cookie Policy</a></div>                </li>
+                <li class="item1 even">
+<div class="field-link"><a href="disclaimer.html" data-variantitemid="{E9D106A9-D1C4-43F0-A895-7F7FD55AA1D5}" data-variantfieldname="Link">Disclaimer</a></div>                </li>
+                <li class="item2 odd">
+<div class="field-link"><a href="privacy-policy.html" data-variantitemid="{51B2046E-FB56-49D1-99B1-75214DEADBFE}" data-variantfieldname="Link">Privacy Policy</a></div>                </li>
+                <li class="item3 even">
+<div class="field-link"><a href="privacy-policy-mconnect.html" data-variantitemid="{AA98051B-FB0B-495F-A23C-A8E5BED90E47}" data-variantfieldname="Link">Privacy Policy Mconnect</a></div>                </li>
+                <li class="item4 odd last">
+<div class="field-link"><a href="terms-and-conditions.html" data-variantitemid="{D9B95DE0-58E0-411F-B335-8BB48E087FB9}" data-variantfieldname="Link">Terms &amp; Conditions</a></div>                </li>
+        </ul>
+    </div>
+</div>
+
+
+    <div class="component rich-text col-sm-4">
+        <div class="component-content">
+<!--<p>Copyright © 2023 Bank of Baroda, UK Operations. All rights reserved</p>-->
+
+
+<p>Bank of Baroda UK Limited
+. All rights reserved</p>        </div>
+    </div>
+
+            </div>
+        </div>
+</div>
+
+    <div class="component rich-text col-12">
+        <div class="component-content">
+<div class="bob-overlay"></div>
+<div class="bob-popup-common-div nri-popup-div">
+    <div class="bob-popup-content">
+        <div class="bob-closed-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17.121" height="17.121" viewbox="0 0 17.121 17.121">
+                <path fill="#fff" stroke="#fff" stroke-width="1.5px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)"></path>
+            </svg>
+        </div>
+       <div class="bob-popup-inner-content-div">
+        
+            <p>For NRI Banking Click below to know more </p>
+       
+            
+            <div class="bob-e-auction-filter-btn-div">
+                <a class="bob-comman-btn" href="https://www.bankofbaroda.in/nri-banking" target="_blank" tabindex="-1" aria-label="Yes" role="link">
+                    Click to Accept and Proceed
+                </a>
+               
+            </div>
+       </div>
+    </div>
+</div>
+
+
+<div class="bob-popup-common-div external-popup-div">
+                <div class="bob-popup-content">
+                    <div class="bob-closed-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.121" height="17.121" viewbox="0 0 17.121 17.121">
+                            <path fill="#fff" stroke="#fff" stroke-width="1.5px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)"></path>
+                        </svg>
+                    </div>
+                   <div class="bob-popup-inner-content-div">
+                       <h3>
+                            To proceed the following should be handy
+                        </h3>
+                        <ul>
+                            <li>
+                                PAN Card
+                            </li>
+                            <li>
+                                Aadhar Card
+                            </li>
+                            <li>
+                                Operational Mobile number Registered with Aadhar No
+                            </li>
+                            <li>
+                                Valid E mail ID
+                            </li>
+                            <li>
+                                Internet, Camera/Webcam & Microphone enabled Mobile/Device
+                            </li>
+                            <li>
+                                Enable browser Location of the device used for Account opening.( Setting>> Type location in search setting>>Site setting>> Location>> Allow) and allow when prompted.
+                            </li>
+                            <li>
+                                This Account can be opened by Resident Indian Individuals ( having no political exposure) aged 18 years and above.
+                            </li>
+                            <li>
+                                This facility is for customers who do not have account with Bank.
+                            </li>
+                            <li>
+                                You should be in a well-lit area with good network
+                            </li>
+                        </ul>
+                        <div class="bob-e-auction-filter-btn-div">
+                            <a class="bob-comman-btn yes-btn-a" target="_blank" tabindex="-1" aria-label="Yes" role="link">
+                                Yes
+                            </a>
+                            <a class="bob-comman-btn bob-comman-white-btn no-btn-a" tabindex="-1" aria-label="No" role="link">
+                                No
+                            </a>
+                        </div>
+                   </div>
+                </div>
+            </div>
+
+             <!-- popup overlay div -->
+        <div class="profile-popup-overlay">
+            
+            
+            <div class="profile-popup-content">
+                <div class="popupCloseBtn"><svg xmlns="http://www.w3.org/2000/svg" width="17.121" height="17.121" viewbox="0 0 17.121 17.121">
+                    <path fill="#fff" stroke="#fff" stroke-width="1.5px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)"></path>
+                </svg></div>
+                <div class="popup-inner-div">
+                       <p>This product is no longer available to new customers but will continue unaffected for use by existing customers until the account or facility matures or is closed.</p>
+                </div>
+                
+            </div>
+        </div>
+        <!-- popup overlay div -->        </div>
+    </div>
+
+        </div>
+    </footer>
+    <!-- /#footer -->
+</div>
+<!-- /#wrapper -->
+
+    
+
+
+
+    <div class="privacy-warning acceptonclose" style="">
+            <div class='close'>
+
+                <a onclick="XA.cookies.createCookie(&#39;privacy-notification&#39;, 1, 365);XA.cookies.removeCookieWarning();">X</a>
+            </div>
+        <div class="info">
+            We use cookies (and similar tools) to enhance your experience on our website. To learn more on our cookie policy, please <a href="cookie-policy.html">click here</a>. By continuing to browse this website, you consent to our use of cookies.
+<!-- <button class='manage'>Manage</button>
+<button class='AllowAll'>Allow All</button> -->
+<a class="manage cookie-btn" tabindex="0" aria-label="manage" role="button"><i class="fa fa-gear" aria-hidden="true"></i>
+Manage Cookie</a><div class='close'>
+<a class="AllowAll" tabindex="0" aria-label="Allow All" role="button">X</a>
+</div>
+        </div>
+        <div class="submit">
+
+            <a onclick="XA.cookies.createCookie(&#39;privacy-notification&#39;, 1, 365);XA.cookies.removeCookieWarning();"></a>
+        </div>
+    </div>
+
+
+<audio id="welcomeaudio">
+	<source src="-/media/project/bob/countrywebsites/ukretail/sound-clips/search-voice/tell-us-voice-2-wav-audio.mp3" type="audio/mpeg">
+	<source src="-/media/project/bob/countrywebsites/ukretail/sound-clips/search-voice/tell-us-voice-2-wav-audio.wav" type="audio/wav">
+</audio>
+<audio id="clickaudio">
+	<source src="-/media/project/bob/countrywebsites/ukretail/sound-clips/click/click-wav-audio.mp3" type="audio/mpeg">
+	<source src="-/media/project/bob/countrywebsites/ukretail/sound-clips/click/click-wav-audio.wav" type="audio/wav">
+</audio>
+
+<div class="component rich-text col-12">
+	<div class="component-content">
+		<div class="bob-overlay"></div>
+
+
+		<div class="bob-popup-common-div insurance-popup-div">
+			<div class="bob-popup-content">
+				<div class="bob-closed-btn">
+					<svg xmlns="http://www.w3.org/2000/svg" width="17.121" height="17.121" viewBox="0 0 17.121 17.121">
+						<path fill="#fff" stroke="#fff" stroke-width="1.5px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)"></path>
+					</svg>
+				</div>
+				<div class="bob-popup-inner-content-div">
+					<div class="stage1">
+						<h3>
+							Are you Bank of Baroda Customer?
+						</h3>
+						<div class="bob-e-auction-filter-btn-div">
+							<a class="bob-comman-btn iyes-btn-a" target="_blank">
+								Yes
+							</a>
+							<a class="bob-comman-btn bob-comman-white-btn ino-btn-a insurance-no-anchor" href="apply-online.html">
+								No
+							</a>
+						</div>
+					</div>
+					<div class="stage2">
+						<p>
+							This is to inform you that by clicking on continue, you will be leaving our website and entering the website/Microsite operated by <strong>Insurance tie up partner</strong>. This link is provided on our Bank’s website for customer convenience and Bank of Baroda does not own or control of this website, and is not responsible for its contents. The Website/Microsite is fully owned & Maintained by Insurance tie up partner.
+						</p><br>
+						<p>The use of any of the Insurance’s tie up partners website is subject to the terms of use and other terms and guidelines, if any, contained within tie up partners website. </p><br>
+						<p><a class="insurance-external-anchor bob-comman-btn" href="http://bankofbaroda.in/" target="_blank">Proceed to the  website</a></p><br>
+						<p>Thank you for visiting www.bankofbaroda.in   </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+    /*Att tag in array to remove*/
+    var glblHtmlTagList = ["h1", "h2", "h3", "h6"];
+    glblHtmlTagList.forEach(function (tg) {
+        var t = document.getElementsByTagName(tg);
+        for (i = 0; i < t.length; i++) {
+            if (t[i].innerHTML.trim() == "") { t[i].remove() }
+        }
+    });
+</script>
+
+
+
+
+
+<div class="cookie-popup">
+	<div class="popup-content">
+		<div class="popup-header">
+			<h6>
+				Privacy Preference Center
+				<small class="closed-popup">
+					<svg xmlns="http://www.w3.org/2000/svg" width="17.121" height="17.121" viewbox="0 0 17.121 17.121" class="closed-pp">
+						<path fill="#F26522" stroke="#F26522" stroke-width="0.1px" d="M15 .884L14.116 0 7.5 6.616.884 0 0 .884 6.616 7.5 0 14.116.884 15 7.5 8.384 14.116 15l.884-.884L8.384 7.5z" transform="translate(1.061 1.061)"></path>
+					</svg>
+				</small>
+			</h6>
+
+		</div>
+		<div class="popup-inner-content">
+			<p>When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.</p>
+			<p><strong>Manage Consent Preferences</strong></p>
+
+			<div class="accordion-container">
+				<div class="set">
+					<a>
+						Strictly Necessary Cookies
+						<i class="fa fa-plus"></i>
+					</a>
+					<div class="toggle-btn active">
+						<input type="checkbox" checked="checked" disabled="disabled" name="necessary" class="cb-value" />
+						<span class="round-btn"></span>
+					</div>
+					<div class="accord-content">
+						<p>These cookies are necessary for our website to function and enable you to use the website features such as accessing secure areas. It cannot be switched off in our backend. If you choose to remove or disable these cookies, the website may not perform as expected as intended..</p>
+					</div>
+				</div>
+				<div class="set">
+					<a>
+						Performance Cookies
+						<i class="fa fa-plus"></i>
+					</a>
+					<div class="toggle-btn">
+						<input type="checkbox" name="performance" class="cb-value" />
+						<span class="round-btn"></span>
+					</div>
+					<div class="accord-content">
+						<p>These cookies help enhance the performance of our website and help us make necessary improvements based on your browsing behavior. Information collected by these cookies is anonymous and contains data on how you use the website. For example, identifying your most visited pages, recently searched terms, etc. Once we collect this information, we use it to improve how our website works..</p>
+					</div>
+				</div>
+				<div class="set">
+					<a>
+						Functionality Cookies
+						<i class="fa fa-plus"></i>
+					</a>
+					<div class="toggle-btn">
+						<input type="checkbox" name="functionality" class="cb-value" />
+						<span class="round-btn"></span>
+					</div>
+					<div class="accord-content">
+						<p>These cookies help improve the functionality of our website. These cookies remember your preferences such as location, user name, language, etc. and provide custom content and features tailored for you. In absence of these cookies, the website will be unable to remember the choices you've previously made and won’t be able to personalise your browsing experience..</p>
+					</div>
+				</div>
+				<div class="set">
+					<a>
+						Targeting Cookies
+						<i class="fa fa-plus"></i>
+					</a>
+					<div class="toggle-btn">
+						<input type="checkbox" name="targeting" class="cb-value" />
+						<span class="round-btn"></span>
+					</div>
+					<div class="accord-content">
+						<p>These cookies are utilized to customize marketing as per your interests. These are likewise used to restrict number of times you are shown advertisements. They are also used to measure the effectiveness of a marketing campaign. These cookies typically track your browsing patterns on other websites too, but do not know who you are. Without these cookies, the ads you encounter will not be as relevant and not match your interests..</p>
+					</div>
+				</div>
+				<div class="set">
+					<a>
+						Marketing Cookies
+						<i class="fa fa-plus"></i>
+					</a>
+					<div class="toggle-btn">
+						<input type="checkbox" name="marketing" class="cb-value" />
+						<span class="round-btn"></span>
+					</div>
+					<div class="accord-content">
+						<p>These type of marketing cookies are account-based, which enable us to identify future prospects and personalize sales and marketing interactions with users..</p>
+					</div>
+				</div>
+				<div class="set">
+					<a>
+						Analytics and Customization Cookies
+						<i class="fa fa-plus"></i>
+					</a>
+					<div class="toggle-btn">
+						<input type="checkbox" name="analytics" class="cb-value" />
+						<span class="round-btn"></span>
+					</div>
+					<div class="accord-content">
+						<p>All information collected by these cookies are used to help us analyze how our website is being used by the visitors, to understand how effective our marketing campaigns are and to customize our website experience for you..</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="popup-footer">
+			<a class="bob-comman-btn btn-save-pref">
+				Confirm My Choices
+			</a>
+			<a class="bob-comman-btn yes-btn-a btn-all">
+				Allow All
+			</a>
+		</div>
+	</div>
+</div>
+<div class="ck-btn-div">
+<a class="cookie-btn cookie-floating-btn" tabindex="0" aria-label="manage" role="button"><i class="fa fa-gear" aria-hidden="true"></i>
+Manage Cookie</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script>
+
+        var glblJsonDataExchangeRate = {"lstUpDate":"2024-10-07","currencyExchangeData":[{"iconP":"/-/media/project/bob/shared/country-flags/united-kingdom-flag.svg","conN":"United Kingdom","conA3":"GBP","curN":"United Kingdom","curSybl":"GBP/INR","curIso":"British pound","rates":"109.20","amount":"Up to £1,000"},{"iconP":"/-/media/project/bob/shared/country-flags/united-kingdom-flag.svg","conN":"United Kingdom","conA3":"GBP","curN":"United Kingdom","curSybl":"GBP/INR","curIso":"British pound","rates":"109.55","amount":"£1,001 - £5,000"},{"iconP":"/-/media/project/bob/shared/country-flags/united-kingdom-flag.svg","conN":"United Kingdom","conA3":"GBP","curN":"United Kingdom","curSybl":"GBP/INR","curIso":"British pound","rates":"109.65","amount":"£5,001 - £15,000"},{"iconP":"/-/media/project/bob/shared/country-flags/united-states-of-america-flag.svg","conN":"United States","conA3":"USD","curN":"United States dollar","curSybl":"USD/INR","curIso":"USD","rates":"83.45","amount":"Up to $10,000"}]};
+        var glblJsonDataOffer = [];
+        var glblJsonDataEAution;
+        var glblJsonDataDictionary = [{"dictName":"Blog Categories","dictItems":[{"key":"Savings","value":"Savings"},{"key":"Investment","value":"Investment"},{"key":"Loans and Borrowings","value":"Loans & Borrowings"},{"key":"Digital","value":"Digital"},{"key":"FinTalk","value":"FinTalk"}]},{"dictName":"Download Forms Tags","dictItems":[{"key":"personal","value":"Personal"},{"key":"business","value":"Business"},{"key":"women","value":"Women"},{"key":"Government Business","value":"Government Business"},{"key":"Services","value":"Services"}]},{"dictName":"Eligibilty","dictItems":[{"key":"Central Forces","value":"Central Forces"},{"key":"Entry-level OR Trainees","value":"Entry-level OR Trainees"},{"key":"Government Officials","value":"Government Officials"},{"key":"Middle Management","value":"Middle Management"},{"key":"Military Officials","value":"Military Officials"},{"key":"Minors","value":"Minors"},{"key":"Others","value":"Others"},{"key":"Police Department Officials","value":"Police Department Officials"},{"key":"Senior Level Management","value":"Senior Level Management"},{"key":"Top Level Management","value":"Top Level Management"}]},{"dictName":"Entertainment and Services","dictItems":[{"key":"Entertainment","value":"Entertainment"},{"key":"Services","value":"Services"}]},{"dictName":"Health and Insurance","dictItems":[{"key":"Health and Wellness","value":"Health & Wellness"},{"key":"Insurance","value":"Insurance"}]},{"dictName":"Home and Lifestyle","dictItems":[{"key":"Gifting","value":"Gifting"},{"key":"Lifestyle","value":"Lifestyle"}]},{"dictName":"Listing Page Category Filter","dictItems":[{"key":"Agricultural Infrastructure","value":"Agricultural Infrastructure"},{"key":"Ancillary Services","value":"Ancillary Services"},{"key":"Farm Credit","value":"Farm Credit"},{"key":"Fixed Deposit","value":"Fixed Deposit"},{"key":"Recurring Deposit","value":"Recurring Deposit"}]},{"dictName":"Listing Page Sub-category Filter","dictItems":[{"key":"Agri Allied Activities","value":"Agri Allied Activities"},{"key":"Construction of Farm Structures","value":"Construction of Farm Structures"},{"key":"Crop Production","value":"Crop Production"},{"key":"Farm Mechanization","value":"Farm Mechanization"},{"key":"Gold Loan","value":"Gold Loan"},{"key":"Other Activities","value":"Other Activities"},{"key":"SHG or JLG or FPO","value":"SHG or JLG or FPO"}]},{"dictName":"Location","dictItems":[{"key":"Mumbai","value":"Mumbai"},{"key":"Pune","value":"Pune"}]},{"dictName":"Offer Categories","dictItems":[{"key":"Entertainment and Services","value":"Entertainment & Services"},{"key":"Food and Beverages","value":"Food & Beverages"},{"key":"Health and Insurance","value":"Health & Insurance"},{"key":"Home and Lifestyle","value":"Home & Lifestyle"},{"key":"Shopping","value":"Shopping"},{"key":"Travel","value":"Travel"},{"key":"Others","value":"Others"}]},{"dictName":"Offer Mode","dictItems":[{"key":"Online","value":"Online"},{"key":"Offline","value":"Offline"},{"key":"Both Online and Offline","value":"Online/Offline"}]},{"dictName":"Offer Others","dictItems":[{"key":"Buisness PPT","value":"Buisness PPT"},{"key":"Car rentals","value":"Car rentals"},{"key":"Education","value":"Education"},{"key":"Finance","value":"Finance"},{"key":"Office spaces","value":"Office spaces"}]},{"dictName":"Offers","dictItems":[]},{"dictName":"Product Type","dictItems":[{"key":"AIGC Business Guard","value":"AIGC (Business Guard)"},{"key":"Capital Gain","value":"Capital Gain"},{"key":"Childrens Plan","value":"Children's Plan"},{"key":"Classic","value":"Classic"},{"key":"Credit Card","value":"Credit Card"},{"key":"Debit Card","value":"Debit Card"},{"key":"Flexible","value":"Flexible"},{"key":"Foreign Currency Deposits","value":"Foreign Currency Deposits"},{"key":"General MSME Loan","value":"General MSME Loan"},{"key":"Government Schemes","value":"Government Schemes"},{"key":"Group Plan","value":"Group Plan"},{"key":"Health","value":"Health"},{"key":"Industry Specific MSME scheme","value":"Industry Specific MSME scheme"},{"key":"Long Term Deposits","value":"Long Term Deposits"},{"key":"Max Bupa Health Insurance Company Limited","value":"Max Bupa Health Insurance Company Limited"},{"key":"Motor","value":"Motor"},{"key":"NRE","value":"NRE"},{"key":"NRO","value":"NRO"},{"key":"OCI Overseas Citizens of India","value":"OCI (Overseas Citizens of India)"},{"key":"PIO Persons of Indian origin","value":"PIO (Persons of Indian origin)"},{"key":"Premium","value":"Premium"},{"key":"Prepaid Card","value":"Prepaid Card"},{"key":"Priviledge","value":"Priviledge"},{"key":"Property","value":"Property"},{"key":"Regular","value":"Regular"},{"key":"Retirement Plan","value":"Retirement Plan"},{"key":"RFC Accounts","value":"RFC Accounts"},{"key":"Rural & Agri","value":""},{"key":"Short Term Deposits","value":"Short Term Deposits"},{"key":"Silver","value":"Silver"},{"key":"Star Health and Allied Insurance Company Limited","value":"Star Health & Allied Insurance Company Limited"},{"key":"Travel","value":"Travel"},{"key":"Weath Benefit Plan","value":"Weath Benefit Plan"}]},{"dictName":"Purpose","dictItems":[{"key":"Abroad education","value":"Abroad education"},{"key":"Additional loan","value":"Additional loan"},{"key":"Amazon E-commerce","value":"Amazon E-commerce"},{"key":"Business","value":"Business"},{"key":"Earn Interest","value":"Earn Interest"},{"key":"Easy EMIs","value":"Easy EMI's"},{"key":"E-commerce","value":"E-commerce"},{"key":"Entertainment","value":"Entertainment"},{"key":"For commision agents","value":"For commision agents"},{"key":"For purchasing IPO","value":"For purchasing IPO"},{"key":"Four wheeler","value":"Four wheeler"},{"key":"Gifting","value":"Gifting"},{"key":"Government Scheme","value":"Government Scheme"},{"key":"High Daily Purchasing Power","value":"High Daily Purchasing Power"},{"key":"Higher studies in india","value":"Higher studies in india"},{"key":"Home purchase","value":"Home purchase"},{"key":"Interest subsidy","value":"Interest subsidy"},{"key":"Loan against government securities","value":"Loan against government securities"},{"key":"Loan against mortgage","value":"Loan against mortgage"},{"key":"Loan against security","value":"Loan against security"},{"key":"Loan takeover","value":"Loan takeover"},{"key":"Loans Against FCNR Deposits","value":"Loans Against FCNR Deposits"},{"key":"Low income housing","value":"Low income housing"},{"key":"Micro loan","value":"Micro loan"},{"key":"Nursery to XII","value":"Nursery to XII"},{"key":"Other banks","value":"Other banks"},{"key":"Oyo Rooms","value":"Oyo Rooms"},{"key":"Pre-approved","value":"Pre-approved"},{"key":"Premier institutes","value":"Premier institutes"},{"key":"Renovation","value":"Renovation"},{"key":"Rewards","value":"Rewards"},{"key":"Shopping","value":"Shopping"},{"key":"Skill development","value":"Skill development"},{"key":"Swiggy","value":"Swiggy"},{"key":"Transport business","value":"Transport business"},{"key":"Travel","value":"Travel"},{"key":"Two wheeler","value":"Two wheeler"},{"key":"Unlimited Free Digital Transactions","value":"Unlimited Free Digital Transactions"},{"key":"Waivers and Discounts","value":"Waivers and Discounts"},{"key":"Zero Mimimum Balance","value":"Zero Mimimum Balance"}]},{"dictName":"Quarters","dictItems":[{"key":"Q1","value":"Q1"},{"key":"Q2","value":"Q2"},{"key":"Q3","value":"Q3"},{"key":"Q4","value":"Q4"}]},{"dictName":"Request Callback Global","dictItems":[{"key":"Request Callback Global Description","value":"Please fill in these details, so we can call you back and assist you."},{"key":"Request Callback Global Title","value":"Request Callback"}]},{"dictName":"Tenure","dictItems":[{"key":"Less than 12 months","value":"Less than 12 months"},{"key":"Minimum 12 months Maximum 120 Months","value":"Minimum 12 months Maximum 120 Months"},{"key":"Minimum 12 months Maximum 60 Months","value":"Minimum 12 months Maximum 60 Months"},{"key":"Minimum 5 years Maximum up to 10 years","value":"Minimum 5 years Maximum up to 10 years"},{"key":"Minimum 6 months Maximum 120 Months","value":"Minimum 6 months Maximum 120 Months"},{"key":"Minimum 7 months Maximum 12 months","value":"Minimum 7 months Maximum 12 months"}]},{"dictName":"Website Language Available","dictItems":[{"key":"en","value":"English"},{"key":"hi-IN","value":"हिंदी"}]},{"dictName":"Filters By Person","dictItems":[{"key":"Business","value":"Business"},{"key":"Defence","value":"Defence"},{"key":"Millennial","value":"Millennial"},{"key":"NRI","value":"NRI"},{"key":"Professional","value":"Professional"},{"key":"Senior Citizen","value":"Senior Citizen"},{"key":"Women","value":"Women"},{"key":"Others","value":"Others"}]},{"dictName":"Months","dictItems":[{"key":"JAN","value":"January"},{"key":"FEB","value":"February"},{"key":"MAR","value":"March"},{"key":"APR","value":"April"},{"key":"MAY","value":"May"},{"key":"JUN","value":"June"},{"key":"JUL","value":"July"},{"key":"AUG","value":"August"},{"key":"SEP","value":"September"},{"key":"OCT","value":"October"},{"key":"NOV","value":"November"},{"key":"DEC","value":"December"}]},{"dictName":"Years","dictItems":[{"key":"2025","value":"2025"},{"key":"2024","value":"2024"},{"key":"2023","value":"2023"},{"key":"2022","value":"2022"},{"key":"2021","value":"2021"},{"key":"2020","value":"2020"},{"key":"2019","value":"2019"},{"key":"2018","value":"2018"},{"key":"2017","value":"2017"},{"key":"2016","value":"2016"},{"key":"2015","value":"2015"},{"key":"2014","value":"2014"},{"key":"2013","value":"2013"},{"key":"2012","value":"2012"},{"key":"2011","value":"2011"},{"key":"2010","value":"2010"}]},{"dictName":"Ownership Type","dictItems":[{"key":"Type 1","value":"Type 1"},{"key":"Type 2","value":"Type 2"}]},{"dictName":"Possession Type","dictItems":[{"key":"Possession Type 1","value":"Possession Type 1"},{"key":"Possession Type 2","value":"Possession Type 2"}]},{"dictName":"Property Sub Type","dictItems":[{"key":"Sub Type 1","value":"Sub Type 1"},{"key":"Sub Type 2","value":"Sub Type 2"}]},{"dictName":"Food and Beverages","dictItems":[{"key":"Delivery","value":"Delivery"},{"key":"Dining","value":"Dining"}]},{"dictName":"E-Aution State","dictItems":[{"key":"Delhi","value":"Delhi"},{"key":"Maharastra","value":"Maharastra"}]},{"dictName":"E-Aution District","dictItems":[{"key":"District 1","value":"District 1"},{"key":"District 2","value":"District 2"}]},{"dictName":"E-Aution City","dictItems":[{"key":"Delhi","value":"Delhi"},{"key":"Mumbai","value":"Mumbai"}]},{"dictName":"Offer City","dictItems":[{"key":"Delhi","value":"Delhi"},{"key":"Mumbai","value":"Mumbai"}]},{"dictName":"Offer Custom Filters","dictItems":[{"key":"Popular Offers","value":"Popular Offers"},{"key":"Senior Citizen","value":"Senior Citizen"},{"key":"Women","value":"Women"},{"key":"Liked by you","value":"Liked by you"}]},{"dictName":"Page Tags","dictItems":[{"key":"Home Loan","value":"Home Loan"},{"key":"Loan","value":"Loan"},{"key":"New Page","value":"New Page"}]},{"dictName":"Payment Type","dictItems":[{"key":"Visa Card","value":"Visa Card"},{"key":"Rupay Card","value":"Rupay Card"},{"key":"Master Card","value":"Master Card"},{"key":"UPI","value":"UPI"}]},{"dictName":"Property Type","dictItems":[{"key":"Commercial","value":"Commercial"},{"key":"Industrial","value":"Industrial"},{"key":"Residentials","value":"Residentials"},{"key":"Others","value":"Others"}]},{"dictName":"Shopping","dictItems":[{"key":"Electronics","value":"Electronics"},{"key":"Entertainment","value":"Entertainment"},{"key":"Gifting","value":"Gifting"},{"key":"Home Accessories","value":"Home Accessories"},{"key":"Jewellery","value":"Jewellery"},{"key":"Lifestyle","value":"Lifestyle"}]},{"dictName":"Sort By","dictItems":[{"key":"Latest","value":"Latest"},{"key":"Most Viewed","value":"Most Viewed"},{"key":"Oldest","value":"Oldest"}]},{"dictName":"Special Offer Tag","dictItems":[{"key":"Handpicked Offers","value":"Handpicked Offers"},{"key":"Nearby Offers","value":"Nearby Offers"}]},{"dictName":"Static Values","dictItems":[{"key":"Address","value":"Address"},{"key":"Apply Lead","value":"Apply Lead"},{"key":"Apply online for","value":"Apply Online for"},{"key":"Area of Property","value":"Area of Property"},{"key":"Auction open date","value":"Auction open date"},{"key":"Available in","value":"Available In"},{"key":"Back to search result","value":"Back to search result"},{"key":"Bidding URL","value":"Bidding URL"},{"key":"Borrower","value":"Borrower"},{"key":"Branch","value":"Branch"},{"key":"Browse By","value":"Browse By"},{"key":"Code Copied","value":"Code Copied"},{"key":"Compare loans","value":"Compare loans"},{"key":"Copy Code","value":"Copy Code"},{"key":"Download","value":"Download"},{"key":"Experience","value":"Experience"},{"key":"Features","value":"Features"},{"key":"Filter by","value":"Filter by"},{"key":"For more details search with Property ID","value":"For more details search with Property ID"},{"key":"Frequently Asked Questions","value":"Frequently Asked Questions (FAQs)"},{"key":"Function","value":"Function"},{"key":"Geo tagging","value":"Geo tagging"},{"key":"GO","value":"GO"},{"key":"Know more","value":"Know More"},{"key":"Last Date to apply","value":"Last Date to apply"},{"key":"Loan Amount","value":"Loan Amount"},{"key":"Location","value":"Location"},{"key":"Maximum Tenure","value":"Maximum Tenure"},{"key":"Nearest Air, Railway, Bus","value":"Nearest Air, Railway, Bus"},{"key":"Offers","value":"Offers"},{"key":"Owner","value":"Owner"},{"key":"Ownership Type","value":"Ownership Type"},{"key":"Possession","value":"Possession"},{"key":"Property Photos","value":"Property Photos"},{"key":"Property Type","value":"Property Type"},{"key":"Property Videos","value":"Property Videos"},{"key":"Quarters","value":"Quarters"},{"key":"Read more","value":"Read More"},{"key":"Related Offers","value":"Related Offers"},{"key":"Related products","value":"Related Products"},{"key":"Reserve Price","value":"Reserve Price"},{"key":"Reset","value":"Reset"},{"key":"Similar Properties","value":"Similar Properties"},{"key":"Skip to Main Content","value":"Skip to Main Content"},{"key":"Subscribe to our Newsletter","value":"Subscribe to our Newsletter"},{"key":"Subtype","value":"Subtype"},{"key":"Summary Description","value":"Summary Description"},{"key":"Type of Report","value":"Type of Report"},{"key":"Vacancies","value":"Vacancies"},{"key":"View All","value":"View All"},{"key":"View Details","value":"View Details"},{"key":"View More","value":"View More"}]},{"dictName":"Travel","dictItems":[{"key":"Flights","value":"Flights"},{"key":"Hotels","value":"Hotels"},{"key":"Others","value":"Others"}]},{"dictName":"Financial Years","dictItems":[{"key":"2021-22","value":"2021-22"},{"key":"2020-21","value":"2020-21"},{"key":"2019-20","value":"2019-20"},{"key":"2018-19","value":"2018-19"},{"key":"2017-18","value":"2017-18"},{"key":"2016-17","value":"2016-17"},{"key":"2015-16","value":"2015-16"},{"key":"2014-15","value":"2014-15"},{"key":"2013-14","value":"2013-14"},{"key":"2012-13","value":"2012-13"},{"key":"2011-12","value":"2011-12"},{"key":"2010-11","value":"2010-11"},{"key":"2009-10","value":"2009-10"},{"key":"2008-09","value":"2008-09"},{"key":"2007-08","value":"2007-08"},{"key":"2006-07","value":"2006-07"},{"key":"2005-06","value":"2005-06"},{"key":"2004-05","value":"2004-05"}]},{"dictName":"Reports Years","dictItems":[{"key":"2021","value":"2021"},{"key":"2020","value":"2020"},{"key":"2019","value":"2019"},{"key":"2018","value":"2018"},{"key":"2017","value":"2017"},{"key":"2016","value":"2016"},{"key":"2015","value":"2015"},{"key":"2014","value":"2014"},{"key":"2013","value":"2013"},{"key":"2012","value":"2012"},{"key":"2011","value":"2011"},{"key":"2010","value":"2010"}]},{"dictName":"Reports Quarters","dictItems":[{"key":"Quarter1","value":"Quarter 1"},{"key":"Quarter2","value":"Quarter 2"},{"key":"Quarter3","value":"Quarter 3"},{"key":"Quarter4","value":"Quarter 4"}]},{"dictName":"Reports Types","dictItems":[{"key":"Type1","value":"Type1"},{"key":"Type2","value":"Type2"}]}];
+        var glblJsonDataCalculatorsMinMaxValues = [];
+        var glblCurrentServerDateTIme = "3/2/2025 6:59:23 PM";
+</script>
+    <script src="-/media/base-themes/core-libraries/scripts/optimized-min.js%3Ft=20240726T063511Z"></script><script src="-/media/base-themes/xa-api/scripts/optimized-min.js%3Ft=20220901T165508Z"></script><script src="-/media/base-themes/main-theme/scripts/optimized-min.js%3Ft=20220901T161424Z"></script><script src="-/media/base-themes/google-maps-js-connector/scripts/optimized-min.js%3Ft=20220901T190739Z"></script><script src="-/media/base-themes/maps/scripts/optimized-min.js%3Ft=20220901T183622Z"></script><script src="-/media/base-themes/searchtheme/scripts/optimized-min.js%3Ft=20240705T192355Z"></script><script src="-/media/base-themes/components-theme/scripts/optimized-min.js%3Ft=20220901T173711Z"></script><script src="-/media/base-themes/resolve-conflicts/scripts/optimized-min.js%3Ft=20220629T091456Z"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/aos.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/browser.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/cust-animation-v29.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/customer-support-and-faq-search-component-v-30.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/custom-lightbox-v13.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/custom-popup.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/disclaimer-popup.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/forms-coding-v48.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/language-switcher-v4.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/momentmin.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/moment-timezone-with-data-2010-2020min.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/offer-v1.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/rtl-v2.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/time-v11.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/share-component-v15.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/time-counter-v10.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/apexcharts.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/append-id-and-popup-v26.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/awards-page-v1.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/bob-board-of-director-v-35.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/bob-offer-details-and-tnc.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/bob-related-offer-component.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/common-functions-v-56.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/contact-us-page-v11.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/faqs-v65.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/filter-drop-down-v35.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/global-search-v81.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/header-v30.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/hide-tab-heading-if-empty.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/home-v1.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/like-dislike-v-5.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/muurimin.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/slickmin.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/web-animationsmin.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/header-menu-code-v6.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/custom-v-331.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/blogcomponent-slider.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/media-items-v11.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/blog-search-v4.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/calculators-v47.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/awards-filter-v25.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/history-page-v6.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/tenders-v7.js"></script><script src="-/media/themes/bob/ukretail/ukretail/scripts/cookie-consent-v79.js"></script>
+<script>
+    jQuery('.radio-btn-grp .form-group:nth-child(1) input').change(function(){
+            jQuery('.existing_customer').removeClass('visible-this');
+    });
+    jQuery('.radio-btn-grp .form-group:nth-child(2) input').change(function(){
+        if(this.checked){
+            jQuery('.existing_customer').addClass('visible-this');
+        }else{
+            jQuery('.existing_customer').removeClass('visible-this');
+        }
+    });
+</script>    <!-- /#wrapper -->
+</body>
+</html>

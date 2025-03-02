@@ -1,0 +1,231 @@
+/*-------contact-us page page css start here----------- */
+
+.customer-support-page .top-banner-bg-img img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 245px;
+}
+
+.customer-support-page .rates-search-filter {
+    margin-top: 15px;
+}
+
+.customer-support-page .rates-search-filter .bob-search-voice-div {
+    margin-bottom: 0px;
+    width: calc(100% - 230px);
+}
+
+.customer-support-page .irates-changer .bob-tags {
+    border: 0px;
+    position: static;
+    margin-top: 10px;
+}
+
+.customer-support-page .irates-changer .bob-tags li a {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.25s ease-in-out;
+}
+
+.customer-support-page .irates-changer .bob-tags li a:hover {
+    transition: all 0.25s ease-in-out;
+    background: #fff;
+    border-color: #fff;
+    color: #162B75;
+}
+
+.contact-info-component .contact-detail-box .contact-detail-img,
+.contact-info-component .contact-detail-box .contact-detail-content h4 {
+    transition: all .25s linear;
+}
+
+.contact-info-component .contact-detail-box:hover .contact-detail-img {
+    transition: all .25s linear;
+    transform: translateY(-5px);
+}
+
+.contact-info-component .contact-detail-box:hover .contact-detail-content h4 {
+    transition: all .25s linear;
+    color: #f26522 !important;
+}
+
+.customer-support-page .top-banner-component-type3 {
+    box-shadow: 0px 15px 15px #d4d7e3;
+}
+
+.customer-support-page .breadcrumb.component {
+    position: absolute;
+}
+
+.customer-support-page .component.content.col-12 {
+    padding: 0px;
+}
+
+.customer-support-page .breadcrumb li a {
+    color: #fff !important;
+}
+
+.customer-support-page .content ul li {
+    list-style: none;
+}
+
+.customer-support-page .bob-tab-div .bob-tab-ul li {
+    padding: 5px 20px
+}
+
+.customer-support-page .headwrapp {
+    background: #fbe8dc;
+    margin-bottom: 65px;
+}
+
+.customer-support-page .headwrapp h2 {
+    font-family: 'Helvetica Neue LT Pro Lt';
+    font-size: 1.875rem;
+    color: #707070;
+    position: relative;
+    margin: 0px;
+    top: 50px;
+}
+
+.customer-support-page .component {
+    width: 100%;
+    float: left;
+}
+
+.customer-support-page .bob-loan-faqs-div,
+.customer-support-page .bob-accordion-div {
+    float: none;
+}
+
+.customer-support-page .customer-right {
+    float: right;
+}
+
+.customer-support-page .bob-tab-content-div {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.customer-support-page .bob-form-control .form-control,
+.customer-support-page .bob-form-control .form-control option {
+    /* font-family: 'Helvetica Neue LT Pro Md';
+    padding: 10px 20px;
+    font-size: 16px; */
+}
+
+.customer-support-page .bob-form-control {
+    float: right;
+    margin-top: 15px;
+    width: 65%;
+}
+
+.customer-support-page .tabs .tabs-heading li,
+.customer-support-page .bob-tab-div .bob-tab-ul li {
+    margin-right: 0px !important;
+    margin-left: 10px !important;
+}
+
+.customer-support-page .reportitems {
+    background: #fff;
+    margin: 0px 0px 0px 22px;
+    width: 21% !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #162B75;
+}
+
+.customer-support-page .reportitems h6 {
+    font-family: 'Helvetica Neue LT Pro Md';
+    color: #162B75;
+}
+
+.customer-support-page .bob-tab-content-data .col-sm-3 {
+    max-width: 23%;
+}
+
+.customer-support-page .bob-tab-content-data .col-sm-3 svg {
+    margin-top: 20px;
+}
+
+.customer-support-page .bob-tab-content-data .bob-report-load-more {
+    top: 20px;
+    z-index: 3;
+}
+
+.customer-support-page .contact-details-tab .col-sm-4 {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+.customer-support-page .contact-details-tab .col-sm-4:after {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: calc(100% - 30px);
+    background-color: #fde8df;
+    margin: 0 auto;
+}
+
+.customer-support-page .contact-details-tab .col-sm-4:nth-child(3),
+.customer-support-page .contact-details-tab .col-sm-4:nth-child(6) {
+    border: none;
+}
+
+.customer-support-page .contact-details-tab .col-sm-4:nth-child(4):after,
+.customer-support-page .contact-details-tab .col-sm-4:nth-child(5):after,
+.customer-support-page .contact-details-tab .col-sm-4:nth-child(6):after {
+    width: 0px;
+}
+
+.customer-support-page .contact-center .contact-details-wrap {
+    padding: 30px 60px;
+    box-shadow: 0px 10px 30px #d8632b40;
+}
+
+.customer-support-page .contact-for-complain-info {
+    background: #e4e7ef;
+    margin: 100px 0px 80px;
+}
+
+.customer-support-page .contact-for-complain-info .contact-details-wrap {
+    position: relative;
+    top: -50px;
+}
+
+.customer-support-page .contact-details-tab .col-sm-4:after {
+    display: none;
+}
+
+.get-in-touch-box .get-in-touch-img {
+    margin-top: 10px;
+}
+
+.customer-support-page .row.bob-paragraph-section .col-sm-12 {
+    top: 0;
+    background: transparent;
+}
+
+.customer-support-page .contact-center {
+    margin-top: 40px;
+}
+
+.customer-support-page .contact-center .contact-details-wrap {
+    margin-bottom: 0;
+}
+
+.contact-detail-img img {
+    height: 50px;
+    width: 50px;
+}
+
+.get-in-touch-box p a {
+    color: #f3783d !important;
+}
+
+
+/*------- contact-us page page css start hered--------- */
